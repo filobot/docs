@@ -2,7 +2,7 @@
 title: Welcomes Variables
 description:
 published: 1
-date: 2021-06-01T17:49:33.952Z
+date: 2021-06-01T17:49:39.132Z
 tags:
 editor: markdown
 ---

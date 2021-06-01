@@ -2,7 +2,7 @@
 title: Farewells Variables
 description:
 published: 1
-date: 2021-06-01T17:49:33.935Z
+date: 2021-06-01T17:49:39.055Z
 tags:
 editor: markdown
 ---

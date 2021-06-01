@@ -2,7 +2,7 @@
 title: Language
 description:
 published: 1
-date: 2021-06-01T17:49:33.847Z
+date: 2021-06-01T17:49:39.027Z
 tags:
 editor: markdown
 ---

@@ -2,7 +2,7 @@
 title: Logging
 description:
 published: 1
-date: 2021-06-01T17:49:33.851Z
+date: 2021-06-01T17:49:39.031Z
 tags:
 editor: markdown
 ---
