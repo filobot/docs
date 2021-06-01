@@ -2,7 +2,7 @@
 title: Anti Bad Words
 description:
 published: 1
-date: 2021-06-01T17:45:10.136Z
+date: 2021-06-01T17:49:06.539Z
 tags:
 editor: markdown
 ---

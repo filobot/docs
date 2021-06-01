@@ -2,7 +2,7 @@
 title: Anti Invites
 description:
 published: 1
-date: 2021-06-01T17:45:10.145Z
+date: 2021-06-01T17:49:06.548Z
 tags:
 editor: markdown
 ---
