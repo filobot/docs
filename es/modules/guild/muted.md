@@ -2,7 +2,7 @@
 title: Muted Role
 description:
 published: 1
-date: 2021-06-01T17:49:06.741Z
+date: 2021-06-01T17:49:33.945Z
 tags:
 editor: markdown
 ---

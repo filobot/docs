@@ -2,7 +2,7 @@
 title: Anti Spam
 description:
 published: 1
-date: 2021-06-01T17:49:06.562Z
+date: 2021-06-01T17:49:33.830Z
 tags:
 editor: markdown
 ---

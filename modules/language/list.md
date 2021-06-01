@@ -2,7 +2,7 @@
 title: Supported Languages
 description:
 published: 1
-date: 2021-06-01T17:49:06.738Z
+date: 2021-06-01T17:49:33.942Z
 tags:
 editor: markdown
 ---
