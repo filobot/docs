@@ -2,7 +2,7 @@
 title: Disable commands
 description:
 published: 1
-date: 2021-06-01T16:29:42.037Z
+date: 2021-06-01T17:45:10.325Z
 tags:
 editor: markdown
 ---
