@@ -2,7 +2,7 @@
 title: Farewells
 description:
 published: 1
-date: 2021-06-01T17:49:38.963Z
+date: 2021-06-01T17:52:53.433Z
 tags:
 editor: markdown
 ---
