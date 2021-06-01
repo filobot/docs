@@ -2,7 +2,7 @@
 title: Anti Mass Mentions
 description:
 published: 1
-date: 2021-06-01T17:52:53.347Z
+date: 2021-06-01T17:54:07.764Z
 tags:
 editor: markdown
 ---

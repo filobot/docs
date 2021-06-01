@@ -2,7 +2,7 @@
 title: Guild Invite
 description:
 published: 1
-date: 2021-06-01T17:52:53.525Z
+date: 2021-06-01T17:54:07.932Z
 tags:
 editor: markdown
 ---
