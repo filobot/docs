@@ -2,8 +2,8 @@
 title: Home
 description:
 published: true
-date: Thu Jun 03 2021 15:16:32 GMT+0000 (Coordinated Universal Time)
-dateCreated: Thu Jun 03 2021 15:16:32 GMT+0000 (Coordinated Universal Time)
+date: Thu Jun 03 2021 17:41:48 GMT+0000 (Coordinated Universal Time)
+dateCreated: Thu Jun 03 2021 17:41:48 GMT+0000 (Coordinated Universal Time)
 tags:
 editor: markdown
 ---
@@ -53,25 +53,6 @@ In this section you'll find all kinds of guides with the necessary information f
 > - [Anti Repeated Text](https://wiki.filobot.xyz/es/modules/anti-repeated-text).
 > - [Disable Commands](https://wiki.filobot.xyz/es/modules/commands/disable).
 > - [Anti Bad Words](https://wiki.filobot.xyz/es/modules/anti-bad-words).
-
-## Commands
-
-In this section you'll find the essential information of the Filo commands, including the necessary permissions to execute them and their restrictions.
-> - [](https://wiki.filobot.xyz/es/commands/administration).
-> - [](https://wiki.filobot.xyz/es/commands/animals).
-> - [](https://wiki.filobot.xyz/es/commands/anime).
-> - [](https://wiki.filobot.xyz/es/commands/core).
-> - [](https://wiki.filobot.xyz/es/commands/fun).
-> - [](https://wiki.filobot.xyz/es/commands/economy).
-> - [](https://wiki.filobot.xyz/es/commands/game-stats).
-> - [](https://wiki.filobot.xyz/es/commands/interaction).
-> - [](https://wiki.filobot.xyz/es/commands/games).
-> - [](https://wiki.filobot.xyz/es/commands/minecraft).
-> - [](https://wiki.filobot.xyz/es/commands/miscellaneous).
-> - [](https://wiki.filobot.xyz/es/commands/moderation).
-> - [](https://wiki.filobot.xyz/es/commands/reaction).
-> - [](https://wiki.filobot.xyz/es/commands/server).
-> - [](https://wiki.filobot.xyz/es/commands/social).
 
 # Wiki keys
 
