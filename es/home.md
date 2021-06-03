@@ -2,13 +2,14 @@
 title: Home
 description:
 published: true
-date: Thu Jun 03 2021 14:34:52 GMT+0000 (Coordinated Universal Time)
-dateCreated: Thu Jun 03 2021 14:34:52 GMT+0000 (Coordinated Universal Time)
+date: Thu Jun 03 2021 15:16:32 GMT+0000 (Coordinated Universal Time)
+dateCreated: Thu Jun 03 2021 15:16:32 GMT+0000 (Coordinated Universal Time)
 tags:
 editor: markdown
 ---
 
-# ![If the image doesn't load, please contact us.](https://raw.githubusercontent.com/filobot/docs/main/resources/welcome.png)
+# Welcome to the Filo Wiki
+
 > Filo is a powerful multipurpose Discord bot. Customizable, multiple languages, report, logging, welcome and farewells, member counter, anti-invites, auto-mod, anti-evasion. +190 commands.
 
 The content of this Wiki is subject to constant changes in order to improve its quality. This documentation covers some of the frequently asked questions, as well as step-by-step tutorials on how each Filo module works.
