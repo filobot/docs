@@ -2,8 +2,8 @@
 title: Auto Moderation
 description:
 published: true
-date: Thu Jun 03 2021 14:36:41 GMT+0000 (Coordinated Universal Time)
-dateCreated: Thu Jun 03 2021 14:36:41 GMT+0000 (Coordinated Universal Time)
+date: Mon Jun 07 2021 15:58:13 GMT+0000 (Coordinated Universal Time)
+dateCreated: Mon Jun 07 2021 15:58:13 GMT+0000 (Coordinated Universal Time)
 tags:
 editor: markdown
 ---
