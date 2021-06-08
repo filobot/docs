@@ -1,5 +1,5 @@
 ---
-title: Muted Role
+title: Rol Silenciado
 description:
 published: true
 date: Thu Jun 03 2021 14:35:41 GMT+0000 (Coordinated Universal Time)
@@ -8,54 +8,54 @@ tags:
 editor: markdown
 ---
 
-# About the module
+# Acerca del módulo
 
-This module will allow you to set the Muted role.
+Este módulo le permitirá configurar el rol Silenciado.
 
-# Getting Started
+# Empezando
 
-Before proceeding with this article, you must take into account a series of elements that can influence when you are going to carry out any action described on this page:
+Antes de continuar con este artículo, debes tener en cuenta una serie de elementos que pueden influir cuando vayas a realizar alguna acción descrita en esta página:
 
-- Filo requires the following advanced permissions: ``VIEW_CHANNEL`` and ``MANAGE_ROLES``.
+- Filo requiere los siguientes permisos avanzados: ``VIEW_CHANNEL`` y ``MANAGE_ROLES``.
 
-- Filo requires the following basic permissions: ``VIEW_CHANNEL``, ``SEND_MESSAGES``, ``EMBED_LINKS``, ``USE_EXTERNAL_EMOJIS``, ``READ_MESSAGE_HISTORY`` and ``ADD_REACTIONS``.
+- Filo requiere los siguientes permisos básicos: ``VIEW_CHANNEL``, ``SEND_MESSAGES``, ``EMBED_LINKS``, ``USE_EXTERNAL_EMOJIS``, ``READ_MESSAGE_HISTORY`` y ``ADD_REACTIONS``.
 
-- You need ``ADMINISTRATOR`` permission to perform most of the actions in this article.
+- Necesitas el permiso ``ADMINISTRATOR`` para realizar la mayoría de las acciones de este artículo.
 
-- You should replace <kbd>f!</kbd> with the current prefix you have set. More information on how to change the prefix by **[clicking here](es/modules/prefix)**.
+- Debes reemplazar <kbd>f!</kbd> con el prefijo actual que hayas establecido. Más información sobre cómo cambiar el prefijo haciendo **[clic aquí](es/modules/prefix)**.
 
-# Steps to create the muted role
+# Pasos para crear el rol Silenciado
 
-## **Step 1**: Create the the muted role
+## **Paso 1**: Crea el rol Silenciado
 
-To create the the muted role you must execute the following command: <kbd>f!config guild role muted create</kbd>.
+Para crea el rol silenciado debes ejecutar el siguiente comando: <kbd>f!config guild role muted create</kbd>.
 
-> Don't include ``<>`` when you're running the command.
+> No incluyas ``<>`` cuando estés ejecutando el comando.
 {.is-warning}
 
-**Example**: <kbd>f!config guild role muted create</kbd>.
+**Ejemplo**: <kbd>f!config guild role muted create</kbd>.
 
-# Steps to set a existing muted role
+# Pasos para establecer el rol Silenciado
 
-## **Step 1**: Set a existing muted role
+## **Paso 1**: Establecer el rol Silenciado
 
-To set a existing muted role you must execute the following command: <kbd>f!config guild role muted set \<@Role/Role ID></kbd>.
+Para establecer el rol silenciado debes ejecutar el siguiente comando: <kbd>f!config guild role muted set \<@Rol/ID del Rol></kbd>.
 
-> Don't include ``<>`` when you're running the command.
+> No incluyas ``<>`` cuando estés ejecutando el comando.
 {.is-warning}
 
-**Example**: <kbd>f!config guild role muted set @Muted</kbd>.
+**Ejemplo**: <kbd>f!config guild role muted set @Muted</kbd>.
 
-# Steps to reset module settings
+# Pasos para restablecer las configuraciones del módulo
 
-## **Step 1**: Reset the module settings
+## **Paso 1**: Restablecer las configuraciones del módulo
 
-To reset the module settings you must execute the following command: <kbd>f!config guild reset \<Muted></kbd>.
+Para restablecer las configuraciones del módulo debes ejecutar el siguiente comando: <kbd>f!config guild reset \<Muted></kbd>.
 
-> Don't include ``<>`` when you're running the command.
+> No incluyas ``<>`` cuando estés ejecutando el comando.
 {.is-warning}
 
-**Example**: <kbd>f!config guild reset muted</kbd>.
+**Ejemplo**: <kbd>f!config guild reset muted</kbd>.
 
-> You'll be forced to confirm the action you are about to take. Once you have confirmed the action, you won't be able to recover the previous data.
+> Te verás obligado a confirmar la acción que estas a punto de realizar. Una vez la hayas confirmado, no podrás recuperar los datos anteriores.
 {.is-danger}

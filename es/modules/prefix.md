@@ -1,5 +1,5 @@
 ---
-title: Prefix
+title: Prefijo
 description:
 published: true
 date: Thu Jun 03 2021 14:37:13 GMT+0000 (Coordinated Universal Time)
@@ -8,47 +8,47 @@ tags:
 editor: markdown
 ---
 
-# About the module
+# Acerca del módulo
 
-This module will allow you to set or reset the Filo's prefix.
+Este módulo te permitirá configurar o restablecer el prefijo de Filo.
 
-# Getting Started
+# Empezando
 
-Before proceeding with this article, you must take into account a series of elements that can influence when you are going to carry out any action described on this page:
+Antes de continuar con este artículo, debes tener en cuenta una serie de elementos que pueden influir cuando vayas a realizar alguna acción descrita en esta página:
 
-- Filo requires the following basic permissions: ``VIEW_CHANNEL``, ``SEND_MESSAGES``, ``EMBED_LINKS``, ``USE_EXTERNAL_EMOJIS``, ``READ_MESSAGE_HISTORY`` and ``ADD_REACTIONS``.
+- Filo requiere los siguientes permisos básicos: ``VIEW_CHANNEL``, ``SEND_MESSAGES``, ``EMBED_LINKS``, ``USE_EXTERNAL_EMOJIS``, ``READ_MESSAGE_HISTORY`` y ``ADD_REACTIONS``.
 
-- You need ``ADMINISTRATOR`` permission to perform most of the actions in this article.
+- Necesitas el permiso ``ADMINISTRATOR`` para realizar la mayoría de las acciones de este artículo.
 
-- You should replace <kbd>f!</kbd> with the current prefix you have set. More information on how to change the prefix by **[clicking here](es/modules/prefix)**.
+- Debes reemplazar <kbd>f!</kbd> con el prefijo actual que hayas establecido. Más información sobre cómo cambiar el prefijo haciendo **[clic aquí](es/modules/prefix)**.
 
-# Steps to set a new prefix
+# Pasos para establecer un nuevo prefijo
 
-## **Step 1**: Set a new prefix
+## **Paso 1**: Establecer un nuevo prefijo
 
-To set a new prefix you must execute the following command: <kbd>f!config prefix set \<Prefix></kbd>.
+Para establecer un nuevo prefijo debes ejecutar el siguiente comando: <kbd>f!config prefix set \<Prefijo></kbd>.
 
-> Don't include ``<>`` when you're running the command.
+> No incluyas ``<>`` cuando estés ejecutando el comando.
 {.is-warning}
 
-**Example**: <kbd>f!config prefix set f!</kbd>.
+**Ejemplo**: <kbd>f!config prefix set f!</kbd>.
 
-> Slash prefixes aren't supported by Filo.
+> Los prefijos de barra no son compatibles con Filo.
 {.is-danger}
 
-> You can't set a prefix that is longer than **2** characters.
+> No puede establecer un prefijo que tenga más de **2** caracteres.
 {.is-warning}
 
-# Steps to reset module settings
+# Pasos para restablecer las configuraciones del módulo
 
-## **Step 1**: Reset the module settings
+## **Paso 1**: Restablecer las configuraciones del módulo
 
-To reset the module settings you must execute the following command: <kbd>f!config prefix reset</kbd>.
+Para restablecer las configuraciones del módulo debes ejecutar el siguiente comando: <kbd>f!config prefix reset</kbd>.
 
-> Don't include ``<>`` when you're running the command.
+> No incluyas ``<>`` cuando estés ejecutando el comando.
 {.is-warning}
 
-**Example**: <kbd>f!config prefix reset</kbd>.
+**Ejemplo**: <kbd>f!config prefix reset</kbd>.
 
-> You'll be forced to confirm the action you are about to take. Once you have confirmed the action, you won't be able to recover the previous data.
+> Te verás obligado a confirmar la acción que estas a punto de realizar. Una vez la hayas confirmado, no podrás recuperar los datos anteriores.
 {.is-danger}

@@ -1,5 +1,5 @@
 ---
-title: Member Counter
+title: Contador de Miembros
 description:
 published: true
 date: Mon Jun 07 2021 16:01:17 GMT+0000 (Coordinated Universal Time)
@@ -8,79 +8,79 @@ tags:
 editor: markdown
 ---
 
-# About the module
+# Acerca del módulo
 
-This module will allow you to display the member count of your guild in a voice channel.
+Este módulo te permitirá mostrar el contador de miembros de tu gremio en un canal de voz.
 
-# Getting Started
+# Empezando
 
-Before proceeding with this article, you must take into account a series of elements that can influence when you are going to carry out any action described on this page:
+Antes de continuar con este artículo, debes tener en cuenta una serie de elementos que pueden influir cuando vayas a realizar alguna acción descrita en esta página:
 
-- Filo requires the following advanced permissions: ``VIEW_CHANNEL`` and ``MANAGE_CHANNELS``.
+- Filo requiere los siguientes permisos avanzados: ``VIEW_CHANNEL`` y ``MANAGE_CHANNELS``.
 
-- Filo requires the following basic permissions: ``VIEW_CHANNEL``, ``SEND_MESSAGES``, ``EMBED_LINKS``, ``USE_EXTERNAL_EMOJIS``, ``READ_MESSAGE_HISTORY`` and ``ADD_REACTIONS``.
+- Filo requiere los siguientes permisos básicos: ``VIEW_CHANNEL``, ``SEND_MESSAGES``, ``EMBED_LINKS``, ``USE_EXTERNAL_EMOJIS``, ``READ_MESSAGE_HISTORY`` y ``ADD_REACTIONS``.
 
-- You need ``ADMINISTRATOR`` permission to perform most of the actions in this article.
+- Necesitas el permiso ``ADMINISTRATOR`` para realizar la mayoría de las acciones de este artículo.
 
-- You should replace <kbd>f!</kbd> with the current prefix you have set. More information on how to change the prefix by **[clicking here](es/modules/prefix)**.
+- Debes reemplazar <kbd>f!</kbd> con el prefijo actual que hayas establecido. Más información sobre cómo cambiar el prefijo haciendo **[clic aquí](es/modules/prefix)**.
 
-# Steps to enable the module
+# Pasos para habilitar el módulo
 
-## **Step 1**: Enable the module
+## **Paso 1**: Habilitar el módulo
 
-To enable the module you must execute the following command: <kbd>f!config member-counter enable</kbd>.
+Para habilitar el módulo debes ejecutar el siguiente comando: <kbd>f!config member-counter enable</kbd>.
 
-**Example**: <kbd>f!config member-counter enable</kbd>.
+**Ejemplo**: <kbd>f!config member-counter enable</kbd>.
 
-# Steps to disable the module
+# Pasos para deshabilitar el módulo
 
-## **Step 1**: Disable the module
+## **Paso 1**: Deshabilitar el módulo
 
-To disable the module you must execute the following command: <kbd>f!config member-counter disable</kbd>.
+Para deshabilitar el módulo debes ejecutar el siguiente comando: <kbd>f!config member-counter disable</kbd>.
 
-**Example**: <kbd>f!config member-counter disable</kbd>.
+**Ejemplo**: <kbd>f!config member-counter disable</kbd>.
 
-# Steps to set the member-counter channel
+# Pasos para establecer el canal de contador de miembros
 
-## **Step 1**: Set the member-counter channel
+## **Paso 1**: Establecer el canal contador de miembros
 
-To set the member-counter channel you must execute the following command: <kbd>f!config member-counter set channel \<Channel ID></kbd>.
+Para establecer el canal contador de miembros debes ejecutar el siguiente comando: <kbd>f!config member-counter set channel \<ID del Canal></kbd>.
 
-> Don't include ``<>`` when you're running the command.
+> No incluyas ``<>`` cuando estés ejecutando el comando.
 {.is-warning}
 
-**Example**: <kbd>f!config member-counter set channel 123456789123456789</kbd>.
+**Ejemplo**: <kbd>f!config member-counter set channel 123456789123456789</kbd>.
 
-> The channel you select must be **voice channel**, otherwise the module won't work.
+> El canal que selecciones debe ser un **canal de voz**, de lo contrario, el módulo no funcionará.
 {.is-warning}
 
-> Filo requires the following advanced permissions: ``VIEW_CHANNEL`` and ``MANAGE_CHANNELS``.
+> Filo requiere los siguientes permisos avanzados: ``VIEW_CHANNEL`` y ``MANAGE_CHANNELS``.
 {.is-danger}
 
-# Steps to set the member-counter channel name
+# Pasos para establecer el nombre del canal contador de miembros
 
-## **Step 1**: Set the member-counter channel name
+## **Paso 1**: Establecer el nombre del canal contador de miembros
 
-To set the member-counter channel name you must execute the following command: <kbd>f!config member-counter set name \<Name {members}></kbd>.
+Para establecer el nombre del canal contador de miembros debes ejecutar el siguiente comando: <kbd>f!config member-counter set name \<Nombre {members}></kbd>.
 
-> Don't include ``<>`` when you're running the command.
+> No incluyas ``<>`` cuando estés ejecutando el comando.
 {.is-warning}
 
-> The channel name can't exceed **28 characters** in length and must include the variable `{members}` in the content.
+> El nombre del canal no puede exceder los **28 caracteres** de longitud y debe incluir la variable `{members}` en el contenido.
 {.is-danger}
 
-**Example**: <kbd>f!config member-counter set name 👥 Members: {members}</kbd>.
+**Ejemplo**: <kbd>f!config member-counter set name 👥 Members: {members}</kbd>.
 
-# Steps to reset module settings
+# Pasos para restablecer las configuraciones del módulo
 
-## **Step 1**: Reset the module settings
+## **Paso 1**: Restablecer las configuraciones del módulo
 
-To reset the module settings you must execute the following command: <kbd>f!config member-counter reset \<Channel/Name/Nickname> (optional)</kbd>.
+Para restablecer las configuraciones del módulo debes ejecutar el siguiente comando: <kbd>f!config member-counter reset \<Channel/Name/Nickname> (opcional)</kbd>.
 
-> Don't include ``<>`` when you're running the command.
+> No incluyas ``<>`` cuando estés ejecutando el comando.
 {.is-warning}
 
-**Example**: <kbd>f!config member-counter reset</kbd>.
+**Ejemplo**: <kbd>f!config member-counter reset</kbd>.
 
-> You'll be forced to confirm the action you are about to take. Once you have confirmed the action, you won't be able to recover the previous data.
+> Te verás obligado a confirmar la acción que estas a punto de realizar. Una vez la hayas confirmado, no podrás recuperar los datos anteriores.
 {.is-danger}

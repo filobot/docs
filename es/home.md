@@ -1,5 +1,5 @@
 ---
-title: Home
+title: Inicio
 description:
 published: true
 date: Thu Jun 03 2021 17:41:48 GMT+0000 (Coordinated Universal Time)
@@ -8,68 +8,68 @@ tags:
 editor: markdown
 ---
 
-# Welcome to the Filo Wiki
+# Bienvenido a la Wiki de Filo
 
 > Filo is a powerful multipurpose Discord bot. Customizable, multiple languages, report, logging, welcome and farewells, member counter, anti-invites, auto-mod, anti-evasion. +190 commands.
 
-The content of this Wiki is subject to constant changes in order to improve its quality. This documentation covers some of the frequently asked questions, as well as step-by-step tutorials on how each Filo module works.
+El contenido de este Wiki está sujeto a cambios constantes para mejorar su calidad. Esta documentación cubre algunas de las preguntas frecuentes, así como guías paso a paso sobre cómo funciona cada módulo de Filo.
 
-Go to **[our Discord server](https://filobot.xyz/discord)** if this documentation isn't enough or if you need more help.
+Dirígete a **[nuestro servidor de Discord](https://filobot.xyz/discord)** si esta documentación no es suficiente o si necesitas más ayuda.
 
-# Helpful links
-- [Website](https://filobot.xyz).
-- [Donate](https://filobot.xyz/donate).
+# Enlaces Útiles
+- [Sitio web](https://filobot.xyz).
+- [Donar](https://filobot.xyz/donate).
 - [Blog](https://blog.filobot.xyz).
-- [Discord Server](https://filobot.xyz/discord).
+- [Servidor de Discord](https://filobot.xyz/discord).
 - [Twitter](https://twitter.com/FiloDiscord).
-- [Vote](https://filobot.xyz/vote).
+- [Votar](https://filobot.xyz/vote).
 
-# Navigation index
+# Índice de navegación
 
-## Getting Started
+## Empezando
 
-In this section you'll find all kinds of guides with the necessary information to start using Filo.
-- [Invite Filo](https://wiki.filobot.xyz/es/getting-started/invite).
-- [Common Errors](https://wiki.filobot.xyz/es/getting-started/errors).
+En esta sección encontrarás todo tipo de guías con la información necesaria para empezar a utilizar Filo.
+- [Invitar a Filo](https://wiki.filobot.xyz/es/getting-started/invite).
+- [Errores Comunes](https://wiki.filobot.xyz/es/getting-started/errors).
 
-## Modules
+## Módulos
 
-In this section you'll find all kinds of guides with the necessary information from all the Filo modules.
-> - [Language](https://wiki.filobot.xyz/es/modules/language).
-> - [Prefix](https://wiki.filobot.xyz/es/modules/prefix).
-> - [Guild](https://wiki.filobot.xyz/es/modules/guild).
-> - [Reports](https://wiki.filobot.xyz/es/modules/reports).
-> - [Welcomes](https://wiki.filobot.xyz/es/modules/welcomes).
-> - [Welcome Role](https://wiki.filobot.xyz/es/modules/welcomes/role).
-> - [Farewells](https://wiki.filobot.xyz/es/modules/farewells).
-> - [Member Counter](https://wiki.filobot.xyz/es/modules/member-counter).
-> - [Member Counter Nickname](https://wiki.filobot.xyz/es/modules/member-counter).
-> - [Logging](https://wiki.filobot.xyz/es/modules/logging).
-> - [Anti Invites](https://wiki.filobot.xyz/es/modules/anti-invites).
-> - [Auto Moderation](https://wiki.filobot.xyz/es/modules/auto-moderation).
-> - [Anti Evasion](https://wiki.filobot.xyz/es/modules/anti-evasion).
+En esta sección encontrarás todo tipo de guías con la información necesaria de todos los módulos de Filo.
+> - [Idioma](https://wiki.filobot.xyz/es/modules/language).
+> - [Prefijo](https://wiki.filobot.xyz/es/modules/prefix).
+> - [Gremio](https://wiki.filobot.xyz/es/modules/guild).
+> - [Reportes](https://wiki.filobot.xyz/es/modules/reports).
+> - [Bienvenidas](https://wiki.filobot.xyz/es/modules/welcomes).
+> - [Rol de Bienvenida](https://wiki.filobot.xyz/es/modules/welcomes/role).
+> - [Despedidas](https://wiki.filobot.xyz/es/modules/farewells).
+> - [Contador de Miembros](https://wiki.filobot.xyz/es/modules/member-counter).
+> - [Apodo Contador de Miembros](https://wiki.filobot.xyz/es/modules/member-counter).
+> - [Registros](https://wiki.filobot.xyz/es/modules/logging).
+> - [Anti Invitaciones](https://wiki.filobot.xyz/es/modules/anti-invites).
+> - [Auto Moderación](https://wiki.filobot.xyz/es/modules/auto-moderation).
+> - [Anti Evasión](https://wiki.filobot.xyz/es/modules/anti-evasion).
 > - [Anti Spam](https://wiki.filobot.xyz/es/modules/anti-spam).
-> - [Anti Mass Mentions](https://wiki.filobot.xyz/es/modules/anti-mass-mentions).
-> - [Anti Repeated Text](https://wiki.filobot.xyz/es/modules/anti-repeated-text).
-> - [Disable Commands](https://wiki.filobot.xyz/es/modules/commands/disable).
-> - [Anti Bad Words](https://wiki.filobot.xyz/es/modules/anti-bad-words).
+> - [Anti Menciones Masivas](https://wiki.filobot.xyz/es/modules/anti-mass-mentions).
+> - [Anti Texto Repetido](https://wiki.filobot.xyz/es/modules/anti-repeated-text).
+> - [Deshabilitar Comandos](https://wiki.filobot.xyz/es/modules/commands/disable).
+> - [Anti Malas Palabras](https://wiki.filobot.xyz/es/modules/anti-bad-words).
 
-# Wiki keys
+# Claves de la Wiki
 
-On certain pages of the Wiki you'll find the following essential keys that will indicate important information that you should take into account. Below you can find some of the keys mentioned above.
+En determinadas páginas de la Wiki encontrarás las siguientes claves esenciales que te indicarán información importante que debes tener en cuenta. A continuación puede encontrar algunas de las claves mencionadas anteriormente.
 
-> Disclosure notes or recommendations will be displayed in a box similar to this one.
+> Las notas de divulgación o recomendaciones se mostrarán en un cuadro similar a este.
 {.is-success}
 
-> The information notes will be displayed in a box similar to this one.
+> Las notas informativas se mostrarán en un cuadro similar a este.
 {.is-info}
 
-> Warnings will be displayed in a box similar to this one.
+> Las advertencias se mostrarán en un cuadro similar a este.
 {.is-warning}
 
-> Important information will be displayed in a box similar to this one.
+> La información importante se mostrará en un cuadro similar a este.
 {.is-danger}
 
-# Requests and translations
-If you need it, you can request an update/revision of a documented article on this Wiki, either for its improvement or for its correction (outdated or deprecated).
-This Wiki has several languages, all of which have been contributed by voluntary contributors. If you want to contribute translations, **[click here](https://github.com/filobot/translate)**.
+# Solicitudes y traducciones
+Si lo necesitas, puede solicitar una actualización/revisión de un artículo documentado en esta Wiki, ya sea para su mejora o para su corrección (desactualizado o en desuso).
+Esta Wiki tiene varios idiomas, todos las cuales han sido aportadas por colaboradores voluntarios. Si deseas contribuir traducciendo, haz **[clic aquí](https://github.com/filobot/translate)**.

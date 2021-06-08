@@ -1,5 +1,5 @@
 ---
-title: Disable commands
+title: Deshabilitar Comandos
 description:
 published: true
 date: Thu Jun 03 2021 14:35:24 GMT+0000 (Coordinated Universal Time)
@@ -8,62 +8,62 @@ tags:
 editor: markdown
 ---
 
-# About the module
+# Acerca del módulo
 
-This module will allow you to disable the Filo commands that you don't want to be used on your guild.
+Este módulo le permitirá deshabilitar los comandos de Filo que no desea que se usen en su servidor.
 
-# Getting Started
+# Empezando
 
-Before proceeding with this article, you must take into account a series of elements that can influence when you are going to carry out any action described on this page:
+Antes de continuar con este artículo, debes tener en cuenta una serie de elementos que pueden influir cuando vayas a realizar alguna acción descrita en esta página:
 
-- Filo requires the following advanced permissions: ``VIEW_CHANNEL``, ``SEND_MESSAGES``, ``EMBED_LINKS`` and ``USE_EXTERNAL_EMOJIS``.
+- Filo requiere los siguientes permisos avanzados: ``VIEW_CHANNEL``, ``SEND_MESSAGES``, ``EMBED_LINKS`` y ``USE_EXTERNAL_EMOJIS``.
 
-- Filo requires the following basic permissions: ``VIEW_CHANNEL``, ``SEND_MESSAGES``, ``EMBED_LINKS``, ``USE_EXTERNAL_EMOJIS``, ``READ_MESSAGE_HISTORY`` and ``ADD_REACTIONS``.
+- Filo requiere los siguientes permisos básicos: ``VIEW_CHANNEL``, ``SEND_MESSAGES``, ``EMBED_LINKS``, ``USE_EXTERNAL_EMOJIS``, ``READ_MESSAGE_HISTORY`` y ``ADD_REACTIONS``.
 
-- You need ``ADMINISTRATOR`` permission to perform most of the actions in this article.
+- Necesitas el permiso ``ADMINISTRATOR`` para realizar la mayoría de las acciones de este artículo.
 
-- You should replace <kbd>f!</kbd> with the current prefix you have set. More information on how to change the prefix by **[clicking here](es/modules/prefix)**.
+- Debes reemplazar <kbd>f!</kbd> con el prefijo actual que hayas establecido. Más información sobre cómo cambiar el prefijo haciendo **[clic aquí](es/modules/prefix)**.
 
-# Module Exceptions
+# Excepciones del módulo
 
-This module has exceptions, which means that it won't work if some of the requirements mentioned below are met:
+Este módulo tiene excepciones, lo que significa que no funcionará si se cumplen algunos de los requisitos que se mencionan a continuación:
 
-- If Filo doesn't have ``VIEW_CHANNEL``, ``SEND_MESSAGES``, ``EMBED_LINKS``, and ``USE_EXTERNAL_EMOJIS`` permissions. **^1^**
+- Si Filo no tiene los permisos ``VIEW_CHANNEL``, ``SEND_MESSAGES``, ``EMBED_LINKS``, y ``USE_EXTERNAL_EMOJIS``. **^1^**
 
-**^1^** If this requirement is met, the module settings will be reset.
+**^1^** Si se cumple este requisito, la configuración del módulo se restablecerá.
 
-# Steps to disable a command
+# Pasos para deshabilitar un comando
 
-## **Step 1**: Disable a command
+## **Paso 1**: Deshabilitar un comando
 
-To disable a command you must execute the following command: <kbd>f!config commands disable \<Command></kbd>.
+Para deshabilitar un comando debes ejecutar el siguiente comando: <kbd>f!config commands disable \<Comando></kbd>.
 
-> Don't include ``<>`` when you're running the command.
+> No incluyas ``<>`` cuando estés ejecutando el comando.
 {.is-warning}
 
-**Example**: <kbd>f!config commands disable ping</kbd>.
+**Ejemplo**: <kbd>f!config commands disable ping</kbd>.
 
-# Steps to enable a command
+# Pasos para habilitar un comando
 
-## **Step 1**: Enable a command
+## **Paso 1**: Habilitar un comando
 
-To enable a command you must execute the following command: <kbd>f!config commands enable \<Command></kbd>.
+Para habilitar un comando debes ejecutar el siguiente comando: <kbd>f!config commands enable \<Comando></kbd>.
 
-> Don't include ``<>`` when you're running the command.
+> No incluyas ``<>`` cuando estés ejecutando el comando.
 {.is-warning}
 
-**Example**: <kbd>f!config commands enable ping</kbd>.
+**Ejemplo**: <kbd>f!config commands enable ping</kbd>.
 
-# Steps to reset module settings
+# Pasos para restablecer las configuraciones del módulo
 
-## **Step 1**: Reset the module settings
+## **Paso 1**: Restablecer las configuraciones del módulo
 
-To reset the module settings you must execute the following command: <kbd>f!config commands reset \<Disabled></kbd>.
+Para restablecer las configuraciones del módulo debes ejecutar el siguiente comando: <kbd>f!config commands reset \<Disabled></kbd>.
 
-> Don't include ``<>`` when you're running the command.
+> No incluyas ``<>`` cuando estés ejecutando el comando.
 {.is-warning}
 
-**Example**: <kbd>f!config commands reset disabled</kbd>.
+**Ejemplo**: <kbd>f!config commands reset disabled</kbd>.
 
-> You'll be forced to confirm the action you are about to take. Once you have confirmed the action, you won't be able to recover the previous data.
+> Te verás obligado a confirmar la acción que estas a punto de realizar. Una vez la hayas confirmado, no podrás recuperar los datos anteriores.
 {.is-danger}

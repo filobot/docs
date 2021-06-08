@@ -1,5 +1,5 @@
 ---
-title: Anti Evasion
+title: Anti Evasión
 description:
 published: true
 date: Mon Jun 07 2021 16:00:29 GMT+0000 (Coordinated Universal Time)
@@ -8,87 +8,87 @@ tags:
 editor: markdown
 ---
 
-# About the module
+# Acerca del módulo
 
-This module allows you to automatically ban those users who were sanctioned in your server and tried to evade the sanction.
+Este módulo te permitirá banear automáticamente a aquellos usuarios que fueron sancionados en tu servidor e intentaron evadir la sanción.
 
-> We recommend using this module if you manage a community.
+> Recomendamos usar este módulo si administras una comunidad.
 {.is-success}
 
-# Getting Started
+# Empezando
 
-Before proceeding with this article, you must take into account a series of elements that can influence when you are going to carry out any action described on this page:
+Antes de continuar con este artículo, debes tener en cuenta una serie de elementos que pueden influir cuando vayas a realizar alguna acción descrita en esta página:
 
-- Filo requires the following advanced permission: ``BAN_MEMBERS``.
+- Filo requiere el siguiente permiso avanzado: ``BAN_MEMBERS``.
 
-- Filo requires the following basic permissions: ``VIEW_CHANNEL``, ``SEND_MESSAGES``, ``EMBED_LINKS``, ``USE_EXTERNAL_EMOJIS``, ``READ_MESSAGE_HISTORY`` and ``ADD_REACTIONS``.
+- Filo requiere los siguientes permisos básicos: ``VIEW_CHANNEL``, ``SEND_MESSAGES``, ``EMBED_LINKS``, ``USE_EXTERNAL_EMOJIS``, ``READ_MESSAGE_HISTORY`` y ``ADD_REACTIONS``.
 
-- You need ``ADMINISTRATOR`` permission to perform most of the actions in this article.
+- Necesitas el permiso ``ADMINISTRATOR`` para realizar la mayoría de las acciones de este artículo.
 
-- You should replace <kbd>f!</kbd> with the current prefix you have set. More information on how to change the prefix by **[clicking here](es/modules/prefix)**.
+- Debes reemplazar <kbd>f!</kbd> con el prefijo actual que hayas establecido. Más información sobre cómo cambiar el prefijo haciendo **[clic aquí](es/modules/prefix)**.
 
-# Module Exceptions
+# Excepciones del módulo
 
-This module has exceptions, which means that it won't work if some of the requirements mentioned below are met:
+Este módulo tiene excepciones, lo que significa que no funcionará si se cumplen algunos de los requisitos que se mencionan a continuación:
 
-- If Filo doesn't have ``VIEW_CHANNEL``, ``SEND_MESSAGES``, ``EMBED_LINKS``, ``USE_EXTERNAL_EMOJIS`` and ``BAN_MEMBERS`` permissions. **^1^**
+- Si Filo no tiene los permisos ``VIEW_CHANNEL``, ``SEND_MESSAGES``, ``EMBED_LINKS``, ``USE_EXTERNAL_EMOJIS`` y ``BAN_MEMBERS``. **^1^**
 
-**^1^** If this requirement is met, the module settings will be reset.
+**^1^** Si se cumple este requisito, la configuración del módulo se restablecerá.
 
-# Steps to enable the module
+# Pasos para habilitar el módulo
 
-## **Step 1**: Enable the module
+## **Paso 1**: Habilitar el módulo
 
-To enable the module you must execute the following command: <kbd>f!config anti-evasion enable</kbd>.
+Para habilitar el módulo debes ejecutar el siguiente comando: <kbd>f!config anti-evasion enable</kbd>.
 
-**Example**: <kbd>f!config anti-evasion enable</kbd>.
+**Ejemplo**: <kbd>f!config anti-evasion enable</kbd>.
 
-# Steps to disable the module
+# Pasos para deshabilitar el módulo
 
-## **Step 1**: Disable the module
+## **Paso 1**: Deshabilitar el módulo
 
-To disable the module you must execute the following command: <kbd>f!config anti-evasion disable</kbd>.
+Para deshabilitar el módulo debes ejecutar el siguiente comando: <kbd>f!config anti-evasion disable</kbd>.
 
-**Example**: <kbd>f!config anti-evasion disable</kbd>.
+**Ejemplo**: <kbd>f!config anti-evasion disable</kbd>.
 
-# Steps to set a action
+# Pasos para establecer la acción
 
-## **Step 1**: Set a action
+## **Paso 1**: Establecer la acción
 
-To set a action you must execute the following command: <kbd>f!config anti-evasion set action \<Action></kbd>.
+Para establecer la acción debes ejecutar el siguiente comando: <kbd>f!config anti-evasion set action \<Acción></kbd>.
 
-> Don't include ``<>`` when you're running the command.
+> No incluyas ``<>`` cuando estés ejecutando el comando.
 {.is-warning}
 
-**Example**: <kbd>f!config anti-evasion set action tempban</kbd>.
+**Ejemplo**: <kbd>f!config anti-evasion set action tempban</kbd>.
 
-> You can see a full list of actions that Filo supports by **[clicking here](/es/modules/anti-evasion/actions)**.
+> Puede ver una lista completa de las acciones que admite Filo haciendo **[clic aquí](/es/modules/anti-evasion/actions)**.
 {.is-info}
 
-# Steps to set the time of a action
+# Pasos para establecer el tiempo de la acción
 
-## **Step 1**: Set the time of a action
+## **Paso 1**: Establecer el tiempo de la acción
 
-To set the time of a action you must execute the following command: <kbd>f!config anti-evasion set time \<Time></kbd>.
+Para establecer el tiempo de la acción debes ejecutar el siguiente comando: <kbd>f!config anti-evasion set time \<Tiempo></kbd>.
 
-> Don't include ``<>`` when you're running the command.
+> No incluyas ``<>`` cuando estés ejecutando el comando.
 {.is-warning}
 
-**Example**: <kbd>f!config anti-evasion set action 1d</kbd>.
+**Ejemplo**: <kbd>f!config anti-evasion set action 1d</kbd>.
 
-> The duration of the action must be between **1 minutes** and **24 days**.
+> La duración de la acción debe estar entre **1 minutos** y **24 dias**.
 {.is-warning}
 
-# Steps to reset module settings
+# Pasos para restablecer las configuraciones del módulo
 
-## **Step 1**: Reset the module settings
+## **Paso 1**: Restablecer las configuraciones del módulo
 
-To reset the module settings you must execute the following command: <kbd>f!config anti-evasion reset \<Allow> (optional)</kbd>.
+Para restablecer las configuraciones del módulo debes ejecutar el siguiente comando: <kbd>f!config anti-evasion reset \<Allow> (opcional)</kbd>.
 
-> Don't include ``<>`` when you're running the command.
+> No incluyas ``<>`` cuando estés ejecutando el comando.
 {.is-warning}
 
-**Example**: <kbd>f!config anti-evasion reset</kbd>.
+**Ejemplo**: <kbd>f!config anti-evasion reset</kbd>.
 
-> You'll be forced to confirm the action you are about to take. Once you have confirmed the action, you won't be able to recover the previous data.
+> Te verás obligado a confirmar la acción que estas a punto de realizar. Una vez la hayas confirmado, no podrás recuperar los datos anteriores.
 {.is-danger}

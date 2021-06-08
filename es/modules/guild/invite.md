@@ -1,5 +1,5 @@
 ---
-title: Guild Invite
+title: Invitación del Gremio
 description:
 published: true
 date: Thu Jun 03 2021 14:35:36 GMT+0000 (Coordinated Universal Time)
@@ -8,60 +8,60 @@ tags:
 editor: markdown
 ---
 
-# About the module
+# Acerca del módulo
 
-This module will allow you to set a permanent invite from the guild.
+Este módulo te permitirá establecer una invitación permanente del gremio.
 
-# Getting Started
+# Empezando
 
-Before proceeding with this article, you must take into account a series of elements that can influence when you are going to carry out any action described on this page:
+Antes de continuar con este artículo, debes tener en cuenta una serie de elementos que pueden influir cuando vayas a realizar alguna acción descrita en esta página:
 
-- Filo requires the following advanced permissions: ``VIEW_CHANNEL`` and ``CREATE_INSTANT_INVITE``.
+- Filo requiere los siguientes permisos avanzados: ``VIEW_CHANNEL`` y ``CREATE_INSTANT_INVITE``.
 
-- Filo requires the following basic permissions: ``VIEW_CHANNEL``, ``SEND_MESSAGES``, ``EMBED_LINKS``, ``USE_EXTERNAL_EMOJIS``, ``READ_MESSAGE_HISTORY`` and ``ADD_REACTIONS``.
+- Filo requiere los siguientes permisos básicos: ``VIEW_CHANNEL``, ``SEND_MESSAGES``, ``EMBED_LINKS``, ``USE_EXTERNAL_EMOJIS``, ``READ_MESSAGE_HISTORY`` y ``ADD_REACTIONS``.
 
-- You need ``ADMINISTRATOR`` permission to perform most of the actions in this article.
+- Necesitas el permiso ``ADMINISTRATOR`` para realizar la mayoría de las acciones de este artículo.
 
-- You should replace <kbd>f!</kbd> with the current prefix you have set. More information on how to change the prefix by **[clicking here](es/modules/prefix)**.
+- Debes reemplazar <kbd>f!</kbd> con el prefijo actual que hayas establecido. Más información sobre cómo cambiar el prefijo haciendo **[clic aquí](es/modules/prefix)**.
 
-# Steps to create the invite on a channel
+# Pasos para crear la invitación en un canal
 
-## **Step 1**: Create the invite on a channel
+## **Paso 1**: Crear la invitación en un canal
 
-To create the invite on a channel you must execute the following command: <kbd>f!config guild invite create \<#Channel/Channel ID></kbd>.
+Para crear la invitación en un canal debes ejecutar el siguiente comando: <kbd>f!config guild invite create \<#Canal/ID del Canal></kbd>.
 
-> Don't include ``<>`` when you're running the command.
+> No incluyas ``<>`` cuando estés ejecutando el comando.
 {.is-warning}
 
-**Example**: <kbd>f!config guild invite create #general</kbd>.
+**Ejemplo**: <kbd>f!config guild invite create #general</kbd>.
 
-> Filo requires the following advanced permissions: ``VIEW_CHANNEL`` and ``CREATE_INSTANT_INVITE``.
+> Filo requiere los siguientes permisos avanzados: ``VIEW_CHANNEL`` y ``CREATE_INSTANT_INVITE``.
 {.is-danger}
 
-# Steps to set a existing invite from a channel
+# Pasos para configurar una invitación existente desde un canal
 
-## **Step 1**: Set a existing invite from a channel
+## **Paso 1**: Establecer una invitación existente de un canal
 
-To set a existing invite from a channel you must execute the following command: <kbd>f!config guild invite set \<Invite URL/Invite Code></kbd>.
+Para establecer una invitación existente de un canal debes ejecutar el siguiente comando: <kbd>f!config guild invite set \<URL de la Invitación/Código de la Invitación></kbd>.
 
-> Don't include ``<>`` when you're running the command.
+> No incluyas ``<>`` cuando estés ejecutando el comando.
 {.is-warning}
 
-**Example**: <kbd>f!config guild invite set https://discord.gg/xHhBWhT</kbd>.
+**Ejemplo**: <kbd>f!config guild invite set https://discord.gg/xHhBWhT</kbd>.
 
-> The invite you set must be from the same guild.
+> La invitación que establezcas debe ser del mismo gremio.
 {.is-danger}
 
-# Steps to reset module settings
+# Pasos para restablecer las configuraciones del módulo
 
-## **Step 1**: Reset the module settings
+## **Paso 1**: Restablecer las configuraciones del módulo
 
-To reset the module settings you must execute the following command: <kbd>f!config guild reset \<Invite></kbd>.
+Para restablecer las configuraciones del módulo debes ejecutar el siguiente comando: <kbd>f!config guild reset \<Invite></kbd>.
 
-> Don't include ``<>`` when you're running the command.
+> No incluyas ``<>`` cuando estés ejecutando el comando.
 {.is-warning}
 
-**Example**: <kbd>f!config guild reset invite</kbd>.
+**Ejemplo**: <kbd>f!config guild reset invite</kbd>.
 
-> You'll be forced to confirm the action you are about to take. Once you have confirmed the action, you won't be able to recover the previous data.
+> Te verás obligado a confirmar la acción que estas a punto de realizar. Una vez la hayas confirmado, no podrás recuperar los datos anteriores.
 {.is-danger}

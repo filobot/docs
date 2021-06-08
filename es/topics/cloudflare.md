@@ -8,127 +8,127 @@ tags:
 editor: markdown
 ---
 
-Here you'll find useful documentation on how Cloudflare works on the Filo service.
+Aquí encontrará documentación útil sobre cómo funciona Cloudflare en el servicio Filo.
 
-# What's Cloudflare?
+# ¿Qué es Cloudflare?
 
-Cloudflare is one of the biggest networks operating on the Internet. People use Cloudflare services for the purposes of increasing the security and performance of their web sites and services.
+Cloudflare es una de las redes más grandes que operan en Internet. Las personas utilizan los servicios de Cloudflare con el fin de aumentar la seguridad y el rendimiento de sus sitios web y servicios.
 
-# How does Cloudflare help Filo?
+# ¿Cómo ayuda Cloudflare a Filo?
 
-Cloudflare helps Filo by protecting its website and API from malicious people.
+Cloudflare ayuda a Filo protegiendo su sitio web y API de personas malintencionadas.
 
-# Cloudflare bans
+# Prohibiciones de Cloudflare
 
-It's essential that we protect our website from people with malicious intent, for this we are using bans on Cloudflare. Below you'll find information about these bans and how they can affect you.
+Es esencial que protejamos nuestro sitio web de personas con malas intenciones, para ello estamos usando prohibiciones en Cloudflare. A continuación, encontrará información sobre estas prohibiciones y cómo pueden afectarlo.
 
-## What's a Cloudflare ban?
+## ¿Qué es una prohibición de Cloudflare?
 
-A Cloudflare ban is a temporary or permanent sanction that will deny you access to our website. The ban can be given by:.
-- Your IP address.
-- Your ISP (AKA: Internet Service Provider).
-- Your IP address range.
-- Your User-Agent.
-- Your country.
+Una prohibición de Cloudflare es una sanción temporal o permanente que le negará el acceso a nuestro sitio web. La prohibición puede ser dada por:.
+- Tu dirección IP.
+- Tu ISP (AKA: Proveedor de Servicios de Internet).
+- Tu rango de dirección IP.
+- Tu User-Agent.
+- Tu país.
 
-## How can I identify a Cloudflare ban?
+## ¿Cómo identifico una prohibición de Cloudflare?
 
-You'll be able to quickly identify a Cloudflare ban, because you'll receive a 403 error followed by an error page titled "Access Denied".
+Podrá identificar rápidamente una prohibición de Cloudflare, porque recibirá un error 403 seguido de una página de error titulada "Access Denied".
 
 > <p align=center><img src="https://raw.githubusercontent.com/filobot/docs/main/resources/Cloudflare%20ban.png" alt="If the image doesn't load, please contact us." /><br>
-> <i>Example of a page that shows that your IP address has been banned and you can't access its content.</i></p>
+> <i>Ejemplo de una página que muestra que su dirección IP ha sido prohibida y no puede acceder a su contenido.</i></p>
 {.is-image}
 
-# What actions are banned from Cloudflare?
+# ¿Qué acciones están prohibidas en Cloudflare?
 
-Information on what actions can be banned from Cloudflare is specified below, however this document may not be 100% accurate for security reasons.
+La información sobre qué acciones se pueden prohibir de Cloudflare se especifica a continuación; sin embargo, este documento puede no ser 100% exacto por razones de seguridad.
 
-## Excess 429 errors in the API
+## Exceso de errores 429 en la API
 
-429 errors tell browsers and applications making requests of any kind to our website that your rate limit is being exceeded.
+Los errores 429 le dicen a los navegadores y aplicaciones que realizan solicitudes de cualquier tipo a nuestro sitio web que se está excediendo su límite de velocidad.
 
-The API has two types of rate limits:
-- Individual or specific.
-- Global or common.
+La API tiene dos tipos de límites de tasa:
+- Individual o específico.
+- Global o común.
 
-The individual or specific rate limits are more restrictive, but, as a consequence, exceeding this limit won't result in a ban on Cloudflare (although it would be advisable not to exceed these limits). These limits are specific to each API endpoint.
+Los límites de tarifa individuales o específicos son más restrictivos, pero, como consecuencia, exceder este límite no resultará en una prohibición de Cloudflare (aunque sería recomendable no exceder estos límites). Estos límites son específicos para cada punto final de la API.
 
-Global or common rate limits are restrictive in the long term, that's, if you make a large number of requests per minute, you'll likely receive a global rate limit (you won't be allowed to access any other API endpoints during a rate limit).
+Los límites de tasa globales o comunes son restrictivos a largo plazo, es decir, si realiza una gran cantidad de solicitudes por minuto, es probable que reciba un límite de tasa global (no se le permitirá acceder a ningún otro punto final de API durante una tasa límite) .
 
-If you exceed 5 times the warning for exceeding the global request quota in less than 1 hour, your IP address will be temporarily banned for 1 hour.
+ Si excede 5 veces la advertencia por exceder la cuota de solicitud global en menos de 1 hora, su dirección IP será prohibida temporalmente durante 1 hora.
 
-Please note that Cloudflare bans affect all domains related to Filo.
+Tenga en cuenta que las prohibiciones de Cloudflare afectan a todos los dominios relacionados con Filo.
 
-## Excess 429 errors in the rest of the service
+## Exceso de errores 429 en el resto del servicio
 
-429 errors tell browsers and applications making requests of any kind to our website that your rate limit is being exceeded
+Los errores 429 le dicen a los navegadores y aplicaciones que realizan solicitudes de cualquier tipo a nuestro sitio web que se está excediendo su límite de velocidad
 
-The rest of the Filo service has two types of rate limits:
-- Global or common.
+El resto del servicio Filo tiene dos tipos de límites de tarifas:
+- Global o común.
 
-The individual or specific rate limits are more restrictive, but, as a consequence, exceeding this limit won't result in a ban on Cloudflare (although it would be advisable not to exceed these limits). These limits are specific to each API endpoint
+Los límites de tarifa individuales o específicos son más restrictivos, pero, como consecuencia, exceder este límite no resultará en una prohibición de Cloudflare (aunque sería recomendable no exceder estos límites). Estos límites son específicos para cada punto final de la API
 
-Global or common rate limits are restrictive in the long term, that's, if you make a large number of requests per minute, you'll likely receive a global rate limit (you won't be allowed to access any other API endpoints during a rate limit).
+Los límites de tasa globales o comunes son restrictivos a largo plazo, es decir, si realiza una gran cantidad de solicitudes por minuto, es probable que reciba un límite de tasa global (no se le permitirá acceder a ningún otro punto final de API durante una tasa límite) .
 
-If you exceed 5 times the warning for exceeding the global request quota in less than 1 hour, your IP address will be temporarily banned for 1 hour
+ Si excede 5 veces la advertencia por exceder la cuota de solicitud global en menos de 1 hora, su dirección IP será prohibida temporalmente durante 1 hora
 
-Please note that Cloudflare bans affect all domains related to Filo
+Tenga en cuenta que las prohibiciones de Cloudflare afectan a todos los dominios relacionados con Filo
 
-## Appeal a ban on Cloudflare
+## Apelar la prohibición de Cloudflare
 
-Below you'll find information on how to appeal a ban on Cloudflare.
+A continuación, encontrarás información sobre cómo apelar una prohibición de Cloudflare.
 
-## Appeal according to the duration of the ban
+## Apelación según la duración de la prohibición
 
-- Temporary: Not available.
-- Permanent: You can appeal a permanent ban by **[clicking here](https://forms.gle/Pdig38H5gn6XfyW76)**.
+- : No disponible.
+- Permanente: Puedes apelar una prohibición permanente haciendo **[clic aquí](https://forms.gle/Pdig38H5gn6XfyW76)**.
 
-## Appeal according to the type of ban
+## Apelar según el tipo de prohibición
 
-Below you'll find information on how to appeal the type of ban:
+A continuación, encontrará información sobre cómo apelar cada tipo de prohibición:
 
-> Please note that some bans can't be appealed due to their nature.
+> Tenga en cuenta que algunas prohibiciones no se pueden apelar debido a su naturaleza.
 {is-warning}
 
-- **IP address**: IP address.
-- **ISP (AKA: Internet Service Provider)**: ISP (AKA: Internet Service Provider).
-- **IP address range**: IP address range.
+- **Dirección IP**: Dirección IP.
+- **ISP (AKA: Proveedor de Servicios de Internet)**: ISP (AKA: Proveedor de Servicios de Internet).
+- **Rango de dirección IP**: Rango de dirección IP.
 - **User-Agent**: User-Agent.
-- **Country**: .
+- **País**: .
 
-# Repetitive sanctions
+# Sanciones repetitivas
 
-The automatic sanctions of our service are always temporary, however, if an IP address or ISP receives constant sanctions, our team can permanently ban the following parameters:
-- **IP address**.
-- **IP address range**.
-- **ISP (AKA: Internet Service Provider)**.
+Las sanciones automáticas de nuestro servicio son siempre temporales, sin embargo, si una dirección IP o ISP recibe sanciones constantes, nuestro equipo puede prohibir permanentemente los siguientes parámetros:
+- **Dirección IP**.
+- **Rango de dirección IP**.
+- **ISP (AKA: Proveedor de Servicios de Internet)**.
 
-# Permanent bans on Cloudflare
+# Prohibiciones permanentes de Cloudflare
 
-Permanent Cloudflare bans are granted as the last measure of protection for our service. While it's true that, in the event of an ISP ban, all of its clients are denied access to our website, it isn't entirely true.
+Las prohibiciones permanentes de Cloudflare se otorgan como la última medida de protección para nuestro servicio. Si bien es cierto que, en caso de una prohibición de ISP, a todos sus clientes se les niega el acceso a nuestro sitio web, no es del todo cierto.
 
-## ISP ban
+## Prohibición del ISP
 
-It isn't entirely true that to protect our website we ban an ISP, rather we force all clients of this ISP to perform a captcha. This validates requests and makes it possible to deny access to people with bad intentions.
+No es del todo cierto que para proteger nuestro sitio web prohibimos un ISP, sino que obligamos a todos los clientes de este ISP a realizar un captcha. Esto valida las solicitudes y permite denegar el acceso a personas con malas intenciones.
 
-## IP address range ban
+## Prohibición del rango de direcciones IP
 
-Depending on the situation, if an IP address range has been permanently banned, on special occasions, it's possible that no type of captcha is performed to validate the requests. Likewise, the priority of our team is to reject requests with bad intentions as the main measure.
+Dependiendo de la situación, si un rango de direcciones IP ha sido prohibido permanentemente, en ocasiones especiales, es posible que no se realice ningún tipo de captcha para validar las solicitudes. Asimismo, la prioridad de nuestro equipo es rechazar las solicitudes con malas intenciones como principal medida.
 
-## User-Agent ban
+## Prohibición del User-Agent
 
-Typically, those who modify the User-Agent of their browser or application to make requests to a website know what they are doing. Modification to an unknown User-Agent can be interpreted as a threat and receive a sanction from us.
+Normalmente, quienes modifican el User-Agent de su navegador o aplicación para realizar solicitudes a un sitio web saben lo que están haciendo. La modificación a un User-Agent desconocido puede interpretarse como una amenaza y recibir una sanción nuestra .
 
-Our recommendation is to leave the browser's default User-Agent or specify a known User-Agent.
+ Nuestra recomendación es dejar el User-Agent predeterminado del navegador o especificar un User-Agent conocido.
 
-## Country ban
+## Prohibición del país
 
-It isn't entirely true that we ban countries that make malicious requests (at least not if we consider the number of malicious requests tolerable). As a priority, we'll request a captcha to all requests from those countries and all requests with bad intentions will be rejected, to ensure that our service is accessible to people with good intentions.
+No es del todo cierto que prohibamos los países que realizan solicitudes maliciosas (al menos no si consideramos tolerable la cantidad de solicitudes maliciosas). Como prioridad, solicitaremos un captcha a todas las solicitudes de esos países y todas las solicitudes con malas intenciones serán rechazadas, para garantizar que nuestro servicio sea accesible para personas con buenas intenciones.
 
 # hCaptcha
 
-The captcha is managed by **[hCaptcha](https://www.hcaptcha.com)** and applies a **[Terms and Conditions](https://www.hcaptcha.com/terms)** and **[Privacy Policy](https://www.hcaptcha.com/privacy)**.
+El captcha es administrado por **[hCaptcha](https://www.hcaptcha.com)** y aplica unos **[Términos y Condiciones](https://www.hcaptcha.com/terms)** y **[Política de Privacidad](https://www.hcaptcha.com/privacy)**.
 
 > <p align=center><img src="https://raw.githubusercontent.com/filobot/docs/main/resources/hCaptcha.png" alt="If the image doesn't load, please contact us." /><br>
-> <i>Example of a page that shows an hCaptcha to be able to access its content.</i></p>
+> <i>Ejemplo de una página que muestra un hCaptcha para poder acceder a su contenido.</i></p>
 {.is-image}

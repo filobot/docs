@@ -10,7 +10,7 @@ editor: markdown
 
 # About the module
 
-This module will allow you to disable the Filo commands that you don't want to be used on your guild.
+This module will allow you to disable the Filo commands that you don't want to be used on your server.
 
 # Getting Started
 
@@ -24,7 +24,7 @@ Before proceeding with this article, you must take into account a series of elem
 
 - You should replace <kbd>f!</kbd> with the current prefix you have set. More information on how to change the prefix by **[clicking here](en/modules/prefix)**.
 
-# Module Exceptions
+# Module exceptions
 
 This module has exceptions, which means that it won't work if some of the requirements mentioned below are met:
 

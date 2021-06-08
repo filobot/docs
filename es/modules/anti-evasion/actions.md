@@ -1,5 +1,5 @@
 ---
-title: Action List
+title: Lista de Sanciones
 description:
 published: true
 date: Thu Jun 03 2021 14:35:13 GMT+0000 (Coordinated Universal Time)
@@ -9,11 +9,11 @@ editor: markdown
 ---
 
 > `TEMPBAN`
-> This sanction will temporary ban the user in question from the server.
+> La sanción ban temporalmente al usuario en cuestión del servidor.
 >
-> Filo requires the following advanced permission: ``BAN_MEMBERS``.
+> Filo requiere el siguiente permiso avanzado: ``BAN_MEMBERS``.
 
 > `BAN`
-> This sanction will permanently ban the user in question from the server.
+> La sanción ban permanentemente al usuario en cuestión del servidor.
 >
-> Filo requires the following advanced permission: ``BAN_MEMBERS``.
+> Filo requiere el siguiente permiso avanzado: ``BAN_MEMBERS``.

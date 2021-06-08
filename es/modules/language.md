@@ -1,5 +1,5 @@
 ---
-title: Language
+title: Idioma
 description:
 published: true
 date: Thu Jun 03 2021 14:37:00 GMT+0000 (Coordinated Universal Time)
@@ -8,44 +8,44 @@ tags:
 editor: markdown
 ---
 
-# About the module
+# Acerca del módulo
 
-This module will allow you to set or reset the Filo's language; this will affect all current and future commands, modules and systems.
+Este módulo te permitirá configurar o estabke el idioma de Filo; esto afectará a todos los comandos, módulos y sistemas actuales y futuros.
 
-# Getting Started
+# Empezando
 
-Before proceeding with this article, you must take into account a series of elements that can influence when you are going to carry out any action described on this page:
+Antes de continuar con este artículo, debes tener en cuenta una serie de elementos que pueden influir cuando vayas a realizar alguna acción descrita en esta página:
 
-- Filo requires the following basic permissions: ``VIEW_CHANNEL``, ``SEND_MESSAGES``, ``EMBED_LINKS``, ``USE_EXTERNAL_EMOJIS``, ``READ_MESSAGE_HISTORY`` and ``ADD_REACTIONS``.
+- Filo requiere los siguientes permisos básicos: ``VIEW_CHANNEL``, ``SEND_MESSAGES``, ``EMBED_LINKS``, ``USE_EXTERNAL_EMOJIS``, ``READ_MESSAGE_HISTORY`` y ``ADD_REACTIONS``.
 
-- You need ``ADMINISTRATOR`` permission to perform most of the actions in this article.
+- Necesitas el permiso ``ADMINISTRATOR`` para realizar la mayoría de las acciones de este artículo.
 
-- You should replace <kbd>f!</kbd> with the current prefix you have set. More information on how to change the prefix by **[clicking here](es/modules/prefix)**.
+- Debes reemplazar <kbd>f!</kbd> con el prefijo actual que hayas establecido. Más información sobre cómo cambiar el prefijo haciendo **[clic aquí](es/modules/prefix)**.
 
-# Steps to set a language
+# Pasos para establecer el idioma
 
-## **Step 1**: Set a language
+## **Paso 1**: Establecer el idioma
 
-To set a language you must execute the following command: <kbd>f!config language set \<Language Full Code></kbd>.
+Para establecer el idioma debes ejecutar el siguiente comando: <kbd>f!config language set \<Código Completo del Idioma></kbd>.
 
-> Don't include ``<>`` when you're running the command.
+> No incluyas ``<>`` cuando estés ejecutando el comando.
 {.is-warning}
 
-**Example**: <kbd>f!config language set english</kbd>.
+**Ejemplo**: <kbd>f!config language set english</kbd>.
 
-> You can see a complete list of languages supported by Filo by **[clicking here](/es/modules/language/list)**.
+> Puedes ver una lista completa de los idiomas admitidos por Filo haciendo **[clic aquí](/es/modules/language/list)**.
 {.is-info}
 
-# Steps to reset module settings
+# Pasos para restablecer las configuraciones del módulo
 
-## **Step 1**: Reset the module settings
+## **Paso 1**: Restablecer las configuraciones del módulo
 
-To reset the module settings you must execute the following command: <kbd>f!config language reset</kbd>.
+Para restablecer las configuraciones del módulo debes ejecutar el siguiente comando: <kbd>f!config language reset</kbd>.
 
-> Don't include ``<>`` when you're running the command.
+> No incluyas ``<>`` cuando estés ejecutando el comando.
 {.is-warning}
 
-**Example**: <kbd>f!config language reset</kbd>.
+**Ejemplo**: <kbd>f!config language reset</kbd>.
 
-> You'll be forced to confirm the action you are about to take. Once you have confirmed the action, you won't be able to recover the previous data.
+> Te verás obligado a confirmar la acción que estas a punto de realizar. Una vez la hayas confirmado, no podrás recuperar los datos anteriores.
 {.is-danger}

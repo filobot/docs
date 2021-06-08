@@ -80,7 +80,7 @@ Below you'll find information on how to appeal a ban on Cloudflare.
 
 ## Appeal according to the duration of the ban
 
-- Temporary: Not available.
+- : Not available.
 - Permanent: You can appeal a permanent ban by **[clicking here](https://forms.gle/Pdig38H5gn6XfyW76)**.
 
 ## Appeal according to the type of ban

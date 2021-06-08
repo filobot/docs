@@ -1,5 +1,5 @@
 ---
-title: Anti Invites
+title: Anti Invitaciones
 description:
 published: true
 date: Mon Jun 07 2021 16:00:16 GMT+0000 (Coordinated Universal Time)
@@ -8,106 +8,106 @@ tags:
 editor: markdown
 ---
 
-# About the module
+# Acerca del módulo
 
-This module will allow you to delete and warn users who send invites outside your server or the allowed servers.
+Este módulo te permitirá eliminar y advertir a los usuarios que envían invitaciones ajenas a su servidor o de los servidores permitidos.
 
-> We recommend using this module if you manage a community.
+> Recomendamos usar este módulo si administras una comunidad.
 {.is-success}
 
-# Getting Started
+# Empezando
 
-Before proceeding with this article, you must take into account a series of elements that can influence when you are going to carry out any action described on this page:
+Antes de continuar con este artículo, debes tener en cuenta una serie de elementos que pueden influir cuando vayas a realizar alguna acción descrita en esta página:
 
-- Filo requires the following advanced permission: ``MANAGE_MESSAGES``.
+- Filo requiere el siguiente permiso avanzado: ``MANAGE_MESSAGES``.
 
-- Filo requires the following basic permissions: ``VIEW_CHANNEL``, ``SEND_MESSAGES``, ``EMBED_LINKS``, ``USE_EXTERNAL_EMOJIS``, ``READ_MESSAGE_HISTORY`` and ``ADD_REACTIONS``.
+- Filo requiere los siguientes permisos básicos: ``VIEW_CHANNEL``, ``SEND_MESSAGES``, ``EMBED_LINKS``, ``USE_EXTERNAL_EMOJIS``, ``READ_MESSAGE_HISTORY`` y ``ADD_REACTIONS``.
 
-- You need ``ADMINISTRATOR`` permission to perform most of the actions in this article.
+- Necesitas el permiso ``ADMINISTRATOR`` para realizar la mayoría de las acciones de este artículo.
 
-- You should replace <kbd>f!</kbd> with the current prefix you have set. More information on how to change the prefix by **[clicking here](es/modules/prefix)**.
+- Debes reemplazar <kbd>f!</kbd> con el prefijo actual que hayas establecido. Más información sobre cómo cambiar el prefijo haciendo **[clic aquí](es/modules/prefix)**.
 
-# Module Exceptions
+# Excepciones del módulo
 
-This module has exceptions, which means that it won't work if some of the requirements mentioned below are met:
+Este módulo tiene excepciones, lo que significa que no funcionará si se cumplen algunos de los requisitos que se mencionan a continuación:
 
-- If Filo doesn't have ``VIEW_CHANNEL``, ``SEND_MESSAGES``, ``EMBED_LINKS``, ``USE_EXTERNAL_EMOJIS`` and ``MANAGE_MESSAGES`` permissions. **^1^**
+- Si Filo no tiene los permisos ``VIEW_CHANNEL``, ``SEND_MESSAGES``, ``EMBED_LINKS``, ``USE_EXTERNAL_EMOJIS`` y ``MANAGE_MESSAGES``. **^1^**
 
-- If the user has the ``ADMINISTRATOR`` permission. **^2^**
+- Si el usuario tiene el permiso ``ADMINISTRATOR``. **^2^**
 
-- If the user has the ``MANAGE_GUILD`` permission. **^2^**
+- Si el usuario tiene el permiso ``MANAGE_GUILD``. **^2^**
 
-- If the user has the ``MANAGE_MESSAGES`` permission. **^2^**
+- Si el usuario tiene el permiso ``MANAGE_MESSAGES``. **^2^**
 
-- If the user has the ``BAN_MEMBERS`` permission. **^2^**
+- Si el usuario tiene el permiso ``BAN_MEMBERS``. **^2^**
 
-- If the user has the ``KICK_MEMBERS`` permission. **^2^**
+- Si el usuario tiene el permiso ``KICK_MEMBERS``. **^2^**
 
-- If the position of the Filo's roles are lower than the user roles. **^2^**
+- Si la posición de los roles de Filo es más baja que la de los roles del usuario. **^2^**
 
-- If the position of the Filo's roles are equal to the user roles. **^2^**
+- Si la posición de los roles de Filo es igual que la de los roles del usuario. **^2^**
 
-**^1^** If this requirement is met, the module settings will be reset.
+**^1^** Si se cumple este requisito, la configuración del módulo se restablecerá.
 
-**^2^** If this or some of the requirements are met, the module won't work.
+**^2^** Si se cumplen estos o algunos de los requisitos, el módulo no funcionará.
 
-# Steps to enable the module
+# Pasos para habilitar el módulo
 
-## **Step 1**: Enable the module
+## **Paso 1**: Habilitar el módulo
 
-To enable the module you must execute the following command: <kbd>f!config anti-invites enable</kbd>.
+Para habilitar el módulo debes ejecutar el siguiente comando: <kbd>f!config anti-invites enable</kbd>.
 
-**Example**: <kbd>f!config anti-invites enable</kbd>.
+**Ejemplo**: <kbd>f!config anti-invites enable</kbd>.
 
-> This module can be supplemented with the **[Auto Moderation](/es/modules/auto-moderation)** module.
+> Este módulo se puede complementar con el módulo **[Auto Moderación](/es/modules/auto-moderation)**.
 {.is-success}
 
-# Steps to disable the module
+# Pasos para deshabilitar el módulo
 
-## **Step 1**: Disable the module
+## **Paso 1**: Deshabilitar el módulo
 
-To disable the module you must execute the following command: <kbd>f!config anti-invites disable</kbd>.
+Para deshabilitar el módulo debes ejecutar el siguiente comando: <kbd>f!config anti-invites disable</kbd>.
 
-**Example**: <kbd>f!config anti-invites disable</kbd>.
+**Ejemplo**: <kbd>f!config anti-invites disable</kbd>.
 
-# Steps to add a server to the allowed list
+# Pasos para añadir un servidor a la lista de permitidos
 
-## **Step 1**: Add a server to the allowed list
+## **Paso 1**: Añadir un servidor a la lista de permitidos
 
-To add a server to the allowed list you must execute the following command: <kbd>f!config anti-invites allow add \<Server ID></kbd>.
+Para añadir un servidor a la lista de permitidos debes ejecutar el siguiente comando: <kbd>f!config anti-invites allow add \<ID del servidor></kbd>.
 
-> Don't include ``<>`` when you're running the command.
+> No incluyas ``<>`` cuando estés ejecutando el comando.
 {.is-warning}
 
-**Example**: <kbd>f!config anti-invites allow add 123456789123456789</kbd>.
+**Ejemplo**: <kbd>f!config anti-invites allow add 123456789123456789</kbd>.
 
-> Check out this article from the Discord support center by **[clicking here](https://support.discord.com/hc/en-us/articles/206346498)**
+> Consulta este artículo del centro de soporte de Discord haciendo **[clic aquí](https://support.discord.com/hc/en-us/articles/206346498)**
 {.is-info}
 
-# Steps to remove a server to the allowed list
+# Pasos para eliminar un servidor de la lista de permitidos
 
-## **Step 1**: Remove a server to the allowed list
+## **Paso 1**: Eliminar un servidor de la lista de permitidos
 
-To remove a server to the allowed list you must execute the following command: <kbd>f!config anti-invites allow remove \<Server ID></kbd>.
+Para eliminar un servidor de la lista de permitidos debes ejecutar el siguiente comando: <kbd>f!config anti-invites allow remove \<ID del servidor></kbd>.
 
-> Don't include ``<>`` when you're running the command.
+> No incluyas ``<>`` cuando estés ejecutando el comando.
 {.is-warning}
 
-**Example**: <kbd>f!config anti-invites allow remove 123456789123456789</kbd>.
+**Ejemplo**: <kbd>f!config anti-invites allow remove 123456789123456789</kbd>.
 
-> Check out this article from the Discord support center by **[clicking here](https://support.discord.com/hc/en-us/articles/206346498)**
+> Consulta este artículo del centro de soporte de Discord haciendo **[clic aquí](https://support.discord.com/hc/en-us/articles/206346498)**
 {.is-info}
 
-# Steps to reset module settings
+# Pasos para restablecer las configuraciones del módulo
 
-## **Step 1**: Reset the module settings
+## **Paso 1**: Restablecer las configuraciones del módulo
 
-To reset the module settings you must execute the following command: <kbd>f!config anti-invites reset \<Allow> (optional)</kbd>.
+Para restablecer las configuraciones del módulo debes ejecutar el siguiente comando: <kbd>f!config anti-invites reset \<Allow> (opcional)</kbd>.
 
-> Don't include ``<>`` when you're running the command.
+> No incluyas ``<>`` cuando estés ejecutando el comando.
 {.is-warning}
 
-**Example**: <kbd>f!config anti-invites reset</kbd>.
+**Ejemplo**: <kbd>f!config anti-invites reset</kbd>.
 
-> You'll be forced to confirm the action you are about to take. Once you have confirmed the action, you won't be able to recover the previous data.
+> Te verás obligado a confirmar la acción que estas a punto de realizar. Una vez la hayas confirmado, no podrás recuperar los datos anteriores.
 {.is-danger}

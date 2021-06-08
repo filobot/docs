@@ -1,5 +1,5 @@
 ---
-title: Welcome Role
+title: Rol de Bienvenida
 description:
 published: true
 date: Mon Jun 07 2021 16:03:00 GMT+0000 (Coordinated Universal Time)
@@ -8,83 +8,83 @@ tags:
 editor: markdown
 ---
 
-# About the module
+# Acerca del módulo
 
-This module will allow you to grant a welcome role to new members.
+Este módulo te permitirá otorgar un rol de bienvenida a los nuevos miembros.
 
-> We recommend using this module if you manage a community.
+> Recomendamos usar este módulo si administras una comunidad.
 {.is-success}
 
-# Getting Started
+# Empezando
 
-Before proceeding with this article, you must take into account a series of elements that can influence when you are going to carry out any action described on this page:
+Antes de continuar con este artículo, debes tener en cuenta una serie de elementos que pueden influir cuando vayas a realizar alguna acción descrita en esta página:
 
-- Filo requires the following advanced permission: ``MANAGE_ROLES``.
+- Filo requiere el siguiente permiso avanzado: ``MANAGE_ROLES``.
 
-- Filo requires the following basic permissions: ``VIEW_CHANNEL``, ``SEND_MESSAGES``, ``EMBED_LINKS``, ``USE_EXTERNAL_EMOJIS``, ``READ_MESSAGE_HISTORY`` and ``ADD_REACTIONS``.
+- Filo requiere los siguientes permisos básicos: ``VIEW_CHANNEL``, ``SEND_MESSAGES``, ``EMBED_LINKS``, ``USE_EXTERNAL_EMOJIS``, ``READ_MESSAGE_HISTORY`` y ``ADD_REACTIONS``.
 
-- You need ``ADMINISTRATOR`` permission to perform most of the actions in this article.
+- Necesitas el permiso ``ADMINISTRATOR`` para realizar la mayoría de las acciones de este artículo.
 
-- You should replace <kbd>f!</kbd> with the current prefix you have set. More information on how to change the prefix by **[clicking here](es/modules/prefix)**.
+- Debes reemplazar <kbd>f!</kbd> con el prefijo actual que hayas establecido. Más información sobre cómo cambiar el prefijo haciendo **[clic aquí](es/modules/prefix)**.
 
-# Module Exceptions
+# Excepciones del módulo
 
-This module has exceptions, which means that it won't work if some of the requirements mentioned below are met:
+Este módulo tiene excepciones, lo que significa que no funcionará si se cumplen algunos de los requisitos que se mencionan a continuación:
 
-- If Filo doesn't have ``MANAGE_ROLES`` permission. **^1^**
+- Si Filo no tiene el permiso ``MANAGE_ROLES``. **^1^**
 
-- If the position of the Filo's roles are lower than the user roles. **^2^**
+- Si la posición de los roles de Filo es más baja que la de los roles del usuario. **^2^**
 
-- If the position of the Filo's roles are equal to the user roles. **^2^**
+- Si la posición de los roles de Filo es igual que la de los roles del usuario. **^2^**
 
-- If the position of the Filo's roles are lower than the welcome role. **^2^**
+- Si la posición de los roles de Filo es más baja que la del rol de bienvenida. **^2^**
 
-- If the position of the Filo's roles is equal to the welcome role. **^2^**
+- Si la posición de los roles de Filo es igual que la del rol de bienvenida. **^2^**
 
-**^1^** If this requirement is met, the module settings will be reset.
+**^1^** Si se cumple este requisito, la configuración del módulo se restablecerá.
 
-**^2^** If this or some of the requirements are met, the module won't work.
+**^2^** Si se cumplen estos o algunos de los requisitos, el módulo no funcionará.
 
-# Steps to enable the module
+# Pasos para habilitar el módulo
 
-## **Step 1**: Enable the module
+## **Paso 1**: Habilitar el módulo
 
-To enable the module you must execute the following command: <kbd>f!config welcomes role enable</kbd>.
+Para habilitar el módulo debes ejecutar el siguiente comando: <kbd>f!config welcomes role enable</kbd>.
 
-**Example**: <kbd>f!config welcomes role enable</kbd>.
+**Ejemplo**: <kbd>f!config welcomes role enable</kbd>.
 
-# Steps to disable the module
+# Pasos para deshabilitar el módulo
 
-## **Step 1**: Disable the module
+## **Paso 1**: Deshabilitar el módulo
 
-To disable the module you must execute the following command: <kbd>f!config welcomes role disable</kbd>.
+Para deshabilitar el módulo debes ejecutar el siguiente comando: <kbd>f!config welcomes role disable</kbd>.
 
-**Example**: <kbd>f!config welcomes role disable</kbd>.
+**Ejemplo**: <kbd>f!config welcomes role disable</kbd>.
 
-# Steps to set the welcome role
+# Pasos para establecer el rol de bienvenida
 
-## **Step 1**: Set the welcome role
+## **Paso 1**: Establecer el rol de bienvenida
 
-To set the welcome role you must execute the following command: <kbd>f!config welcomes role set \<@Role/Role ID></kbd>.
+Para establecer el rol de bienvenida debes ejecutar el siguiente comando: <kbd>f!config welcomes role set \<@Rol/ID del Rol></kbd>.
 
-> Don't include ``<>`` when you're running the command.
+> No incluyas ``<>`` cuando estés ejecutando el comando.
 {.is-warning}
 
-**Example**: <kbd>f!config welcomes role set @Newbies</kbd>.
+**Ejemplo**: <kbd>f!config welcomes role set @Newbies</kbd>.
 
-> The Filo's roles must be higher than the selected role, also the selected role can't be managed by an integration.
+> Los roles de Filo deben ser más altos que el rol seleccionado, además, el rol seleccionado no puede ser administrado por una integración.
 {.is-danger}
 
-# Steps to reset module settings
+# Pasos para restablecer las configuraciones del módulo
 
-## **Step 1**: Reset the module settings
+## **Paso 1**: Restablecer las configuraciones del módulo
 
-To reset the module settings you must execute the following command: <kbd>f!config welcomes role reset \<Role></kbd>.
+Para restablecer las configuraciones del módulo debes ejecutar el siguiente comando: <kbd>f!config welcomes role reset \<Role></kbd>.
 
-> Don't include ``<>`` when you're running the command.
+> No incluyas ``<>`` cuando estés ejecutando el comando.
 {.is-warning}
 
-**Example**: <kbd>f!config welcomes role reset role</kbd>.
+**Ejemplo**: <kbd>f!config welcomes role reset role</kbd>.
 
-> You'll be forced to confirm the action you are about to take. Once you have confirmed the action, you won't be able to recover the previous data.
+> Te verás obligado a confirmar la acción que estas a punto de realizar. Una vez la hayas confirmado, no podrás recuperar los datos anteriores.
 {.is-danger}

@@ -1,5 +1,5 @@
 ---
-title: Action List
+title: Lista de Sanciones
 description:
 published: true
 date: Thu Jun 03 2021 14:35:19 GMT+0000 (Coordinated Universal Time)
@@ -9,26 +9,26 @@ editor: markdown
 ---
 
 > `KICK`
-> This sanction will temporary kick the user in question from the server.
+> La sanción kick temporalmente al usuario en cuestión del servidor.
 >
-> Filo requires the following advanced permission: ``KICK_MEMBERS``.
+> Filo requiere el siguiente permiso avanzado: ``KICK_MEMBERS``.
 
 > `TEMPMUTE`
-> This sanction will temporary mute the user in question from the server.
+> La sanción mute temporalmente al usuario en cuestión del servidor.
 >
-> Filo requires the following advanced permission: ``MANAGE_ROLES``.
+> Filo requiere el siguiente permiso avanzado: ``MANAGE_ROLES``.
 
 > `MUTE`
-> This sanction will temporary mute the user in question from the server.
+> La sanción mute temporalmente al usuario en cuestión del servidor.
 >
-> Filo requires the following advanced permission: ``MANAGE_ROLES``.
+> Filo requiere el siguiente permiso avanzado: ``MANAGE_ROLES``.
 
 > `TEMPBAN`
-> This sanction will temporary ban the user in question from the server.
+> La sanción ban temporalmente al usuario en cuestión del servidor.
 >
-> Filo requires the following advanced permission: ``BAN_MEMBERS``.
+> Filo requiere el siguiente permiso avanzado: ``BAN_MEMBERS``.
 
 > `BAN`
-> This sanction will permanently ban the user in question from the server.
+> La sanción ban permanentemente al usuario en cuestión del servidor.
 >
-> Filo requires the following advanced permission: ``BAN_MEMBERS``.
+> Filo requiere el siguiente permiso avanzado: ``BAN_MEMBERS``.

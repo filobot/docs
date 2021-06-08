@@ -10,7 +10,7 @@ editor: markdown
 
 Below you'll find a guided explanation of how to invite Filo and the permissions that we recommend.
 
-> You must be the **owner** of the server you want to add Filo to or have one of these permissions: `MANAGE_GUILD` and {`ADMINISTRATOR`}.
+> You must be the **owner** of the server you want to add Filo to or have one of these permissions: `MANAGE_GUILD` or {`ADMINISTRATOR`}.
 {.is-warning}
 
 > Currently Filo doesn't support the use of Slash Commands without the scope bot in the invitation. If you add the Slash Commands integration to your server and don't add Filo to the server as well, the Slash Commands will always return a generic error in English.

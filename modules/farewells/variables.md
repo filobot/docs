@@ -40,33 +40,33 @@ editor: markdown
 # Server variables
 
 > `{server}`
-> This variable will return the name of the guild in question.
+> This variable will return the name of the server in question.
 > **Example**: Awesome server
 
 > `{server.id}`
-> This variable will return the id of the guild in question.
+> This variable will return the id of the server in question.
 > **Example**: 123456789123456789
 
 > `{server.icon_url}`
-> This variable will return the server icon url of the guild in question. (if applicable)
+> This variable will return the server icon url of the server in question. (if applicable)
 > **Example**: https://cdn.discordapp.com/icons/server_id/icon_id.png
 
 > `{server.owner}`
-> This variable will return the mention of the owner of the guild in question. (if applicable)
+> This variable will return the mention of the owner of the server in question. (if applicable)
 > **Example**: @DiscordUser#0000
 
 > `{server.ownerID}`
-> This variable will return the id of the owner of the guild in question. (if applicable)
+> This variable will return the id of the owner of the server in question. (if applicable)
 > **Example**: 123456789123456789
 
 > `{server.members}`
-> This variable will return the member count of the guild in question.
+> This variable will return the member count of the server in question.
 > **Example**: 123,456
 
 > `{server.splash}`
-> This variable will return the splash url of the guild in question. (if applicable)
+> This variable will return the splash url of the server in question. (if applicable)
 > **Example**: https://cdn.discordapp.com/splashes/server_id/splash_id.png
 
 > `{server.banner}`
-> This variable will return the banner url of the guild in question. (if applicable)
+> This variable will return the banner url of the server in question. (if applicable)
 > **Example**: https://cdn.discordapp.com/banners/server_id/banner_id.png

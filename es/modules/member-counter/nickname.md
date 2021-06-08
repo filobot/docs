@@ -1,5 +1,5 @@
 ---
-title: Member Counter Nickname
+title: Apodo Contador de Miembros
 description:
 published: true
 date: Mon Jun 07 2021 16:02:39 GMT+0000 (Coordinated Universal Time)
@@ -8,70 +8,70 @@ tags:
 editor: markdown
 ---
 
-# About the module
+# Acerca del módulo
 
-This module will allow you to set a member counter on Filo's nickname.
+Este módulo te permitirá establecer un contador de miembros en el apodo de Filo.
 
-# Getting Started
+# Empezando
 
-Before proceeding with this article, you must take into account a series of elements that can influence when you are going to carry out any action described on this page:
+Antes de continuar con este artículo, debes tener en cuenta una serie de elementos que pueden influir cuando vayas a realizar alguna acción descrita en esta página:
 
-- Filo requires the following advanced permission: ``CHANGE_NICKNAME``.
+- Filo requiere el siguiente permiso avanzado: ``CHANGE_NICKNAME``.
 
-- Filo requires the following basic permissions: ``VIEW_CHANNEL``, ``SEND_MESSAGES``, ``EMBED_LINKS``, ``USE_EXTERNAL_EMOJIS``, ``READ_MESSAGE_HISTORY`` and ``ADD_REACTIONS``.
+- Filo requiere los siguientes permisos básicos: ``VIEW_CHANNEL``, ``SEND_MESSAGES``, ``EMBED_LINKS``, ``USE_EXTERNAL_EMOJIS``, ``READ_MESSAGE_HISTORY`` y ``ADD_REACTIONS``.
 
-- You need ``ADMINISTRATOR`` permission to perform most of the actions in this article.
+- Necesitas el permiso ``ADMINISTRATOR`` para realizar la mayoría de las acciones de este artículo.
 
-- You should replace <kbd>f!</kbd> with the current prefix you have set. More information on how to change the prefix by **[clicking here](es/modules/prefix)**.
+- Debes reemplazar <kbd>f!</kbd> con el prefijo actual que hayas establecido. Más información sobre cómo cambiar el prefijo haciendo **[clic aquí](es/modules/prefix)**.
 
-# Module Exceptions
+# Excepciones del módulo
 
-This module has exceptions, which means that it won't work if some of the requirements mentioned below are met:
+Este módulo tiene excepciones, lo que significa que no funcionará si se cumplen algunos de los requisitos que se mencionan a continuación:
 
-- If Filo doesn't have ``CHANGE_NICKNAME`` permission. **^1^**
+- Si Filo no tiene el permiso ``CHANGE_NICKNAME``. **^1^**
 
-**^1^** If this requirement is met, the module settings will be reset.
+**^1^** Si se cumple este requisito, la configuración del módulo se restablecerá.
 
-# Steps to enable the module
+# Pasos para habilitar el módulo
 
-## **Step 1**: Enable the module
+## **Paso 1**: Habilitar el módulo
 
-To enable the module you must execute the following command: <kbd>f!config member-counter nickname enable</kbd>.
+Para habilitar el módulo debes ejecutar el siguiente comando: <kbd>f!config member-counter nickname enable</kbd>.
 
-**Example**: <kbd>f!config member-counter nickname enable</kbd>.
+**Ejemplo**: <kbd>f!config member-counter nickname enable</kbd>.
 
-# Steps to disable the module
+# Pasos para deshabilitar el módulo
 
-## **Step 1**: Disable the module
+## **Paso 1**: Deshabilitar el módulo
 
-To disable the module you must execute the following command: <kbd>f!config member-counter nickname disable</kbd>.
+Para deshabilitar el módulo debes ejecutar el siguiente comando: <kbd>f!config member-counter nickname disable</kbd>.
 
-**Example**: <kbd>f!config member-counter nickname disable</kbd>.
+**Ejemplo**: <kbd>f!config member-counter nickname disable</kbd>.
 
-# Steps to set the nickname
+# Pasos para establecer el apodo
 
-## **Step 1**: Set the nickname
+## **Paso 1**: Establecer el apodo
 
-To set the nickname you must execute the following command: <kbd>f!config member-counter nickname set \<Name {members}></kbd>.
+Para establecer el apodo debes ejecutar el siguiente comando: <kbd>f!config member-counter nickname set \<Nombre {members}></kbd>.
 
-> Don't include ``<>`` when you're running the command.
+> No incluyas ``<>`` cuando estés ejecutando el comando.
 {.is-warning}
 
-> The nickname can't exceed **28 characters** in length and must include the variable `{members}` in the content.
+> El apodo no puede exceder los **28 caracteres** de longitud y debe incluir la variable `{members}` en el contenido.
 {.is-danger}
 
-**Example**: <kbd>f!config member-counter nickname set 👥 Members: {members}</kbd>.
+**Ejemplo**: <kbd>f!config member-counter nickname set 👥 Members: {members}</kbd>.
 
-# Steps to reset module settings
+# Pasos para restablecer las configuraciones del módulo
 
-## **Step 1**: Reset the module settings
+## **Paso 1**: Restablecer las configuraciones del módulo
 
-To reset the module settings you must execute the following command: <kbd>f!config member-counter reset \<Nickname></kbd>.
+Para restablecer las configuraciones del módulo debes ejecutar el siguiente comando: <kbd>f!config member-counter reset \<Nickname></kbd>.
 
-> Don't include ``<>`` when you're running the command.
+> No incluyas ``<>`` cuando estés ejecutando el comando.
 {.is-warning}
 
-**Example**: <kbd>f!config member-counter reset nickname</kbd>.
+**Ejemplo**: <kbd>f!config member-counter reset nickname</kbd>.
 
-> You'll be forced to confirm the action you are about to take. Once you have confirmed the action, you won't be able to recover the previous data.
+> Te verás obligado a confirmar la acción que estas a punto de realizar. Una vez la hayas confirmado, no podrás recuperar los datos anteriores.
 {.is-danger}

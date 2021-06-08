@@ -8,160 +8,160 @@ tags:
 editor: markdown
 ---
 
-# About the module
+# Acerca del módulo
 
-This module will allow you to delete and warn a user who does spam.
+Este módulo te permitirá eliminar y advertir a aquellos usuarios que realicen spam.
 
-> We recommend using this module if you manage a community.
+> Recomendamos usar este módulo si administras una comunidad.
 {.is-success}
 
-# Getting Started
+# Empezando
 
-Before proceeding with this article, you must take into account a series of elements that can influence when you are going to carry out any action described on this page:
+Antes de continuar con este artículo, debes tener en cuenta una serie de elementos que pueden influir cuando vayas a realizar alguna acción descrita en esta página:
 
-- Filo requires the following advanced permission: ``MANAGE_MESSAGES``.
+- Filo requiere el siguiente permiso avanzado: ``MANAGE_MESSAGES``.
 
-- Filo requires the following basic permissions: ``VIEW_CHANNEL``, ``SEND_MESSAGES``, ``EMBED_LINKS``, ``USE_EXTERNAL_EMOJIS``, ``READ_MESSAGE_HISTORY`` and ``ADD_REACTIONS``.
+- Filo requiere los siguientes permisos básicos: ``VIEW_CHANNEL``, ``SEND_MESSAGES``, ``EMBED_LINKS``, ``USE_EXTERNAL_EMOJIS``, ``READ_MESSAGE_HISTORY`` y ``ADD_REACTIONS``.
 
-- You need ``ADMINISTRATOR`` permission to perform most of the actions in this article.
+- Necesitas el permiso ``ADMINISTRATOR`` para realizar la mayoría de las acciones de este artículo.
 
-- You should replace <kbd>f!</kbd> with the current prefix you have set. More information on how to change the prefix by **[clicking here](es/modules/prefix)**.
+- Debes reemplazar <kbd>f!</kbd> con el prefijo actual que hayas establecido. Más información sobre cómo cambiar el prefijo haciendo **[clic aquí](es/modules/prefix)**.
 
-# Module Exceptions
+# Excepciones del módulo
 
-This module has exceptions, which means that it won't work if some of the requirements mentioned below are met:
+Este módulo tiene excepciones, lo que significa que no funcionará si se cumplen algunos de los requisitos que se mencionan a continuación:
 
-- If Filo doesn't have ``VIEW_CHANNEL``, ``SEND_MESSAGES``, ``EMBED_LINKS``, ``USE_EXTERNAL_EMOJIS`` and ``MANAGE_MESSAGES`` permissions. **^1^**
+- Si Filo no tiene los permisos ``VIEW_CHANNEL``, ``SEND_MESSAGES``, ``EMBED_LINKS``, ``USE_EXTERNAL_EMOJIS`` y ``MANAGE_MESSAGES``. **^1^**
 
-- If the user has the ``ADMINISTRATOR`` permission. **^2^**
+- Si el usuario tiene el permiso ``ADMINISTRATOR``. **^2^**
 
-- If the user has the ``MANAGE_GUILD`` permission. **^2^**
+- Si el usuario tiene el permiso ``MANAGE_GUILD``. **^2^**
 
-- If the user has the ``MANAGE_MESSAGES`` permission. **^2^**
+- Si el usuario tiene el permiso ``MANAGE_MESSAGES``. **^2^**
 
-- If the user has the ``BAN_MEMBERS`` permission. **^2^**
+- Si el usuario tiene el permiso ``BAN_MEMBERS``. **^2^**
 
-- If the user has the ``KICK_MEMBERS`` permission. **^2^**
+- Si el usuario tiene el permiso ``KICK_MEMBERS``. **^2^**
 
-- If the position of the Filo's roles are lower than the user roles. **^2^**
+- Si la posición de los roles de Filo es más baja que la de los roles del usuario. **^2^**
 
-- If the position of the Filo's roles are equal to the user roles. **^2^**
+- Si la posición de los roles de Filo es igual que la de los roles del usuario. **^2^**
 
-**^1^** If this requirement is met, the module settings will be reset.
+**^1^** Si se cumple este requisito, la configuración del módulo se restablecerá.
 
-**^2^** If this or some of the requirements are met, the module won't work.
+**^2^** Si se cumplen estos o algunos de los requisitos, el módulo no funcionará.
 
-# Steps to enable the module
+# Pasos para habilitar el módulo
 
-## **Step 1**: Enable the module
+## **Paso 1**: Habilitar el módulo
 
-To enable the module you must execute the following command: <kbd>f!config anti-spam enable</kbd>.
+Para habilitar el módulo debes ejecutar el siguiente comando: <kbd>f!config anti-spam enable</kbd>.
 
-**Example**: <kbd>f!config anti-spam enable</kbd>.
+**Ejemplo**: <kbd>f!config anti-spam enable</kbd>.
 
-> This module can be supplemented with the **[Auto Moderation](/es/modules/auto-moderation)** module.
+> Este módulo se puede complementar con el módulo **[Auto Moderación](/es/modules/auto-moderation)**.
 {.is-success}
 
-# Steps to disable the module
+# Pasos para deshabilitar el módulo
 
-## **Step 1**: Disable the module
+## **Paso 1**: Deshabilitar el módulo
 
-To disable the module you must execute the following command: <kbd>f!config anti-spam disable</kbd>.
+Para deshabilitar el módulo debes ejecutar el siguiente comando: <kbd>f!config anti-spam disable</kbd>.
 
-**Example**: <kbd>f!config anti-spam disable</kbd>.
+**Ejemplo**: <kbd>f!config anti-spam disable</kbd>.
 
-# Steps to add a channel to the allowed list
+# Pasos para añadir un canal a la lista de permtiidos
 
-## **Step 1**: Add a channel to the allowed list
+## **Paso 1**: Añadir un canal a la lista de permitidos
 
-To add a channel to the allowed list you must execute the following command: <kbd>f!config anti-spam allow channel add \<#Channel/Channel ID></kbd>.
+Para añadir un canal a la lista de permitidos debes ejecutar el siguiente comando: <kbd>f!config anti-spam allow channel add \<#Canal/ID del Canal></kbd>.
 
-> Don't include ``<>`` when you're running the command.
+> No incluyas ``<>`` cuando estés ejecutando el comando.
 {.is-warning}
 
-**Example**: <kbd>f!config anti-spam allow channel add #spam-allowed</kbd>.
+**Ejemplo**: <kbd>f!config anti-spam allow channel add #spam-allowed</kbd>.
 
-> If you add a channel to the allowed list, a warn won't be granted to those users who spam on those channels.
+> Si agregas un canal a la lista de permitidos, no se otorgará una advertencia a los usuarios que envíen spam en esos canales.
 {.is-warning}
 
-# Steps to remove a channel to the allowed list
+# Pasos para eliminar un canal de la lista de permitidos
 
-## **Step 1**: Remove a channel to the allowed list
+## **Paso 1**: Eliminar un canal de la lista de permitidos
 
-To remove a channel to the allowed list you must execute the following command: <kbd>f!config anti-spam allow channel remove \<#Channel/Channel ID></kbd>.
+Para eliminar un canal de la lista de permitidos debes ejecutar el siguiente comando: <kbd>f!config anti-spam allow channel remove \<#Canal/ID del Canal></kbd>.
 
-> Don't include ``<>`` when you're running the command.
+> No incluyas ``<>`` cuando estés ejecutando el comando.
 {.is-warning}
 
-**Example**: <kbd>f!config anti-spam allow channel remove #general</kbd>.
+**Ejemplo**: <kbd>f!config anti-spam allow channel remove #general</kbd>.
 
-> If you remove a channel to the allowed list, a warn will be granted to those users who spam on those channels.
+> Si eliminas un canal de la lista de permitidos, se otorgará una advertencia a los usuarios que envíen spam en esos canales.
 {.is-warning}
 
-# Steps to add a channel to the allowed list
+# Pasos para añadir un canal a la lista de permtiidos
 
-## **Step 1**: Add a role to the allowed list
+## **Paso 1**: Añadir un rol a la lista de permitidos
 
-To add a role to the allowed list you must execute the following command: <kbd>f!config anti-spam allow role add \<@Role/Role ID></kbd>.
+Para añadir un rol a la lista de permitidos debes ejecutar el siguiente comando: <kbd>f!config anti-spam allow role add \<@Rol/ID del Rol></kbd>.
 
-> Don't include ``<>`` when you're running the command.
+> No incluyas ``<>`` cuando estés ejecutando el comando.
 {.is-warning}
 
-**Example**: <kbd>f!config anti-spam allow role add @Moderators</kbd>.
+**Ejemplo**: <kbd>f!config anti-spam allow role add @Moderators</kbd>.
 
-> If you add a role to the allowed list, users who have that role assigned won't be warned if they spam.
+> Si agregas un rol a la lista de permitidos, los usuarios que tengan ese rol asignado no recibirán una advertencia si envían spam.
 {.is-warning}
 
-# Steps to remove a role to the allowed list
+# Pasos para eliminar un rol de la lista de permitidos
 
-## **Step 1**: Remove a role to the allowed list
+## **Paso 1**: Eliminar un rol de la lista de permitidos
 
-To remove a role to the allowed list you must execute the following command: <kbd>f!config anti-spam allow role remove \<@Role/Role ID></kbd>.
+Para eliminar un rol de la lista de permitidos debes ejecutar el siguiente comando: <kbd>f!config anti-spam allow role remove \<@Rol/ID del Rol></kbd>.
 
-> Don't include ``<>`` when you're running the command.
+> No incluyas ``<>`` cuando estés ejecutando el comando.
 {.is-warning}
 
-**Example**: <kbd>f!config anti-spam allow role remove @Moderators</kbd>.
+**Ejemplo**: <kbd>f!config anti-spam allow role remove @Moderators</kbd>.
 
-> If you remove a role to the allowed list, users who have that role assigned will be warned if they spam.
+> Si eliminas un rol de la lista de permitidos, los usuarios que tengan ese rol asignado recibirán una advertencia si envían spam.
 {.is-warning}
 
-# Steps to set the threshold and time for duplicate messages
+# Pasos para establecer el umbral de mensajes duplicados y el tiempo
 
-## **Step 1**: Set the threshold for duplicate messages
+## **Paso 1**: Establecer el umbral de mensajes duplicados
 
-To set the threshold for duplicate messages you must execute the following command: <kbd>f!config anti-spam set duplicates threshold \<Threshold></kbd>.
+Para establecer el umbral de mensajes duplicados debes ejecutar el siguiente comando: <kbd>f!config anti-spam set duplicates threshold \<Umbral></kbd>.
 
-> Don't include ``<>`` when you're running the command.
+> No incluyas ``<>`` cuando estés ejecutando el comando.
 {.is-warning}
 
-**Example**: <kbd>f!config anti-spam set duplicates threshold 4</kbd>
+**Ejemplo**: <kbd>f!config anti-spam set duplicates threshold 4</kbd>
 
-> The value must be greater than **2**.
+> El valor debe ser mayor de **2**.
 {.is-warning}
 
-## **Step 2**: Set the time for duplicate messages
+## **Paso 2**: Establecer el tiempo para mensajes duplicados
 
-To set the time for duplicate messages you must execute the following command: <kbd>f!config anti-spam set duplicates time \<Time></kbd>.
+Para establecer el tiempo para mensajes duplicados debes ejecutar el siguiente comando: <kbd>f!config anti-spam set duplicates time \<Tiempo></kbd>.
 
-> Don't include ``<>`` when you're running the command.
+> No incluyas ``<>`` cuando estés ejecutando el comando.
 {.is-warning}
 
-**Example**: <kbd>f!config anti-spam set duplicates time 5s</kbd>
+**Ejemplo**: <kbd>f!config anti-spam set duplicates time 5s</kbd>
 
-> The duration of the action must be between **3 seconds** and **60 seconds**.
+> La duración de la acción debe estar entre **3 segundos** y **60 segundos**.
 {.is-warning}
 
-# Steps to reset module settings
+# Pasos para restablecer las configuraciones del módulo
 
-## **Step 1**: Reset the module settings
+## **Paso 1**: Restablecer las configuraciones del módulo
 
-To reset the module settings you must execute the following command: <kbd>f!config anti-spam reset \<Duplicates/Roles/Channels></kbd>.
+Para restablecer las configuraciones del módulo debes ejecutar el siguiente comando: <kbd>f!config anti-spam reset \<Duplicates/Roles/Channels></kbd>.
 
-> Don't include ``<>`` when you're running the command.
+> No incluyas ``<>`` cuando estés ejecutando el comando.
 {.is-warning}
 
-**Example**: <kbd>f!config anti-spam reset</kbd>.
+**Ejemplo**: <kbd>f!config anti-spam reset</kbd>.
 
-> You'll be forced to confirm the action you are about to take. Once you have confirmed the action, you won't be able to recover the previous data.
+> Te verás obligado a confirmar la acción que estas a punto de realizar. Una vez la hayas confirmado, no podrás recuperar los datos anteriores.
 {.is-danger}

@@ -1,5 +1,5 @@
 ---
-title: Commands
+title: Comandos
 description:
 published: true
 date: Thu Jun 03 2021 14:36:46 GMT+0000 (Coordinated Universal Time)
@@ -8,12 +8,12 @@ tags:
 editor: markdown
 ---
 
-# About the module
+# Acerca del módulo
 
-This module will allow you to partially customize the behavior of the Filo's commands.
+Este módulo te permitirá personalizar parcialmente el comportamiento de los comandos de Filo.
 
-# Summary
+# Índice
 
-## Disable commands
+## Deshabilitar Comandos
 
-If you want to disable a filo's command or re-enable it, **[click here](/es/modules/commands/disable)** and we'll take you to the guided article in no time
+Si quieres deshabilitar un comando de filo o volver a habilitarlo, haz **[clic aquí](/es/modules/commands/disable)** y lo llevaremos al artículo guiado en poco tiempo

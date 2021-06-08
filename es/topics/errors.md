@@ -1,5 +1,5 @@
 ---
-title: Common Errors
+title: Errores Comunes
 description:
 published: true
 date: Thu Jun 03 2021 14:35:05 GMT+0000 (Coordinated Universal Time)
@@ -8,66 +8,66 @@ tags:
 editor: markdown
 ---
 
-Here you'll find documented all Filo errors along with their possible solutions.
+Aquí encontrarás documentados todos los errores de Filo junto con sus posibles soluciones.
 
-# Something went wrong when trying to execute that action
+# Algo salió mal al intentar ejecutar esa acción
 
-## Without Tracking ID
+## Sin ID de Seguimiento
 
-This is an error that will be granted whenever something fails on your part, for example, the lack of permissions from Filo can cause this error to be sent.
+Este es un error que se otorgará siempre que algo falle de tu parte, por ejemplo, la falta de permisos de Filo puede hacer que se envíe este error.
 
-**Solution**: Check that the Filo permissions are correctly placed and that the role hierarchy is appropriate for each situation.
+**Solución**: Verifica que los permisos de Filo estén colocados correctamente y que la jerarquía de roles sea adecuada para cada situación.
 
-## With Tracking ID
+## Con ID de Seguimiento
 
-This error occurs when something isn't working on our side or the Discord API doesn't return satisfactory responses.
+Este error ocurre cuando algo no funciona de nuestro lado o la API de Discord no devuelve respuestas satisfactorias.
 
-**Solution**: Inform the Filo Development Team and wait for a solution to the problem.
+**Solución**: Informa al equipo de desarrollo de Filo y espere una solución al problema.
 
-> It's possible that there's no definitive solution, depending on the causes of the error.
+> Es posible que no haya una solución definitiva, dependiendo de las causas del error.
 {.is-warning}
 
-# The ``EXAMPLE`` module is disabled
+# El módulo ``EJEMPLO`` está deshabilitado
 
-This is an error that's sent when you try to use a command or functionality that's only available if you have the necessary module enabled.
+Este es un error que se envía cuando intenta usar un comando o función que solo está disponible si tiene habilitado el módulo necesario.
 
-**Solution**: Enable the necessary module that's specified in the error message.
+**Solución**: Habilite el módulo necesario que se especifica en el mensaje de error.
 
-# The ``EXAMPLE`` module doesn't work even though it's enabled
+# El módulo ``EJEMPLO`` no funciona aunque está habilitado
 
-This error is given when something in the module configuration does not work as it should; The causes could be: lack of necessary permissions, problems in the role hierarchy, the necessary channel ceased to exist, malformation of the information sent by the module, the webhook ceased to exist, etc.
+Este error se da cuando algo en la configuración del módulo no funciona como debería; Las causas podrían ser: falta de permisos necesarios, problemas en la jerarquía de roles, el canal necesario dejó de existir, malformación de la información enviada por el módulo, el webhook dejó de existir, etc.
 
-**Solution**: Check that the configuration is correct, the permissions are correct and if the hierarchy is correct.
+**Solución**: Compruebe que la configuración sea correcta, los permisos sean correctos y si la jerarquía es correcta.
 
-> If you can't determine the problem why the module doesn't work, **[contact us](https://filobot.xyz/discord)**.
+> Si no puedes determinar el problema por el que el módulo no funciona, **[contáctanos](https://filobot.xyz/discord)**.
 {.is-warning}
 
-# You don't have permissions to run the ``EXAMPLE`` command
+# No tienes permisos para ejecutar el comando ``EJEMPLO``
 
-This error is given when you try to execute a command that you shouldn't have access to, for example, a moderation command without being a server moderator.
+Este error se da cuando intentas ejecutar un comando al que no deberías tener acceso, por ejemplo, un comando de moderación sin ser moderador del servidor.
 
-**Solution**: Ask a superior of your server to establish the necessary permissions for the execution of the command in question.
+**Solución**: Solicite a un superior de su servidor que establezca los permisos necesarios para la ejecución del comando en cuestión.
 
-> If you can't determine which permission is necessary, **[contact us](https://filobot.xyz/discord)**.
+> Si no puedes determinar qué permiso es necesario, **[contáctanos](https://filobot.xyz/discord)**.
 {.is-warning}
 
-# You don't have permissions to run the command ``EXAMPLE`` to ``DiscordUser#0000``
+# No tienes permisos para ejecutar el comando ``EJEMPLO`` con ``DiscordUser#0000``
 
-This error is given when you try to execute a command with a user who has a higher role hierarchy than yours.
+Este error se da cuando intentas ejecutar un comando con un usuario que tiene una jerarquía de roles más alta que la tuya.
 
-**Solution**: Ask a superior to review your role hierarchy and that of the user with whom you want to run the command.
+**Solución**: Solicite a un superior que revise su jerarquía de roles y la del usuario con el que desea ejecutar el comando.
 
-# An error occurred while trying to contact the API
+# Se produjo un error al intentar comunicarse con la API
 
-This error is given when the command or module depends on a third-party API and it doesn't return a successful response.
+Este error se da cuando el comando o módulo depende de una API de terceros y no devuelve una respuesta satisfactoria.
 
-**Solution**: Try to try the action taken later, if it continues the same, **[contact us](https://filobot.xyz/discord)**.
+**Solución**: Intente probar la acción tomada más tarde, si continúa igual, **[contáctanos](https://filobot.xyz/discord)**.
 
-# Filo doesn't respond to any command
+# Filo no responde a ningún comando
 
-This error occurs when the Discord API doesn't send the necessary information about the permissions of Filo in the command execution channel.
+Este error ocurre cuando la API de Discord no envía la información necesaria sobre los permisos de Filo en el canal de ejecución de comandos.
 
-**Solution**: Please try again later and if the problem persists, **[contact us](https://filobot.xyz/discord)**.
+**Solución**: Vuelve a intentarlo más tarde y, si el problema persiste, **[contáctanos](https://filobot.xyz/discord)**.
 
-> There's currently no definitive solution to this error.
+> Actualmente no hay una solución definitiva a este error.
 {.is-danger}

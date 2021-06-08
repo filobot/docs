@@ -1,5 +1,5 @@
 ---
-title: Welcomes
+title: Bienvenidas
 description:
 published: true
 date: Mon Jun 07 2021 16:01:56 GMT+0000 (Coordinated Universal Time)
@@ -8,116 +8,116 @@ tags:
 editor: markdown
 ---
 
-# About the module
+# Acerca del módulo
 
-This module will allow you to send a welcome message to the new members of the server.
+Este módulo te permitirá enviar un mensaje de bienvenida a los nuevos miembros del servidor.
 
-> We recommend using this module if you manage a community.
+> Recomendamos usar este módulo si administras una comunidad.
 {.is-success}
 
-# Getting Started
+# Empezando
 
-Before proceeding with this article, you must take into account a series of elements that can influence when you are going to carry out any action described on this page:
+Antes de continuar con este artículo, debes tener en cuenta una serie de elementos que pueden influir cuando vayas a realizar alguna acción descrita en esta página:
 
-- Filo requires the following advanced permissions: ``VIEW_CHANNEL``, ``SEND_MESSAGES``, ``EMBED_LINKS`` and ``USE_EXTERNAL_EMOJIS``.
+- Filo requiere los siguientes permisos avanzados: ``VIEW_CHANNEL``, ``SEND_MESSAGES``, ``EMBED_LINKS`` y ``USE_EXTERNAL_EMOJIS``.
 
-- Filo requires the following basic permissions: ``VIEW_CHANNEL``, ``SEND_MESSAGES``, ``EMBED_LINKS``, ``USE_EXTERNAL_EMOJIS``, ``READ_MESSAGE_HISTORY`` and ``ADD_REACTIONS``.
+- Filo requiere los siguientes permisos básicos: ``VIEW_CHANNEL``, ``SEND_MESSAGES``, ``EMBED_LINKS``, ``USE_EXTERNAL_EMOJIS``, ``READ_MESSAGE_HISTORY`` y ``ADD_REACTIONS``.
 
-- You need ``ADMINISTRATOR`` permission to perform most of the actions in this article.
+- Necesitas el permiso ``ADMINISTRATOR`` para realizar la mayoría de las acciones de este artículo.
 
-- You should replace <kbd>f!</kbd> with the current prefix you have set. More information on how to change the prefix by **[clicking here](es/modules/prefix)**.
+- Debes reemplazar <kbd>f!</kbd> con el prefijo actual que hayas establecido. Más información sobre cómo cambiar el prefijo haciendo **[clic aquí](es/modules/prefix)**.
 
-# Module Exceptions
+# Excepciones del módulo
 
-This module has exceptions, which means that it won't work if some of the requirements mentioned below are met:
+Este módulo tiene excepciones, lo que significa que no funcionará si se cumplen algunos de los requisitos que se mencionan a continuación:
 
-- If Filo doesn't have ``VIEW_CHANNEL``, ``SEND_MESSAGES``, ``EMBED_LINKS`` and ``USE_EXTERNAL_EMOJIS`` permissions. **^1^**
+- Si Filo no tiene los permisos ``VIEW_CHANNEL``, ``SEND_MESSAGES``, ``EMBED_LINKS`` y ``USE_EXTERNAL_EMOJIS``. **^1^**
 
-**^1^** If this requirement is met, the module settings will be reset.
+**^1^** Si se cumple este requisito, la configuración del módulo se restablecerá.
 
-# Steps to enable the module
+# Pasos para habilitar el módulo
 
-## **Step 1**: Enable the module
+## **Paso 1**: Habilitar el módulo
 
-To enable the module you must execute the following command: <kbd>f!config welcomes enable</kbd>.
+Para habilitar el módulo debes ejecutar el siguiente comando: <kbd>f!config welcomes enable</kbd>.
 
-**Example**: <kbd>f!config welcomes enable</kbd>.
+**Ejemplo**: <kbd>f!config welcomes enable</kbd>.
 
-# Steps to disable the module
+# Pasos para deshabilitar el módulo
 
-## **Step 1**: Disable the module
+## **Paso 1**: Deshabilitar el módulo
 
-To disable the module you must execute the following command: <kbd>f!config welcomes disable</kbd>.
+Para deshabilitar el módulo debes ejecutar el siguiente comando: <kbd>f!config welcomes disable</kbd>.
 
-**Example**: <kbd>f!config welcomes disable</kbd>.
+**Ejemplo**: <kbd>f!config welcomes disable</kbd>.
 
-# Steps to set the welcomes channel
+# Pasos para establecer el canal de bienvenidas
 
-## **Step 1**: Set the welcomes channel
+## **Paso 1**: Establecer el canal de bienvenidas
 
-To set the welcomes channel you must execute the following command: <kbd>f!config welcomes set channel \<#Channel/Channel ID></kbd>.
+Para establecer el canal de bienvenidas debes ejecutar el siguiente comando: <kbd>f!config welcomes set channel \<#Canal/ID del Canal></kbd>.
 
-> Don't include ``<>`` when you're running the command.
+> No incluyas ``<>`` cuando estés ejecutando el comando.
 {.is-warning}
 
-**Example**: <kbd>f!config welcomes set channel #welcomes</kbd>.
+**Ejemplo**: <kbd>f!config welcomes set channel #welcomes</kbd>.
 
-# Steps to set the welcome message
+# Pasos para establecer el mensaje de bienvenida
 
-## **Step 1**: Set the welcome message
+## **Paso 1**: Establecer el mensaje de bienvenida
 
-To set the welcomes channel you must execute the following command: <kbd>f!config welcomes set message \<Message></kbd>.
+Para establecer el canal de bienvenidas debes ejecutar el siguiente comando: <kbd>f!config welcomes set message \<Mensaje></kbd>.
 
-> Don't include ``<>`` when you're running the command.
+> No incluyas ``<>`` cuando estés ejecutando el comando.
 {.is-warning}
 
-> You can set variables in the welcome message. You can find a list of all variables by **[clicking here](/es/modules/welcomes/variables)**.
+> Puedes establecer variables en el mensaje de bienvenida. Puedes encontrar una lista de todas las variables haciendo **[clic aquí](/es/modules/welcomes/variables)**.
 {.is-info}
 
-**Example**: <kbd>f!config welcomes set message Goodbye {user.tag}!</kbd>.
+**Ejemplo**: <kbd>f!config welcomes set message Goodbye {user.tag}!</kbd>.
 
 > ```md
 > Welcome {user} to the server **{server}**! 😉
 > Thanks to you we are **{server.members}** total members! 🎉
 > ```
-> **Message code**
+> **Código del mensaje**
 >
 > Welcome @DiscordUser to the server **Awesome Server**! 😉
 > Thanks to you we are **123,456** total members! 🎉
 >
-> **Result message**
+> **Resultado del mensaje**
 
-# Steps to set the message type
+# Pasos para establecer el tipo de mensaje
 
-## **Step 1**: Set the message type
+## **Paso 1**: Establecer el tipo de mensaje
 
-To set the message type you must execute the following command: <kbd>f!config welcomes set type \<Normal/Embed></kbd>.
+Para establecer el tipo de mensaje debes ejecutar el siguiente comando: <kbd>f!config welcomes set type \<Normal/Embed></kbd>.
 
-> Don't include ``<>`` when you're running the command.
+> No incluyas ``<>`` cuando estés ejecutando el comando.
 {.is-warning}
 
-**Example**: <kbd>f!config welcomes set type embed</kbd>.
+**Ejemplo**: <kbd>f!config welcomes set type embed</kbd>.
 
-> If users have disabled the display of embeds, they won't see the welcome message.
+> Si los usuarios han desactivado la visualización de embeds, no verán el mensaje de bienvenida.
 {.is-danger}
 
-## **Step 12**: Set the embed color (optional)
+## **Paso 12**: Establecer el color del embed (opcional)
 
-Currently Filo doesn't have a command to set the embed color, however there is a way to change it. When Filo is going to send the welcome message through an embed, it obtains the information of the highest role assigned to it. If said role has a custom color, the color of the embed will be the same as said role.
+Actualmente, Filo no tiene un comando para establecer el color del embed, sin embargo, hay una forma de cambiarlo. Cuando Filo va a enviar el mensaje de bienvenida a través de un embed, obtiene la información del rol más alto que ella tiene asignado. Si dicho rol tiene un color personalizado, el color del embed será el mismo que dicho rol.
 
-> Check out this article from the Discord support center by **[clicking here](https://support.discord.com/hc/en-us/articles/214836687)**
+> Consulta este artículo del centro de soporte de Discord haciendo **[clic aquí](https://support.discord.com/hc/en-us/articles/214836687)**
 {.is-info}
 
-# Steps to reset module settings
+# Pasos para restablecer las configuraciones del módulo
 
-## **Step 1**: Reset the module settings
+## **Paso 1**: Restablecer las configuraciones del módulo
 
-To reset the module settings you must execute the following command: <kbd>f!config welcomes reset \<Channel/Message/Type/Role> (optional)</kbd>.
+Para restablecer las configuraciones del módulo debes ejecutar el siguiente comando: <kbd>f!config welcomes reset \<Channel/Message/Type/Role> (opcional)</kbd>.
 
-> Don't include ``<>`` when you're running the command.
+> No incluyas ``<>`` cuando estés ejecutando el comando.
 {.is-warning}
 
-**Example**: <kbd>f!config welcomes reset</kbd>.
+**Ejemplo**: <kbd>f!config welcomes reset</kbd>.
 
-> You'll be forced to confirm the action you are about to take. Once you have confirmed the action, you won't be able to recover the previous data.
+> Te verás obligado a confirmar la acción que estas a punto de realizar. Una vez la hayas confirmado, no podrás recuperar los datos anteriores.
 {.is-danger}

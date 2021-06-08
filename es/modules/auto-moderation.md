@@ -1,5 +1,5 @@
 ---
-title: Auto Moderation
+title: Auto Moderación
 description:
 published: true
 date: Mon Jun 07 2021 15:58:13 GMT+0000 (Coordinated Universal Time)
@@ -8,121 +8,121 @@ tags:
 editor: markdown
 ---
 
-# About the module
+# Acerca del módulo
 
-This module will allow you to automatically sanction those users who repeatedly have incorrect behavior.
+Este módulo te permitirá sancionar automáticamente a aquellos usuarios que tengan repetidamente un comportamiento incorrecto.
 
-> We recommend using this module if you manage a community.
+> Recomendamos usar este módulo si administras una comunidad.
 {.is-success}
 
-# Getting Started
+# Empezando
 
-Before proceeding with this article, you must take into account a series of elements that can influence when you are going to carry out any action described on this page:
+Antes de continuar con este artículo, debes tener en cuenta una serie de elementos que pueden influir cuando vayas a realizar alguna acción descrita en esta página:
 
-- Filo requires the following advanced permissions: {{permissions}} (if applicable).
+- Filo requiere los siguientes permisos avanzados: {{permissions}} (si aplica).
 
-- Filo requires the following basic permissions: ``VIEW_CHANNEL``, ``SEND_MESSAGES``, ``EMBED_LINKS``, ``USE_EXTERNAL_EMOJIS``, ``READ_MESSAGE_HISTORY`` and ``ADD_REACTIONS``.
+- Filo requiere los siguientes permisos básicos: ``VIEW_CHANNEL``, ``SEND_MESSAGES``, ``EMBED_LINKS``, ``USE_EXTERNAL_EMOJIS``, ``READ_MESSAGE_HISTORY`` y ``ADD_REACTIONS``.
 
-- You need ``ADMINISTRATOR`` permission to perform most of the actions in this article.
+- Necesitas el permiso ``ADMINISTRATOR`` para realizar la mayoría de las acciones de este artículo.
 
-- You should replace <kbd>f!</kbd> with the current prefix you have set. More information on how to change the prefix by **[clicking here](es/modules/prefix)**.
+- Debes reemplazar <kbd>f!</kbd> con el prefijo actual que hayas establecido. Más información sobre cómo cambiar el prefijo haciendo **[clic aquí](es/modules/prefix)**.
 
-# Module Exceptions
+# Excepciones del módulo
 
-This module has exceptions, which means that it won't work if some of the requirements mentioned below are met:
+Este módulo tiene excepciones, lo que significa que no funcionará si se cumplen algunos de los requisitos que se mencionan a continuación:
 
-- If Filo doesn't have ``VIEW_CHANNEL``, ``SEND_MESSAGES``, ``EMBED_LINKS``, ``USE_EXTERNAL_EMOJIS``, ``MANAGE_MESSAGES``, ``MANAGE_ROLES``, ``KICK_MEMBERS`` and ``BAN_MEMBERS`` permissions. **^1^**
+- Si Filo no tiene los permisos ``VIEW_CHANNEL``, ``SEND_MESSAGES``, ``EMBED_LINKS``, ``USE_EXTERNAL_EMOJIS``, ``MANAGE_MESSAGES``, ``MANAGE_ROLES``, ``KICK_MEMBERS`` y ``BAN_MEMBERS``. **^1^**
 
-- If the user has the ``ADMINISTRATOR`` permission. **^2^**
+- Si el usuario tiene el permiso ``ADMINISTRATOR``. **^2^**
 
-- If the user has the ``MANAGE_GUILD`` permission. **^2^**
+- Si el usuario tiene el permiso ``MANAGE_GUILD``. **^2^**
 
-- If the user has the ``MANAGE_ROLES`` permission. **^2^**
+- Si el usuario tiene el permiso ``MANAGE_ROLES``. **^2^**
 
-- If the user has the ``MANAGE_MESSAGES`` permission. **^2^**
+- Si el usuario tiene el permiso ``MANAGE_MESSAGES``. **^2^**
 
-- If the user has the ``BAN_MEMBERS`` permission. **^2^**
+- Si el usuario tiene el permiso ``BAN_MEMBERS``. **^2^**
 
-- If the user has the ``KICK_MEMBERS`` permission. **^2^**
+- Si el usuario tiene el permiso ``KICK_MEMBERS``. **^2^**
 
-- If the user has the ``MUTE_MEMBERS`` permission. **^2^**
+- Si el usuario tiene el permiso ``MUTE_MEMBERS``. **^2^**
 
-- If the position of the Filo's roles are lower than the user roles. **^2^**
+- Si la posición de los roles de Filo es más baja que la de los roles del usuario. **^2^**
 
-- If the position of the Filo's roles are equal to the user roles. **^2^**
+- Si la posición de los roles de Filo es igual que la de los roles del usuario. **^2^**
 
-**^1^** If this requirement is met, the module settings will be reset.
+**^1^** Si se cumple este requisito, la configuración del módulo se restablecerá.
 
-**^2^** If this or some of the requirements are met, the module won't work.
+**^2^** Si se cumplen estos o algunos de los requisitos, el módulo no funcionará.
 
-# Steps to enable the module
+# Pasos para habilitar el módulo
 
-## **Step 1**: Enable the module
+## **Paso 1**: Habilitar el módulo
 
-To enable the module you must execute the following command: <kbd>f!config auto-moderation enable</kbd>.
+Para habilitar el módulo debes ejecutar el siguiente comando: <kbd>f!config auto-moderation enable</kbd>.
 
-**Example**: <kbd>f!config auto-moderation enable</kbd>.
+**Ejemplo**: <kbd>f!config auto-moderation enable</kbd>.
 
-> This module can be supplemented with the **[Anti Evasion](/es/modules/anti-evasion)** module.
+> Este módulo se puede complementar con el módulo **[Anti Evasión](/es/modules/anti-evasion)**.
 {.is-success}
 
-# Steps to disable the module
+# Pasos para deshabilitar el módulo
 
-## **Step 1**: Disable the module
+## **Paso 1**: Deshabilitar el módulo
 
-To disable the module you must execute the following command: <kbd>f!config auto-moderation disable</kbd>.
+Para deshabilitar el módulo debes ejecutar el siguiente comando: <kbd>f!config auto-moderation disable</kbd>.
 
-**Example**: <kbd>f!config auto-moderation disable</kbd>.
+**Ejemplo**: <kbd>f!config auto-moderation disable</kbd>.
 
-# Steps to set maximum warnings per level
+# Pasos para establecer las advertencias máximas por nivel
 
-## **Step 1**: Set maximum warnings per level
+## **Paso 1**: Establecer las advertencias máximas por nivel
 
-To set maximum warnings per level you must execute the following command: <kbd>f!config auto-moderation set level \<Level> \<Number></kbd>.
+Para establecer las advertencias máximas por nivel debes ejecutar el siguiente comando: <kbd>f!config auto-moderation set level \<Nivel> \<Número></kbd>.
 
-> Don't include ``<>`` when you're running the command.
+> No incluyas ``<>`` cuando estés ejecutando el comando.
 {.is-warning}
 
-**Example**: <kbd>f!config auto-moderation set level 1 3</kbd>.
+**Ejemplo**: <kbd>f!config auto-moderation set level 1 3</kbd>.
 
-# Steps to set a action per level
+# Pasos para establecer la acción por nivel
 
-## **Step 1**: Set a action per level
+## **Paso 1**: Establecer la acción por nivel
 
-To set a action per level you must execute the following command: <kbd>f!config auto-moderation set action \<Level> \<Action></kbd>.
+Para establecer la acción por nivel debes ejecutar el siguiente comando: <kbd>f!config auto-moderation set action \<Nivel> \<Acción></kbd>.
 
-> Don't include ``<>`` when you're running the command.
+> No incluyas ``<>`` cuando estés ejecutando el comando.
 {.is-warning}
 
-> You can see a full list of actions that Filo supports by **[clicking here](/es/modules/auto-moderation/actions)**
+> Puedes ver una lista completa de las acciones que admite Filo haciendo **[clic aquí](/es/modules/auto-moderation/actions)**
 {.is-info}
 
-**Example**: <kbd>f!config auto-moderation set action 1 kick</kbd>.
+**Ejemplo**: <kbd>f!config auto-moderation set action 1 kick</kbd>.
 
-# Steps to set the time of a action per level
+# Pasos para establecer el tiempo de la acción por nivel
 
-## **Step 1**: Set the time of a action per level
+## **Paso 1**: Establecer el tiempo de la acción por nivel
 
-To set the time of a action per level you must execute the following command: <kbd>f!config auto-moderation set time \<Level> \<Time></kbd>.
+Para establecer el tiempo de la acción por nivel debes ejecutar el siguiente comando: <kbd>f!config auto-moderation set time \<Nivel> \<Tiempo></kbd>.
 
-> Don't include ``<>`` when you're running the command.
+> No incluyas ``<>`` cuando estés ejecutando el comando.
 {.is-warning}
 
-**Example**: <kbd>f!config auto-moderation set time 1 1h</kbd>.
+**Ejemplo**: <kbd>f!config auto-moderation set time 1 1h</kbd>.
 
-> The duration of the action must be between **1 minutes** and **24 days**.
+> La duración de la acción debe estar entre **1 minutos** y **24 dias**.
 {.is-warning}
 
-# Steps to reset module settings
+# Pasos para restablecer las configuraciones del módulo
 
-## **Step 1**: Reset the module settings
+## **Paso 1**: Restablecer las configuraciones del módulo
 
-To reset the module settings you must execute the following command: <kbd>f!config auto-moderation reset \<Levels></kbd>.
+Para restablecer las configuraciones del módulo debes ejecutar el siguiente comando: <kbd>f!config auto-moderation reset \<Levels></kbd>.
 
-> Don't include ``<>`` when you're running the command.
+> No incluyas ``<>`` cuando estés ejecutando el comando.
 {.is-warning}
 
-**Example**: <kbd>f!config auto-moderation reset</kbd>.
+**Ejemplo**: <kbd>f!config auto-moderation reset</kbd>.
 
-> You'll be forced to confirm the action you are about to take. Once you have confirmed the action, you won't be able to recover the previous data.
+> Te verás obligado a confirmar la acción que estas a punto de realizar. Una vez la hayas confirmado, no podrás recuperar los datos anteriores.
 {.is-danger}

@@ -1,5 +1,5 @@
 ---
-title: Invite Filo
+title: Invitar a Filo
 description:
 published: true
 date: Thu Jun 03 2021 18:07:51 GMT+0000 (Coordinated Universal Time)
@@ -8,56 +8,56 @@ tags:
 editor: markdown
 ---
 
-Below you'll find a guided explanation of how to invite Filo and the permissions that we recommend.
+A continuación, encontrará una explicación guiada de cómo invitar a Filo y los permisos que recomendamos.
 
-> You must be the **owner** of the server you want to add Filo to or have one of these permissions: `MANAGE_GUILD` and {`ADMINISTRATOR`}.
+> Debe ser el **propietario** del servidor al que desea agregar Filo o tener uno de estos permisos: `MANAGE_GUILD` o {`ADMINISTRATOR`}.
 {.is-warning}
 
-> Currently Filo doesn't support the use of Slash Commands without the scope bot in the invitation. If you add the Slash Commands integration to your server and don't add Filo to the server as well, the Slash Commands will always return a generic error in English.
+> Actualmente, Filo no admite el uso de comandos de barra sin el bot de alcance en la invitación. Si agrega la integración de comandos de barra a su servidor y no agrega a Filo al servidor también, los comandos de barra siempre devolverán un error genérico en inglés.
 {.is-danger}
 
-## **Step 1**: Open the Filo invite in the browser
+## **Paso 1**: Abra la invitación de Filo en el navegador
 
-**[Clicking here](https://filobot.xyz/invite)** will redirect you to the invite with the recommended permissions and the scope of slash commands as an extra.
+Haciendo **[clic aquí](https://filobot.xyz/invite)** se le redirigirá a la invitación con los permisos recomendados y el scope de los comandos de barra como un extra.
 
 > <p align=center><img src="https://raw.githubusercontent.com/filobot/docs/main/resources/Invite Filo. Step 1.png" alt="If the image doesn't load, please contact us." /><br>
-> <i>Example of the important Filo invite screen.</i></p>
+> <i>Ejemplo de lo importante de la pantalla de invitación de Filo.</i></p>
 {.is-image}
 
-> If you don't want to have Filo's Slash Commands, you can choose to use this **[invite](https://filobot.xyz/invite/alternative)**.
+> Si no desea tener los comandos de barra inclinada de Filo, puede optar por utilizar esta **[invitación](https://filobot.xyz/invite/alternative)**.
 {.is-success}
 
-## **Step 2**: Select the server where to add Filo
+## **Paso 2**: Seleccione el servidor donde agregar a Filo
 
-Go to the down arrow of the section nicknamed **Add to server** and select the name of the server where you want to add Filo.
+Vaya a la flecha hacia abajo de la sección apodada **Agregar al servidor** y seleccione el nombre del servidor donde desea agregar a Filo.
 
 > <p align=center><img src="https://raw.githubusercontent.com/filobot/docs/main/resources/Invite Filo. Step 2.png" alt="If the image doesn't load, please contact us." /><br>
-> <i>Image where the section mentioned above is highlighted.</i></p>
+> <i>Imagen donde se resalta la sección mencionada anteriormente.</i></p>
 {.is-image}
 
-Once you have selected a server, the screen should look like the image below.
+Una vez que haya seleccionado un servidor, la pantalla debería verse como la imagen de abajo.
 
 > <p align=center><img src="https://raw.githubusercontent.com/filobot/docs/main/resources/Invite Filo. Step 2 Result.png" alt="If the image doesn't load, please contact us." /><br>
 {.is-image}
 
-At the bottom of the invite box you'll find a button called **Continue**. Click on it when you have selected the server.
+En la parte inferior del cuadro de invitación, encontrará un botón llamado **Continuar**. Haga clic en él cuando haya seleccionado el servidor.
 
-## **Step 3**: Select permissions (optional)
+## **Paso 3**: Seleccionar permisos (opcional)
 
-In this section you'll be able to customize the permissions you want to grant to Filo globally (not by channel). If you don't want to change them, just click the **Continue** button.
+En esta sección podrá personalizar los permisos que desea otorgar a Filo globalmente (no por canal). Si no desea cambiarlos, simplemente haga clic en el botón **Continuar**.
 
 > <p align=center><img src="https://raw.githubusercontent.com/filobot/docs/main/resources/Invite Filo. Step 3.png" alt="If the image doesn't load, please contact us." /><br>
 {.is-image}
 
-> If you leave any permission active in the invite, Discord will automatically create a role called **Filo**, however, if the server exceeds the role limit it is possible that the role cannot be created and you'll have to manually assign the permissions to Filo.
+> Si dejas algún permiso activo en la invitación, Discord creará automáticamente un rol llamado **Filo**, sin embargo, si el servidor excede el límite de roles, es posible que el rol no se pueda crear y tenga que asignar manualmente los permisos para Filo.
 {.is-warning}
 
-> The necessary permissions that Filo must always have are: `VIEW_CHANNEL`, `SEND_MESSAGES`, `EMBED_LINKS` and `USE_EXTERNAL_EMOJIS`.
+> Los permisos necesarios que Filo debe tener siempre son: `VIEW_CHANNEL`, `SEND_MESSAGES`, `EMBED_LINKS` u `USE_EXTERNAL_EMOJIS`.
 {.is-danger}
 
-## **Step 4**: Authorize the invite
+## **Paso 4**: Autorizar la invitación
 
-Once you have finished selecting the server and customizing the permissions (if you want to do so), touch authorize the invite by clicking the **Authorize** button.
+Una vez que haya terminado de seleccionar el servidor y personalizar los permisos (si desea hacerlo), toca autorizar la invitación haciendo clic en el botón **Autorizar**.
 
 > <p align=center><img src="https://raw.githubusercontent.com/filobot/docs/main/resources/Invite Filo. Step 4.png" alt="If the image doesn't load, please contact us." /><br>
 {.is-image}

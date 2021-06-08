@@ -1,5 +1,5 @@
 ---
-title: Guild
+title: Gremio
 description:
 published: true
 date: Thu Jun 03 2021 14:36:55 GMT+0000 (Coordinated Universal Time)
@@ -8,16 +8,16 @@ tags:
 editor: markdown
 ---
 
-# About the module
+# Acerca del módulo
 
-This module will allow you to set certain settings that can help us to help you.
+Este módulo te permitirá establecer ciertas configuraciones que pueden ayudarnos a ayudarlo.
 
-# Summary
+# Índice
 
-## Guild Invite
+## Invitación del Gremio
 
-If you want to set up a permanent guild invite, **[click here](/es/modules/guild/invite)** and we'll take you to the guided article in no time
+Si quieres configurar una invitación de gremio permanente, haz **[clic aquí](/es/modules/guild/invite)** y lo llevaremos al artículo guiado en poco tiempo
 
-## Muted Role
+## Rol Silenciado
 
-If you want to set up the muted role, **[click here](/es/modules/guild/muted)** and we'll take you to the guided article in no time
+Si quieres configurar el rol silenciado, haz **[clic aquí](/es/modules/guild/muted)** y lo llevaremos al artículo guiado en poco tiempo
