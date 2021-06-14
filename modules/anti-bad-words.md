@@ -2,8 +2,8 @@
 title: Anti Bad Words
 description:
 published: true
-date: Mon Jun 07 2021 16:00:46 GMT+0000 (Coordinated Universal Time)
-dateCreated: Mon Jun 07 2021 16:00:46 GMT+0000 (Coordinated Universal Time)
+date: Mon Jun 14 2021 13:18:44 GMT+0000 (Coordinated Universal Time)
+dateCreated: Mon Jun 14 2021 13:18:44 GMT+0000 (Coordinated Universal Time)
 tags:
 editor: markdown
 ---
@@ -59,7 +59,7 @@ To enable the module you must execute the following command: <kbd>f!config anti-
 
 **Example**: <kbd>f!config anti-bad-words enable</kbd>.
 
-> This module can be supplemented with the **[Auto Moderation](/en/modules/auto-moderation)** module.
+> This module can be supplemented with the **[Auto Moderation](https://wiki.filobot.xyz/en/modules/auto-moderation)** module.
 {.is-success}
 
 # Steps to disable the module

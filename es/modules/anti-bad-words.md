@@ -2,8 +2,8 @@
 title: Anti Malas Palabras
 description:
 published: true
-date: Mon Jun 07 2021 16:00:46 GMT+0000 (Coordinated Universal Time)
-dateCreated: Mon Jun 07 2021 16:00:46 GMT+0000 (Coordinated Universal Time)
+date: Mon Jun 14 2021 13:18:44 GMT+0000 (Coordinated Universal Time)
+dateCreated: Mon Jun 14 2021 13:18:44 GMT+0000 (Coordinated Universal Time)
 tags:
 editor: markdown
 ---
@@ -59,7 +59,7 @@ Para habilitar el módulo debes ejecutar el siguiente comando: <kbd>f!config ant
 
 **Ejemplo**: <kbd>f!config anti-bad-words enable</kbd>.
 
-> Este módulo se puede complementar con el módulo **[Auto Moderación](/es/modules/auto-moderation)**.
+> Este módulo se puede complementar con el módulo **[Auto Moderación](https://wiki.filobot.xyz/es/modules/auto-moderation)**.
 {.is-success}
 
 # Pasos para deshabilitar el módulo
