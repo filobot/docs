@@ -2,8 +2,8 @@
 title: Auto Moderación
 description:
 published: true
-date: Mon Jun 07 2021 15:58:13 GMT+0000 (Coordinated Universal Time)
-dateCreated: Mon Jun 07 2021 15:58:13 GMT+0000 (Coordinated Universal Time)
+date: Mon Jun 14 2021 13:21:49 GMT+0000 (Coordinated Universal Time)
+dateCreated: Mon Jun 14 2021 13:21:49 GMT+0000 (Coordinated Universal Time)
 tags:
 editor: markdown
 ---
@@ -25,7 +25,7 @@ Antes de continuar con este artículo, debes tener en cuenta una serie de elemen
 
 - Necesitas el permiso ``ADMINISTRATOR`` para realizar la mayoría de las acciones de este artículo.
 
-- Debes reemplazar <kbd>f!</kbd> con el prefijo actual que hayas establecido. Más información sobre cómo cambiar el prefijo haciendo **[clic aquí](es/modules/prefix)**.
+- Debes reemplazar <kbd>f!</kbd> con el prefijo actual que hayas establecido. Más información sobre cómo cambiar el prefijo haciendo **[clic aquí](https://wiki.filobot.xyz/es/modules/prefix)**.
 
 # Excepciones del módulo
 
@@ -63,7 +63,7 @@ Para habilitar el módulo debes ejecutar el siguiente comando: <kbd>f!config aut
 
 **Ejemplo**: <kbd>f!config auto-moderation enable</kbd>.
 
-> Este módulo se puede complementar con el módulo **[Anti Evasión](/es/modules/anti-evasion)**.
+> Este módulo se puede complementar con el módulo **[Anti Evasión](https://wiki.filobot.xyz/es/modules/anti-evasion)**.
 {.is-success}
 
 # Pasos para deshabilitar el módulo
@@ -94,7 +94,7 @@ Para establecer la acción por nivel debes ejecutar el siguiente comando: <kbd>f
 > No incluyas ``<>`` cuando estés ejecutando el comando.
 {.is-warning}
 
-> Puedes ver una lista completa de las acciones que admite Filo haciendo **[clic aquí](/es/modules/auto-moderation/actions)**
+> Puedes ver una lista completa de las acciones que admite Filo haciendo **[clic aquí](https://wiki.filobot.xyz/es/modules/auto-moderation/actions)**
 {.is-info}
 
 **Ejemplo**: <kbd>f!config auto-moderation set action 1 kick</kbd>.

@@ -2,8 +2,8 @@
 title: Language
 description:
 published: true
-date: Thu Jun 03 2021 14:37:00 GMT+0000 (Coordinated Universal Time)
-dateCreated: Thu Jun 03 2021 14:37:00 GMT+0000 (Coordinated Universal Time)
+date: Mon Jun 14 2021 13:21:19 GMT+0000 (Coordinated Universal Time)
+dateCreated: Mon Jun 14 2021 13:21:19 GMT+0000 (Coordinated Universal Time)
 tags:
 editor: markdown
 ---
@@ -20,7 +20,7 @@ Before proceeding with this article, you must take into account a series of elem
 
 - You need ``ADMINISTRATOR`` permission to perform most of the actions in this article.
 
-- You should replace <kbd>f!</kbd> with the current prefix you have set. More information on how to change the prefix by **[clicking here](en/modules/prefix)**.
+- You should replace <kbd>f!</kbd> with the current prefix you have set. More information on how to change the prefix by **[clicking here](https://wiki.filobot.xyz/en/modules/prefix)**.
 
 # Steps to set a language
 
@@ -33,7 +33,7 @@ To set a language you must execute the following command: <kbd>f!config language
 
 **Example**: <kbd>f!config language set english</kbd>.
 
-> You can see a complete list of languages supported by Filo by **[clicking here](/en/modules/language/list)**.
+> You can see a complete list of languages supported by Filo by **[clicking here](https://wiki.filobot.xyz/en/modules/language/list)**.
 {.is-info}
 
 # Steps to reset module settings

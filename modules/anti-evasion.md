@@ -2,8 +2,8 @@
 title: Anti Evasion
 description:
 published: true
-date: Mon Jun 07 2021 16:00:29 GMT+0000 (Coordinated Universal Time)
-dateCreated: Mon Jun 07 2021 16:00:29 GMT+0000 (Coordinated Universal Time)
+date: Mon Jun 14 2021 13:22:31 GMT+0000 (Coordinated Universal Time)
+dateCreated: Mon Jun 14 2021 13:22:31 GMT+0000 (Coordinated Universal Time)
 tags:
 editor: markdown
 ---
@@ -25,7 +25,7 @@ Before proceeding with this article, you must take into account a series of elem
 
 - You need ``ADMINISTRATOR`` permission to perform most of the actions in this article.
 
-- You should replace <kbd>f!</kbd> with the current prefix you have set. More information on how to change the prefix by **[clicking here](en/modules/prefix)**.
+- You should replace <kbd>f!</kbd> with the current prefix you have set. More information on how to change the prefix by **[clicking here](https://wiki.filobot.xyz/en/modules/prefix)**.
 
 # Module exceptions
 
@@ -62,7 +62,7 @@ To set a action you must execute the following command: <kbd>f!config anti-evasi
 
 **Example**: <kbd>f!config anti-evasion set action tempban</kbd>.
 
-> You can see a full list of actions that Filo supports by **[clicking here](/en/modules/anti-evasion/actions)**.
+> You can see a full list of actions that Filo supports by **[clicking here](https://wiki.filobot.xyz/en/modules/anti-evasion/actions)**.
 {.is-info}
 
 # Steps to set the time of a action

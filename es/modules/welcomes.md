@@ -2,8 +2,8 @@
 title: Bienvenidas
 description:
 published: true
-date: Mon Jun 07 2021 16:01:56 GMT+0000 (Coordinated Universal Time)
-dateCreated: Mon Jun 07 2021 16:01:56 GMT+0000 (Coordinated Universal Time)
+date: Mon Jun 14 2021 13:19:25 GMT+0000 (Coordinated Universal Time)
+dateCreated: Mon Jun 14 2021 13:19:25 GMT+0000 (Coordinated Universal Time)
 tags:
 editor: markdown
 ---
@@ -71,7 +71,7 @@ Para establecer el canal de bienvenidas debes ejecutar el siguiente comando: <kb
 > No incluyas ``<>`` cuando estés ejecutando el comando.
 {.is-warning}
 
-> Puedes establecer variables en el mensaje de bienvenida. Puedes encontrar una lista de todas las variables haciendo **[clic aquí](/es/modules/welcomes/variables)**.
+> Puedes establecer variables en el mensaje de bienvenida. Puedes encontrar una lista de todas las variables haciendo **[clic aquí](https://wiki.filobot.xyz/es/modules/welcomes/variables)**.
 {.is-info}
 
 **Ejemplo**: <kbd>f!config welcomes set message Goodbye {user.tag}!</kbd>.

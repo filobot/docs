@@ -2,8 +2,8 @@
 title: Comandos
 description:
 published: true
-date: Thu Jun 03 2021 14:36:46 GMT+0000 (Coordinated Universal Time)
-dateCreated: Thu Jun 03 2021 14:36:46 GMT+0000 (Coordinated Universal Time)
+date: Mon Jun 14 2021 13:21:44 GMT+0000 (Coordinated Universal Time)
+dateCreated: Mon Jun 14 2021 13:21:44 GMT+0000 (Coordinated Universal Time)
 tags:
 editor: markdown
 ---
@@ -16,4 +16,4 @@ Este módulo te permitirá personalizar parcialmente el comportamiento de los co
 
 ## Deshabilitar Comandos
 
-Si quieres deshabilitar un comando de filo o volver a habilitarlo, haz **[clic aquí](/es/modules/commands/disable)** y lo llevaremos al artículo guiado en poco tiempo
+Si quieres deshabilitar un comando de filo o volver a habilitarlo, haz **[clic aquí](https://wiki.filobot.xyz/es/modules/commands/disable)** y lo llevaremos al artículo guiado en poco tiempo

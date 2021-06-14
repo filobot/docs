@@ -2,8 +2,8 @@
 title: Invitación del Gremio
 description:
 published: true
-date: Thu Jun 03 2021 14:35:36 GMT+0000 (Coordinated Universal Time)
-dateCreated: Thu Jun 03 2021 14:35:36 GMT+0000 (Coordinated Universal Time)
+date: Mon Jun 14 2021 13:23:06 GMT+0000 (Coordinated Universal Time)
+dateCreated: Mon Jun 14 2021 13:23:06 GMT+0000 (Coordinated Universal Time)
 tags:
 editor: markdown
 ---
@@ -22,7 +22,7 @@ Antes de continuar con este artículo, debes tener en cuenta una serie de elemen
 
 - Necesitas el permiso ``ADMINISTRATOR`` para realizar la mayoría de las acciones de este artículo.
 
-- Debes reemplazar <kbd>f!</kbd> con el prefijo actual que hayas establecido. Más información sobre cómo cambiar el prefijo haciendo **[clic aquí](es/modules/prefix)**.
+- Debes reemplazar <kbd>f!</kbd> con el prefijo actual que hayas establecido. Más información sobre cómo cambiar el prefijo haciendo **[clic aquí](https://wiki.filobot.xyz/es/modules/prefix)**.
 
 # Pasos para crear la invitación en un canal
 

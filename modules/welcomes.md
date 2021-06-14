@@ -2,8 +2,8 @@
 title: Welcomes
 description:
 published: true
-date: Mon Jun 07 2021 16:01:56 GMT+0000 (Coordinated Universal Time)
-dateCreated: Mon Jun 07 2021 16:01:56 GMT+0000 (Coordinated Universal Time)
+date: Mon Jun 14 2021 13:19:25 GMT+0000 (Coordinated Universal Time)
+dateCreated: Mon Jun 14 2021 13:19:25 GMT+0000 (Coordinated Universal Time)
 tags:
 editor: markdown
 ---
@@ -71,7 +71,7 @@ To set the welcomes channel you must execute the following command: <kbd>f!confi
 > Don't include ``<>`` when you're running the command.
 {.is-warning}
 
-> You can set variables in the welcome message. You can find a list of all variables by **[clicking here](/en/modules/welcomes/variables)**.
+> You can set variables in the welcome message. You can find a list of all variables by **[clicking here](https://wiki.filobot.xyz/en/modules/welcomes/variables)**.
 {.is-info}
 
 **Example**: <kbd>f!config welcomes set message Goodbye {user.tag}!</kbd>.

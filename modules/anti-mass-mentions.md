@@ -2,8 +2,8 @@
 title: Anti Mass Mentions
 description:
 published: true
-date: Mon Jun 07 2021 15:56:52 GMT+0000 (Coordinated Universal Time)
-dateCreated: Mon Jun 07 2021 15:56:52 GMT+0000 (Coordinated Universal Time)
+date: Mon Jun 14 2021 13:22:15 GMT+0000 (Coordinated Universal Time)
+dateCreated: Mon Jun 14 2021 13:22:15 GMT+0000 (Coordinated Universal Time)
 tags:
 editor: markdown
 ---
@@ -25,7 +25,7 @@ Before proceeding with this article, you must take into account a series of elem
 
 - You need ``ADMINISTRATOR`` permission to perform most of the actions in this article.
 
-- You should replace <kbd>f!</kbd> with the current prefix you have set. More information on how to change the prefix by **[clicking here](en/modules/prefix)**.
+- You should replace <kbd>f!</kbd> with the current prefix you have set. More information on how to change the prefix by **[clicking here](https://wiki.filobot.xyz/en/modules/prefix)**.
 
 # Module exceptions
 
@@ -61,7 +61,7 @@ To enable the module you must execute the following command: <kbd>f!config anti-
 
 **Example**: <kbd>f!config anti-mass-mentions enable</kbd>.
 
-> This module can be supplemented with the **[Auto Moderation](/en/modules/auto-moderation)** module.
+> This module can be supplemented with the **[Auto Moderation](https://wiki.filobot.xyz/en/modules/auto-moderation)** module.
 {.is-success}
 
 # Steps to disable the module

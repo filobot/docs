@@ -2,8 +2,8 @@
 title: Farewells
 description:
 published: true
-date: Mon Jun 07 2021 15:59:16 GMT+0000 (Coordinated Universal Time)
-dateCreated: Mon Jun 07 2021 15:59:16 GMT+0000 (Coordinated Universal Time)
+date: Mon Jun 14 2021 13:21:38 GMT+0000 (Coordinated Universal Time)
+dateCreated: Mon Jun 14 2021 13:21:38 GMT+0000 (Coordinated Universal Time)
 tags:
 editor: markdown
 ---
@@ -25,7 +25,7 @@ Before proceeding with this article, you must take into account a series of elem
 
 - You need ``ADMINISTRATOR`` permission to perform most of the actions in this article.
 
-- You should replace <kbd>f!</kbd> with the current prefix you have set. More information on how to change the prefix by **[clicking here](en/modules/prefix)**.
+- You should replace <kbd>f!</kbd> with the current prefix you have set. More information on how to change the prefix by **[clicking here](https://wiki.filobot.xyz/en/modules/prefix)**.
 
 # Module exceptions
 
@@ -71,7 +71,7 @@ To set the farewells channel you must execute the following command: <kbd>f!conf
 > Don't include ``<>`` when you're running the command.
 {.is-warning}
 
-> You can set variables in the farewell message. You can find a list of all variables by **[clicking here](/en/modules/farewells/variables)**.
+> You can set variables in the farewell message. You can find a list of all variables by **[clicking here](https://wiki.filobot.xyz/en/modules/farewells/variables)**.
 {.is-info}
 
 **Example**: <kbd>f!config farewells set message Goodbye {user.tag}!</kbd>.

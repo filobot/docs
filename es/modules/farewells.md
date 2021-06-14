@@ -2,8 +2,8 @@
 title: Despedidas
 description:
 published: true
-date: Mon Jun 07 2021 15:59:16 GMT+0000 (Coordinated Universal Time)
-dateCreated: Mon Jun 07 2021 15:59:16 GMT+0000 (Coordinated Universal Time)
+date: Mon Jun 14 2021 13:21:38 GMT+0000 (Coordinated Universal Time)
+dateCreated: Mon Jun 14 2021 13:21:38 GMT+0000 (Coordinated Universal Time)
 tags:
 editor: markdown
 ---
@@ -25,7 +25,7 @@ Antes de continuar con este artículo, debes tener en cuenta una serie de elemen
 
 - Necesitas el permiso ``ADMINISTRATOR`` para realizar la mayoría de las acciones de este artículo.
 
-- Debes reemplazar <kbd>f!</kbd> con el prefijo actual que hayas establecido. Más información sobre cómo cambiar el prefijo haciendo **[clic aquí](es/modules/prefix)**.
+- Debes reemplazar <kbd>f!</kbd> con el prefijo actual que hayas establecido. Más información sobre cómo cambiar el prefijo haciendo **[clic aquí](https://wiki.filobot.xyz/es/modules/prefix)**.
 
 # Excepciones del módulo
 
@@ -71,7 +71,7 @@ Para establecer el canal de despedidas debes ejecutar el siguiente comando: <kbd
 > No incluyas ``<>`` cuando estés ejecutando el comando.
 {.is-warning}
 
-> Puedes establecer variables en el mensaje de despedida. Puedes encontrar una lista de todas las variables haciendo **[clic aquí](/es/modules/farewells/variables)**.
+> Puedes establecer variables en el mensaje de despedida. Puedes encontrar una lista de todas las variables haciendo **[clic aquí](https://wiki.filobot.xyz/es/modules/farewells/variables)**.
 {.is-info}
 
 **Ejemplo**: <kbd>f!config farewells set message Goodbye {user.tag}!</kbd>.

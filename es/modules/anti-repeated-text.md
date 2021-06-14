@@ -2,8 +2,8 @@
 title: Anti Texto Repetido
 description:
 published: true
-date: Mon Jun 07 2021 15:57:25 GMT+0000 (Coordinated Universal Time)
-dateCreated: Mon Jun 07 2021 15:57:25 GMT+0000 (Coordinated Universal Time)
+date: Mon Jun 14 2021 13:22:04 GMT+0000 (Coordinated Universal Time)
+dateCreated: Mon Jun 14 2021 13:22:04 GMT+0000 (Coordinated Universal Time)
 tags:
 editor: markdown
 ---
@@ -25,7 +25,7 @@ Antes de continuar con este artículo, debes tener en cuenta una serie de elemen
 
 - Necesitas el permiso ``ADMINISTRATOR`` para realizar la mayoría de las acciones de este artículo.
 
-- Debes reemplazar <kbd>f!</kbd> con el prefijo actual que hayas establecido. Más información sobre cómo cambiar el prefijo haciendo **[clic aquí](es/modules/prefix)**.
+- Debes reemplazar <kbd>f!</kbd> con el prefijo actual que hayas establecido. Más información sobre cómo cambiar el prefijo haciendo **[clic aquí](https://wiki.filobot.xyz/es/modules/prefix)**.
 
 # Excepciones del módulo
 
@@ -59,7 +59,7 @@ Para habilitar el módulo debes ejecutar el siguiente comando: <kbd>f!config ant
 
 **Ejemplo**: <kbd>f!config anti-repeated-text enable</kbd>.
 
-> Este módulo se puede complementar con el módulo **[Auto Moderación](/es/modules/auto-moderation)**.
+> Este módulo se puede complementar con el módulo **[Auto Moderación](https://wiki.filobot.xyz/es/modules/auto-moderation)**.
 {.is-success}
 
 # Pasos para deshabilitar el módulo

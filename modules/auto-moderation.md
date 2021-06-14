@@ -2,8 +2,8 @@
 title: Auto Moderation
 description:
 published: true
-date: Mon Jun 07 2021 15:58:13 GMT+0000 (Coordinated Universal Time)
-dateCreated: Mon Jun 07 2021 15:58:13 GMT+0000 (Coordinated Universal Time)
+date: Mon Jun 14 2021 13:21:49 GMT+0000 (Coordinated Universal Time)
+dateCreated: Mon Jun 14 2021 13:21:49 GMT+0000 (Coordinated Universal Time)
 tags:
 editor: markdown
 ---
@@ -25,7 +25,7 @@ Before proceeding with this article, you must take into account a series of elem
 
 - You need ``ADMINISTRATOR`` permission to perform most of the actions in this article.
 
-- You should replace <kbd>f!</kbd> with the current prefix you have set. More information on how to change the prefix by **[clicking here](en/modules/prefix)**.
+- You should replace <kbd>f!</kbd> with the current prefix you have set. More information on how to change the prefix by **[clicking here](https://wiki.filobot.xyz/en/modules/prefix)**.
 
 # Module exceptions
 
@@ -63,7 +63,7 @@ To enable the module you must execute the following command: <kbd>f!config auto-
 
 **Example**: <kbd>f!config auto-moderation enable</kbd>.
 
-> This module can be supplemented with the **[Anti Evasion](/en/modules/anti-evasion)** module.
+> This module can be supplemented with the **[Anti Evasion](https://wiki.filobot.xyz/en/modules/anti-evasion)** module.
 {.is-success}
 
 # Steps to disable the module
@@ -94,7 +94,7 @@ To set a action per level you must execute the following command: <kbd>f!config 
 > Don't include ``<>`` when you're running the command.
 {.is-warning}
 
-> You can see a full list of actions that Filo supports by **[clicking here](/en/modules/auto-moderation/actions)**
+> You can see a full list of actions that Filo supports by **[clicking here](https://wiki.filobot.xyz/en/modules/auto-moderation/actions)**
 {.is-info}
 
 **Example**: <kbd>f!config auto-moderation set action 1 kick</kbd>.

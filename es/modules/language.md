@@ -2,8 +2,8 @@
 title: Idioma
 description:
 published: true
-date: Thu Jun 03 2021 14:37:00 GMT+0000 (Coordinated Universal Time)
-dateCreated: Thu Jun 03 2021 14:37:00 GMT+0000 (Coordinated Universal Time)
+date: Mon Jun 14 2021 13:21:19 GMT+0000 (Coordinated Universal Time)
+dateCreated: Mon Jun 14 2021 13:21:19 GMT+0000 (Coordinated Universal Time)
 tags:
 editor: markdown
 ---
@@ -20,7 +20,7 @@ Antes de continuar con este artículo, debes tener en cuenta una serie de elemen
 
 - Necesitas el permiso ``ADMINISTRATOR`` para realizar la mayoría de las acciones de este artículo.
 
-- Debes reemplazar <kbd>f!</kbd> con el prefijo actual que hayas establecido. Más información sobre cómo cambiar el prefijo haciendo **[clic aquí](es/modules/prefix)**.
+- Debes reemplazar <kbd>f!</kbd> con el prefijo actual que hayas establecido. Más información sobre cómo cambiar el prefijo haciendo **[clic aquí](https://wiki.filobot.xyz/es/modules/prefix)**.
 
 # Pasos para establecer el idioma
 
@@ -33,7 +33,7 @@ Para establecer el idioma debes ejecutar el siguiente comando: <kbd>f!config lan
 
 **Ejemplo**: <kbd>f!config language set english</kbd>.
 
-> Puedes ver una lista completa de los idiomas admitidos por Filo haciendo **[clic aquí](/es/modules/language/list)**.
+> Puedes ver una lista completa de los idiomas admitidos por Filo haciendo **[clic aquí](https://wiki.filobot.xyz/es/modules/language/list)**.
 {.is-info}
 
 # Pasos para restablecer las configuraciones del módulo
