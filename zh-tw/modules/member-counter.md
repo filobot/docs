@@ -20,9 +20,9 @@ editor: markdown
 
 - Filo 需要以下基礎權限: ``VIEW_CHANNEL``, ``SEND_MESSAGES``, ``EMBED_LINKS``, ``USE_EXTERNAL_EMOJIS``, ``READ_MESSAGE_HISTORY`` 和 ``ADD_REACTIONS``.
 
-- 在執行本主題的指令前，你需要此項權限： ``ADMINISTRATOR`` .
+- 在執行本主題的指令前，你需要此項權限： ``ADMINISTRATOR``.
 
-- 你需要取代 <kbd>f!</kbd> 成你設定的 prefix 。如果你需要更換它的教學，請**[點擊這裡](https://wiki.filobot.xyz/zh-Tw/modules/prefix)**.
+- 你需要取代<kbd>f!</kbd> 成你設定的 prefix 。如果你需要更換它的教學，請 **[點擊這裡](https://wiki.filobot.xyz/zh-Tw/modules/prefix)**.
 
 # 啟用本模組的步驟
 
@@ -51,7 +51,7 @@ editor: markdown
 
 **範例**: <kbd>f!config member-counter set channel 123456789123456789</kbd>.
 
-> 您選擇的頻道必須是 **語音頻道** ，否則這個模組將不會正常運作.
+> 您選擇的頻道必須是 **語音頻道**，否則這個模組將不會正常運作.
 {.is-warning}
 
 > Filo 需要以下進階權限: ``VIEW_CHANNEL`` 和 ``MANAGE_CHANNELS``.

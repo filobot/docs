@@ -9,7 +9,7 @@ editor: markdown
 ---
 
 > Filo's 翻譯可能會有錯誤，畢竟我們也是人類！
-如果有任何錯誤的話，請在**[翻譯 Repository](https://github.com/filobot/translate) 或是 **[我們的伺服器](https://filobot.xyz/discord)**回報我們.
+如果有任何錯誤的話，請在 **[翻譯 Repository](https://github.com/filobot/translate)** 或是 **[我們的伺服器](https://filobot.xyz/discord)**回報我們.
 {.is-warning}
 
 > **Spanish (Español)**

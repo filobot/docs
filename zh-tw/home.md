@@ -10,9 +10,9 @@ editor: markdown
 
 # 歡迎來到 Filo 指南百科
 
-> Filo 是個多功能且強大的 Discord 機器人。 高自訂性、多語言、檢舉系統、日誌、歡迎和離別訊息、人數統計、反邀請、AUTO MODERATION、反規避，以及 +190 個指令.
+> Filo is a powerful multipurpose Discord bot. Customizable, multiple languages, report, logging, welcome and farewells, member counter, anti-invites, auto-mod, anti-evasion. +190 commands.
 
- Filo 指南百科的內容會不斷改變以提高其品質 . 本指南涵蓋了一些常見錯誤，以及每個 Filo 指令的指令教學 .
+ Filo 指南百科的內容會不斷改變以提高其品質 . 本指南涵蓋了一些常見錯誤，以及每個 Filo 指令的指令教學.
 
 如果本指南沒有解決您想要的問題，歡迎拜訪我們的 **[Discord 伺服器](https://filobot.xyz/discord)**.
 

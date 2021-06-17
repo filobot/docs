@@ -53,7 +53,7 @@ Cloudflare Ban 是一項臨時或永久制裁，它將拒絕您訪問我們的�
 
 個人或特定的速率限制更加嚴格，但結果是超過此限制不會導致 Cloudflare Ban (不過最好不要超過這些限制)。 這些限制取至於每個 API 端點.
 
-全球或通用的速率限制是從長遠來看的，也就是說，如果您每分鐘發出大量請求，您可能會收到全局速率限制（在速率限制期間，您將不被允許訪問任何其他 API 端點） .
+全球或通用的速率限制是從長遠來看的，也就是說，如果您每分鐘發出大量請求，您可能會收到全局速率限制（在速率限制期間，您將不被允許訪問任何其他 API 端點）.
 
 如果您在不到1小時內收到超過警告或超過全球請求配額的5倍，您的IP位地址將被暫時禁止1小時r.
 
@@ -68,7 +68,7 @@ Cloudflare Ban 是一項臨時或永久制裁，它將拒絕您訪問我們的�
 
 個人或特定的速率限制更加嚴格，但結果是超過此限制不會導致 Cloudflare Ban (不過最好不要超過這些限制)。 這些限制取至於每個 API 端點
 
-全球或通用的速率限制是從長遠來看的，也就是說，如果您每分鐘發出大量請求，您可能會收到全局速率限制（在速率限制期間，您將不被允許訪問任何其他 API 端點） .
+全球或通用的速率限制是從長遠來看的，也就是說，如果您每分鐘發出大量請求，您可能會收到全局速率限制（在速率限制期間，您將不被允許訪問任何其他 API 端點）.
 
 如果您在不到1小時內收到超過警告或超過全球請求配額的5倍，您的IP位地址將被暫時禁止1小時r
 
@@ -81,7 +81,7 @@ Cloudflare Ban 是一項臨時或永久制裁，它將拒絕您訪問我們的�
 ## 根據禁令期限上訴
 
 - : 不可用的.
-- 永久: 您可以通過**[點擊這裡](https://forms.gle/Pdig38H5gn6XfyW76)**來對永久禁令提出上訴.
+- 永久: 您可以通過 **[點擊這裡](https://forms.gle/Pdig38H5gn6XfyW76)** 來對永久禁令提出上訴.
 
 ## 根據禁令類型上訴
 
@@ -127,7 +127,7 @@ Cloudflare Ban 是一項臨時或永久制裁，它將拒絕您訪問我們的�
 
 # hCaptcha
 
-驗證碼由 **[hCaptcha](https://www.hcaptcha.com)** 管理，他們有著**[條款和條件](https://www.hcaptcha.com/terms)**和**[隱私政策](https://www.hcaptcha.com/privacy)**.
+驗證碼由 **[hCaptcha](https://www.hcaptcha.com)** 管理，他們有著 **[條款和條件](https://www.hcaptcha.com/terms)** 和 **[隱私政策](https://www.hcaptcha.com/privacy)**.
 
 > <p align=center><img src="https://raw.githubusercontent.com/filobot/docs/main/resources/hCaptcha.png" alt="If the image doesn't load, please contact us." /><br>
 > <i>一張顯示「hCaptcha 」的範例圖片.</i></p>

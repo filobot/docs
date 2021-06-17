@@ -49,7 +49,7 @@ editor: markdown
 > <p align=center><img src="https://raw.githubusercontent.com/filobot/docs/main/resources/Invite Filo. Step 3.png" alt="If the image doesn't load, please contact us." /><br>
 {.is-image}
 
-> 如果您全選了所有權限，Discord 會幫您建立一個 **Filo**的身分組。反之，Discord 會把權限單獨寫在他的身分裡.
+> 如果您全選了所有權限，Discord 會幫您建立一個 **Filo** 的身分組。反之，Discord 會把權限單獨寫在他的身分裡.
 {.is-warning}
 
 > Filo 必須有這些指令才能正常工作: `VIEW_CHANNEL`、 `SEND_MESSAGES`、`EMBED_LINKS` 和 `USE_EXTERNAL_EMOJIS`.

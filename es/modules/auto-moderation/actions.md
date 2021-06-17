@@ -9,22 +9,22 @@ editor: markdown
 ---
 
 > `KICK`
-> La sanción kick temporalmente al usuario en cuestión del servidor.
+> La sanción kick temporal al usuario en cuestión del servidor.
 >
 > Filo requiere el siguiente permiso avanzado: ``KICK_MEMBERS``.
 
 > `TEMPMUTE`
-> La sanción mute temporalmente al usuario en cuestión del servidor.
+> La sanción mute temporal al usuario en cuestión del servidor.
 >
 > Filo requiere el siguiente permiso avanzado: ``MANAGE_ROLES``.
 
 > `MUTE`
-> La sanción mute temporalmente al usuario en cuestión del servidor.
+> La sanción mute temporal al usuario en cuestión del servidor.
 >
 > Filo requiere el siguiente permiso avanzado: ``MANAGE_ROLES``.
 
 > `TEMPBAN`
-> La sanción ban temporalmente al usuario en cuestión del servidor.
+> La sanción ban temporal al usuario en cuestión del servidor.
 >
 > Filo requiere el siguiente permiso avanzado: ``BAN_MEMBERS``.
 

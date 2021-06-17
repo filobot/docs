@@ -18,9 +18,9 @@ editor: markdown
 
 - Filo 需要以下基礎權限: ``VIEW_CHANNEL``, ``SEND_MESSAGES``, ``EMBED_LINKS``, ``USE_EXTERNAL_EMOJIS``, ``READ_MESSAGE_HISTORY`` 和 ``ADD_REACTIONS``.
 
-- 在執行本主題的指令前，你需要此項權限： ``ADMINISTRATOR`` .
+- 在執行本主題的指令前，你需要此項權限： ``ADMINISTRATOR``.
 
-- 你需要取代 <kbd>f!</kbd> 成你設定的 prefix 。如果你需要更換它的教學，請**[點擊這裡](https://wiki.filobot.xyz/zh-Tw/modules/prefix)**.
+- 你需要取代<kbd>f!</kbd> 成你設定的 prefix 。如果你需要更換它的教學，請 **[點擊這裡](https://wiki.filobot.xyz/zh-Tw/modules/prefix)**.
 
 # 設定語言的步驟
 
@@ -33,7 +33,7 @@ editor: markdown
 
 **範例**: <kbd>f!config language set english</kbd>.
 
-> 點擊**[這個連結](https://wiki.filobot.xyz/zh-Tw/modules/language/list)**來查看 Filo 所支援的語言.
+> 點擊 **[這個連結](https://wiki.filobot.xyz/zh-Tw/modules/language/list)** 來查看 Filo 所支援的語言.
 {.is-info}
 
 # 重置模組的步驟

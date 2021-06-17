@@ -23,9 +23,9 @@ editor: markdown
 
 - Filo 需要以下基礎權限: ``VIEW_CHANNEL``, ``SEND_MESSAGES``, ``EMBED_LINKS``, ``USE_EXTERNAL_EMOJIS``, ``READ_MESSAGE_HISTORY`` 和 ``ADD_REACTIONS``.
 
-- 在執行本主題的指令前，你需要此項權限： ``ADMINISTRATOR`` .
+- 在執行本主題的指令前，你需要此項權限： ``ADMINISTRATOR``.
 
-- 你需要取代 <kbd>f!</kbd> 成你設定的 prefix 。如果你需要更換它的教學，請**[點擊這裡](https://wiki.filobot.xyz/zh-Tw/modules/prefix)**.
+- 你需要取代<kbd>f!</kbd> 成你設定的 prefix 。如果你需要更換它的教學，請 **[點擊這裡](https://wiki.filobot.xyz/zh-Tw/modules/prefix)**.
 
 # 常見錯誤
 
@@ -94,7 +94,7 @@ editor: markdown
 > 當您在打指令時，請勿包含 ``<>``.
 {.is-warning}
 
-> 你可以點擊**[這個連結](https://wiki.filobot.xyz/zh-Tw/modules/auto-moderation/actions)**來查看 Filo 支援的處罰
+> 你可以點擊 **[這個連結](https://wiki.filobot.xyz/zh-Tw/modules/auto-moderation/actions)** 來查看 Filo 支援的處罰
 {.is-info}
 
 **範例**: <kbd>f!config auto-moderation set action 1 kick</kbd>.
@@ -110,7 +110,7 @@ editor: markdown
 
 **範例**: <kbd>f!config auto-moderation set time 1 1h</kbd>.
 
-> 指令有效的持續時間必須在 **1 分** 到 **24 天** 之間 .
+> 指令有效的持續時間必須在 **1 分** 到 **24 天** 之間.
 {.is-warning}
 
 # 重置模組的步驟
