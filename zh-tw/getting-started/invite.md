@@ -2,15 +2,15 @@
 title: Invite Filo
 description:
 published: true
-date: Thu Jun 03 2021 18:07:51 GMT+0000 (Coordinated Universal Time)
-dateCreated: Thu Jun 03 2021 18:07:51 GMT+0000 (Coordinated Universal Time)
+date: Thu Jun 17 2021 09:08:14 GMT+0000 (Coordinated Universal Time)
+dateCreated: Thu Jun 17 2021 09:08:14 GMT+0000 (Coordinated Universal Time)
 tags:
 editor: markdown
 ---
 
 接下來你會看到一個伺服器邀請的例子，還有我們建議的權限設定.
 
-> 你必須是伺服器 **擁有者** 或是擁有這些權限： `MANAGE_GUILD` 或 {`ADMINISTRATOR`} 才能將 Filo 邀請至伺服器.
+> 你必須是伺服器 **擁有者** 或是擁有這些權限： `MANAGE_GUILD` 或 `ADMINISTRATOR` 才能將 Filo 邀請至伺服器.
 {.is-warning}
 
 > 目前 Filo 不支援在邀請中沒有勾選 Scope bot 的情況下使用斜線命令。 如果添加斜線指令到你的伺服器，但沒有把 Filo 邀請到伺服器，斜線命令只會一直返回一個英文的語法錯誤.

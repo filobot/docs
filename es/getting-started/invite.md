@@ -2,15 +2,15 @@
 title: Invitar a Filo
 description:
 published: true
-date: Thu Jun 03 2021 18:07:51 GMT+0000 (Coordinated Universal Time)
-dateCreated: Thu Jun 03 2021 18:07:51 GMT+0000 (Coordinated Universal Time)
+date: Thu Jun 17 2021 09:08:14 GMT+0000 (Coordinated Universal Time)
+dateCreated: Thu Jun 17 2021 09:08:14 GMT+0000 (Coordinated Universal Time)
 tags:
 editor: markdown
 ---
 
 A continuación, encontrará una explicación guiada de cómo invitar a Filo y los permisos que recomendamos.
 
-> Debe ser el **propietario** del servidor al que desea agregar Filo o tener uno de estos permisos: `MANAGE_GUILD` o {`ADMINISTRATOR`}.
+> Debe ser el **propietario** del servidor al que desea agregar Filo o tener uno de estos permisos: `MANAGE_GUILD` o `ADMINISTRATOR`.
 {.is-warning}
 
 > Actualmente, Filo no admite el uso de comandos de barra sin el bot de alcance en la invitación. Si agrega la integración de comandos de barra a su servidor y no agrega a Filo al servidor también, los comandos de barra siempre devolverán un error genérico en inglés.
