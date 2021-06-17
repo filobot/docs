@@ -1,5 +1,5 @@
 ---
-title: 首頁
+title: Home
 description:
 published: true
 date: Thu Jun 03 2021 17:41:48 GMT+0000 (Coordinated Universal Time)
@@ -17,42 +17,42 @@ editor: markdown
 如果本指南沒有解決您想要的問題，歡迎拜訪我們的 **[Discord 伺服器](https://filobot.xyz/discord)**.
 
 # 實用連結
-- [網站](https://filobot.xyz).
-- [捐款](https://filobot.xyz/donate).
-- [部落格](https://blog.filobot.xyz).
-- [Discord 伺服器](https://filobot.xyz/discord).
+- [Website](https://filobot.xyz).
+- [Donate](https://filobot.xyz/donate).
+- [Blog](https://blog.filobot.xyz).
+- [Discord Server](https://filobot.xyz/discord).
 - [Twitter](https://twitter.com/FiloDiscord).
-- [投票](https://filobot.xyz/vote).
+- [Vote](https://filobot.xyz/vote).
 
 # 導覽目錄
 
-## 入門
+## Getting Started
 
 如果你剛加入 Filo 的行列，你可以從下面的連結查看必要資訊.
-- [邀請 Filo](https://wiki.filobot.xyz/zh-Tw/getting-started/invite).
-- [常見錯誤](https://wiki.filobot.xyz/zh-Tw/getting-started/errors).
+- [Invite Filo](https://wiki.filobot.xyz/zh-Tw/getting-started/invite).
+- [Common Errors](https://wiki.filobot.xyz/zh-Tw/getting-started/errors).
 
-## 模組
+## Modules
 
 在這裡您可以找到各種關於模組的重要資訊.
-> - [語言](https://wiki.filobot.xyz/zh-Tw/modules/language).
+> - [Language](https://wiki.filobot.xyz/zh-Tw/modules/language).
 > - [Prefix](https://wiki.filobot.xyz/zh-Tw/modules/prefix).
-> - [伺服器](https://wiki.filobot.xyz/zh-Tw/modules/guild).
-> - [檢舉](https://wiki.filobot.xyz/zh-Tw/modules/reports).
-> - [歡迎](https://wiki.filobot.xyz/zh-Tw/modules/welcomes).
-> - [預設身分組](https://wiki.filobot.xyz/zh-Tw/modules/welcomes/role).
-> - [離別訊息](https://wiki.filobot.xyz/zh-Tw/modules/farewells).
-> - [人數統計](https://wiki.filobot.xyz/zh-Tw/modules/member-counter).
-> - [人數統計 (暱稱)](https://wiki.filobot.xyz/zh-Tw/modules/member-counter).
-> - [日誌](https://wiki.filobot.xyz/zh-Tw/modules/logging).
-> - [反邀請](https://wiki.filobot.xyz/zh-Tw/modules/anti-invites).
+> - [Guild](https://wiki.filobot.xyz/zh-Tw/modules/guild).
+> - [Reports](https://wiki.filobot.xyz/zh-Tw/modules/reports).
+> - [Welcomes](https://wiki.filobot.xyz/zh-Tw/modules/welcomes).
+> - [Welcome Role](https://wiki.filobot.xyz/zh-Tw/modules/welcomes/role).
+> - [Farewells](https://wiki.filobot.xyz/zh-Tw/modules/farewells).
+> - [Member Counter](https://wiki.filobot.xyz/zh-Tw/modules/member-counter).
+> - [Member Counter Nickname](https://wiki.filobot.xyz/zh-Tw/modules/member-counter).
+> - [Logging](https://wiki.filobot.xyz/zh-Tw/modules/logging).
+> - [Anti Invites](https://wiki.filobot.xyz/zh-Tw/modules/anti-invites).
 > - [Auto Moderation](https://wiki.filobot.xyz/zh-Tw/modules/auto-moderation).
-> - [反規避](https://wiki.filobot.xyz/zh-Tw/modules/anti-evasion).
-> - [反洗版](https://wiki.filobot.xyz/zh-Tw/modules/anti-spam).
-> - [防止提及](https://wiki.filobot.xyz/zh-Tw/modules/anti-mass-mentions).
-> - [返重複文字](https://wiki.filobot.xyz/zh-Tw/modules/anti-repeated-text).
-> - [停用指令](https://wiki.filobot.xyz/zh-Tw/modules/commands/disable).
-> - [反壞話](https://wiki.filobot.xyz/zh-Tw/modules/anti-bad-words).
+> - [Anti Evasion](https://wiki.filobot.xyz/zh-Tw/modules/anti-evasion).
+> - [Anti Spam](https://wiki.filobot.xyz/zh-Tw/modules/anti-spam).
+> - [Anti Mass Mentions](https://wiki.filobot.xyz/zh-Tw/modules/anti-mass-mentions).
+> - [Anti Repeated Text](https://wiki.filobot.xyz/zh-Tw/modules/anti-repeated-text).
+> - [Disable Commands](https://wiki.filobot.xyz/zh-Tw/modules/commands/disable).
+> - [Anti Bad Words](https://wiki.filobot.xyz/zh-Tw/modules/anti-bad-words).
 
 # 指南小提示
 

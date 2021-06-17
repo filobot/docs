@@ -15,7 +15,7 @@ editor: markdown
 > 我們強烈建議你使用本模組來管理社群.
 {.is-success}
 
-# 入門
+# Getting Started
 
 在繼續之前，您必須考慮一系列可能影響您執行的任何操作因素:
 
@@ -63,7 +63,7 @@ editor: markdown
 
 **範例**: <kbd>f!config auto-moderation enable</kbd>.
 
-> 這個模組可以補充 **[反規避](https://wiki.filobot.xyz/zh-Tw/modules/anti-evasion)**.
+> 這個模組可以補充 **[Anti Evasion](https://wiki.filobot.xyz/zh-Tw/modules/anti-evasion)**.
 {.is-success}
 
 # 停用本模組的步驟

@@ -1,5 +1,5 @@
 ---
-title: 語言
+title: Language
 description:
 published: true
 date: Mon Jun 14 2021 13:21:19 GMT+0000 (Coordinated Universal Time)
@@ -12,7 +12,7 @@ editor: markdown
 
 本模組允許您更改或重置 Filo 的語言。注意！這將影響所有的指令、模組和系統.
 
-# 入門
+# Getting Started
 
 在繼續之前，您必須考慮一系列可能影響您執行的任何操作因素:
 

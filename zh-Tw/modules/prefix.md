@@ -12,7 +12,7 @@ editor: markdown
 
 本模組允許您更改或重置 Filo 的 Prefix.
 
-# 入門
+# Getting Started
 
 在繼續之前，您必須考慮一系列可能影響您執行的任何操作因素:
 

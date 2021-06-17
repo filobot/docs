@@ -1,5 +1,5 @@
 ---
-title: 日誌
+title: Logging
 description:
 published: true
 date: Mon Jun 14 2021 13:21:11 GMT+0000 (Coordinated Universal Time)
@@ -15,7 +15,7 @@ editor: markdown
 > 我們強烈建議你使用本模組來管理社群.
 {.is-success}
 
-# 入門
+# Getting Started
 
 在繼續之前，您必須考慮一系列可能影響您執行的任何操作因素:
 
@@ -33,7 +33,7 @@ editor: markdown
 
 - 如果 Webhook 被刪除. **^1^**
 
-- 如果 Webhook 已經跟其它模組共用 (e.g. 舉報). **^2^**
+- 如果 Webhook 已經跟其它模組共用 (e.g. reports). **^2^**
 
 **^1^** 如果要滿足此要求，模組設置將被重置.
 

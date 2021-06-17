@@ -1,5 +1,5 @@
 ---
-title: 歡迎訊息變數
+title: Welcomes Variables
 description:
 published: true
 date: Thu Jun 03 2021 14:36:04 GMT+0000 (Coordinated Universal Time)

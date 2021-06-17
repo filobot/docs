@@ -1,5 +1,5 @@
 ---
-title: 禁言身分組
+title: Muted Role
 description:
 published: true
 date: Mon Jun 14 2021 13:23:11 GMT+0000 (Coordinated Universal Time)
@@ -12,7 +12,7 @@ editor: markdown
 
 本模組可以將成員禁言 (需先設定禁言身分組).
 
-# 入門
+# Getting Started
 
 在繼續之前，您必須考慮一系列可能影響您執行的任何操作因素:
 

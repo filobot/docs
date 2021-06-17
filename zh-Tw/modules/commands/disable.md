@@ -1,5 +1,5 @@
 ---
-title: 停用指令
+title: Disable commands
 description:
 published: true
 date: Mon Jun 14 2021 13:23:21 GMT+0000 (Coordinated Universal Time)
@@ -12,7 +12,7 @@ editor: markdown
 
 本模組將允許您停用您不會用到或不想使用的指令.
 
-# 入門
+# Getting Started
 
 在繼續之前，您必須考慮一系列可能影響您執行的任何操作因素:
 

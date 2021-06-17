@@ -1,5 +1,5 @@
 ---
-title: 支援的語言
+title: Supported Languages
 description:
 published: true
 date: Thu Jun 03 2021 14:35:47 GMT+0000 (Coordinated Universal Time)

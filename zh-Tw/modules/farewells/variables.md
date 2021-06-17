@@ -1,5 +1,5 @@
 ---
-title: 離別訊息變數
+title: Farewells Variables
 description:
 published: true
 date: Thu Jun 03 2021 14:35:30 GMT+0000 (Coordinated Universal Time)

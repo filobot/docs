@@ -1,5 +1,5 @@
 ---
-title: 反壞話
+title: Anti Bad Words
 description:
 published: true
 date: Mon Jun 14 2021 13:22:38 GMT+0000 (Coordinated Universal Time)
@@ -15,7 +15,7 @@ editor: markdown
 > 我們強烈建議你使用本模組來管理社群.
 {.is-success}
 
-# 入門
+# Getting Started
 
 在繼續之前，您必須考慮一系列可能影響您執行的任何操作因素:
 

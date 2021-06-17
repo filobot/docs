@@ -1,5 +1,5 @@
 ---
-title: 人數統計 (暱稱)
+title: Member Counter Nickname
 description:
 published: true
 date: Mon Jun 14 2021 13:22:55 GMT+0000 (Coordinated Universal Time)
@@ -12,7 +12,7 @@ editor: markdown
 
 本模組可以把 Filo 的名稱更改為成員數量.
 
-# 入門
+# Getting Started
 
 在繼續之前，您必須考慮一系列可能影響您執行的任何操作因素:
 

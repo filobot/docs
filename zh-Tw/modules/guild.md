@@ -1,5 +1,5 @@
 ---
-title: 伺服器
+title: Guild
 description:
 published: true
 date: Mon Jun 14 2021 13:21:31 GMT+0000 (Coordinated Universal Time)
@@ -14,10 +14,10 @@ editor: markdown
 
 # 概要
 
-## 伺服器邀請
+## Guild Invite
 
 如果要 設定一個永久的伺服器邀請 本模組，請**[點擊這裡](https://wiki.filobot.xyz/zh-Tw/modules/guild/invite)**。我們將會帶你到另一個主題
 
-## 禁言身分組
+## Muted Role
 
 如果要 設定禁言身分組 本模組，請**[點擊這裡](https://wiki.filobot.xyz/zh-Tw/modules/guild/muted)**。我們將會帶你到另一個主題
