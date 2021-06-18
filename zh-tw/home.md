@@ -29,30 +29,30 @@ editor: markdown
 ## Getting Started
 
 如果你剛加入 Filo 的行列，你可以從下面的連結查看必要資訊.
-- [Invite Filo](https://wiki.filobot.xyz/zh-Tw/getting-started/invite).
-- [Common Errors](https://wiki.filobot.xyz/zh-Tw/getting-started/errors).
+- [Invite Filo](https://wiki.filobot.xyz/zh-tw/getting-started/invite).
+- [Common Errors](https://wiki.filobot.xyz/zh-tw/getting-started/errors).
 
 ## Modules
 
 在這裡您可以找到各種關於模組的重要資訊.
-> - [Language](https://wiki.filobot.xyz/zh-Tw/modules/language).
-> - [Prefix](https://wiki.filobot.xyz/zh-Tw/modules/prefix).
-> - [Guild](https://wiki.filobot.xyz/zh-Tw/modules/guild).
-> - [Reports](https://wiki.filobot.xyz/zh-Tw/modules/reports).
-> - [Welcomes](https://wiki.filobot.xyz/zh-Tw/modules/welcomes).
-> - [Welcome Role](https://wiki.filobot.xyz/zh-Tw/modules/welcomes/role).
-> - [Farewells](https://wiki.filobot.xyz/zh-Tw/modules/farewells).
-> - [Member Counter](https://wiki.filobot.xyz/zh-Tw/modules/member-counter).
-> - [Member Counter Nickname](https://wiki.filobot.xyz/zh-Tw/modules/member-counter).
-> - [Logging](https://wiki.filobot.xyz/zh-Tw/modules/logging).
-> - [Anti Invites](https://wiki.filobot.xyz/zh-Tw/modules/anti-invites).
-> - [Auto Moderation](https://wiki.filobot.xyz/zh-Tw/modules/auto-moderation).
-> - [Anti Evasion](https://wiki.filobot.xyz/zh-Tw/modules/anti-evasion).
-> - [Anti Spam](https://wiki.filobot.xyz/zh-Tw/modules/anti-spam).
-> - [Anti Mass Mentions](https://wiki.filobot.xyz/zh-Tw/modules/anti-mass-mentions).
-> - [Anti Repeated Text](https://wiki.filobot.xyz/zh-Tw/modules/anti-repeated-text).
-> - [Disable Commands](https://wiki.filobot.xyz/zh-Tw/modules/commands/disable).
-> - [Anti Bad Words](https://wiki.filobot.xyz/zh-Tw/modules/anti-bad-words).
+> - [Language](https://wiki.filobot.xyz/zh-tw/modules/language).
+> - [Prefix](https://wiki.filobot.xyz/zh-tw/modules/prefix).
+> - [Guild](https://wiki.filobot.xyz/zh-tw/modules/guild).
+> - [Reports](https://wiki.filobot.xyz/zh-tw/modules/reports).
+> - [Welcomes](https://wiki.filobot.xyz/zh-tw/modules/welcomes).
+> - [Welcome Role](https://wiki.filobot.xyz/zh-tw/modules/welcomes/role).
+> - [Farewells](https://wiki.filobot.xyz/zh-tw/modules/farewells).
+> - [Member Counter](https://wiki.filobot.xyz/zh-tw/modules/member-counter).
+> - [Member Counter Nickname](https://wiki.filobot.xyz/zh-tw/modules/member-counter).
+> - [Logging](https://wiki.filobot.xyz/zh-tw/modules/logging).
+> - [Anti Invites](https://wiki.filobot.xyz/zh-tw/modules/anti-invites).
+> - [Auto Moderation](https://wiki.filobot.xyz/zh-tw/modules/auto-moderation).
+> - [Anti Evasion](https://wiki.filobot.xyz/zh-tw/modules/anti-evasion).
+> - [Anti Spam](https://wiki.filobot.xyz/zh-tw/modules/anti-spam).
+> - [Anti Mass Mentions](https://wiki.filobot.xyz/zh-tw/modules/anti-mass-mentions).
+> - [Anti Repeated Text](https://wiki.filobot.xyz/zh-tw/modules/anti-repeated-text).
+> - [Disable Commands](https://wiki.filobot.xyz/zh-tw/modules/commands/disable).
+> - [Anti Bad Words](https://wiki.filobot.xyz/zh-tw/modules/anti-bad-words).
 
 # 指南小提示
 

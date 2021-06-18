@@ -25,7 +25,7 @@ editor: markdown
 
 - 在執行本主題的指令前，你需要此項權限： ``ADMINISTRATOR``.
 
-- 你需要取代<kbd>f!</kbd> 成你設定的 prefix 。如果你需要更換它的教學，請 **[點擊這裡](https://wiki.filobot.xyz/zh-Tw/modules/prefix)**.
+- 你需要取代<kbd>f!</kbd> 成你設定的 prefix 。如果你需要更換它的教學，請 **[點擊這裡](https://wiki.filobot.xyz/zh-tw/modules/prefix)**.
 
 # 常見錯誤
 
@@ -63,7 +63,7 @@ editor: markdown
 
 **範例**: <kbd>f!config auto-moderation enable</kbd>.
 
-> 這個模組可以補充 **[Anti Evasion](https://wiki.filobot.xyz/zh-Tw/modules/anti-evasion)**.
+> 這個模組可以補充 **[Anti Evasion](https://wiki.filobot.xyz/zh-tw/modules/anti-evasion)**.
 {.is-success}
 
 # 停用本模組的步驟
@@ -94,7 +94,7 @@ editor: markdown
 > 當您在打指令時，請勿包含 ``<>``.
 {.is-warning}
 
-> 你可以點擊 **[這個連結](https://wiki.filobot.xyz/zh-Tw/modules/auto-moderation/actions)** 來查看 Filo 支援的處罰
+> 你可以點擊 **[這個連結](https://wiki.filobot.xyz/zh-tw/modules/auto-moderation/actions)** 來查看 Filo 支援的處罰
 {.is-info}
 
 **範例**: <kbd>f!config auto-moderation set action 1 kick</kbd>.

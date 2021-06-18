@@ -16,8 +16,8 @@ editor: markdown
 
 ## Guild Invite
 
-如果要 設定一個永久的伺服器邀請 本模組，請**[點擊這裡](https://wiki.filobot.xyz/zh-Tw/modules/guild/invite)**。我們將會帶你到另一個主題
+如果要 設定一個永久的伺服器邀請 本模組，請**[點擊這裡](https://wiki.filobot.xyz/zh-tw/modules/guild/invite)**。我們將會帶你到另一個主題
 
 ## Muted Role
 
-如果要 設定禁言身分組 本模組，請**[點擊這裡](https://wiki.filobot.xyz/zh-Tw/modules/guild/muted)**。我們將會帶你到另一個主題
+如果要 設定禁言身分組 本模組，請**[點擊這裡](https://wiki.filobot.xyz/zh-tw/modules/guild/muted)**。我們將會帶你到另一個主題

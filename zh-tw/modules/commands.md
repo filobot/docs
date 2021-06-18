@@ -16,4 +16,4 @@ editor: markdown
 
 ## Disable commands
 
-如果要 停用或重新啟用 filo 指令 本模組，請**[點擊這裡](https://wiki.filobot.xyz/zh-Tw/modules/commands/disable)**。我們將會帶你到另一個主題
+如果要 停用或重新啟用 filo 指令 本模組，請**[點擊這裡](https://wiki.filobot.xyz/zh-tw/modules/commands/disable)**。我們將會帶你到另一個主題
