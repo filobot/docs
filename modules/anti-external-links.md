@@ -2,8 +2,8 @@
 title: Anti External Links
 description:
 published: false
-date: Sat Jun 19 2021 10:37:29 GMT+0000 (Coordinated Universal Time)
-dateCreated: Sat Jun 19 2021 10:37:29 GMT+0000 (Coordinated Universal Time)
+date: Sat Jun 19 2021 10:40:41 GMT+0000 (Coordinated Universal Time)
+dateCreated: Sat Jun 19 2021 10:40:41 GMT+0000 (Coordinated Universal Time)
 tags:
 editor: markdown
 ---
@@ -90,8 +90,6 @@ To add a subdomain to the allowed list you must execute the following command: <
 > **Example**: https://*.filobot.xyz.
 {.is-info}
 
-//
-
 ## Steps to add a domain to the allowed list
 
 ### **Step 1**: Add a domain to the allowed list
@@ -105,6 +103,26 @@ To add a domain to the allowed list you must execute the following command: <kbd
 {.is-danger}
 
 **Example**: <kbd>f!config anti-external-links allow url add https://filobot.xyz</kbd>.
+
+//
+
+## Steps to add a path to the allowed list
+
+### **Step 1**: Add a path to the allowed list
+
+To add a path to the allowed list you must execute the following command: <kbd>f!config anti-external-links allow url add \<URL></kbd>.
+
+> Don't include ``<>`` when you're running the command.
+{.is-warning}
+
+> It is mandatory that the URL has the **HTTPS** protocol enabled, otherwise it cannot be added to the allowed list.
+{.is-danger}
+
+**Example**: <kbd>f!config anti-external-links allow url add https://wiki.filobot.xyz/en/home</kbd>.
+
+> You can allow all paths of a domain by replacing the path with an asterisk.
+> **Example**: https://filobot.xyz/*.
+{.is-info}
 
 //
 
