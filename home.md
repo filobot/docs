@@ -2,8 +2,8 @@
 title: Home
 description:
 published: true
-date: Thu Jun 03 2021 17:41:48 GMT+0000 (Coordinated Universal Time)
-dateCreated: Thu Jun 03 2021 17:41:48 GMT+0000 (Coordinated Universal Time)
+date: Sun Jun 20 2021 13:04:25 GMT+0000 (Coordinated Universal Time)
+dateCreated: Sun Jun 20 2021 13:04:25 GMT+0000 (Coordinated Universal Time)
 tags:
 editor: markdown
 ---
@@ -30,7 +30,6 @@ Go to **[our Discord server](https://filobot.xyz/discord)** if this documentatio
 
 In this section you'll find all kinds of guides with the necessary information to start using Filo.
 - [Invite Filo](https://wiki.filobot.xyz/en/getting-started/invite).
-- [Common Errors](https://wiki.filobot.xyz/en/getting-started/errors).
 
 ## Modules
 

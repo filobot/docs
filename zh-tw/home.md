@@ -2,8 +2,8 @@
 title: Home
 description:
 published: true
-date: Thu Jun 03 2021 17:41:48 GMT+0000 (Coordinated Universal Time)
-dateCreated: Thu Jun 03 2021 17:41:48 GMT+0000 (Coordinated Universal Time)
+date: Sun Jun 20 2021 13:04:25 GMT+0000 (Coordinated Universal Time)
+dateCreated: Sun Jun 20 2021 13:04:25 GMT+0000 (Coordinated Universal Time)
 tags:
 editor: markdown
 ---
@@ -30,7 +30,6 @@ editor: markdown
 
 如果你剛加入 Filo 的行列，你可以從下面的連結查看必要資訊.
 - [Invite Filo](https://wiki.filobot.xyz/zh-tw/getting-started/invite).
-- [Common Errors](https://wiki.filobot.xyz/zh-tw/getting-started/errors).
 
 ## Modules
 

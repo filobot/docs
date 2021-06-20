@@ -2,8 +2,8 @@
 title: Inicio
 description:
 published: true
-date: Thu Jun 03 2021 17:41:48 GMT+0000 (Coordinated Universal Time)
-dateCreated: Thu Jun 03 2021 17:41:48 GMT+0000 (Coordinated Universal Time)
+date: Sun Jun 20 2021 13:04:25 GMT+0000 (Coordinated Universal Time)
+dateCreated: Sun Jun 20 2021 13:04:25 GMT+0000 (Coordinated Universal Time)
 tags:
 editor: markdown
 ---
@@ -30,7 +30,6 @@ Dirígete a **[nuestro servidor de Discord](https://filobot.xyz/discord)** si es
 
 En esta sección encontrarás todo tipo de guías con la información necesaria para empezar a utilizar Filo.
 - [Invitar a Filo](https://wiki.filobot.xyz/es/getting-started/invite).
-- [Errores Comunes](https://wiki.filobot.xyz/es/getting-started/errors).
 
 ## Módulos
 
