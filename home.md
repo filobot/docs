@@ -52,7 +52,7 @@ In this section you'll find all kinds of guides with the necessary information f
 > - [Anti Repeated Text](https://wiki.filobot.xyz/en/modules/anti-repeated-text).
 > - [Disable Commands](https://wiki.filobot.xyz/en/modules/commands/disable).
 > - [Anti Bad Words](https://wiki.filobot.xyz/en/modules/anti-bad-words).
-> - [](https://wiki.filobot.xyz/en/modules/anti-external-links).
+> - [Anti External Links](https://wiki.filobot.xyz/en/modules/anti-external-links).
 
 # Wiki keys
 

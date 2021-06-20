@@ -52,7 +52,7 @@ En esta sección encontrarás todo tipo de guías con la información necesaria 
 > - [Anti Texto Repetido](https://wiki.filobot.xyz/es/modules/anti-repeated-text).
 > - [Deshabilitar Comandos](https://wiki.filobot.xyz/es/modules/commands/disable).
 > - [Anti Malas Palabras](https://wiki.filobot.xyz/es/modules/anti-bad-words).
-> - [](https://wiki.filobot.xyz/es/modules/anti-external-links).
+> - [Anti Enlaces Externos](https://wiki.filobot.xyz/es/modules/anti-external-links).
 
 # Claves de la Wiki
 

@@ -52,7 +52,7 @@ editor: markdown
 > - [Anti Repeated Text](https://wiki.filobot.xyz/zh-tw/modules/anti-repeated-text).
 > - [Disable Commands](https://wiki.filobot.xyz/zh-tw/modules/commands/disable).
 > - [Anti Bad Words](https://wiki.filobot.xyz/zh-tw/modules/anti-bad-words).
-> - [](https://wiki.filobot.xyz/zh-tw/modules/anti-external-links).
+> - [Anti External Links](https://wiki.filobot.xyz/zh-tw/modules/anti-external-links).
 
 # 指南小提示
 
