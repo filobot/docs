@@ -2,8 +2,8 @@
 title: Home
 description:
 published: true
-date: Sun Jun 20 2021 13:04:25 GMT+0000 (Coordinated Universal Time)
-dateCreated: Sun Jun 20 2021 13:04:25 GMT+0000 (Coordinated Universal Time)
+date: Sun Jun 20 2021 13:05:18 GMT+0000 (Coordinated Universal Time)
+dateCreated: Sun Jun 20 2021 13:05:18 GMT+0000 (Coordinated Universal Time)
 tags:
 editor: markdown
 ---
@@ -52,6 +52,7 @@ In this section you'll find all kinds of guides with the necessary information f
 > - [Anti Repeated Text](https://wiki.filobot.xyz/en/modules/anti-repeated-text).
 > - [Disable Commands](https://wiki.filobot.xyz/en/modules/commands/disable).
 > - [Anti Bad Words](https://wiki.filobot.xyz/en/modules/anti-bad-words).
+> - [](https://wiki.filobot.xyz/en/modules/anti-external-links).
 
 # Wiki keys
 

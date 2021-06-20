@@ -2,8 +2,8 @@
 title: Inicio
 description:
 published: true
-date: Sun Jun 20 2021 13:04:25 GMT+0000 (Coordinated Universal Time)
-dateCreated: Sun Jun 20 2021 13:04:25 GMT+0000 (Coordinated Universal Time)
+date: Sun Jun 20 2021 13:05:18 GMT+0000 (Coordinated Universal Time)
+dateCreated: Sun Jun 20 2021 13:05:18 GMT+0000 (Coordinated Universal Time)
 tags:
 editor: markdown
 ---
@@ -52,6 +52,7 @@ En esta sección encontrarás todo tipo de guías con la información necesaria 
 > - [Anti Texto Repetido](https://wiki.filobot.xyz/es/modules/anti-repeated-text).
 > - [Deshabilitar Comandos](https://wiki.filobot.xyz/es/modules/commands/disable).
 > - [Anti Malas Palabras](https://wiki.filobot.xyz/es/modules/anti-bad-words).
+> - [](https://wiki.filobot.xyz/es/modules/anti-external-links).
 
 # Claves de la Wiki
 
