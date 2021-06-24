@@ -1,7 +1,7 @@
 ---
 title: Home
 description:
-published: 1
+published: true
 date: Sun Jun 20 2021 13:05:18 GMT+0000 (Coordinated Universal Time)
 dateCreated: Sun Jun 20 2021 13:05:18 GMT+0000 (Coordinated Universal Time)
 tags:
@@ -30,6 +30,7 @@ editor: markdown
 
 如果你剛加入 Filo 的行列，你可以從下面的連結查看必要資訊.
 - [Invite Filo](https://wiki.filobot.xyz/zh-tw/getting-started/invite).
+- [Invite Filo](https://wiki.filobot.xyz/zh-tw/test).
 
 ## Modules
 
