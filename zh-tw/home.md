@@ -1,7 +1,7 @@
 ---
 title: Home
 description:
-published: true
+published: 1
 date: Sun Jun 20 2021 13:05:18 GMT+0000 (Coordinated Universal Time)
 dateCreated: Sun Jun 20 2021 13:05:18 GMT+0000 (Coordinated Universal Time)
 tags:
