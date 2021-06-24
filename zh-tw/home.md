@@ -30,7 +30,6 @@ editor: markdown
 
 如果你剛加入 Filo 的行列，你可以從下面的連結查看必要資訊.
 - [Invite Filo](https://wiki.filobot.xyz/zh-tw/getting-started/invite).
-- [Invite Filo](https://wiki.filobot.xyz/zh-tw/getting-started/invite).
 
 ## Modules
 
