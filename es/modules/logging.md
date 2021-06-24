@@ -2,8 +2,8 @@
 title: Registros
 description:
 published: true
-date: Mon Jun 14 2021 13:21:11 GMT+0000 (Coordinated Universal Time)
-dateCreated: Mon Jun 14 2021 13:21:11 GMT+0000 (Coordinated Universal Time)
+date: Thu Jun 24 2021 09:13:05 GMT+0000 (Coordinated Universal Time)
+dateCreated: Thu Jun 24 2021 09:13:05 GMT+0000 (Coordinated Universal Time)
 tags:
 editor: markdown
 ---
@@ -64,7 +64,60 @@ Para establecer el canal de registros debes ejecutar el siguiente comando: <kbd>
 > No incluyas ``<>`` cuando estés ejecutando el comando.
 {.is-warning}
 
+> Todos los eventos se reconfigurarán al mismo canal de registros.
+{.is-danger}
+
 **Ejemplo**: <kbd>f!config logging set channel #server-logs</kbd>.
+
+> Filo requiere los siguientes permisos avanzados: ``VIEW_CHANNEL`` y ``MANAGE_WEBHOOKS``.
+{.is-danger}
+
+> El canal que selecciones debe ser privado y accesible para los moderadores del servidor.
+{.is-success}
+
+# Pasos para configurar los eventos del módulo
+
+## Pasos para habilitar un evento
+
+### **Paso 1**: Habilitar un evento
+
+Para habilitar un evento debes ejecutar el siguiente comando: <kbd>f!config logging events \<Evento> enable</kbd>.
+
+> No incluyas ``<>`` cuando estés ejecutando el comando.
+{.is-warning}
+
+> Puedes obtener una lista completa de los eventos disponibles ejecutando el siguiente comando: **f!config logging events list**.
+{.is-info}
+
+**Ejemplo**: <kbd>f!config logging events channelCreate enable</kbd>.
+
+## Pasos para deshabilitar un evento
+
+### **Paso 1**: Deshabilitar un evento
+
+Para deshabilitar un evento debes ejecutar el siguiente comando: <kbd>f!config logging events \<Evento> disable</kbd>.
+
+> No incluyas ``<>`` cuando estés ejecutando el comando.
+{.is-warning}
+
+> Puedes obtener una lista completa de los eventos disponibles ejecutando el siguiente comando: **f!config logging events list**.
+{.is-info}
+
+**Ejemplo**: <kbd>f!config logging events channelCreate disable</kbd>.
+
+## Pasos para establecer el canal de un evento
+
+### **Paso 1**: Establecer el canal de un evento
+
+Para establecer el canal de un evento debes ejecutar el siguiente comando: <kbd>f!config logging events \<Evento> set channel \<#Canal/ID del Canal></kbd>.
+
+> No incluyas ``<>`` cuando estés ejecutando el comando.
+{.is-warning}
+
+> Puedes obtener una lista completa de los eventos disponibles ejecutando el siguiente comando: **f!config logging events list**.
+{.is-info}
+
+**Ejemplo**: <kbd>f!config logging events channelCreate set channel #channels-logs</kbd>.
 
 > Filo requiere los siguientes permisos avanzados: ``VIEW_CHANNEL`` y ``MANAGE_WEBHOOKS``.
 {.is-danger}
@@ -76,7 +129,7 @@ Para establecer el canal de registros debes ejecutar el siguiente comando: <kbd>
 
 ## **Paso 1**: Restablecer las configuraciones del módulo
 
-Para restablecer las configuraciones del módulo debes ejecutar el siguiente comando: <kbd>f!config logging reset \<Channel> (opcional)</kbd>.
+Para restablecer las configuraciones del módulo debes ejecutar el siguiente comando: <kbd>f!config logging reset \<Events> (opcional)</kbd>.
 
 > No incluyas ``<>`` cuando estés ejecutando el comando.
 {.is-warning}

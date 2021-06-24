@@ -2,8 +2,8 @@
 title: Logging
 description:
 published: true
-date: Mon Jun 14 2021 13:21:11 GMT+0000 (Coordinated Universal Time)
-dateCreated: Mon Jun 14 2021 13:21:11 GMT+0000 (Coordinated Universal Time)
+date: Thu Jun 24 2021 09:13:05 GMT+0000 (Coordinated Universal Time)
+dateCreated: Thu Jun 24 2021 09:13:05 GMT+0000 (Coordinated Universal Time)
 tags:
 editor: markdown
 ---
@@ -64,7 +64,60 @@ To set the logging channel you must execute the following command: <kbd>f!config
 > Don't include ``<>`` when you're running the command.
 {.is-warning}
 
+> All events will be reconfigured to the same logging channel.
+{.is-danger}
+
 **Example**: <kbd>f!config logging set channel #server-logs</kbd>.
+
+> Filo requires the following advanced permissions: ``VIEW_CHANNEL`` and ``MANAGE_WEBHOOKS``.
+{.is-danger}
+
+> The channel you select should be private and accessible to server moderators.
+{.is-success}
+
+# Steps to configure module events
+
+## Steps to enable an event
+
+### **Step 1**: Enable an event
+
+To enable an event you must execute the following command: <kbd>f!config logging events \<Event> enable</kbd>.
+
+> Don't include ``<>`` when you're running the command.
+{.is-warning}
+
+> You can get a complete list of available events by running the following command: **f!config logging events list**.
+{.is-info}
+
+**Example**: <kbd>f!config logging events channelCreate enable</kbd>.
+
+## Steps to disable an event
+
+### **Step 1**: Disable an event
+
+To disable an event you must execute the following command: <kbd>f!config logging events \<Event> disable</kbd>.
+
+> Don't include ``<>`` when you're running the command.
+{.is-warning}
+
+> You can get a complete list of available events by running the following command: **f!config logging events list**.
+{.is-info}
+
+**Example**: <kbd>f!config logging events channelCreate disable</kbd>.
+
+## Steps to set the channel of an event
+
+### **Step 1**: Set the channel of an event
+
+To set the channel of an event you must execute the following command: <kbd>f!config logging events \<Event> set channel \<#Channel/Channel ID></kbd>.
+
+> Don't include ``<>`` when you're running the command.
+{.is-warning}
+
+> You can get a complete list of available events by running the following command: **f!config logging events list**.
+{.is-info}
+
+**Example**: <kbd>f!config logging events channelCreate set channel #channels-logs</kbd>.
 
 > Filo requires the following advanced permissions: ``VIEW_CHANNEL`` and ``MANAGE_WEBHOOKS``.
 {.is-danger}
@@ -76,7 +129,7 @@ To set the logging channel you must execute the following command: <kbd>f!config
 
 ## **Step 1**: Reset the module settings
 
-To reset the module settings you must execute the following command: <kbd>f!config logging reset \<Channel> (optional)</kbd>.
+To reset the module settings you must execute the following command: <kbd>f!config logging reset \<Events> (optional)</kbd>.
 
 > Don't include ``<>`` when you're running the command.
 {.is-warning}
