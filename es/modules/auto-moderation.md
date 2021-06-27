@@ -2,8 +2,8 @@
 title: Auto Moderación
 description:
 published: true
-date: Mon Jun 14 2021 13:21:49 GMT+0000 (Coordinated Universal Time)
-dateCreated: Mon Jun 14 2021 13:21:49 GMT+0000 (Coordinated Universal Time)
+date: Sun Jun 27 2021 10:53:29 GMT+0000 (Coordinated Universal Time)
+dateCreated: Sun Jun 27 2021 10:53:29 GMT+0000 (Coordinated Universal Time)
 tags:
 editor: markdown
 ---
@@ -19,7 +19,7 @@ Este módulo te permitirá sancionar automáticamente a aquellos usuarios que te
 
 Antes de continuar con este artículo, debes tener en cuenta una serie de elementos que pueden influir cuando vayas a realizar alguna acción descrita en esta página:
 
-- Filo requiere los siguientes permisos avanzados: {{permissions}} (si aplica).
+- Filo requiere los siguientes permisos avanzados: ``MANAGE_MESSAGES``, ``MANAGE_ROLES``, ``KICK_MEMBERS`` y``BAN_MEMBERS`` (si aplica).
 
 - Filo requiere los siguientes permisos básicos: ``VIEW_CHANNEL``, ``SEND_MESSAGES``, ``EMBED_LINKS``, ``USE_EXTERNAL_EMOJIS``, ``READ_MESSAGE_HISTORY`` y ``ADD_REACTIONS``.
 

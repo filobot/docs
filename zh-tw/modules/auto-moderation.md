@@ -2,8 +2,8 @@
 title: Auto Moderation
 description:
 published: true
-date: Mon Jun 14 2021 13:21:49 GMT+0000 (Coordinated Universal Time)
-dateCreated: Mon Jun 14 2021 13:21:49 GMT+0000 (Coordinated Universal Time)
+date: Sun Jun 27 2021 10:53:29 GMT+0000 (Coordinated Universal Time)
+dateCreated: Sun Jun 27 2021 10:53:29 GMT+0000 (Coordinated Universal Time)
 tags:
 editor: markdown
 ---
@@ -19,7 +19,7 @@ editor: markdown
 
 在繼續之前，您必須考慮一系列可能影響您執行的任何操作因素:
 
-- Filo 需要以下進階權限: {{permissions}} (如果適用).
+- Filo 需要以下進階權限: ``MANAGE_MESSAGES``, ``MANAGE_ROLES``, ``KICK_MEMBERS`` 和``BAN_MEMBERS`` (如果適用).
 
 - Filo 需要以下基礎權限: ``VIEW_CHANNEL``, ``SEND_MESSAGES``, ``EMBED_LINKS``, ``USE_EXTERNAL_EMOJIS``, ``READ_MESSAGE_HISTORY`` 和 ``ADD_REACTIONS``.
 
