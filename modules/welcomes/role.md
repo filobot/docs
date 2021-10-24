@@ -2,8 +2,8 @@
 title: Welcome Role
 description:
 published: true
-date: Sun Oct 24 2021 14:32:02 GMT+0000 (Coordinated Universal Time)
-dateCreated: Sun Oct 24 2021 14:32:02 GMT+0000 (Coordinated Universal Time)
+date: Sun Oct 24 2021 14:42:56 GMT+0000 (Coordinated Universal Time)
+dateCreated: Sun Oct 24 2021 14:42:56 GMT+0000 (Coordinated Universal Time)
 tags:
 editor: markdown
 ---
@@ -24,7 +24,6 @@ Before proceeding with this article, you must take into account a series of elem
 - Filo requires the following basic permission: ``VIEW_CHANNEL``.
 
 - You need ``ADMINISTRATOR`` permission to perform most of the actions in this article.
-- You should replace <kbd>f!</kbd> with the current prefix you have set. More information on how to change the prefix by **[clicking here](https://wiki.filobot.xyz/en/modules/prefix)**.
 
 # Module exceptions
 

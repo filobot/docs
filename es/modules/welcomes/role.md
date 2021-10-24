@@ -2,8 +2,8 @@
 title: Rol de Bienvenida
 description:
 published: true
-date: Sun Oct 24 2021 14:32:02 GMT+0000 (Coordinated Universal Time)
-dateCreated: Sun Oct 24 2021 14:32:02 GMT+0000 (Coordinated Universal Time)
+date: Sun Oct 24 2021 14:42:56 GMT+0000 (Coordinated Universal Time)
+dateCreated: Sun Oct 24 2021 14:42:56 GMT+0000 (Coordinated Universal Time)
 tags:
 editor: markdown
 ---
@@ -24,7 +24,6 @@ Antes de continuar con este artículo, debes tener en cuenta una serie de elemen
 - Filo requiere el siguiente permiso básico: ``VIEW_CHANNEL``.
 
 - Necesitas el permiso ``ADMINISTRATOR`` para realizar la mayoría de las acciones de este artículo.
-- Debes reemplazar <kbd>f!</kbd> con el prefijo actual que hayas establecido. Más información sobre cómo cambiar el prefijo haciendo **[clic aquí](https://wiki.filobot.xyz/es/modules/prefix)**.
 
 # Excepciones del módulo
 

@@ -2,8 +2,8 @@
 title: Welcome Role
 description:
 published: true
-date: Sun Oct 24 2021 14:32:02 GMT+0000 (Coordinated Universal Time)
-dateCreated: Sun Oct 24 2021 14:32:02 GMT+0000 (Coordinated Universal Time)
+date: Sun Oct 24 2021 14:42:56 GMT+0000 (Coordinated Universal Time)
+dateCreated: Sun Oct 24 2021 14:42:56 GMT+0000 (Coordinated Universal Time)
 tags:
 editor: markdown
 ---
@@ -24,7 +24,6 @@ editor: markdown
 - Filo 需要要此項基礎權限: ``VIEW_CHANNEL``.
 
 - 在執行本主題的指令前，你需要此項權限： ``ADMINISTRATOR``.
-- 你需要取代<kbd>f!</kbd> 成你設定的 prefix 。如果你需要更換它的教學，請 **[點擊這裡](https://wiki.filobot.xyz/zh-tw/modules/prefix)**.
 
 # 常見錯誤
 
