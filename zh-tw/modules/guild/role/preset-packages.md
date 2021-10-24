@@ -2,8 +2,8 @@
 title: Preset Permissions Packages
 description:
 published: true
-date: Sun Oct 24 2021 12:17:21 GMT+0000 (Coordinated Universal Time)
-dateCreated: Sun Oct 24 2021 12:17:21 GMT+0000 (Coordinated Universal Time)
+date: Sun Oct 24 2021 12:19:17 GMT+0000 (Coordinated Universal Time)
+dateCreated: Sun Oct 24 2021 12:19:17 GMT+0000 (Coordinated Universal Time)
 tags:
 editor: markdown
 ---
@@ -24,7 +24,7 @@ editor: markdown
 
 ## 資深版主
 
-**[點擊這裡](https://filobot.xyz/calculator#8290295)** 以查看 **資深版主** 的權限 
+**[點擊這裡](https://filobot.xyz/calculator#16678903)** 以查看 **資深版主** 的權限 
 
 ## 管理員
 

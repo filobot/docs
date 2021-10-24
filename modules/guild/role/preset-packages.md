@@ -2,8 +2,8 @@
 title: Preset Permissions Packages
 description:
 published: true
-date: Sun Oct 24 2021 12:17:21 GMT+0000 (Coordinated Universal Time)
-dateCreated: Sun Oct 24 2021 12:17:21 GMT+0000 (Coordinated Universal Time)
+date: Sun Oct 24 2021 12:19:17 GMT+0000 (Coordinated Universal Time)
+dateCreated: Sun Oct 24 2021 12:19:17 GMT+0000 (Coordinated Universal Time)
 tags:
 editor: markdown
 ---
@@ -24,7 +24,7 @@ By **[clicking here](https://filobot.xyz/calculator#7503859)** you will see the 
 
 ## Senior Moderator
 
-By **[clicking here](https://filobot.xyz/calculator#8290295)** you will see the preset permissions for the **Senior Moderator** role
+By **[clicking here](https://filobot.xyz/calculator#16678903)** you will see the preset permissions for the **Senior Moderator** role
 
 ## Administrator
 

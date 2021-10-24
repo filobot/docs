@@ -2,8 +2,8 @@
 title: Paquetes de Permisos Preestablecidos
 description:
 published: true
-date: Sun Oct 24 2021 12:17:21 GMT+0000 (Coordinated Universal Time)
-dateCreated: Sun Oct 24 2021 12:17:21 GMT+0000 (Coordinated Universal Time)
+date: Sun Oct 24 2021 12:19:17 GMT+0000 (Coordinated Universal Time)
+dateCreated: Sun Oct 24 2021 12:19:17 GMT+0000 (Coordinated Universal Time)
 tags:
 editor: markdown
 ---
@@ -24,7 +24,7 @@ Haciendo **[clic aquí](https://filobot.xyz/calculator#7503859)** podrás ver lo
 
 ## Señor Moderador
 
-Haciendo **[clic aquí](https://filobot.xyz/calculator#8290295)** podrás ver los permisos preestablecidos para el rol **Señor Moderador**
+Haciendo **[clic aquí](https://filobot.xyz/calculator#16678903)** podrás ver los permisos preestablecidos para el rol **Señor Moderador**
 
 ## Administrador
 
