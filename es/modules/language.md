@@ -2,8 +2,8 @@
 title: Idioma
 description:
 published: true
-date: Sun Oct 24 2021 11:18:23 GMT+0000 (Coordinated Universal Time)
-dateCreated: Sun Oct 24 2021 11:18:23 GMT+0000 (Coordinated Universal Time)
+date: Sun Oct 24 2021 11:19:30 GMT+0000 (Coordinated Universal Time)
+dateCreated: Sun Oct 24 2021 11:19:30 GMT+0000 (Coordinated Universal Time)
 tags:
 editor: markdown
 ---
@@ -16,7 +16,7 @@ Este módulo te permitirá configurar o estabke el idioma de Filo; esto afectar�
 
 Antes de continuar con este artículo, debes tener en cuenta una serie de elementos que pueden influir cuando vayas a realizar alguna acción descrita en esta página:
 
-- Filo requiere el siguiente permiso básico: {{permission}}.
+- Filo requiere el siguiente permiso básico: ``VIEW_CHANNEL``.
 
 - Necesitas el permiso ``ADMINISTRATOR`` para realizar la mayoría de las acciones de este artículo.
 
