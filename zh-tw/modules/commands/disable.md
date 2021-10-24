@@ -2,8 +2,8 @@
 title: Disable commands
 description:
 published: true
-date: Sun Oct 24 2021 11:32:32 GMT+0000 (Coordinated Universal Time)
-dateCreated: Sun Oct 24 2021 11:32:32 GMT+0000 (Coordinated Universal Time)
+date: Sun Oct 24 2021 11:54:26 GMT+0000 (Coordinated Universal Time)
+dateCreated: Sun Oct 24 2021 11:54:26 GMT+0000 (Coordinated Universal Time)
 tags:
 editor: markdown
 ---
@@ -24,7 +24,7 @@ editor: markdown
 
 ## **步驟 1**: 停用指令
 
-如果要 停用指令 ，您必須執行以下指令：<kbd>/commands disable ``target:Command`` ``value:\<指令>``</kbd>.
+如果要 停用指令 ，您必須執行以下指令：<kbd>/commands disable ``target:Command`` ``value:<指令>``</kbd>.
 
 > 當您在打指令時，請勿包含 ``<>``.
 {.is-warning}
@@ -35,18 +35,18 @@ editor: markdown
 
 ## **步驟 1**: 啟用指令
 
-如果要 啟用指令 ，您必須執行以下指令：<kbd>/commands enable ``target:Command`` ``value:\<指令>``</kbd>.
+如果要 啟用指令 ，您必須執行以下指令：<kbd>/commands enable ``target:Command`` ``value:<指令>``</kbd>.
 
 > 當您在打指令時，請勿包含 ``<>``.
 {.is-warning}
 
 **範例**: <kbd>/commands enable ``target:Command`` ``value:ping``</kbd>.
-////
+
 # Steps to disable a category of commands
 
 ## **步驟 1**: Disable a category of commands
 
-如果要 disable a category of commands ，您必須執行以下指令：<kbd>/commands disable ``target:Category`` ``value:\<Category>``</kbd>.
+如果要 disable a category of commands ，您必須執行以下指令：<kbd>/commands disable ``target:Category`` ``value:<Category>``</kbd>.
 
 > 當您在打指令時，請勿包含 ``<>``.
 {.is-warning}
@@ -57,7 +57,7 @@ editor: markdown
 
 ## **步驟 1**: Enable a category of commands
 
-如果要 enable a category of commands ，您必須執行以下指令：<kbd>/commands enable ``target:Category`` ``value:\<Category>``</kbd>.
+如果要 enable a category of commands ，您必須執行以下指令：<kbd>/commands enable ``target:Category`` ``value:<Category>``</kbd>.
 
 > 當您在打指令時，請勿包含 ``<>``.
 {.is-warning}

@@ -2,8 +2,8 @@
 title: Disable commands
 description:
 published: true
-date: Sun Oct 24 2021 11:32:32 GMT+0000 (Coordinated Universal Time)
-dateCreated: Sun Oct 24 2021 11:32:32 GMT+0000 (Coordinated Universal Time)
+date: Sun Oct 24 2021 11:54:26 GMT+0000 (Coordinated Universal Time)
+dateCreated: Sun Oct 24 2021 11:54:26 GMT+0000 (Coordinated Universal Time)
 tags:
 editor: markdown
 ---
@@ -24,7 +24,7 @@ Before proceeding with this article, you must take into account a series of elem
 
 ## **Step 1**: Disable a command
 
-To disable a command you must execute the following command: <kbd>/commands disable ``target:Command`` ``value:\<Command>``</kbd>.
+To disable a command you must execute the following command: <kbd>/commands disable ``target:Command`` ``value:<Command>``</kbd>.
 
 > Don't include ``<>`` when you're running the command.
 {.is-warning}
@@ -35,18 +35,18 @@ To disable a command you must execute the following command: <kbd>/commands disa
 
 ## **Step 1**: Enable a command
 
-To enable a command you must execute the following command: <kbd>/commands enable ``target:Command`` ``value:\<Command>``</kbd>.
+To enable a command you must execute the following command: <kbd>/commands enable ``target:Command`` ``value:<Command>``</kbd>.
 
 > Don't include ``<>`` when you're running the command.
 {.is-warning}
 
 **Example**: <kbd>/commands enable ``target:Command`` ``value:ping``</kbd>.
-////
+
 # Steps to disable a category of commands
 
 ## **Step 1**: Disable a category of commands
 
-To disable a category of commands you must execute the following command: <kbd>/commands disable ``target:Category`` ``value:\<Category>``</kbd>.
+To disable a category of commands you must execute the following command: <kbd>/commands disable ``target:Category`` ``value:<Category>``</kbd>.
 
 > Don't include ``<>`` when you're running the command.
 {.is-warning}
@@ -57,7 +57,7 @@ To disable a category of commands you must execute the following command: <kbd>/
 
 ## **Step 1**: Enable a category of commands
 
-To enable a category of commands you must execute the following command: <kbd>/commands enable ``target:Category`` ``value:\<Category>``</kbd>.
+To enable a category of commands you must execute the following command: <kbd>/commands enable ``target:Category`` ``value:<Category>``</kbd>.
 
 > Don't include ``<>`` when you're running the command.
 {.is-warning}

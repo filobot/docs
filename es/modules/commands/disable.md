@@ -2,8 +2,8 @@
 title: Deshabilitar Comandos
 description:
 published: true
-date: Sun Oct 24 2021 11:32:32 GMT+0000 (Coordinated Universal Time)
-dateCreated: Sun Oct 24 2021 11:32:32 GMT+0000 (Coordinated Universal Time)
+date: Sun Oct 24 2021 11:54:26 GMT+0000 (Coordinated Universal Time)
+dateCreated: Sun Oct 24 2021 11:54:26 GMT+0000 (Coordinated Universal Time)
 tags:
 editor: markdown
 ---
@@ -24,7 +24,7 @@ Antes de continuar con este artículo, debes tener en cuenta una serie de elemen
 
 ## **Paso 1**: Deshabilitar un comando
 
-Para deshabilitar un comando debes ejecutar el siguiente comando: <kbd>/commands disable ``target:Command`` ``value:\<Comando>``</kbd>.
+Para deshabilitar un comando debes ejecutar el siguiente comando: <kbd>/commands disable ``target:Command`` ``value:<Comando>``</kbd>.
 
 > No incluyas ``<>`` cuando estés ejecutando el comando.
 {.is-warning}
@@ -35,18 +35,18 @@ Para deshabilitar un comando debes ejecutar el siguiente comando: <kbd>/commands
 
 ## **Paso 1**: Habilitar un comando
 
-Para habilitar un comando debes ejecutar el siguiente comando: <kbd>/commands enable ``target:Command`` ``value:\<Comando>``</kbd>.
+Para habilitar un comando debes ejecutar el siguiente comando: <kbd>/commands enable ``target:Command`` ``value:<Comando>``</kbd>.
 
 > No incluyas ``<>`` cuando estés ejecutando el comando.
 {.is-warning}
 
 **Ejemplo**: <kbd>/commands enable ``target:Command`` ``value:ping``</kbd>.
-////
+
 # Pasos paraa deshabilitar una categoría de comandos
 
 ## **Paso 1**: Deshabilitar una categoría de comandos
 
-Para deshabilitar una categoría de comandos debes ejecutar el siguiente comando: <kbd>/commands disable ``target:Category`` ``value:\<Categoría>``</kbd>.
+Para deshabilitar una categoría de comandos debes ejecutar el siguiente comando: <kbd>/commands disable ``target:Category`` ``value:<Categoría>``</kbd>.
 
 > No incluyas ``<>`` cuando estés ejecutando el comando.
 {.is-warning}
@@ -57,7 +57,7 @@ Para deshabilitar una categoría de comandos debes ejecutar el siguiente comando
 
 ## **Paso 1**: Habilitar una categoría de comandos
 
-Para habilitar una categoría de comandos debes ejecutar el siguiente comando: <kbd>/commands enable ``target:Category`` ``value:\<Categoría>``</kbd>.
+Para habilitar una categoría de comandos debes ejecutar el siguiente comando: <kbd>/commands enable ``target:Category`` ``value:<Categoría>``</kbd>.
 
 > No incluyas ``<>`` cuando estés ejecutando el comando.
 {.is-warning}
