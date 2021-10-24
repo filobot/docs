@@ -2,8 +2,8 @@
 title: Welcomes
 description:
 published: true
-date: Sun Oct 24 2021 13:35:41 GMT+0000 (Coordinated Universal Time)
-dateCreated: Sun Oct 24 2021 13:35:41 GMT+0000 (Coordinated Universal Time)
+date: Sun Oct 24 2021 13:38:06 GMT+0000 (Coordinated Universal Time)
+dateCreated: Sun Oct 24 2021 13:38:06 GMT+0000 (Coordinated Universal Time)
 tags:
 editor: markdown
 ---
@@ -89,7 +89,7 @@ To set the welcomes channel you must execute the following command: <kbd>/welcom
 
 ## **Step 1**: Set the message type
 
-To set the message type you must execute the following command: <kbd>/welcomes type ``type:<Normal/Embed></Normal>``</kbd>.
+To set the message type you must execute the following command: <kbd>/welcomes type ``type:<Normal/Embed>``</kbd>.
 
 > Don't include ``<>`` when you're running the command.
 {.is-warning}

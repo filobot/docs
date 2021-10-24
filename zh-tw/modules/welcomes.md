@@ -2,8 +2,8 @@
 title: Welcomes
 description:
 published: true
-date: Sun Oct 24 2021 13:35:41 GMT+0000 (Coordinated Universal Time)
-dateCreated: Sun Oct 24 2021 13:35:41 GMT+0000 (Coordinated Universal Time)
+date: Sun Oct 24 2021 13:38:06 GMT+0000 (Coordinated Universal Time)
+dateCreated: Sun Oct 24 2021 13:38:06 GMT+0000 (Coordinated Universal Time)
 tags:
 editor: markdown
 ---
@@ -89,7 +89,7 @@ editor: markdown
 
 ## **步驟 1**: 設定訊息類型
 
-如果要 設定訊息類型 ，您必須執行以下指令：<kbd>/welcomes type ``type:<Normal/Embed></Normal>``</kbd>.
+如果要 設定訊息類型 ，您必須執行以下指令：<kbd>/welcomes type ``type:<Normal/Embed>``</kbd>.
 
 > 當您在打指令時，請勿包含 ``<>``.
 {.is-warning}

@@ -2,8 +2,8 @@
 title: Bienvenidas
 description:
 published: true
-date: Sun Oct 24 2021 13:35:41 GMT+0000 (Coordinated Universal Time)
-dateCreated: Sun Oct 24 2021 13:35:41 GMT+0000 (Coordinated Universal Time)
+date: Sun Oct 24 2021 13:38:06 GMT+0000 (Coordinated Universal Time)
+dateCreated: Sun Oct 24 2021 13:38:06 GMT+0000 (Coordinated Universal Time)
 tags:
 editor: markdown
 ---
@@ -89,7 +89,7 @@ Para establecer el canal de bienvenidas debes ejecutar el siguiente comando: <kb
 
 ## **Paso 1**: Establecer el tipo de mensaje
 
-Para establecer el tipo de mensaje debes ejecutar el siguiente comando: <kbd>/welcomes type ``type:<Normal/Embed></Normal>``</kbd>.
+Para establecer el tipo de mensaje debes ejecutar el siguiente comando: <kbd>/welcomes type ``type:<Normal/Embed>``</kbd>.
 
 > No incluyas ``<>`` cuando estés ejecutando el comando.
 {.is-warning}
