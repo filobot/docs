@@ -2,8 +2,8 @@
 title: Home
 description:
 published: true
-date: Sun Jun 20 2021 13:05:18 GMT+0000 (Coordinated Universal Time)
-dateCreated: Sun Jun 20 2021 13:05:18 GMT+0000 (Coordinated Universal Time)
+date: Sun Oct 24 2021 11:23:11 GMT+0000 (Coordinated Universal Time)
+dateCreated: Sun Oct 24 2021 11:23:11 GMT+0000 (Coordinated Universal Time)
 tags:
 editor: markdown
 ---
@@ -35,7 +35,6 @@ editor: markdown
 
 在這裡您可以找到各種關於模組的重要資訊.
 > - [Language](https://wiki.filobot.xyz/zh-tw/modules/language).
-> - [Prefix](https://wiki.filobot.xyz/zh-tw/modules/prefix).
 > - [Guild](https://wiki.filobot.xyz/zh-tw/modules/guild).
 > - [Reports](https://wiki.filobot.xyz/zh-tw/modules/reports).
 > - [Welcomes](https://wiki.filobot.xyz/zh-tw/modules/welcomes).

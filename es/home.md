@@ -2,8 +2,8 @@
 title: Inicio
 description:
 published: true
-date: Sun Jun 20 2021 13:05:18 GMT+0000 (Coordinated Universal Time)
-dateCreated: Sun Jun 20 2021 13:05:18 GMT+0000 (Coordinated Universal Time)
+date: Sun Oct 24 2021 11:23:11 GMT+0000 (Coordinated Universal Time)
+dateCreated: Sun Oct 24 2021 11:23:11 GMT+0000 (Coordinated Universal Time)
 tags:
 editor: markdown
 ---
@@ -35,7 +35,6 @@ En esta sección encontrarás todo tipo de guías con la información necesaria 
 
 En esta sección encontrarás todo tipo de guías con la información necesaria de todos los módulos de Filo.
 > - [Idioma](https://wiki.filobot.xyz/es/modules/language).
-> - [Prefijo](https://wiki.filobot.xyz/es/modules/prefix).
 > - [Gremio](https://wiki.filobot.xyz/es/modules/guild).
 > - [Reportes](https://wiki.filobot.xyz/es/modules/reports).
 > - [Bienvenidas](https://wiki.filobot.xyz/es/modules/welcomes).

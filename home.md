@@ -2,8 +2,8 @@
 title: Home
 description:
 published: true
-date: Sun Jun 20 2021 13:05:18 GMT+0000 (Coordinated Universal Time)
-dateCreated: Sun Jun 20 2021 13:05:18 GMT+0000 (Coordinated Universal Time)
+date: Sun Oct 24 2021 11:23:11 GMT+0000 (Coordinated Universal Time)
+dateCreated: Sun Oct 24 2021 11:23:11 GMT+0000 (Coordinated Universal Time)
 tags:
 editor: markdown
 ---
@@ -35,7 +35,6 @@ In this section you'll find all kinds of guides with the necessary information t
 
 In this section you'll find all kinds of guides with the necessary information from all the Filo modules.
 > - [Language](https://wiki.filobot.xyz/en/modules/language).
-> - [Prefix](https://wiki.filobot.xyz/en/modules/prefix).
 > - [Guild](https://wiki.filobot.xyz/en/modules/guild).
 > - [Reports](https://wiki.filobot.xyz/en/modules/reports).
 > - [Welcomes](https://wiki.filobot.xyz/en/modules/welcomes).
