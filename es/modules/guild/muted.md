@@ -2,8 +2,8 @@
 title: Rol Silenciado
 description:
 published: true
-date: Sun Oct 24 2021 12:00:53 GMT+0000 (Coordinated Universal Time)
-dateCreated: Sun Oct 24 2021 12:00:53 GMT+0000 (Coordinated Universal Time)
+date: Sun Oct 24 2021 12:03:29 GMT+0000 (Coordinated Universal Time)
+dateCreated: Sun Oct 24 2021 12:03:29 GMT+0000 (Coordinated Universal Time)
 tags:
 editor: markdown
 ---
@@ -16,8 +16,6 @@ Este módulo le permitirá configurar el rol Silenciado.
 
 Antes de continuar con este artículo, debes tener en cuenta una serie de elementos que pueden influir cuando vayas a realizar alguna acción descrita en esta página:
 
-- Filo requiere el siguiente permiso avanzado: ``VIEW_CHANNEL`` y ``MANAGE_ROLES``.
-
 - Filo requiere el siguiente permiso básico: ``VIEW_CHANNEL``.
 
 - Necesitas el permiso ``ADMINISTRATOR`` para realizar la mayoría de las acciones de este artículo.
@@ -25,6 +23,9 @@ Antes de continuar con este artículo, debes tener en cuenta una serie de elemen
 # Pasos para crear el rol Silenciado
 
 ## **Paso 1**: Crea el rol Silenciado
+
+> Filo requiere los siguientes permisos avanzados: ``VIEW_CHANNEL``, ``MANAGE_CHANNELS`` y ``MANAGE_ROLES``.
+{.is-warning}
 
 Para crea el rol silenciado debes ejecutar el siguiente comando: <kbd>/core roles muted</kbd>.
 

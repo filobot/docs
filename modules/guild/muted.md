@@ -2,8 +2,8 @@
 title: Muted Role
 description:
 published: true
-date: Sun Oct 24 2021 12:00:53 GMT+0000 (Coordinated Universal Time)
-dateCreated: Sun Oct 24 2021 12:00:53 GMT+0000 (Coordinated Universal Time)
+date: Sun Oct 24 2021 12:03:29 GMT+0000 (Coordinated Universal Time)
+dateCreated: Sun Oct 24 2021 12:03:29 GMT+0000 (Coordinated Universal Time)
 tags:
 editor: markdown
 ---
@@ -16,8 +16,6 @@ This module will allow you to set the Muted role.
 
 Before proceeding with this article, you must take into account a series of elements that can influence when you are going to carry out any action described on this page:
 
-- Filo requires the following advanced permission: ``VIEW_CHANNEL`` and ``MANAGE_ROLES``.
-
 - Filo requires the following basic permission: ``VIEW_CHANNEL``.
 
 - You need ``ADMINISTRATOR`` permission to perform most of the actions in this article.
@@ -25,6 +23,9 @@ Before proceeding with this article, you must take into account a series of elem
 # Steps to create the muted role
 
 ## **Step 1**: Create the the muted role
+
+> Filo requires the following advanced permissions: ``VIEW_CHANNEL``, ``MANAGE_CHANNELS`` and ``MANAGE_ROLES``.
+{.is-warning}
 
 To create the the muted role you must execute the following command: <kbd>/core roles muted</kbd>.
 
