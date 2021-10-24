@@ -2,8 +2,8 @@
 title: Reports
 description:
 published: true
-date: Mon Jun 14 2021 13:20:50 GMT+0000 (Coordinated Universal Time)
-dateCreated: Mon Jun 14 2021 13:20:50 GMT+0000 (Coordinated Universal Time)
+date: Sun Oct 24 2021 12:22:33 GMT+0000 (Coordinated Universal Time)
+dateCreated: Sun Oct 24 2021 12:22:33 GMT+0000 (Coordinated Universal Time)
 tags:
 editor: markdown
 ---
@@ -21,11 +21,9 @@ editor: markdown
 
 - Filo 需要以下進階權限: ``VIEW_CHANNEL`` 和 ``MANAGE_WEBHOOKS``.
 
-- Filo 需要以下基礎權限: ``VIEW_CHANNEL``, ``SEND_MESSAGES``, ``EMBED_LINKS``, ``USE_EXTERNAL_EMOJIS``, ``READ_MESSAGE_HISTORY`` 和 ``ADD_REACTIONS``.
+- Filo 需要要此項基礎權限: ``VIEW_CHANNEL``.
 
 - 在執行本主題的指令前，你需要此項權限： ``ADMINISTRATOR``.
-
-- 你需要取代<kbd>f!</kbd> 成你設定的 prefix 。如果你需要更換它的教學，請 **[點擊這裡](https://wiki.filobot.xyz/zh-tw/modules/prefix)**.
 
 # 常見錯誤
 
@@ -43,28 +41,28 @@ editor: markdown
 
 ## **步驟 1**: 啟用模組
 
-如果要 啟用模組 ，您必須執行以下指令：<kbd>f!config reports enable</kbd>.
+如果要 啟用模組 ，您必須執行以下指令：<kbd>/reports enable</kbd>.
 
-**範例**: <kbd>f!config reports enable</kbd>.
+**範例**: <kbd>/reports enable</kbd>.
 
 # 停用本模組的步驟
 
 ## **步驟 1**: 停用模組
 
-如果要 停用模組 ，您必須執行以下指令：<kbd>f!config reports disable</kbd>.
+如果要 停用模組 ，您必須執行以下指令：<kbd>/reports disable</kbd>.
 
-**範例**: <kbd>f!config reports disable</kbd>.
+**範例**: <kbd>/reports disable</kbd>.
 
 # 如何設定舉報頻道
 
 ## **步驟 1**: 設定舉報頻道
 
-如果要 設定舉報頻道 ，您必須執行以下指令：<kbd>f!config reports set channel \<#頻道/頻道 ID></kbd>.
+如果要 設定舉報頻道 ，您必須執行以下指令：<kbd>/reports channel ``channel:<#頻道/頻道 ID>``</kbd>.
 
 > 當您在打指令時，請勿包含 ``<>``.
 {.is-warning}
 
-**範例**: <kbd>f!config reports set channel #reports</kbd>.
+**範例**: <kbd>/reports channel ``channel:#reports``</kbd>.
 
 > Filo 需要以下進階權限: ``VIEW_CHANNEL`` 和 ``MANAGE_WEBHOOKS``.
 {.is-danger}
@@ -76,12 +74,9 @@ editor: markdown
 
 ## **步驟 1**: 重置模組
 
-如果要 重置模組 ，您必須執行以下指令：<kbd>f!config reports reset \<Channel> (可填)</kbd>.
+如果要 重置模組 ，您必須執行以下指令：<kbd>/reports reset</kbd>.
 
-> 當您在打指令時，請勿包含 ``<>``.
-{.is-warning}
-
-**範例**: <kbd>f!config reports reset</kbd>.
+**範例**: <kbd>/reports reset</kbd>.
 
 > 你必須謹慎考慮此操作。如果重置，您將無法恢復之前的設定.
 {.is-danger}

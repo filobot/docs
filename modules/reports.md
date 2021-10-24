@@ -2,8 +2,8 @@
 title: Reports
 description:
 published: true
-date: Mon Jun 14 2021 13:20:50 GMT+0000 (Coordinated Universal Time)
-dateCreated: Mon Jun 14 2021 13:20:50 GMT+0000 (Coordinated Universal Time)
+date: Sun Oct 24 2021 12:22:33 GMT+0000 (Coordinated Universal Time)
+dateCreated: Sun Oct 24 2021 12:22:33 GMT+0000 (Coordinated Universal Time)
 tags:
 editor: markdown
 ---
@@ -21,11 +21,9 @@ Before proceeding with this article, you must take into account a series of elem
 
 - Filo requires the following advanced permissions: ``VIEW_CHANNEL`` and ``MANAGE_WEBHOOKS``.
 
-- Filo requires the following basic permissions: ``VIEW_CHANNEL``, ``SEND_MESSAGES``, ``EMBED_LINKS``, ``USE_EXTERNAL_EMOJIS``, ``READ_MESSAGE_HISTORY`` and ``ADD_REACTIONS``.
+- Filo requires the following basic permission: ``VIEW_CHANNEL``.
 
 - You need ``ADMINISTRATOR`` permission to perform most of the actions in this article.
-
-- You should replace <kbd>f!</kbd> with the current prefix you have set. More information on how to change the prefix by **[clicking here](https://wiki.filobot.xyz/en/modules/prefix)**.
 
 # Module exceptions
 
@@ -43,28 +41,28 @@ This module has exceptions, which means that it won't work if some of the requir
 
 ## **Step 1**: Enable the module
 
-To enable the module you must execute the following command: <kbd>f!config reports enable</kbd>.
+To enable the module you must execute the following command: <kbd>/reports enable</kbd>.
 
-**Example**: <kbd>f!config reports enable</kbd>.
+**Example**: <kbd>/reports enable</kbd>.
 
 # Steps to disable the module
 
 ## **Step 1**: Disable the module
 
-To disable the module you must execute the following command: <kbd>f!config reports disable</kbd>.
+To disable the module you must execute the following command: <kbd>/reports disable</kbd>.
 
-**Example**: <kbd>f!config reports disable</kbd>.
+**Example**: <kbd>/reports disable</kbd>.
 
 # Steps to set the reports channel
 
 ## **Step 1**: Set the reports channel
 
-To set the reports channel you must execute the following command: <kbd>f!config reports set channel \<#Channel/Channel ID></kbd>.
+To set the reports channel you must execute the following command: <kbd>/reports channel ``channel:<#Channel/Channel ID>``</kbd>.
 
 > Don't include ``<>`` when you're running the command.
 {.is-warning}
 
-**Example**: <kbd>f!config reports set channel #reports</kbd>.
+**Example**: <kbd>/reports channel ``channel:#reports``</kbd>.
 
 > Filo requires the following advanced permissions: ``VIEW_CHANNEL`` and ``MANAGE_WEBHOOKS``.
 {.is-danger}
@@ -76,12 +74,9 @@ To set the reports channel you must execute the following command: <kbd>f!config
 
 ## **Step 1**: Reset the module settings
 
-To reset the module settings you must execute the following command: <kbd>f!config reports reset \<Channel> (optional)</kbd>.
+To reset the module settings you must execute the following command: <kbd>/reports reset</kbd>.
 
-> Don't include ``<>`` when you're running the command.
-{.is-warning}
-
-**Example**: <kbd>f!config reports reset</kbd>.
+**Example**: <kbd>/reports reset</kbd>.
 
 > You'll be forced to confirm the action you are about to take. Once you have confirmed the action, you won't be able to recover the previous data.
 {.is-danger}

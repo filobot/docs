@@ -2,8 +2,8 @@
 title: Muted Role
 description:
 published: true
-date: Sun Oct 24 2021 12:03:29 GMT+0000 (Coordinated Universal Time)
-dateCreated: Sun Oct 24 2021 12:03:29 GMT+0000 (Coordinated Universal Time)
+date: Sun Oct 24 2021 12:21:48 GMT+0000 (Coordinated Universal Time)
+dateCreated: Sun Oct 24 2021 12:21:48 GMT+0000 (Coordinated Universal Time)
 tags:
 editor: markdown
 ---
@@ -24,12 +24,12 @@ editor: markdown
 
 ## **步驟 1**: 建立禁言身分組
 
-> Filo 需要以下進階權限: ``VIEW_CHANNEL``, ``MANAGE_CHANNELS`` 和 ``MANAGE_ROLES``.
-{.is-warning}
-
 如果要 建立禁言身分組 ，您必須執行以下指令：<kbd>/core roles muted</kbd>.
 
 **範例**: <kbd>/core roles muted</kbd>.
+
+> Filo 需要以下進階權限: ``VIEW_CHANNEL``, ``MANAGE_CHANNELS`` 和 ``MANAGE_ROLES``.
+{.is-danger}
 
 # 綁定已經存在的身分組的步驟
 
