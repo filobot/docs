@@ -2,8 +2,8 @@
 title: Welcome Role
 description:
 published: true
-date: Sun Oct 24 2021 14:30:22 GMT+0000 (Coordinated Universal Time)
-dateCreated: Sun Oct 24 2021 14:30:22 GMT+0000 (Coordinated Universal Time)
+date: Sun Oct 24 2021 14:32:02 GMT+0000 (Coordinated Universal Time)
+dateCreated: Sun Oct 24 2021 14:32:02 GMT+0000 (Coordinated Universal Time)
 tags:
 editor: markdown
 ---
@@ -56,7 +56,7 @@ editor: markdown
 
 ## **步驟 1**: 停用模組
 
-如果要 停用模組 ，您必須執行以下指令：<kbd>welcomes disable ``module:Welcome role``</kbd>.
+如果要 停用模組 ，您必須執行以下指令：<kbd>/welcomes disable ``module:Welcome role``</kbd>.
 
 **範例**: <kbd>/welcomes disable ``module:Welcome role``</kbd>.
 

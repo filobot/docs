@@ -2,8 +2,8 @@
 title: Rol de Bienvenida
 description:
 published: true
-date: Sun Oct 24 2021 14:30:22 GMT+0000 (Coordinated Universal Time)
-dateCreated: Sun Oct 24 2021 14:30:22 GMT+0000 (Coordinated Universal Time)
+date: Sun Oct 24 2021 14:32:02 GMT+0000 (Coordinated Universal Time)
+dateCreated: Sun Oct 24 2021 14:32:02 GMT+0000 (Coordinated Universal Time)
 tags:
 editor: markdown
 ---
@@ -56,7 +56,7 @@ Para habilitar el módulo debes ejecutar el siguiente comando: <kbd>/welcomes en
 
 ## **Paso 1**: Deshabilitar el módulo
 
-Para deshabilitar el módulo debes ejecutar el siguiente comando: <kbd>welcomes disable ``module:Welcome role``</kbd>.
+Para deshabilitar el módulo debes ejecutar el siguiente comando: <kbd>/welcomes disable ``module:Welcome role``</kbd>.
 
 **Ejemplo**: <kbd>/welcomes disable ``module:Welcome role``</kbd>.
 

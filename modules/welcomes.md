@@ -66,7 +66,7 @@ To set the welcomes channel you must execute the following command: <kbd>/welcom
 
 To set the welcomes channel you must execute the following command: <kbd>/welcomes message</kbd>.
 
-> You'll have **1 minute** to perform this action..
+> You'll have **1 minute** to perform this action.
 {.is-warning}
 
 **Example**: <kbd>/welcomes message</kbd>.

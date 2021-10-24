@@ -2,8 +2,8 @@
 title: Welcome Role
 description:
 published: true
-date: Sun Oct 24 2021 14:30:22 GMT+0000 (Coordinated Universal Time)
-dateCreated: Sun Oct 24 2021 14:30:22 GMT+0000 (Coordinated Universal Time)
+date: Sun Oct 24 2021 14:32:02 GMT+0000 (Coordinated Universal Time)
+dateCreated: Sun Oct 24 2021 14:32:02 GMT+0000 (Coordinated Universal Time)
 tags:
 editor: markdown
 ---
@@ -56,7 +56,7 @@ To enable the module you must execute the following command: <kbd>/welcomes enab
 
 ## **Step 1**: Disable the module
 
-To disable the module you must execute the following command: <kbd>welcomes disable ``module:Welcome role``</kbd>.
+To disable the module you must execute the following command: <kbd>/welcomes disable ``module:Welcome role``</kbd>.
 
 **Example**: <kbd>/welcomes disable ``module:Welcome role``</kbd>.
 

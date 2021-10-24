@@ -66,7 +66,7 @@ Para establecer el canal de bienvenidas debes ejecutar el siguiente comando: <kb
 
 Para establecer el canal de bienvenidas debes ejecutar el siguiente comando: <kbd>/welcomes message</kbd>.
 
-> Dispondrás de **1 minuto** para realizar esta acción..
+> Dispondrás de **1 minuto** para realizar esta acción.
 {.is-warning}
 
 **Ejemplo**: <kbd>/welcomes message</kbd>.

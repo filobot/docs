@@ -66,7 +66,7 @@ editor: markdown
 
 如果要 設定歡迎訊息發佈頻道 ，您必須執行以下指令：<kbd>/welcomes message</kbd>.
 
-> You'll have **1 分** to perform this action..
+> You'll have **1 分** to perform this action.
 {.is-warning}
 
 **範例**: <kbd>/welcomes message</kbd>.
