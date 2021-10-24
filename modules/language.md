@@ -2,8 +2,8 @@
 title: Language
 description:
 published: true
-date: Mon Jun 14 2021 13:21:19 GMT+0000 (Coordinated Universal Time)
-dateCreated: Mon Jun 14 2021 13:21:19 GMT+0000 (Coordinated Universal Time)
+date: Sun Oct 24 2021 11:12:16 GMT+0000 (Coordinated Universal Time)
+dateCreated: Sun Oct 24 2021 11:12:16 GMT+0000 (Coordinated Universal Time)
 tags:
 editor: markdown
 ---
@@ -16,36 +16,25 @@ This module will allow you to set or reset the Filo's language; this will affect
 
 Before proceeding with this article, you must take into account a series of elements that can influence when you are going to carry out any action described on this page:
 
-- Filo requires the following basic permissions: ``VIEW_CHANNEL``, ``SEND_MESSAGES``, ``EMBED_LINKS``, ``USE_EXTERNAL_EMOJIS``, ``READ_MESSAGE_HISTORY`` and ``ADD_REACTIONS``.
+- Filo requires the following basic permission: {{permission}}.
 
 - You need ``ADMINISTRATOR`` permission to perform most of the actions in this article.
 
-- You should replace <kbd>f!</kbd> with the current prefix you have set. More information on how to change the prefix by **[clicking here](https://wiki.filobot.xyz/en/modules/prefix)**.
+# Steps to select a language
 
-# Steps to set a language
+## **Step 1**: Select a language
 
-## **Step 1**: Set a language
+To select a language you must execute the following command: <kbd>/language select</kbd>.
 
-To set a language you must execute the following command: <kbd>f!config language set \<Language Full Code></kbd>.
-
-> Don't include ``<>`` when you're running the command.
-{.is-warning}
-
-**Example**: <kbd>f!config language set english</kbd>.
-
-> You can see a complete list of languages supported by Filo by **[clicking here](https://wiki.filobot.xyz/en/modules/language/list)**.
-{.is-info}
+**Example**: <kbd>/language select</kbd>.
 
 # Steps to reset module settings
 
 ## **Step 1**: Reset the module settings
 
-To reset the module settings you must execute the following command: <kbd>f!config language reset</kbd>.
+To reset the module settings you must execute the following command: <kbd>/language reset</kbd>.
 
-> Don't include ``<>`` when you're running the command.
-{.is-warning}
-
-**Example**: <kbd>f!config language reset</kbd>.
+**Example**: <kbd>/language reset</kbd>.
 
 > You'll be forced to confirm the action you are about to take. Once you have confirmed the action, you won't be able to recover the previous data.
 {.is-danger}
