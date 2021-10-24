@@ -2,8 +2,8 @@
 title: Setup a Role
 description:
 published: true
-date: Sun Oct 24 2021 12:15:49 GMT+0000 (Coordinated Universal Time)
-dateCreated: Sun Oct 24 2021 12:15:49 GMT+0000 (Coordinated Universal Time)
+date: Sun Oct 24 2021 12:17:54 GMT+0000 (Coordinated Universal Time)
+dateCreated: Sun Oct 24 2021 12:17:54 GMT+0000 (Coordinated Universal Time)
 tags:
 editor: markdown
 ---
@@ -16,7 +16,7 @@ editor: markdown
 
 在繼續之前，您必須考慮一系列可能影響您執行的任何操作因素:
 
-- Filo 需要要此項基礎權限: {{permission}}.
+- Filo 需要要此項基礎權限: ``VIEW_CHANNEL``.
 
 - 在執行本主題的指令前，你需要此項權限： ``ADMINISTRATOR``.
 

@@ -2,8 +2,8 @@
 title: Configurar un Rol
 description:
 published: true
-date: Sun Oct 24 2021 12:15:49 GMT+0000 (Coordinated Universal Time)
-dateCreated: Sun Oct 24 2021 12:15:49 GMT+0000 (Coordinated Universal Time)
+date: Sun Oct 24 2021 12:17:54 GMT+0000 (Coordinated Universal Time)
+dateCreated: Sun Oct 24 2021 12:17:54 GMT+0000 (Coordinated Universal Time)
 tags:
 editor: markdown
 ---
@@ -16,7 +16,7 @@ Este módulo te permitirá configurar las propiedades y permisos de un rol en Fi
 
 Antes de continuar con este artículo, debes tener en cuenta una serie de elementos que pueden influir cuando vayas a realizar alguna acción descrita en esta página:
 
-- Filo requiere el siguiente permiso básico: {{permission}}.
+- Filo requiere el siguiente permiso básico: ``VIEW_CHANNEL``.
 
 - Necesitas el permiso ``ADMINISTRATOR`` para realizar la mayoría de las acciones de este artículo.
 

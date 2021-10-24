@@ -2,8 +2,8 @@
 title: Setup a Role
 description:
 published: true
-date: Sun Oct 24 2021 12:15:49 GMT+0000 (Coordinated Universal Time)
-dateCreated: Sun Oct 24 2021 12:15:49 GMT+0000 (Coordinated Universal Time)
+date: Sun Oct 24 2021 12:17:54 GMT+0000 (Coordinated Universal Time)
+dateCreated: Sun Oct 24 2021 12:17:54 GMT+0000 (Coordinated Universal Time)
 tags:
 editor: markdown
 ---
@@ -16,7 +16,7 @@ This module will allow you to configure the properties and permissions of a role
 
 Before proceeding with this article, you must take into account a series of elements that can influence when you are going to carry out any action described on this page:
 
-- Filo requires the following basic permission: {{permission}}.
+- Filo requires the following basic permission: ``VIEW_CHANNEL``.
 
 - You need ``ADMINISTRATOR`` permission to perform most of the actions in this article.
 
