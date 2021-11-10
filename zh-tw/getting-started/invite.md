@@ -2,8 +2,8 @@
 title: Invite Filo
 description:
 published: true
-date: Thu Jun 17 2021 09:08:14 GMT+0000 (Coordinated Universal Time)
-dateCreated: Thu Jun 17 2021 09:08:14 GMT+0000 (Coordinated Universal Time)
+date: Tue Nov 09 2021 15:44:40 GMT+0000 (Coordinated Universal Time)
+dateCreated: Tue Nov 09 2021 15:44:40 GMT+0000 (Coordinated Universal Time)
 tags:
 editor: markdown
 ---
@@ -13,7 +13,7 @@ editor: markdown
 > 你必須是伺服器 **擁有者** 或是擁有這些權限： `MANAGE_GUILD` 或 `ADMINISTRATOR` 才能將 Filo 邀請至伺服器.
 {.is-warning}
 
-> 目前 Filo 不支援在邀請中沒有勾選 Scope bot 的情況下使用斜線命令。 如果添加斜線指令到你的伺服器，但沒有把 Filo 邀請到伺服器，斜線命令只會一直返回一個英文的語法錯誤.
+> .
 {.is-danger}
 
 ## **步驟 1**: 打開瀏覽器中的邀請連結
@@ -23,9 +23,6 @@ editor: markdown
 > <p align=center><img src="https://raw.githubusercontent.com/filobot/docs/main/resources/Invite Filo. Step 1.png" alt="If the image doesn't load, please contact us." /><br>
 > <i>邀請頁面.</i></p>
 {.is-image}
-
-> 如果你不需要斜線指令的話請點擊 **[這裡的邀請連結](https://filobot.xyz/invite/alternative)**.
-{.is-success}
 
 ## **步驟 2**: 選擇 Filo 要落腳的伺服器
 
@@ -52,7 +49,7 @@ editor: markdown
 > 如果您全選了所有權限，Discord 會幫您建立一個 **Filo** 的身分組。反之，Discord 會把權限單獨寫在他的身分裡.
 {.is-warning}
 
-> Filo 必須有這些指令才能正常工作: `VIEW_CHANNEL`、 `SEND_MESSAGES`、`EMBED_LINKS` 和 `USE_EXTERNAL_EMOJIS`.
+> Filo 必須有這些指令才能正常工作: `VIEW_CHANNEL`.
 {.is-danger}
 
 ## **步驟 4**: 授權邀請

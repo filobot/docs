@@ -2,8 +2,8 @@
 title: Member Counter Nickname
 description:
 published: true
-date: Mon Jun 14 2021 13:22:55 GMT+0000 (Coordinated Universal Time)
-dateCreated: Mon Jun 14 2021 13:22:55 GMT+0000 (Coordinated Universal Time)
+date: Wed Nov 10 2021 15:40:22 GMT+0000 (Coordinated Universal Time)
+dateCreated: Wed Nov 10 2021 15:40:22 GMT+0000 (Coordinated Universal Time)
 tags:
 editor: markdown
 ---
@@ -18,11 +18,9 @@ Before proceeding with this article, you must take into account a series of elem
 
 - Filo requires the following advanced permission: ``CHANGE_NICKNAME``.
 
-- Filo requires the following basic permissions: ``VIEW_CHANNEL``, ``SEND_MESSAGES``, ``EMBED_LINKS``, ``USE_EXTERNAL_EMOJIS``, ``READ_MESSAGE_HISTORY`` and ``ADD_REACTIONS``.
+- Filo requires the following basic permission: ``VIEW_CHANNEL``.
 
 - You need ``ADMINISTRATOR`` permission to perform most of the actions in this article.
-
-- You should replace <kbd>f!</kbd> with the current prefix you have set. More information on how to change the prefix by **[clicking here](https://wiki.filobot.xyz/en/modules/prefix)**.
 
 # Module exceptions
 
@@ -36,42 +34,39 @@ This module has exceptions, which means that it won't work if some of the requir
 
 ## **Step 1**: Enable the module
 
-To enable the module you must execute the following command: <kbd>f!config member-counter nickname enable</kbd>.
+To enable the module you must execute the following command: <kbd>/member-counter enable ``module:Member counter nickname``</kbd>.
 
-**Example**: <kbd>f!config member-counter nickname enable</kbd>.
+**Example**: <kbd>/member-counter enable ``module:Member counter nickname``</kbd>.
 
 # Steps to disable the module
 
 ## **Step 1**: Disable the module
 
-To disable the module you must execute the following command: <kbd>f!config member-counter nickname disable</kbd>.
+To disable the module you must execute the following command: <kbd>/member-counter disable ``module:Member counter nickname``</kbd>.
 
-**Example**: <kbd>f!config member-counter nickname disable</kbd>.
+**Example**: <kbd>/member-counter disable ``module:Member counter nickname``</kbd>.
 
 # Steps to set the nickname
 
 ## **Step 1**: Set the nickname
 
-To set the nickname you must execute the following command: <kbd>f!config member-counter nickname set \<Name {members}></kbd>.
+To set the nickname you must execute the following command: <kbd>/member-counter nickname ``nickname:<Name {{members}}>``</kbd>.
 
 > Don't include ``<>`` when you're running the command.
 {.is-warning}
 
-> The nickname can't exceed **28 characters** in length and must include the variable `{members}` in the content.
+> The nickname can't exceed **32 characters** in length and must include the variable `{members}` in the content.
 {.is-danger}
 
-**Example**: <kbd>f!config member-counter nickname set 👥 Members: {members}</kbd>.
+**Example**: <kbd>/member-counter nickname ``nickname:👥 Members: {{members}}``</kbd>.
 
 # Steps to reset module settings
 
 ## **Step 1**: Reset the module settings
 
-To reset the module settings you must execute the following command: <kbd>f!config member-counter reset \<Nickname></kbd>.
+To reset the module settings you must execute the following command: <kbd>/member-counter reset</kbd>.
 
-> Don't include ``<>`` when you're running the command.
-{.is-warning}
-
-**Example**: <kbd>f!config member-counter reset nickname</kbd>.
+**Example**: <kbd>/member-counter reset</kbd>.
 
 > You'll be forced to confirm the action you are about to take. Once you have confirmed the action, you won't be able to recover the previous data.
 {.is-danger}

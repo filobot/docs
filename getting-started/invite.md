@@ -2,8 +2,8 @@
 title: Invite Filo
 description:
 published: true
-date: Thu Jun 17 2021 09:08:14 GMT+0000 (Coordinated Universal Time)
-dateCreated: Thu Jun 17 2021 09:08:14 GMT+0000 (Coordinated Universal Time)
+date: Tue Nov 09 2021 15:44:40 GMT+0000 (Coordinated Universal Time)
+dateCreated: Tue Nov 09 2021 15:44:40 GMT+0000 (Coordinated Universal Time)
 tags:
 editor: markdown
 ---
@@ -13,7 +13,7 @@ Below you'll find a guided explanation of how to invite Filo and the permissions
 > You must be the **owner** of the server you want to add Filo to or have one of these permissions: `MANAGE_GUILD` or `ADMINISTRATOR`.
 {.is-warning}
 
-> Currently Filo doesn't support the use of Slash Commands without the scope bot in the invitation. If you add the Slash Commands integration to your server and don't add Filo to the server as well, the Slash Commands will always return a generic error in English.
+> .
 {.is-danger}
 
 ## **Step 1**: Open the Filo invite in the browser
@@ -23,9 +23,6 @@ Below you'll find a guided explanation of how to invite Filo and the permissions
 > <p align=center><img src="https://raw.githubusercontent.com/filobot/docs/main/resources/Invite Filo. Step 1.png" alt="If the image doesn't load, please contact us." /><br>
 > <i>Example of the important Filo invite screen.</i></p>
 {.is-image}
-
-> If you don't want to have Filo's Slash Commands, you can choose to use this **[invite](https://filobot.xyz/invite/alternative)**.
-{.is-success}
 
 ## **Step 2**: Select the server where to add Filo
 
@@ -52,7 +49,7 @@ In this section you'll be able to customize the permissions you want to grant to
 > If you leave any permission active in the invite, Discord will automatically create a role called **Filo**, however, if the server exceeds the role limit it is possible that the role cannot be created and you'll have to manually assign the permissions to Filo.
 {.is-warning}
 
-> The necessary permissions that Filo must always have are: `VIEW_CHANNEL`, `SEND_MESSAGES`, `EMBED_LINKS` and `USE_EXTERNAL_EMOJIS`.
+> The necessary permission that Filo must always have are: `VIEW_CHANNEL`.
 {.is-danger}
 
 ## **Step 4**: Authorize the invite

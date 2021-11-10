@@ -2,8 +2,8 @@
 title: Contador de Miembros
 description:
 published: true
-date: Mon Jun 14 2021 13:21:05 GMT+0000 (Coordinated Universal Time)
-dateCreated: Mon Jun 14 2021 13:21:05 GMT+0000 (Coordinated Universal Time)
+date: Wed Nov 10 2021 15:37:20 GMT+0000 (Coordinated Universal Time)
+dateCreated: Wed Nov 10 2021 15:37:20 GMT+0000 (Coordinated Universal Time)
 tags:
 editor: markdown
 ---
@@ -18,38 +18,36 @@ Antes de continuar con este artículo, debes tener en cuenta una serie de elemen
 
 - Filo requiere los siguientes permisos avanzados: ``VIEW_CHANNEL`` y ``MANAGE_CHANNELS``.
 
-- Filo requiere los siguientes permisos básicos: ``VIEW_CHANNEL``, ``SEND_MESSAGES``, ``EMBED_LINKS``, ``USE_EXTERNAL_EMOJIS``, ``READ_MESSAGE_HISTORY`` y ``ADD_REACTIONS``.
+- Filo requiere el siguiente permiso básico: ``VIEW_CHANNEL``.
 
 - Necesitas el permiso ``ADMINISTRATOR`` para realizar la mayoría de las acciones de este artículo.
-
-- Debes reemplazar <kbd>f!</kbd> con el prefijo actual que hayas establecido. Más información sobre cómo cambiar el prefijo haciendo **[clic aquí](https://wiki.filobot.xyz/es/modules/prefix)**.
 
 # Pasos para habilitar el módulo
 
 ## **Paso 1**: Habilitar el módulo
 
-Para habilitar el módulo debes ejecutar el siguiente comando: <kbd>f!config member-counter enable</kbd>.
+Para habilitar el módulo debes ejecutar el siguiente comando: <kbd>/member-counter enable ``module:Member counter channel``</kbd>.
 
-**Ejemplo**: <kbd>f!config member-counter enable</kbd>.
+**Ejemplo**: <kbd>/member-counter enable ``module:Member counter channel``</kbd>.
 
 # Pasos para deshabilitar el módulo
 
 ## **Paso 1**: Deshabilitar el módulo
 
-Para deshabilitar el módulo debes ejecutar el siguiente comando: <kbd>f!config member-counter disable</kbd>.
+Para deshabilitar el módulo debes ejecutar el siguiente comando: <kbd>/member-counter disable ``module:Member counter channel``</kbd>.
 
-**Ejemplo**: <kbd>f!config member-counter disable</kbd>.
+**Ejemplo**: <kbd>/member-counter disable ``module:Member counter channel``</kbd>.
 
 # Pasos para establecer el canal de contador de miembros
 
 ## **Paso 1**: Establecer el canal contador de miembros
 
-Para establecer el canal contador de miembros debes ejecutar el siguiente comando: <kbd>f!config member-counter set channel \<ID del Canal></kbd>.
+Para establecer el canal contador de miembros debes ejecutar el siguiente comando: <kbd>/member-counter channel ``channel:<Canal/ID del Canal>``</kbd>.
 
 > No incluyas ``<>`` cuando estés ejecutando el comando.
 {.is-warning}
 
-**Ejemplo**: <kbd>f!config member-counter set channel 123456789123456789</kbd>.
+**Ejemplo**: <kbd>/member-counter channel ``channel:123456789123456789``</kbd>.
 
 > El canal que selecciones debe ser un **canal de voz**, de lo contrario, el módulo no funcionará.
 {.is-warning}
@@ -61,26 +59,23 @@ Para establecer el canal contador de miembros debes ejecutar el siguiente comand
 
 ## **Paso 1**: Establecer el nombre del canal contador de miembros
 
-Para establecer el nombre del canal contador de miembros debes ejecutar el siguiente comando: <kbd>f!config member-counter set name \<Nombre {members}></kbd>.
+Para establecer el nombre del canal contador de miembros debes ejecutar el siguiente comando: <kbd>/member-counter name ``name:<Nombre {{members}}>``</kbd>.
 
 > No incluyas ``<>`` cuando estés ejecutando el comando.
 {.is-warning}
 
-> El nombre del canal no puede exceder los **28 caracteres** de longitud y debe incluir la variable `{members}` en el contenido.
+> El nombre del canal no puede exceder los **100 caracteres** de longitud y debe incluir la variable `{members}` en el contenido.
 {.is-danger}
 
-**Ejemplo**: <kbd>f!config member-counter set name 👥 Members: {members}</kbd>.
+**Ejemplo**: <kbd>/member-counter name ``name:👥 Members: {{members}}``</kbd>.
 
 # Pasos para restablecer las configuraciones del módulo
 
 ## **Paso 1**: Restablecer las configuraciones del módulo
 
-Para restablecer las configuraciones del módulo debes ejecutar el siguiente comando: <kbd>f!config member-counter reset \<Channel/Name/Nickname> (opcional)</kbd>.
+Para restablecer las configuraciones del módulo debes ejecutar el siguiente comando: <kbd>/member-counter reset</kbd>.
 
-> No incluyas ``<>`` cuando estés ejecutando el comando.
-{.is-warning}
-
-**Ejemplo**: <kbd>f!config member-counter reset</kbd>.
+**Ejemplo**: <kbd>/member-counter reset</kbd>.
 
 > Te verás obligado a confirmar la acción que estas a punto de realizar. Una vez la hayas confirmado, no podrás recuperar los datos anteriores.
 {.is-danger}
