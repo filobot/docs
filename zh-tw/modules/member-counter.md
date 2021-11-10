@@ -2,8 +2,8 @@
 title: Member Counter
 description:
 published: true
-date: Wed Nov 10 2021 15:37:20 GMT+0000 (Coordinated Universal Time)
-dateCreated: Wed Nov 10 2021 15:37:20 GMT+0000 (Coordinated Universal Time)
+date: Wed Nov 10 2021 15:48:08 GMT+0000 (Coordinated Universal Time)
+dateCreated: Wed Nov 10 2021 15:48:08 GMT+0000 (Coordinated Universal Time)
 tags:
 editor: markdown
 ---
@@ -64,7 +64,7 @@ editor: markdown
 > 當您在打指令時，請勿包含 ``<>``.
 {.is-warning}
 
-> 頻道名稱必須小於 **100 個字**，而且需要包含 `{members}` 在您的新名稱內.
+> 頻道名稱必須小於 **100 個字**，而且需要包含 `{{members}}` 在您的新名稱內.
 {.is-danger}
 
 **範例**: <kbd>/member-counter name ``name:👥 Members: {{members}}``</kbd>.

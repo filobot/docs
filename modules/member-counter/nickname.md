@@ -55,7 +55,7 @@ To set the nickname you must execute the following command: <kbd>/member-counter
 > Don't include ``<>`` when you're running the command.
 {.is-warning}
 
-> The nickname can't exceed **32 characters** in length and must include the variable `{members}` in the content.
+> The nickname can't exceed **32 characters** in length and must include the variable `{{members}}` in the content.
 {.is-danger}
 
 **Example**: <kbd>/member-counter nickname ``nickname:👥 Members: {{members}}``</kbd>.

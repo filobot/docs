@@ -55,7 +55,7 @@ Para establecer el apodo debes ejecutar el siguiente comando: <kbd>/member-count
 > No incluyas ``<>`` cuando estés ejecutando el comando.
 {.is-warning}
 
-> El apodo no puede exceder los **32 caracteres** de longitud y debe incluir la variable `{members}` en el contenido.
+> El apodo no puede exceder los **32 caracteres** de longitud y debe incluir la variable `{{members}}` en el contenido.
 {.is-danger}
 
 **Ejemplo**: <kbd>/member-counter nickname ``nickname:👥 Members: {{members}}``</kbd>.

@@ -2,8 +2,8 @@
 title: Contador de Miembros
 description:
 published: true
-date: Wed Nov 10 2021 15:37:20 GMT+0000 (Coordinated Universal Time)
-dateCreated: Wed Nov 10 2021 15:37:20 GMT+0000 (Coordinated Universal Time)
+date: Wed Nov 10 2021 15:48:08 GMT+0000 (Coordinated Universal Time)
+dateCreated: Wed Nov 10 2021 15:48:08 GMT+0000 (Coordinated Universal Time)
 tags:
 editor: markdown
 ---
@@ -64,7 +64,7 @@ Para establecer el nombre del canal contador de miembros debes ejecutar el sigui
 > No incluyas ``<>`` cuando estés ejecutando el comando.
 {.is-warning}
 
-> El nombre del canal no puede exceder los **100 caracteres** de longitud y debe incluir la variable `{members}` en el contenido.
+> El nombre del canal no puede exceder los **100 caracteres** de longitud y debe incluir la variable `{{members}}` en el contenido.
 {.is-danger}
 
 **Ejemplo**: <kbd>/member-counter name ``name:👥 Members: {{members}}``</kbd>.

@@ -2,8 +2,8 @@
 title: Member Counter
 description:
 published: true
-date: Wed Nov 10 2021 15:37:20 GMT+0000 (Coordinated Universal Time)
-dateCreated: Wed Nov 10 2021 15:37:20 GMT+0000 (Coordinated Universal Time)
+date: Wed Nov 10 2021 15:48:08 GMT+0000 (Coordinated Universal Time)
+dateCreated: Wed Nov 10 2021 15:48:08 GMT+0000 (Coordinated Universal Time)
 tags:
 editor: markdown
 ---
@@ -64,7 +64,7 @@ To set the member-counter channel name you must execute the following command: <
 > Don't include ``<>`` when you're running the command.
 {.is-warning}
 
-> The channel name can't exceed **100 characters** in length and must include the variable `{members}` in the content.
+> The channel name can't exceed **100 characters** in length and must include the variable `{{members}}` in the content.
 {.is-danger}
 
 **Example**: <kbd>/member-counter name ``name:👥 Members: {{members}}``</kbd>.
