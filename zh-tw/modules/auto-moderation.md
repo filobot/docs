@@ -2,8 +2,8 @@
 title: Auto Moderation
 description:
 published: true
-date: Thu Nov 11 2021 17:00:54 GMT+0000 (Coordinated Universal Time)
-dateCreated: Thu Nov 11 2021 17:00:54 GMT+0000 (Coordinated Universal Time)
+date: Thu Nov 11 2021 17:05:42 GMT+0000 (Coordinated Universal Time)
+dateCreated: Thu Nov 11 2021 17:05:42 GMT+0000 (Coordinated Universal Time)
 tags:
 editor: markdown
 ---
@@ -93,7 +93,7 @@ editor: markdown
 
 ## **步驟 1**: Set the information of a level
 
-如果要 set the information of a level ，您必須執行以下指令：<kbd>/auto-moderation remove ``level:<Level>``</kbd>.
+如果要 set the information of a level ，您必須執行以下指令：<kbd>/auto-moderation set ``level:<Level>``</kbd>.
 
 > 當您在打指令時，請勿包含 ``<>``.
 {.is-warning}
@@ -104,12 +104,9 @@ editor: markdown
 
 ## **步驟 1**: 重置模組
 
-如果要 重置模組 ，您必須執行以下指令：<kbd>f!config auto-moderation reset \<Levels></kbd>.
+如果要 重置模組 ，您必須執行以下指令：<kbd>/auto-moderation reset</kbd>.
 
-> 當您在打指令時，請勿包含 ``<>``.
-{.is-warning}
-
-**範例**: <kbd>f!config auto-moderation reset</kbd>.
+**範例**: <kbd>/auto-moderation reset</kbd>.
 
 > 你必須謹慎考慮此操作。如果重置，您將無法恢復之前的設定.
 {.is-danger}

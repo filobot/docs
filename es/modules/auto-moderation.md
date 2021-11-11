@@ -2,8 +2,8 @@
 title: Auto Moderación
 description:
 published: true
-date: Thu Nov 11 2021 17:00:54 GMT+0000 (Coordinated Universal Time)
-dateCreated: Thu Nov 11 2021 17:00:54 GMT+0000 (Coordinated Universal Time)
+date: Thu Nov 11 2021 17:05:42 GMT+0000 (Coordinated Universal Time)
+dateCreated: Thu Nov 11 2021 17:05:42 GMT+0000 (Coordinated Universal Time)
 tags:
 editor: markdown
 ---
@@ -93,7 +93,7 @@ Para eliminar un nivel debes ejecutar el siguiente comando: <kbd>/auto-moderatio
 
 ## **Paso 1**: Establecer la información de un nivel
 
-Para establecer la información de un nivel debes ejecutar el siguiente comando: <kbd>/auto-moderation remove ``level:<Nivel>``</kbd>.
+Para establecer la información de un nivel debes ejecutar el siguiente comando: <kbd>/auto-moderation set ``level:<Nivel>``</kbd>.
 
 > No incluyas ``<>`` cuando estés ejecutando el comando.
 {.is-warning}
@@ -104,12 +104,9 @@ Para establecer la información de un nivel debes ejecutar el siguiente comando:
 
 ## **Paso 1**: Restablecer las configuraciones del módulo
 
-Para restablecer las configuraciones del módulo debes ejecutar el siguiente comando: <kbd>f!config auto-moderation reset \<Levels></kbd>.
+Para restablecer las configuraciones del módulo debes ejecutar el siguiente comando: <kbd>/auto-moderation reset</kbd>.
 
-> No incluyas ``<>`` cuando estés ejecutando el comando.
-{.is-warning}
-
-**Ejemplo**: <kbd>f!config auto-moderation reset</kbd>.
+**Ejemplo**: <kbd>/auto-moderation reset</kbd>.
 
 > Te verás obligado a confirmar la acción que estas a punto de realizar. Una vez la hayas confirmado, no podrás recuperar los datos anteriores.
 {.is-danger}
