@@ -2,8 +2,8 @@
 title: Anti Invites
 description:
 published: true
-date: Thu Nov 11 2021 16:31:15 GMT+0000 (Coordinated Universal Time)
-dateCreated: Thu Nov 11 2021 16:31:15 GMT+0000 (Coordinated Universal Time)
+date: Thu Nov 11 2021 16:50:16 GMT+0000 (Coordinated Universal Time)
+dateCreated: Thu Nov 11 2021 16:50:16 GMT+0000 (Coordinated Universal Time)
 tags:
 editor: markdown
 ---
@@ -67,6 +67,12 @@ To disable the module you must execute the following command: <kbd>/anti-invites
 ## **Step 1**: Set a sanction
 
 To set a sanction you must execute the following command: <kbd>/anti-invites action ``action:<Action>``</kbd>.
+
+> Don't include ``<>`` when you're running the command.
+{.is-warning}
+
+> You can see a full list of actions that Filo supports by **[clicking here](https://wiki.filobot.xyz/en/modules/actions-list)**.
+{.is-info}
 
 **Example**: <kbd>/anti-invites action ``action:Delete the message``</kbd>.
 

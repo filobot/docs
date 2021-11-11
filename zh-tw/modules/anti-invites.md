@@ -2,8 +2,8 @@
 title: Anti Invites
 description:
 published: true
-date: Thu Nov 11 2021 16:31:15 GMT+0000 (Coordinated Universal Time)
-dateCreated: Thu Nov 11 2021 16:31:15 GMT+0000 (Coordinated Universal Time)
+date: Thu Nov 11 2021 16:50:16 GMT+0000 (Coordinated Universal Time)
+dateCreated: Thu Nov 11 2021 16:50:16 GMT+0000 (Coordinated Universal Time)
 tags:
 editor: markdown
 ---
@@ -67,6 +67,12 @@ editor: markdown
 ## **步驟 1**: Set a sanction
 
 如果要 set a sanction ，您必須執行以下指令：<kbd>/anti-invites action ``action:<動作>``</kbd>.
+
+> 當您在打指令時，請勿包含 ``<>``.
+{.is-warning}
+
+> 你可以點擊 **[這個連結](https://wiki.filobot.xyz/zh-tw/modules/actions-list)** 來查看 Filo 支援的處罰.
+{.is-info}
 
 **範例**: <kbd>/anti-invites action ``action:Delete the message``</kbd>.
 

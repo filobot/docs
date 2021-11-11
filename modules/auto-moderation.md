@@ -2,8 +2,8 @@
 title: Auto Moderation
 description:
 published: true
-date: Sun Jun 27 2021 10:53:29 GMT+0000 (Coordinated Universal Time)
-dateCreated: Sun Jun 27 2021 10:53:29 GMT+0000 (Coordinated Universal Time)
+date: Thu Nov 11 2021 17:00:54 GMT+0000 (Coordinated Universal Time)
+dateCreated: Thu Nov 11 2021 17:00:54 GMT+0000 (Coordinated Universal Time)
 tags:
 editor: markdown
 ---
@@ -21,31 +21,21 @@ Before proceeding with this article, you must take into account a series of elem
 
 - Filo requires the following advanced permissions: ``MANAGE_MESSAGES``, ``MANAGE_ROLES``, ``KICK_MEMBERS`` and``BAN_MEMBERS`` (if applicable).
 
-- Filo requires the following basic permissions: ``VIEW_CHANNEL``, ``SEND_MESSAGES``, ``EMBED_LINKS``, ``USE_EXTERNAL_EMOJIS``, ``READ_MESSAGE_HISTORY`` and ``ADD_REACTIONS``.
+- Filo requires the following basic permissions: ``VIEW_CHANNEL``, ``SEND_MESSAGES`` and ``EMBED_LINKS``.
 
 - You need ``ADMINISTRATOR`` permission to perform most of the actions in this article.
-
-- You should replace <kbd>f!</kbd> with the current prefix you have set. More information on how to change the prefix by **[clicking here](https://wiki.filobot.xyz/en/modules/prefix)**.
 
 # Module exceptions
 
 This module has exceptions, which means that it won't work if some of the requirements mentioned below are met:
 
-- If Filo doesn't have ``VIEW_CHANNEL``, ``SEND_MESSAGES``, ``EMBED_LINKS``, ``USE_EXTERNAL_EMOJIS``, ``MANAGE_MESSAGES``, ``MANAGE_ROLES``, ``KICK_MEMBERS`` and ``BAN_MEMBERS`` permissions. **^1^**
+- If Filo doesn't have ``VIEW_CHANNEL``, ``SEND_MESSAGES``, ``EMBED_LINKS`` and ``MANAGE_MESSAGES`` permissions. **^1^**
 
 - If the user has the ``ADMINISTRATOR`` permission. **^2^**
 
 - If the user has the ``MANAGE_GUILD`` permission. **^2^**
 
-- If the user has the ``MANAGE_ROLES`` permission. **^2^**
-
-- If the user has the ``MANAGE_MESSAGES`` permission. **^2^**
-
-- If the user has the ``BAN_MEMBERS`` permission. **^2^**
-
-- If the user has the ``KICK_MEMBERS`` permission. **^2^**
-
-- If the user has the ``MUTE_MEMBERS`` permission. **^2^**
+- If the user has the ``EVADE_SANCTIONS`` permission. **^2^**
 
 - If the position of the Filo's roles are lower than the user roles. **^2^**
 
@@ -59,9 +49,9 @@ This module has exceptions, which means that it won't work if some of the requir
 
 ## **Step 1**: Enable the module
 
-To enable the module you must execute the following command: <kbd>f!config auto-moderation enable</kbd>.
+To enable the module you must execute the following command: <kbd>/auto-moderation enable</kbd>.
 
-**Example**: <kbd>f!config auto-moderation enable</kbd>.
+**Example**: <kbd>/auto-moderation enable</kbd>.
 
 > This module can be supplemented with the **[Anti Evasion](https://wiki.filobot.xyz/en/modules/anti-evasion)** module.
 {.is-success}
@@ -70,48 +60,45 @@ To enable the module you must execute the following command: <kbd>f!config auto-
 
 ## **Step 1**: Disable the module
 
-To disable the module you must execute the following command: <kbd>f!config auto-moderation disable</kbd>.
+To disable the module you must execute the following command: <kbd>/auto-moderation disable</kbd>.
 
-**Example**: <kbd>f!config auto-moderation disable</kbd>.
+**Example**: <kbd>/auto-moderation disable</kbd>.
 
-# Steps to set maximum warnings per level
+# Steps to add a level
 
-## **Step 1**: Set maximum warnings per level
+## **Step 1**: Add a level
 
-To set maximum warnings per level you must execute the following command: <kbd>f!config auto-moderation set level \<Level> \<Number></kbd>.
-
-> Don't include ``<>`` when you're running the command.
-{.is-warning}
-
-**Example**: <kbd>f!config auto-moderation set level 1 3</kbd>.
-
-# Steps to set a action per level
-
-## **Step 1**: Set a action per level
-
-To set a action per level you must execute the following command: <kbd>f!config auto-moderation set action \<Level> \<Action></kbd>.
+To add a level you must execute the following command: <kbd>/auto-moderation add ``warnings:<Warnings>`` ``action:Action``</kbd>.
 
 > Don't include ``<>`` when you're running the command.
 {.is-warning}
 
-> You can see a full list of actions that Filo supports by **[clicking here](https://wiki.filobot.xyz/en/modules/auto-moderation/actions)**
+> You can see a full list of actions that Filo supports by **[clicking here](https://wiki.filobot.xyz/en/modules/actions-list)**.
 {.is-info}
 
-**Example**: <kbd>f!config auto-moderation set action 1 kick</kbd>.
+**Example**: <kbd>/auto-moderation add ``warnings:3`` ``action:Kick the user``</kbd>.
 
-# Steps to set the time of a action per level
+# Steps to remove a level
 
-## **Step 1**: Set the time of a action per level
+## **Step 1**: Remove a level
 
-To set the time of a action per level you must execute the following command: <kbd>f!config auto-moderation set time \<Level> \<Time></kbd>.
+To remove a level you must execute the following command: <kbd>/auto-moderation remove ``level:<Level>``</kbd>.
 
 > Don't include ``<>`` when you're running the command.
 {.is-warning}
 
-**Example**: <kbd>f!config auto-moderation set time 1 1h</kbd>.
+**Example**: <kbd>/auto-moderation remove ``level:1``</kbd>.
 
-> The duration of the action must be between **1 minutes** and **24 days**.
+# Steps to set the information of a level
+
+## **Step 1**: Set the information of a level
+
+To set the information of a level you must execute the following command: <kbd>/auto-moderation remove ``level:<Level>``</kbd>.
+
+> Don't include ``<>`` when you're running the command.
 {.is-warning}
+
+**Example**: <kbd>/auto-moderation set ``level:1`` ``warnings: 3`` ``action:Kick the user``</kbd>.
 
 # Steps to reset module settings
 
