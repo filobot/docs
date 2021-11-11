@@ -2,8 +2,8 @@
 title: Anti Invitaciones
 description:
 published: true
-date: Wed Nov 10 2021 16:33:31 GMT+0000 (Coordinated Universal Time)
-dateCreated: Wed Nov 10 2021 16:33:31 GMT+0000 (Coordinated Universal Time)
+date: Thu Nov 11 2021 16:26:06 GMT+0000 (Coordinated Universal Time)
+dateCreated: Thu Nov 11 2021 16:26:06 GMT+0000 (Coordinated Universal Time)
 tags:
 editor: markdown
 ---
@@ -33,6 +33,8 @@ Este módulo tiene excepciones, lo que significa que no funcionará si se cumple
 
 - Si el usuario tiene el permiso ``MANAGE_GUILD``. **^2^**
 
+- Si el usuario tiene el permiso ``EVADE_SANCTIONS``. **^2^**
+
 - Si la posición de los roles de Filo es más baja que la de los roles del usuario. **^2^**
 
 - Si la posición de los roles de Filo es igual que la de los roles del usuario. **^2^**
@@ -59,6 +61,14 @@ Para habilitar el módulo debes ejecutar el siguiente comando: <kbd>/anti-invite
 Para deshabilitar el módulo debes ejecutar el siguiente comando: <kbd>/anti-invites disable</kbd>.
 
 **Ejemplo**: <kbd>/anti-invites disable</kbd>.
+
+# Pasos para establecer una sanción
+
+## **Paso 1**: Deshabilitar el módulo
+
+Para establecer una sanción debes ejecutar el siguiente comando: <kbd>/anti-invites action ``action:<Acción>``</kbd>.
+
+**Ejemplo**: <kbd>/anti-invites action ``action:Delete the message``</kbd>.
 
 # Pasos para habilitar el ignorar el servidor de Filo
 

@@ -2,8 +2,8 @@
 title: Anti External Links
 description:
 published: true
-date: Sun Jun 20 2021 08:52:33 GMT+0000 (Coordinated Universal Time)
-dateCreated: Sun Jun 20 2021 08:52:33 GMT+0000 (Coordinated Universal Time)
+date: Thu Nov 11 2021 16:19:09 GMT+0000 (Coordinated Universal Time)
+dateCreated: Thu Nov 11 2021 16:19:09 GMT+0000 (Coordinated Universal Time)
 tags:
 editor: markdown
 ---

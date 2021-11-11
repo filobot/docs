@@ -2,8 +2,8 @@
 title: Anti Invites
 description:
 published: true
-date: Wed Nov 10 2021 16:33:31 GMT+0000 (Coordinated Universal Time)
-dateCreated: Wed Nov 10 2021 16:33:31 GMT+0000 (Coordinated Universal Time)
+date: Thu Nov 11 2021 16:26:06 GMT+0000 (Coordinated Universal Time)
+dateCreated: Thu Nov 11 2021 16:26:06 GMT+0000 (Coordinated Universal Time)
 tags:
 editor: markdown
 ---
@@ -33,6 +33,8 @@ This module has exceptions, which means that it won't work if some of the requir
 
 - If the user has the ``MANAGE_GUILD`` permission. **^2^**
 
+- If the user has the ``EVADE_SANCTIONS`` permission. **^2^**
+
 - If the position of the Filo's roles are lower than the user roles. **^2^**
 
 - If the position of the Filo's roles are equal to the user roles. **^2^**
@@ -59,6 +61,14 @@ To enable the module you must execute the following command: <kbd>/anti-invites 
 To disable the module you must execute the following command: <kbd>/anti-invites disable</kbd>.
 
 **Example**: <kbd>/anti-invites disable</kbd>.
+
+# Steps to set a sanction
+
+## **Step 1**: Disable the module
+
+To set a sanction you must execute the following command: <kbd>/anti-invites action ``action:<Action>``</kbd>.
+
+**Example**: <kbd>/anti-invites action ``action:Delete the message``</kbd>.
 
 # Steps to enable Filo server bypass
 

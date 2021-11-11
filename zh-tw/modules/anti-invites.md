@@ -2,8 +2,8 @@
 title: Anti Invites
 description:
 published: true
-date: Wed Nov 10 2021 16:33:31 GMT+0000 (Coordinated Universal Time)
-dateCreated: Wed Nov 10 2021 16:33:31 GMT+0000 (Coordinated Universal Time)
+date: Thu Nov 11 2021 16:26:06 GMT+0000 (Coordinated Universal Time)
+dateCreated: Thu Nov 11 2021 16:26:06 GMT+0000 (Coordinated Universal Time)
 tags:
 editor: markdown
 ---
@@ -33,6 +33,8 @@ editor: markdown
 
 - 如果使用者沒有這個權限： ``MANAGE_GUILD``. **^2^**
 
+- 如果使用者沒有這個權限： ``EVADE_SANCTIONS``. **^2^**
+
 - 如果 Filo 的身分組位階低於這個使用者. **^2^**
 
 - 如果 Filo 的身分組位階等於這個使用者. **^2^**
@@ -59,6 +61,14 @@ editor: markdown
 如果要 停用模組 ，您必須執行以下指令：<kbd>/anti-invites disable</kbd>.
 
 **範例**: <kbd>/anti-invites disable</kbd>.
+
+# Steps to set a sanction
+
+## **步驟 1**: 停用模組
+
+如果要 set a sanction ，您必須執行以下指令：<kbd>/anti-invites action ``action:<動作>``</kbd>.
+
+**範例**: <kbd>/anti-invites action ``action:Delete the message``</kbd>.
 
 # Steps to enable Filo server bypass
 
