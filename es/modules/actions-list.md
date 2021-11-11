@@ -2,8 +2,8 @@
 title: Lista de Sanciones
 description:
 published: true
-date: Thu Nov 11 2021 17:32:53 GMT+0000 (Coordinated Universal Time)
-dateCreated: Thu Nov 11 2021 17:32:53 GMT+0000 (Coordinated Universal Time)
+date: Thu Nov 11 2021 17:33:40 GMT+0000 (Coordinated Universal Time)
+dateCreated: Thu Nov 11 2021 17:33:40 GMT+0000 (Coordinated Universal Time)
 tags:
 editor: markdown
 ---
@@ -17,7 +17,7 @@ Algunas de las sanciones descritas a continuación no se encuentran disponibles 
 > **Advertir al usuario**
 > Esta acción va a advertir al usuario al usuario en cuestión del servidor.
 
-> `Eliminar el mensaje & Advertir al usuario`
+> **Eliminar el mensaje & Advertir al usuario**
 >
 > Filo requiere el siguiente permiso avanzado: ``MANAGE_MESSAGES``.
 

@@ -2,8 +2,8 @@
 title: Action List
 description:
 published: true
-date: Thu Nov 11 2021 17:32:53 GMT+0000 (Coordinated Universal Time)
-dateCreated: Thu Nov 11 2021 17:32:53 GMT+0000 (Coordinated Universal Time)
+date: Thu Nov 11 2021 17:33:40 GMT+0000 (Coordinated Universal Time)
+dateCreated: Thu Nov 11 2021 17:33:40 GMT+0000 (Coordinated Universal Time)
 tags:
 editor: markdown
 ---
@@ -17,7 +17,7 @@ Some of the sanctions described below aren't available in all modules
 > **Warn the user**
 > This action will warn the user the user in question from the server.
 
-> `Delete the message & Warn the user`
+> **Delete the message & Warn the user**
 >
 > Filo 需要要此項進階權限： ``MANAGE_MESSAGES``.
 
