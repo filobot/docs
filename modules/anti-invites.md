@@ -2,8 +2,8 @@
 title: Anti Invites
 description:
 published: true
-date: Thu Nov 11 2021 16:50:16 GMT+0000 (Coordinated Universal Time)
-dateCreated: Thu Nov 11 2021 16:50:16 GMT+0000 (Coordinated Universal Time)
+date: Thu Nov 11 2021 17:11:04 GMT+0000 (Coordinated Universal Time)
+dateCreated: Thu Nov 11 2021 17:11:04 GMT+0000 (Coordinated Universal Time)
 tags:
 editor: markdown
 ---
@@ -74,7 +74,7 @@ To set a sanction you must execute the following command: <kbd>/anti-invites act
 > You can see a full list of actions that Filo supports by **[clicking here](https://wiki.filobot.xyz/en/modules/actions-list)**.
 {.is-info}
 
-**Example**: <kbd>/anti-invites action ``action:Delete the message``</kbd>.
+**Example**: <kbd>/anti-invites action ``action:Temporarily mute the user`` ``time:1h``</kbd>.
 
 # Steps to enable Filo server bypass
 

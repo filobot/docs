@@ -2,8 +2,8 @@
 title: Anti Invites
 description:
 published: true
-date: Thu Nov 11 2021 16:50:16 GMT+0000 (Coordinated Universal Time)
-dateCreated: Thu Nov 11 2021 16:50:16 GMT+0000 (Coordinated Universal Time)
+date: Thu Nov 11 2021 17:11:04 GMT+0000 (Coordinated Universal Time)
+dateCreated: Thu Nov 11 2021 17:11:04 GMT+0000 (Coordinated Universal Time)
 tags:
 editor: markdown
 ---
@@ -74,7 +74,7 @@ editor: markdown
 > 你可以點擊 **[這個連結](https://wiki.filobot.xyz/zh-tw/modules/actions-list)** 來查看 Filo 支援的處罰.
 {.is-info}
 
-**範例**: <kbd>/anti-invites action ``action:Delete the message``</kbd>.
+**範例**: <kbd>/anti-invites action ``action:Temporarily mute the user`` ``time:1h``</kbd>.
 
 # Steps to enable Filo server bypass
 

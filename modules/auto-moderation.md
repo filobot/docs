@@ -2,8 +2,8 @@
 title: Auto Moderation
 description:
 published: true
-date: Thu Nov 11 2021 17:05:42 GMT+0000 (Coordinated Universal Time)
-dateCreated: Thu Nov 11 2021 17:05:42 GMT+0000 (Coordinated Universal Time)
+date: Thu Nov 11 2021 17:10:39 GMT+0000 (Coordinated Universal Time)
+dateCreated: Thu Nov 11 2021 17:10:39 GMT+0000 (Coordinated Universal Time)
 tags:
 editor: markdown
 ---
@@ -76,7 +76,7 @@ To add a level you must execute the following command: <kbd>/auto-moderation add
 > You can see a full list of actions that Filo supports by **[clicking here](https://wiki.filobot.xyz/en/modules/actions-list)**.
 {.is-info}
 
-**Example**: <kbd>/auto-moderation add ``warnings:3`` ``action:Kick the user``</kbd>.
+**Example**: <kbd>/auto-moderation add ``warnings:3`` ``action:Temporarily mute the user`` ``time:1h``</kbd>.
 
 # Steps to remove a level
 
@@ -98,7 +98,7 @@ To set the information of a level you must execute the following command: <kbd>/
 > Don't include ``<>`` when you're running the command.
 {.is-warning}
 
-**Example**: <kbd>/auto-moderation set ``level:1`` ``warnings: 3`` ``action:Kick the user``</kbd>.
+**Example**: <kbd>/auto-moderation set ``level:1`` ``warnings: 3`` ``action:Temporarily mute the user`` ``time:1h``</kbd>.
 
 # Steps to reset module settings
 

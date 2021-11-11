@@ -2,8 +2,8 @@
 title: Anti Invitaciones
 description:
 published: true
-date: Thu Nov 11 2021 16:50:16 GMT+0000 (Coordinated Universal Time)
-dateCreated: Thu Nov 11 2021 16:50:16 GMT+0000 (Coordinated Universal Time)
+date: Thu Nov 11 2021 17:11:04 GMT+0000 (Coordinated Universal Time)
+dateCreated: Thu Nov 11 2021 17:11:04 GMT+0000 (Coordinated Universal Time)
 tags:
 editor: markdown
 ---
@@ -74,7 +74,7 @@ Para establecer una sanción debes ejecutar el siguiente comando: <kbd>/anti-inv
 > Puede ver una lista completa de las acciones que admite Filo haciendo **[clic aquí](https://wiki.filobot.xyz/es/modules/actions-list)**.
 {.is-info}
 
-**Ejemplo**: <kbd>/anti-invites action ``action:Delete the message``</kbd>.
+**Ejemplo**: <kbd>/anti-invites action ``action:Temporarily mute the user`` ``time:1h``</kbd>.
 
 # Pasos para habilitar el ignorar el servidor de Filo
 

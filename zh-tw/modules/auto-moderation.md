@@ -2,8 +2,8 @@
 title: Auto Moderation
 description:
 published: true
-date: Thu Nov 11 2021 17:05:42 GMT+0000 (Coordinated Universal Time)
-dateCreated: Thu Nov 11 2021 17:05:42 GMT+0000 (Coordinated Universal Time)
+date: Thu Nov 11 2021 17:10:39 GMT+0000 (Coordinated Universal Time)
+dateCreated: Thu Nov 11 2021 17:10:39 GMT+0000 (Coordinated Universal Time)
 tags:
 editor: markdown
 ---
@@ -76,7 +76,7 @@ editor: markdown
 > 你可以點擊 **[這個連結](https://wiki.filobot.xyz/zh-tw/modules/actions-list)** 來查看 Filo 支援的處罰.
 {.is-info}
 
-**範例**: <kbd>/auto-moderation add ``warnings:3`` ``action:Kick the user``</kbd>.
+**範例**: <kbd>/auto-moderation add ``warnings:3`` ``action:Temporarily mute the user`` ``time:1h``</kbd>.
 
 # Steps to remove a level
 
@@ -98,7 +98,7 @@ editor: markdown
 > 當您在打指令時，請勿包含 ``<>``.
 {.is-warning}
 
-**範例**: <kbd>/auto-moderation set ``level:1`` ``warnings: 3`` ``action:Kick the user``</kbd>.
+**範例**: <kbd>/auto-moderation set ``level:1`` ``warnings: 3`` ``action:Temporarily mute the user`` ``time:1h``</kbd>.
 
 # 重置模組的步驟
 
