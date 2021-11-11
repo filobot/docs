@@ -9,11 +9,11 @@ editor: markdown
 ---
 
 > `TEMPBAN`
-> La sanción ban temporal al usuario en cuestión del servidor.
+> Esta acción va a ban al usuario en cuestión del servidor.
 >
 > Filo requiere el siguiente permiso avanzado: ``BAN_MEMBERS``.
 
 > `BAN`
-> La sanción ban permanentemente al usuario en cuestión del servidor.
+> Esta acción va a ban al usuario en cuestión del servidor.
 >
 > Filo requiere el siguiente permiso avanzado: ``BAN_MEMBERS``.

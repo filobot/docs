@@ -9,11 +9,11 @@ editor: markdown
 ---
 
 > `TEMPBAN`
-> 此處罰將從伺服器 暫時 ban 有問題的使用者.
+> This action will ban the user in question from the server.
 >
 > Filo 需要要此項進階權限： ``BAN_MEMBERS``.
 
 > `BAN`
-> 此處罰將從伺服器 永久 ban 有問題的使用者.
+> This action will ban the user in question from the server.
 >
 > Filo 需要要此項進階權限： ``BAN_MEMBERS``.

@@ -2,33 +2,51 @@
 title: Action List
 description:
 published: true
-date: Thu Nov 11 2021 16:48:46 GMT+0000 (Coordinated Universal Time)
-dateCreated: Thu Nov 11 2021 16:48:46 GMT+0000 (Coordinated Universal Time)
+date: Thu Nov 11 2021 17:26:09 GMT+0000 (Coordinated Universal Time)
+dateCreated: Thu Nov 11 2021 17:26:09 GMT+0000 (Coordinated Universal Time)
 tags:
 editor: markdown
 ---
 
-> `KICK`
-> This sanction will temporary kick the user in question from the server.
+Some of the sanctions described below aren't available in all modules
+
+> `Delete the message`
+>
+> Filo requires the following advanced permission: ``MANAGE_MESSAGES``.
+
+> `Warn the user`
+> This action will warn the user the user in question from the server.
+
+> `Delete the message & Warn the user`
+>
+> Filo requires the following advanced permission: ``MANAGE_MESSAGES``.
+
+> `Kick the user`
+> This action will kick the user the user in question from the server.
 >
 > Filo requires the following advanced permission: ``KICK_MEMBERS``.
 
-> `TEMPMUTE`
-> This sanction will temporary mute the user in question from the server.
+> `Permanently mute the user`
+> This action will permanently mute the user the user in question from the server.
 >
 > Filo requires the following advanced permission: ``MANAGE_ROLES``.
 
-> `MUTE`
-> This sanction will temporary mute the user in question from the server.
+> `Temporarily mute the user`
+> This action will temporarily mute the user the user in question from the server.
 >
 > Filo requires the following advanced permission: ``MANAGE_ROLES``.
 
-> `TEMPBAN`
-> This sanction will temporary ban the user in question from the server.
+> `Permanently ban the user`
+> This action will permanently ban the user the user in question from the server.
 >
 > Filo requires the following advanced permission: ``BAN_MEMBERS``.
 
-> `BAN`
-> This sanction will permanently ban the user in question from the server.
+> `Temporarily ban the user`
+> This action will temporarily ban the user the user in question from the server.
+>
+> Filo requires the following advanced permission: ``BAN_MEMBERS``.
+
+> `Softban the user`
+> This action will softban the user the user in question from the server.
 >
 > Filo requires the following advanced permission: ``BAN_MEMBERS``.
