@@ -2,15 +2,15 @@
 title: Anti Spam
 description:
 published: true
-date: Mon Jun 14 2021 13:21:56 GMT+0000 (Coordinated Universal Time)
-dateCreated: Mon Jun 14 2021 13:21:56 GMT+0000 (Coordinated Universal Time)
+date: Fri Nov 12 2021 16:54:25 GMT+0000 (Coordinated Universal Time)
+dateCreated: Fri Nov 12 2021 16:54:25 GMT+0000 (Coordinated Universal Time)
 tags:
 editor: markdown
 ---
 
 # About the module
 
-This module will allow you to delete and warn a user who does spam.
+This module will sanction those users who send too many messages in a short time or identical messages in a short time..
 
 > We recommend using this module if you manage a community.
 {.is-success}
@@ -19,29 +19,21 @@ This module will allow you to delete and warn a user who does spam.
 
 Before proceeding with this article, you must take into account a series of elements that can influence when you are going to carry out any action described on this page:
 
-- Filo requires the following advanced permission: ``MANAGE_MESSAGES``.
-
-- Filo requires the following basic permissions: ``VIEW_CHANNEL``, ``SEND_MESSAGES``, ``EMBED_LINKS``, ``USE_EXTERNAL_EMOJIS``, ``READ_MESSAGE_HISTORY`` and ``ADD_REACTIONS``.
+- Filo requires the following advanced permissions: ``VIEW_CHANNEL``, ``SEND_MESSAGES``, ``EMBED_LINKS`` and ``MANAGE_MESSAGES``.
 
 - You need ``ADMINISTRATOR`` permission to perform most of the actions in this article.
-
-- You should replace <kbd>f!</kbd> with the current prefix you have set. More information on how to change the prefix by **[clicking here](https://wiki.filobot.xyz/en/modules/prefix)**.
 
 # Module exceptions
 
 This module has exceptions, which means that it won't work if some of the requirements mentioned below are met:
 
-- If Filo doesn't have ``VIEW_CHANNEL``, ``SEND_MESSAGES``, ``EMBED_LINKS``, ``USE_EXTERNAL_EMOJIS`` and ``MANAGE_MESSAGES`` permissions. **^1^**
+- If Filo doesn't have ``VIEW_CHANNEL``, ``SEND_MESSAGES``, ``EMBED_LINKS`` and ``MANAGE_MESSAGES`` permissions. **^1^**
 
 - If the user has the ``ADMINISTRATOR`` permission. **^2^**
 
 - If the user has the ``MANAGE_GUILD`` permission. **^2^**
 
-- If the user has the ``MANAGE_MESSAGES`` permission. **^2^**
-
-- If the user has the ``BAN_MEMBERS`` permission. **^2^**
-
-- If the user has the ``KICK_MEMBERS`` permission. **^2^**
+- If the user has the ``EVADE_SANCTIONS`` permission. **^2^**
 
 - If the position of the Filo's roles are lower than the user roles. **^2^**
 
@@ -55,9 +47,9 @@ This module has exceptions, which means that it won't work if some of the requir
 
 ## **Step 1**: Enable the module
 
-To enable the module you must execute the following command: <kbd>f!config anti-spam enable</kbd>.
+To enable the module you must execute the following command: <kbd>/anti-spam enable</kbd>.
 
-**Example**: <kbd>f!config anti-spam enable</kbd>.
+**Example**: <kbd>/anti-spam enable</kbd>.
 
 > This module can be supplemented with the **[Auto Moderation](https://wiki.filobot.xyz/en/modules/auto-moderation)** module.
 {.is-success}
@@ -66,71 +58,15 @@ To enable the module you must execute the following command: <kbd>f!config anti-
 
 ## **Step 1**: Disable the module
 
-To disable the module you must execute the following command: <kbd>f!config anti-spam disable</kbd>.
+To disable the module you must execute the following command: <kbd>/anti-spam disable</kbd>.
 
-**Example**: <kbd>f!config anti-spam disable</kbd>.
-
-# Steps to add a channel to the allowed list
-
-## **Step 1**: Add a channel to the allowed list
-
-To add a channel to the allowed list you must execute the following command: <kbd>f!config anti-spam allow channel add \<#Channel/Channel ID></kbd>.
-
-> Don't include ``<>`` when you're running the command.
-{.is-warning}
-
-**Example**: <kbd>f!config anti-spam allow channel add #spam-allowed</kbd>.
-
-> If you add a channel to the allowed list, a warn won't be granted to those users who spam on those channels.
-{.is-warning}
-
-# Steps to remove a channel to the allowed list
-
-## **Step 1**: Remove a channel to the allowed list
-
-To remove a channel to the allowed list you must execute the following command: <kbd>f!config anti-spam allow channel remove \<#Channel/Channel ID></kbd>.
-
-> Don't include ``<>`` when you're running the command.
-{.is-warning}
-
-**Example**: <kbd>f!config anti-spam allow channel remove #general</kbd>.
-
-> If you remove a channel to the allowed list, a warn will be granted to those users who spam on those channels.
-{.is-warning}
-
-# Steps to add a channel to the allowed list
-
-## **Step 1**: Add a role to the allowed list
-
-To add a role to the allowed list you must execute the following command: <kbd>f!config anti-spam allow role add \<@Role/Role ID></kbd>.
-
-> Don't include ``<>`` when you're running the command.
-{.is-warning}
-
-**Example**: <kbd>f!config anti-spam allow role add @Moderators</kbd>.
-
-> If you add a role to the allowed list, users who have that role assigned won't be warned if they spam.
-{.is-warning}
-
-# Steps to remove a role to the allowed list
-
-## **Step 1**: Remove a role to the allowed list
-
-To remove a role to the allowed list you must execute the following command: <kbd>f!config anti-spam allow role remove \<@Role/Role ID></kbd>.
-
-> Don't include ``<>`` when you're running the command.
-{.is-warning}
-
-**Example**: <kbd>f!config anti-spam allow role remove @Moderators</kbd>.
-
-> If you remove a role to the allowed list, users who have that role assigned will be warned if they spam.
-{.is-warning}
+**Example**: <kbd>/anti-spam disable</kbd>.
 
 # Steps to set the threshold and time for duplicate messages
 
 ## **Step 1**: Set the threshold for duplicate messages
 
-To set the threshold for duplicate messages you must execute the following command: <kbd>f!config anti-spam set duplicates threshold \<Threshold></kbd>.
+To set the threshold for duplicate messages you must execute the following command: <kbd>f!config anti-spam duplicates ``threshold:<Threshold>`` ``time:<Time>``</kbd>.
 
 > Don't include ``<>`` when you're running the command.
 {.is-warning}
@@ -140,16 +76,74 @@ To set the threshold for duplicate messages you must execute the following comma
 > The value must be greater than **2**.
 {.is-warning}
 
-## **Step 2**: Set the time for duplicate messages
+# Steps to set a sanction
 
-To set the time for duplicate messages you must execute the following command: <kbd>f!config anti-spam set duplicates time \<Time></kbd>.
+## **Step 1**: Set a sanction
+
+To set a sanction you must execute the following command: <kbd>/anti-spam action ``action:<Action>``</kbd>.
 
 > Don't include ``<>`` when you're running the command.
 {.is-warning}
 
-**Example**: <kbd>f!config anti-spam set duplicates time 5s</kbd>
+> You can see a full list of actions that Filo supports by **[clicking here](https://wiki.filobot.xyz/en/modules/actions-list)**.
+{.is-info}
 
-> The duration of the action must be between **3 seconds** and **60 seconds**.
+**Example**: <kbd>/anti-spam action ``action:Temporarily mute the user`` ``time:1h``</kbd>.
+
+# Steps to add a channel to the allowed list
+
+## **Step 1**: Add a channel to the allowed list
+
+To add a channel to the allowed list you must execute the following command: <kbd>/anti-spam channel ``action:Add`` ``channel:<#Channel/Channel ID>``</kbd>.
+
+> Don't include ``<>`` when you're running the command.
+{.is-warning}
+
+**Example**: <kbd>/anti-spam channel ``action:Add`` ``channel:#spam-allowed``</kbd>.
+
+> If you add a channel to the allow list, this module will not work on that channel.
+{.is-warning}
+
+# Steps to remove a channel to the allowed list
+
+## **Step 1**: Remove a channel to the allowed list
+
+To remove a channel to the allowed list you must execute the following command: <kbd>/anti-spam channel ``action:Remove`` ``channel:<#Channel/Channel ID>``</kbd>.
+
+> Don't include ``<>`` when you're running the command.
+{.is-warning}
+
+**Example**: <kbd>/anti-spam channel ``action:Remove`` ``channel:#general``</kbd>.
+
+> If you remove a channel from the allowed list, this module will work on that channel.
+{.is-warning}
+
+# Steps to add a role to the allowed list
+
+## **Step 1**: Add a role to the allowed list
+
+To add a role to the allowed list you must execute the following command: <kbd>/anti-spam role ``action:Add`` ``role:<@Role/Role ID>``</kbd>.
+
+> Don't include ``<>`` when you're running the command.
+{.is-warning}
+
+**Example**: <kbd>/anti-spam role ``action:Add`` ``role:@Moderators``</kbd>.
+
+> If you add a role to the allowed list, anyone who has this role will be exempt from the operation of this module.
+{.is-warning}
+
+# Steps to remove a role to the allowed list
+
+## **Step 1**: Remove a role to the allowed list
+
+To remove a role to the allowed list you must execute the following command: <kbd>/anti-spam role ``action:Remove`` ``role:<@Role/Role ID>``</kbd>.
+
+> Don't include ``<>`` when you're running the command.
+{.is-warning}
+
+**Example**: <kbd>/anti-spam role ``action:Remove`` ``role:@Moderators``</kbd>.
+
+> If you remove a role from the allowed list, anyone who has this role will no longer be exempt from the operation of this module.
 {.is-warning}
 
 # Steps to reset module settings

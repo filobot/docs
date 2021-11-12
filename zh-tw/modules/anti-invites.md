@@ -2,8 +2,8 @@
 title: Anti Invites
 description:
 published: true
-date: Thu Nov 11 2021 17:11:04 GMT+0000 (Coordinated Universal Time)
-dateCreated: Thu Nov 11 2021 17:11:04 GMT+0000 (Coordinated Universal Time)
+date: Fri Nov 12 2021 16:51:34 GMT+0000 (Coordinated Universal Time)
+dateCreated: Fri Nov 12 2021 16:51:34 GMT+0000 (Coordinated Universal Time)
 tags:
 editor: markdown
 ---
@@ -164,7 +164,7 @@ This module will allow you to prevent users from spamming invites from servers o
 > If you remove a channel from the allowed list, this module will work on that channel.
 {.is-warning}
 
-# 新增例外頻道的步驟
+# 新增例外身分組的步驟
 
 ## **步驟 1**: 新增例外身分組
 

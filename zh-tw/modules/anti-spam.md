@@ -2,15 +2,15 @@
 title: Anti Spam
 description:
 published: true
-date: Mon Jun 14 2021 13:21:56 GMT+0000 (Coordinated Universal Time)
-dateCreated: Mon Jun 14 2021 13:21:56 GMT+0000 (Coordinated Universal Time)
+date: Fri Nov 12 2021 16:54:25 GMT+0000 (Coordinated Universal Time)
+dateCreated: Fri Nov 12 2021 16:54:25 GMT+0000 (Coordinated Universal Time)
 tags:
 editor: markdown
 ---
 
 # 關於本模組
 
-本模組可以自動刪除洗版訊息和警告洗版發送者.
+This module will sanction those users who send too many messages in a short time or identical messages in a short time.
 
 > 我們強烈建議你使用本模組來管理社群.
 {.is-success}
@@ -19,29 +19,21 @@ editor: markdown
 
 在繼續之前，您必須考慮一系列可能影響您執行的任何操作因素:
 
-- Filo 需要要此項進階權限： ``MANAGE_MESSAGES``.
-
-- Filo 需要以下基礎權限: ``VIEW_CHANNEL``, ``SEND_MESSAGES``, ``EMBED_LINKS``, ``USE_EXTERNAL_EMOJIS``, ``READ_MESSAGE_HISTORY`` 和 ``ADD_REACTIONS``.
+- Filo 需要以下進階權限: ``VIEW_CHANNEL``, ``SEND_MESSAGES``, ``EMBED_LINKS`` 和 ``MANAGE_MESSAGES``.
 
 - 在執行本主題的指令前，你需要此項權限： ``ADMINISTRATOR``.
-
-- 你需要取代<kbd>f!</kbd> 成你設定的 prefix 。如果你需要更換它的教學，請 **[點擊這裡](https://wiki.filobot.xyz/zh-tw/modules/prefix)**.
 
 # 常見錯誤
 
 如果在使用本模組時，如果你沒有開啟下列敘述，你將會得到錯誤:
 
-- 如果 Filo 沒有以下權限： ``VIEW_CHANNEL``, ``SEND_MESSAGES``, ``EMBED_LINKS``, ``USE_EXTERNAL_EMOJIS`` 和 ``MANAGE_MESSAGES``. **^1^**
+- 如果 Filo 沒有以下權限： ``VIEW_CHANNEL``, ``SEND_MESSAGES``, ``EMBED_LINKS`` 和 ``MANAGE_MESSAGES``. **^1^**
 
 - 如果使用者沒有這個權限： ``ADMINISTRATOR``. **^2^**
 
 - 如果使用者沒有這個權限： ``MANAGE_GUILD``. **^2^**
 
-- 如果使用者沒有這個權限： ``MANAGE_MESSAGES``. **^2^**
-
-- 如果使用者沒有這個權限： ``BAN_MEMBERS``. **^2^**
-
-- 如果使用者沒有這個權限： ``KICK_MEMBERS``. **^2^**
+- 如果使用者沒有這個權限： ``EVADE_SANCTIONS``. **^2^**
 
 - 如果 Filo 的身分組位階低於這個使用者. **^2^**
 
@@ -55,9 +47,9 @@ editor: markdown
 
 ## **步驟 1**: 啟用模組
 
-如果要 啟用模組 ，您必須執行以下指令：<kbd>f!config anti-spam enable</kbd>.
+如果要 啟用模組 ，您必須執行以下指令：<kbd>/anti-spam enable</kbd>.
 
-**範例**: <kbd>f!config anti-spam enable</kbd>.
+**範例**: <kbd>/anti-spam enable</kbd>.
 
 > 這個模組可以補充 **[Auto Moderation](https://wiki.filobot.xyz/zh-tw/modules/auto-moderation)**.
 {.is-success}
@@ -66,71 +58,15 @@ editor: markdown
 
 ## **步驟 1**: 停用模組
 
-如果要 停用模組 ，您必須執行以下指令：<kbd>f!config anti-spam disable</kbd>.
+如果要 停用模組 ，您必須執行以下指令：<kbd>/anti-spam disable</kbd>.
 
-**範例**: <kbd>f!config anti-spam disable</kbd>.
-
-# 新增例外頻道的步驟
-
-## **步驟 1**: 新增一個例外的頻道
-
-如果要 新增一個例外的頻道 ，您必須執行以下指令：<kbd>f!config anti-spam allow channel add \<#頻道/頻道 ID></kbd>.
-
-> 當您在打指令時，請勿包含 ``<>``.
-{.is-warning}
-
-**範例**: <kbd>f!config anti-spam allow channel add #spam-allowed</kbd>.
-
-> 如題所說，那些在本頻道洗版的人不會受到任何處罰.
-{.is-warning}
-
-# 移除例外頻道的步驟
-
-## **步驟 1**: 移除例外頻道
-
-如果要 移除例外頻道 ，您必須執行以下指令：<kbd>f!config anti-spam allow channel remove \<#頻道/頻道 ID></kbd>.
-
-> 當您在打指令時，請勿包含 ``<>``.
-{.is-warning}
-
-**範例**: <kbd>f!config anti-spam allow channel remove #general</kbd>.
-
-> 如題所說，那些在本頻道洗版的人將會重新受到處罰.
-{.is-warning}
-
-# 新增例外頻道的步驟
-
-## **步驟 1**: 新增例外身分組
-
-如果要 新增例外身分組 ，您必須執行以下指令：<kbd>f!config anti-spam allow role add \<@身分組/身分組 ID></kbd>.
-
-> 當您在打指令時，請勿包含 ``<>``.
-{.is-warning}
-
-**範例**: <kbd>f!config anti-spam allow role add @Moderators</kbd>.
-
-> 如題所說，那些擁有此身分組的人將不會受到洗版處罰.
-{.is-warning}
-
-# 移除例外身分組的步驟
-
-## **步驟 1**: 移除例外身分組
-
-如果要 移除例外身分組 ，您必須執行以下指令：<kbd>f!config anti-spam allow role remove \<@身分組/身分組 ID></kbd>.
-
-> 當您在打指令時，請勿包含 ``<>``.
-{.is-warning}
-
-**範例**: <kbd>f!config anti-spam allow role remove @Moderators</kbd>.
-
-> 如題所說，那些擁有此身分組的人將會重新受到洗版處罰.
-{.is-warning}
+**範例**: <kbd>/anti-spam disable</kbd>.
 
 # 設定數量和時間的步驟
 
 ## **步驟 1**: 設定數量和時間
 
-如果要 設定數量和時間 ，您必須執行以下指令：<kbd>f!config anti-spam set duplicates threshold \<進入點></kbd>.
+如果要 設定數量和時間 ，您必須執行以下指令：<kbd>f!config anti-spam duplicates ``threshold:<進入點>`` ``time:<時間>``</kbd>.
 
 > 當您在打指令時，請勿包含 ``<>``.
 {.is-warning}
@@ -140,16 +76,74 @@ editor: markdown
 > 數值必須大於 **2**.
 {.is-warning}
 
-## **步驟 2**: 為相同的訊息設定洗版最低時間
+# Steps to set a sanction
 
-如果要 為相同的訊息設定洗版最低時間 ，您必須執行以下指令：<kbd>f!config anti-spam set duplicates time \<時間></kbd>.
+## **步驟 1**: Set a sanction
+
+如果要 set a sanction ，您必須執行以下指令：<kbd>/anti-spam action ``action:<動作>``</kbd>.
 
 > 當您在打指令時，請勿包含 ``<>``.
 {.is-warning}
 
-**範例**: <kbd>f!config anti-spam set duplicates time 5s</kbd>
+> 你可以點擊 **[這個連結](https://wiki.filobot.xyz/zh-tw/modules/actions-list)** 來查看 Filo 支援的處罰.
+{.is-info}
 
-> 指令有效的持續時間必須在 **3 秒** 到 **60 秒** 之間.
+**範例**: <kbd>/anti-spam action ``action:Temporarily mute the user`` ``time:1h``</kbd>.
+
+# 新增例外頻道的步驟
+
+## **步驟 1**: 新增一個例外的頻道
+
+如果要 新增一個例外的頻道 ，您必須執行以下指令：<kbd>/anti-spam channel ``action:Add`` ``channel:<#頻道/頻道 ID>``</kbd>.
+
+> 當您在打指令時，請勿包含 ``<>``.
+{.is-warning}
+
+**範例**: <kbd>/anti-spam channel ``action:Add`` ``channel:#spam-allowed``</kbd>.
+
+> If you add a channel to the allow list, this module will not work on that channel.
+{.is-warning}
+
+# 移除例外頻道的步驟
+
+## **步驟 1**: 移除例外頻道
+
+如果要 移除例外頻道 ，您必須執行以下指令：<kbd>/anti-spam channel ``action:Remove`` ``channel:<#頻道/頻道 ID>``</kbd>.
+
+> 當您在打指令時，請勿包含 ``<>``.
+{.is-warning}
+
+**範例**: <kbd>/anti-spam channel ``action:Remove`` ``channel:#general``</kbd>.
+
+> If you remove a channel from the allowed list, this module will work on that channel.
+{.is-warning}
+
+# 新增例外身分組的步驟
+
+## **步驟 1**: 新增例外身分組
+
+如果要 新增例外身分組 ，您必須執行以下指令：<kbd>/anti-spam role ``action:Add`` ``role:<@身分組/身分組 ID>``</kbd>.
+
+> 當您在打指令時，請勿包含 ``<>``.
+{.is-warning}
+
+**範例**: <kbd>/anti-spam role ``action:Add`` ``role:@Moderators``</kbd>.
+
+> If you add a role to the allowed list, anyone who has this role will be exempt from the operation of this module.
+{.is-warning}
+
+# 移除例外身分組的步驟
+
+## **步驟 1**: 移除例外身分組
+
+如果要 移除例外身分組 ，您必須執行以下指令：<kbd>/anti-spam role ``action:Remove`` ``role:<@身分組/身分組 ID>``</kbd>.
+
+> 當您在打指令時，請勿包含 ``<>``.
+{.is-warning}
+
+**範例**: <kbd>/anti-spam role ``action:Remove`` ``role:@Moderators``</kbd>.
+
+> If you remove a role from the allowed list, anyone who has this role will no longer be exempt from the operation of this module.
 {.is-warning}
 
 # 重置模組的步驟

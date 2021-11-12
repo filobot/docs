@@ -2,8 +2,8 @@
 title: Anti Invites
 description:
 published: true
-date: Thu Nov 11 2021 17:11:04 GMT+0000 (Coordinated Universal Time)
-dateCreated: Thu Nov 11 2021 17:11:04 GMT+0000 (Coordinated Universal Time)
+date: Fri Nov 12 2021 16:51:34 GMT+0000 (Coordinated Universal Time)
+dateCreated: Fri Nov 12 2021 16:51:34 GMT+0000 (Coordinated Universal Time)
 tags:
 editor: markdown
 ---
@@ -164,7 +164,7 @@ To remove a channel to the allowed list you must execute the following command: 
 > If you remove a channel from the allowed list, this module will work on that channel.
 {.is-warning}
 
-# Steps to add a channel to the allowed list
+# Steps to add a role to the allowed list
 
 ## **Step 1**: Add a role to the allowed list
 

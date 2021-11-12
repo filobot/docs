@@ -10,7 +10,7 @@ editor: markdown
 
 # Acerca del módulo
 
-Este módulo sancionará a aquellos usuarios que tengan una sanción activa (mute) y hayan abandonado el servidor.
+Este módulo sancionará a aquellos usuarios que tengan una sanción activa (silencio) y hayan abandonado el servidor.
 
 > Recomendamos usar este módulo si administras una comunidad.
 {.is-success}
