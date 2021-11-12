@@ -10,7 +10,7 @@ editor: markdown
 
 # About the module
 
-This module will allow you to automatically sanction a user when they reach a previously established level of moderation.
+This module will automatically sanction a user when he reaches a previously established level of moderation.
 
 > We recommend using this module if you manage a community.
 {.is-success}

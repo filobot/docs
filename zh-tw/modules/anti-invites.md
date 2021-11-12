@@ -10,7 +10,7 @@ editor: markdown
 
 # 關於本模組
 
-This module will allow you to prevent users from spamming invites from servers other than yours.
+This module will sanction users who spam invitations from servers other than yours.
 
 > 我們強烈建議你使用本模組來管理社群.
 {.is-success}

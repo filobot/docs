@@ -10,7 +10,7 @@ editor: markdown
 
 # 關於本模組
 
-This module will allow you to automatically sanction a user when they reach a previously established level of moderation.
+This module will automatically sanction a user when he reaches a previously established level of moderation.
 
 > 我們強烈建議你使用本模組來管理社群.
 {.is-success}

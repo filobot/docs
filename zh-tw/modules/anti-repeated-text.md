@@ -10,7 +10,7 @@ editor: markdown
 
 # 關於本模組
 
-本模組可以處罰或警告傳送重複文字的人.
+This module will sanction those users who send repeated text in the same message.
 
 > 我們強烈建議你使用本模組來管理社群.
 {.is-success}

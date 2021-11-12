@@ -10,7 +10,7 @@ editor: markdown
 
 # Acerca del módulo
 
-Este módulo te permitirá eliminar y advertir a aquellos usuarios que envíen mensajes con texto repetido.
+Este módulo sancionará a aquellos usuarios que envíen texto repetido en un mismo mensaje.
 
 > Recomendamos usar este módulo si administras una comunidad.
 {.is-success}

@@ -10,7 +10,7 @@ editor: markdown
 
 # About the module
 
-This module will allow you to eliminate and warn those users who send messages with repeated text.
+This module will sanction those users who send repeated text in the same message.
 
 > We recommend using this module if you manage a community.
 {.is-success}

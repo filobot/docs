@@ -10,7 +10,7 @@ editor: markdown
 
 # Acerca del módulo
 
-Este módulo te permitirá sancionar automáticamente a un usuario cuando alcance un nivel de moderación previamente establecido.
+Este módulo sancionará automáticamente a un usuario cuando alcance un nivel de moderación previamente establecido.
 
 > Recomendamos usar este módulo si administras una comunidad.
 {.is-success}
