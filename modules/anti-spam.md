@@ -10,7 +10,7 @@ editor: markdown
 
 # About the module
 
-This module will sanction those users who send too many messages in a short time or identical messages in a short time..
+This module will sanction those users who send too many messages in a short time or identical messages in a short time.
 
 > We recommend using this module if you manage a community.
 {.is-success}
