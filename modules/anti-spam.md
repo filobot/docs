@@ -2,8 +2,8 @@
 title: Anti Spam
 description:
 published: true
-date: Fri Nov 12 2021 16:54:25 GMT+0000 (Coordinated Universal Time)
-dateCreated: Fri Nov 12 2021 16:54:25 GMT+0000 (Coordinated Universal Time)
+date: Fri Nov 12 2021 16:58:50 GMT+0000 (Coordinated Universal Time)
+dateCreated: Fri Nov 12 2021 16:58:50 GMT+0000 (Coordinated Universal Time)
 tags:
 editor: markdown
 ---
@@ -66,14 +66,14 @@ To disable the module you must execute the following command: <kbd>/anti-spam di
 
 ## **Step 1**: Set the threshold for duplicate messages
 
-To set the threshold for duplicate messages you must execute the following command: <kbd>f!config anti-spam duplicates ``threshold:<Threshold>`` ``time:<Time>``</kbd>.
+To set the threshold for duplicate messages you must execute the following command: <kbd>/anti-spam duplicates ``threshold:<Threshold>`` ``time:<Time>``</kbd>.
 
 > Don't include ``<>`` when you're running the command.
 {.is-warning}
 
-**Example**: <kbd>f!config anti-spam set duplicates threshold 4</kbd>
+**Example**: <kbd>/anti-spam duplicates ``threshold:4`` ``time:5s``</kbd>
 
-> The value must be greater than **2**.
+> The value must be greater than **2** (threshold).
 {.is-warning}
 
 # Steps to set a sanction
@@ -150,12 +150,9 @@ To remove a role to the allowed list you must execute the following command: <kb
 
 ## **Step 1**: Reset the module settings
 
-To reset the module settings you must execute the following command: <kbd>f!config anti-spam reset \<Duplicates/Roles/Channels></kbd>.
+To reset the module settings you must execute the following command: <kbd>/anti-spam reset</kbd>.
 
-> Don't include ``<>`` when you're running the command.
-{.is-warning}
-
-**Example**: <kbd>f!config anti-spam reset</kbd>.
+**Example**: <kbd>/anti-spam reset</kbd>.
 
 > You'll be forced to confirm the action you are about to take. Once you have confirmed the action, you won't be able to recover the previous data.
 {.is-danger}

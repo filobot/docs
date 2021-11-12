@@ -2,8 +2,8 @@
 title: Anti Spam
 description:
 published: true
-date: Fri Nov 12 2021 16:54:25 GMT+0000 (Coordinated Universal Time)
-dateCreated: Fri Nov 12 2021 16:54:25 GMT+0000 (Coordinated Universal Time)
+date: Fri Nov 12 2021 16:58:50 GMT+0000 (Coordinated Universal Time)
+dateCreated: Fri Nov 12 2021 16:58:50 GMT+0000 (Coordinated Universal Time)
 tags:
 editor: markdown
 ---
@@ -66,14 +66,14 @@ Para deshabilitar el módulo debes ejecutar el siguiente comando: <kbd>/anti-spa
 
 ## **Paso 1**: Establecer el umbral de mensajes duplicados
 
-Para establecer el umbral de mensajes duplicados debes ejecutar el siguiente comando: <kbd>f!config anti-spam duplicates ``threshold:<Umbral>`` ``time:<Tiempo>``</kbd>.
+Para establecer el umbral de mensajes duplicados debes ejecutar el siguiente comando: <kbd>/anti-spam duplicates ``threshold:<Umbral>`` ``time:<Tiempo>``</kbd>.
 
 > No incluyas ``<>`` cuando estés ejecutando el comando.
 {.is-warning}
 
-**Ejemplo**: <kbd>f!config anti-spam set duplicates threshold 4</kbd>
+**Ejemplo**: <kbd>/anti-spam duplicates ``threshold:4`` ``time:5s``</kbd>
 
-> El valor debe ser mayor de **2**.
+> El valor debe ser mayor de **2** (umbral).
 {.is-warning}
 
 # Pasos para establecer una sanción
@@ -150,12 +150,9 @@ Para remove a role to the allowed list debes ejecutar el siguiente comando: <kbd
 
 ## **Paso 1**: Restablecer las configuraciones del módulo
 
-Para restablecer las configuraciones del módulo debes ejecutar el siguiente comando: <kbd>f!config anti-spam reset \<Duplicates/Roles/Channels></kbd>.
+Para restablecer las configuraciones del módulo debes ejecutar el siguiente comando: <kbd>/anti-spam reset</kbd>.
 
-> No incluyas ``<>`` cuando estés ejecutando el comando.
-{.is-warning}
-
-**Ejemplo**: <kbd>f!config anti-spam reset</kbd>.
+**Ejemplo**: <kbd>/anti-spam reset</kbd>.
 
 > Te verás obligado a confirmar la acción que estas a punto de realizar. Una vez la hayas confirmado, no podrás recuperar los datos anteriores.
 {.is-danger}

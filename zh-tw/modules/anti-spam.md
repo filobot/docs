@@ -2,8 +2,8 @@
 title: Anti Spam
 description:
 published: true
-date: Fri Nov 12 2021 16:54:25 GMT+0000 (Coordinated Universal Time)
-dateCreated: Fri Nov 12 2021 16:54:25 GMT+0000 (Coordinated Universal Time)
+date: Fri Nov 12 2021 16:58:50 GMT+0000 (Coordinated Universal Time)
+dateCreated: Fri Nov 12 2021 16:58:50 GMT+0000 (Coordinated Universal Time)
 tags:
 editor: markdown
 ---
@@ -66,14 +66,14 @@ This module will sanction those users who send too many messages in a short time
 
 ## **步驟 1**: 設定數量和時間
 
-如果要 設定數量和時間 ，您必須執行以下指令：<kbd>f!config anti-spam duplicates ``threshold:<進入點>`` ``time:<時間>``</kbd>.
+如果要 設定數量和時間 ，您必須執行以下指令：<kbd>/anti-spam duplicates ``threshold:<進入點>`` ``time:<時間>``</kbd>.
 
 > 當您在打指令時，請勿包含 ``<>``.
 {.is-warning}
 
-**範例**: <kbd>f!config anti-spam set duplicates threshold 4</kbd>
+**範例**: <kbd>/anti-spam duplicates ``threshold:4`` ``time:5s``</kbd>
 
-> 數值必須大於 **2**.
+> 數值必須大於 **2** (進入點).
 {.is-warning}
 
 # Steps to set a sanction
@@ -150,12 +150,9 @@ This module will sanction those users who send too many messages in a short time
 
 ## **步驟 1**: 重置模組
 
-如果要 重置模組 ，您必須執行以下指令：<kbd>f!config anti-spam reset \<Duplicates/Roles/Channels></kbd>.
+如果要 重置模組 ，您必須執行以下指令：<kbd>/anti-spam reset</kbd>.
 
-> 當您在打指令時，請勿包含 ``<>``.
-{.is-warning}
-
-**範例**: <kbd>f!config anti-spam reset</kbd>.
+**範例**: <kbd>/anti-spam reset</kbd>.
 
 > 你必須謹慎考慮此操作。如果重置，您將無法恢復之前的設定.
 {.is-danger}
