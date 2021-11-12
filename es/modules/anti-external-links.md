@@ -2,15 +2,15 @@
 title: Anti Enlaces Externos
 description:
 published: true
-date: Thu Nov 11 2021 16:19:09 GMT+0000 (Coordinated Universal Time)
-dateCreated: Thu Nov 11 2021 16:19:09 GMT+0000 (Coordinated Universal Time)
+date: Fri Nov 12 2021 17:31:37 GMT+0000 (Coordinated Universal Time)
+dateCreated: Fri Nov 12 2021 17:31:37 GMT+0000 (Coordinated Universal Time)
 tags:
 editor: markdown
 ---
 
 # Acerca del módulo
 
-Este módulo te permitirá eliminar los mensajes y advertir a los miembros que envíen enlaces externos.
+Este módulo sancionará a aquellos usuarios que envíen en su mensaje algún tipo de enlace.
 
 > Recomendamos usar este módulo si administras una comunidad.
 {.is-success}
@@ -22,29 +22,21 @@ Este módulo te permitirá eliminar los mensajes y advertir a los miembros que e
 
 Antes de continuar con este artículo, debes tener en cuenta una serie de elementos que pueden influir cuando vayas a realizar alguna acción descrita en esta página:
 
-- Filo requiere el siguiente permiso avanzado: ``MANAGE_MESSAGES``.
-
-- Filo requiere los siguientes permisos básicos: ``VIEW_CHANNEL``, ``SEND_MESSAGES``, ``EMBED_LINKS``, ``USE_EXTERNAL_EMOJIS``, ``READ_MESSAGE_HISTORY`` y ``ADD_REACTIONS``.
+- Filo requiere los siguientes permisos avanzados: ``VIEW_CHANNEL``, ``SEND_MESSAGES``, ``EMBED_LINKS`` y ``MANAGE_MESSAGES``.
 
 - Necesitas el permiso ``ADMINISTRATOR`` para realizar la mayoría de las acciones de este artículo.
-
-- Debes reemplazar <kbd>f!</kbd> con el prefijo actual que hayas establecido. Más información sobre cómo cambiar el prefijo haciendo **[clic aquí](https://wiki.filobot.xyz/es/modules/prefix)**.
 
 # Excepciones del módulo
 
 Este módulo tiene excepciones, lo que significa que no funcionará si se cumplen algunos de los requisitos que se mencionan a continuación:
 
-- Si Filo no tiene los permisos ``VIEW_CHANNEL``, ``SEND_MESSAGES``, ``EMBED_LINKS``, ``USE_EXTERNAL_EMOJIS`` y ``MANAGE_MESSAGES``. **^1^**
+- Si Filo no tiene los permisos ``VIEW_CHANNEL``, ``SEND_MESSAGES``, ``EMBED_LINKS`` y ``MANAGE_MESSAGES``. **^1^**
 
 - Si el usuario tiene el permiso ``ADMINISTRATOR``. **^2^**
 
 - Si el usuario tiene el permiso ``MANAGE_GUILD``. **^2^**
 
-- Si el usuario tiene el permiso ``MANAGE_MESSAGES``. **^2^**
-
-- Si el usuario tiene el permiso ``BAN_MEMBERS``. **^2^**
-
-- Si el usuario tiene el permiso ``KICK_MEMBERS``. **^2^**
+- Si el usuario tiene el permiso ``EVADE_SANCTIONS``. **^2^**
 
 - Si la posición de los roles de Filo es más baja que la de los roles del usuario. **^2^**
 
@@ -58,9 +50,9 @@ Este módulo tiene excepciones, lo que significa que no funcionará si se cumple
 
 ## **Paso 1**: Habilitar el módulo
 
-Para habilitar el módulo debes ejecutar el siguiente comando: <kbd>f!config anti-external-links enable</kbd>.
+Para habilitar el módulo debes ejecutar el siguiente comando: <kbd>/anti-external-links enable</kbd>.
 
-**Ejemplo**: <kbd>f!config anti-external-links enable</kbd>.
+**Ejemplo**: <kbd>/anti-external-links enable</kbd>.
 
 > Este módulo se puede complementar con el módulo **[Auto Moderación](https://wiki.filobot.xyz/es/modules/auto-moderation)**.
 {.is-success}
@@ -69,9 +61,9 @@ Para habilitar el módulo debes ejecutar el siguiente comando: <kbd>f!config ant
 
 ## **Paso 1**: Deshabilitar el módulo
 
-Para deshabilitar el módulo debes ejecutar el siguiente comando: <kbd>f!config anti-external-links disable</kbd>.
+Para deshabilitar el módulo debes ejecutar el siguiente comando: <kbd>/anti-external-links disable</kbd>.
 
-**Ejemplo**: <kbd>f!config anti-external-links disable</kbd>.
+**Ejemplo**: <kbd>/anti-external-links disable</kbd>.
 
 # Pasos para agregar una URL a la lista de permitidas
 
@@ -79,7 +71,7 @@ Para deshabilitar el módulo debes ejecutar el siguiente comando: <kbd>f!config 
 
 ### **Paso 1**: Añadir un subdominio a la lista de permitidos
 
-Para añadir un subdominio a la lista de permitidos debes ejecutar el siguiente comando: <kbd>f!config anti-external-links allow url add \<URL></kbd>.
+Para añadir un subdominio a la lista de permitidos debes ejecutar el siguiente comando: <kbd>/anti-external-links link ``action:Add`` ``link:<URL>``</kbd>.
 
 > No incluyas ``<>`` cuando estés ejecutando el comando.
 {.is-warning}
@@ -87,7 +79,7 @@ Para añadir un subdominio a la lista de permitidos debes ejecutar el siguiente 
 > Es obligatorio que la URL tenga el protocolo **HTTPS** habilitado, de lo contrario no podrá ser añadida a la lista de permitidas.
 {.is-danger}
 
-**Ejemplo**: <kbd>f!config anti-external-links allow url add https://wiki.filobot.xyz</kbd>.
+**Ejemplo**: <kbd>/anti-external-links link ``action:Add`` ``link:https://wiki.filobot.xyz``</kbd>.
 
 > Puedes permitir todos los subdominios de un dominio reemplazando el subdominio por un asterisco.
 > **Ejemplo**: https://*.filobot.xyz.
@@ -101,7 +93,7 @@ Para añadir un subdominio a la lista de permitidos debes ejecutar el siguiente 
 
 ### **Paso 1**: Añadir un dominio a la lista de permitidos
 
-Para añadir un dominio a la lista de permitidos debes ejecutar el siguiente comando: <kbd>f!config anti-external-links allow url add \<URL></kbd>.
+Para añadir un dominio a la lista de permitidos debes ejecutar el siguiente comando: <kbd>/anti-external-links link ``action:Add`` ``link:<URL>``</kbd>.
 
 > No incluyas ``<>`` cuando estés ejecutando el comando.
 {.is-warning}
@@ -109,7 +101,7 @@ Para añadir un dominio a la lista de permitidos debes ejecutar el siguiente com
 > Es obligatorio que la URL tenga el protocolo **HTTPS** habilitado, de lo contrario no podrá ser añadida a la lista de permitidas.
 {.is-danger}
 
-**Ejemplo**: <kbd>f!config anti-external-links allow url add https://filobot.xyz</kbd>.
+**Ejemplo**: <kbd>/anti-external-links link ``action:Add`` ``link:https://filobot.xyz``</kbd>.
 
 > Puedes permitir todos los enlaces de un dominio y sus subdominios sustituyendo el subdominio y el path por asterísco tal y como se describe en este artículo.
 > **Ejemplo**: https://*.filobot.xyz/*.
@@ -119,7 +111,7 @@ Para añadir un dominio a la lista de permitidos debes ejecutar el siguiente com
 
 ### **Paso 1**: Añadir una ruta a la lista de permitidos
 
-Para añadir una ruta a la lista de permitidos debes ejecutar el siguiente comando: <kbd>f!config anti-external-links allow url add \<URL></kbd>.
+Para añadir una ruta a la lista de permitidos debes ejecutar el siguiente comando: <kbd>/anti-external-links link ``action:Add`` ``link:<URL>``</kbd>.
 
 > No incluyas ``<>`` cuando estés ejecutando el comando.
 {.is-warning}
@@ -127,7 +119,7 @@ Para añadir una ruta a la lista de permitidos debes ejecutar el siguiente coman
 > Es obligatorio que la URL tenga el protocolo **HTTPS** habilitado, de lo contrario no podrá ser añadida a la lista de permitidas.
 {.is-danger}
 
-**Ejemplo**: <kbd>f!config anti-external-links allow url add https://wiki.filobot.xyz/en/home</kbd>.
+**Ejemplo**: <kbd>/anti-external-links link ``action:Add`` ``link:https://wiki.filobot.xyz/en/home``</kbd>.
 
 > Puedes permitir todas las rutas de un dominio reemplazando la ruta por un asterisco.
 > **Ejemplo**: https://filobot.xyz/*.
@@ -141,7 +133,7 @@ Para añadir una ruta a la lista de permitidos debes ejecutar el siguiente coman
 
 ### **Paso 1**: Eliminar una URL de la lista de permitidas
 
-Para eliminar una url de la lista de permitidas debes ejecutar el siguiente comando: <kbd>f!config anti-external-links allow url remove \<URL></kbd>.
+Para eliminar una url de la lista de permitidas debes ejecutar el siguiente comando: <kbd>/anti-external-links link ``action:Remove`` ``link:<URL>``</kbd>.
 
 > No incluyas ``<>`` cuando estés ejecutando el comando.
 {.is-warning}
@@ -149,74 +141,85 @@ Para eliminar una url de la lista de permitidas debes ejecutar el siguiente coma
 > Es obligatorio que la URL tenga el protocolo **HTTPS** habilitado, de lo contrario no podrá ser añadida a la lista de permitidas.
 {.is-danger}
 
-**Ejemplo**: <kbd>f!config anti-external-links allow url remove https://filobot.xyz</kbd>.
+**Ejemplo**: <kbd>/anti-external-links link ``action:Remove`` ``link:https://filobot.xyz``</kbd>.
 
-# Pasos para añadir un canal a la lista de permtiidos
+# Pasos para establecer una sanción
 
-## **Paso 1**: Añadir un canal a la lista de permitidos
+## **Paso 1**: Establecer una sanción
 
-Para añadir un canal a la lista de permitidos debes ejecutar el siguiente comando: <kbd>f!config anti-external-links allow channel add \<#Canal/ID del Canal></kbd>.
-
-> No incluyas ``<>`` cuando estés ejecutando el comando.
-{.is-warning}
-
-**Ejemplo**: <kbd>f!config anti-external-links allow channel add #spam-allowed</kbd>.
-
-> Si agregas un canal a la lista de permitidos, no se otorgará una advertencia a los usuarios que envíen spam en esos canales.
-{.is-warning}
-
-# Pasos para eliminar un canal de la lista de permitidos
-
-## **Paso 1**: Eliminar un canal de la lista de permitidos
-
-Para eliminar un canal de la lista de permitidos debes ejecutar el siguiente comando: <kbd>f!config anti-external-links allow channel remove \<#Canal/ID del Canal></kbd>.
+Para establecer una sanción debes ejecutar el siguiente comando: <kbd>/anti-external-links action ``action:<Acción>``</kbd>.
 
 > No incluyas ``<>`` cuando estés ejecutando el comando.
 {.is-warning}
 
-**Ejemplo**: <kbd>f!config anti-external-links allow channel remove #general</kbd>.
+> Puede ver una lista completa de las acciones que admite Filo haciendo **[clic aquí](https://wiki.filobot.xyz/es/modules/actions-list)**.
+{.is-info}
 
-> Si eliminas un canal de la lista de permitidos, se otorgará una advertencia a los usuarios que envíen spam en esos canales.
-{.is-warning}
+**Ejemplo**: <kbd>/anti-external-links action ``action:Temporarily mute the user`` ``time:1h``</kbd>.
 
-# Pasos para añadir un canal a la lista de permtiidos
+# Steps to add a channel to the allowed list
 
-## **Paso 1**: Añadir un rol a la lista de permitidos
+## **Paso 1**: Add a channel to the allowed list
 
-Para añadir un rol a la lista de permitidos debes ejecutar el siguiente comando: <kbd>f!config anti-external-links allow role add \<@Rol/ID del Rol></kbd>.
-
-> No incluyas ``<>`` cuando estés ejecutando el comando.
-{.is-warning}
-
-**Ejemplo**: <kbd>f!config anti-external-links allow role add @Moderators</kbd>.
-
-> Si agregas un rol a la lista de permitidos, los usuarios que tengan ese rol asignado no recibirán una advertencia si envían spam.
-{.is-warning}
-
-# Pasos para eliminar un rol de la lista de permitidos
-
-## **Paso 1**: Eliminar un rol de la lista de permitidos
-
-Para eliminar un rol de la lista de permitidos debes ejecutar el siguiente comando: <kbd>f!config anti-external-links allow role remove \<@Rol/ID del Rol></kbd>.
+Para add a channel to the allowed list debes ejecutar el siguiente comando: <kbd>/anti-external-links channel ``action:Add`` ``channel:<#Canal/ID del Canal>``</kbd>.
 
 > No incluyas ``<>`` cuando estés ejecutando el comando.
 {.is-warning}
 
-**Ejemplo**: <kbd>f!config anti-external-links allow role remove @Moderators</kbd>.
+**Ejemplo**: <kbd>/anti-external-links channel ``action:Add`` ``channel:#spam-allowed``</kbd>.
 
-> Si eliminas un rol de la lista de permitidos, los usuarios que tengan ese rol asignado recibirán una advertencia si envían spam.
+> Si añades un canal a la lista de permitidos, este módulo no funcionará en dicho canal.
+{.is-warning}
+
+# Steps to remove a channel to the allowed list
+
+## **Paso 1**: Remove a channel to the allowed list
+
+Para remove a channel to the allowed list debes ejecutar el siguiente comando: <kbd>/anti-external-links channel ``action:Remove`` ``channel:<#Canal/ID del Canal>``</kbd>.
+
+> No incluyas ``<>`` cuando estés ejecutando el comando.
+{.is-warning}
+
+**Ejemplo**: <kbd>/anti-external-links channel ``action:Remove`` ``channel:#general``</kbd>.
+
+> Si eliminas un canal de la lista de permitidos, este módulo funcionará en dicho canal.
+{.is-warning}
+
+# Steps to add a role to the allowed list
+
+## **Paso 1**: Add a role to the allowed list
+
+Para add a role to the allowed list debes ejecutar el siguiente comando: <kbd>/anti-external-links role ``action:Add`` ``role:<@Rol/ID del Rol>``</kbd>.
+
+> No incluyas ``<>`` cuando estés ejecutando el comando.
+{.is-warning}
+
+**Ejemplo**: <kbd>/anti-external-links role ``action:Add`` ``role:@Moderators``</kbd>.
+
+> Si añades un rol a la lista de permitidos, cualquier que tenga este rol estará exento del funcionamiento de este módulo.
+{.is-warning}
+
+# Steps to remove a role to the allowed list
+
+## **Paso 1**: Remove a role to the allowed list
+
+Para remove a role to the allowed list debes ejecutar el siguiente comando: <kbd>/anti-external-links role ``action:Remove`` ``role:<@Rol/ID del Rol>``</kbd>.
+
+> No incluyas ``<>`` cuando estés ejecutando el comando.
+{.is-warning}
+
+**Ejemplo**: <kbd>/anti-external-links role ``action:Remove`` ``role:@Moderators``</kbd>.
+
+> Si eliminas un rol de la lista de permitidos, cualquier que tenga este rol ya no estará exento del funcionamiento de este módulo.
 {.is-warning}
 
 # Pasos para restablecer las configuraciones del módulo
 
 ## **Paso 1**: Restablecer las configuraciones del módulo
 
-Para restablecer las configuraciones del módulo debes ejecutar el siguiente comando: <kbd>f!config anti-external-links reset \<Allow/Action></kbd>.
+Para restablecer las configuraciones del módulo debes ejecutar el siguiente comando: <kbd>/anti-external-links reset</kbd>.
 
-> No incluyas ``<>`` cuando estés ejecutando el comando.
-{.is-warning}
-
-**Ejemplo**: <kbd>f!config anti-external-links reset</kbd>.
+**Ejemplo**: <kbd>/anti-external-links reset</kbd>.
 
 > Te verás obligado a confirmar la acción que estas a punto de realizar. Una vez la hayas confirmado, no podrás recuperar los datos anteriores.
 {.is-danger}

@@ -2,15 +2,15 @@
 title: Anti External Links
 description:
 published: true
-date: Thu Nov 11 2021 16:19:09 GMT+0000 (Coordinated Universal Time)
-dateCreated: Thu Nov 11 2021 16:19:09 GMT+0000 (Coordinated Universal Time)
+date: Fri Nov 12 2021 17:31:37 GMT+0000 (Coordinated Universal Time)
+dateCreated: Fri Nov 12 2021 17:31:37 GMT+0000 (Coordinated Universal Time)
 tags:
 editor: markdown
 ---
 
 # About the module
 
-This module will allow you to delete the message and warn members to send external links.
+This module will sanction those users who send some type of link in their message.
 
 > We recommend using this module if you manage a community.
 {.is-success}
@@ -22,29 +22,21 @@ This module will allow you to delete the message and warn members to send extern
 
 Before proceeding with this article, you must take into account a series of elements that can influence when you are going to carry out any action described on this page:
 
-- Filo requires the following advanced permission: ``MANAGE_MESSAGES``.
-
-- Filo requires the following basic permissions: ``VIEW_CHANNEL``, ``SEND_MESSAGES``, ``EMBED_LINKS``, ``USE_EXTERNAL_EMOJIS``, ``READ_MESSAGE_HISTORY`` and ``ADD_REACTIONS``.
+- Filo requires the following advanced permissions: ``VIEW_CHANNEL``, ``SEND_MESSAGES``, ``EMBED_LINKS`` and ``MANAGE_MESSAGES``.
 
 - You need ``ADMINISTRATOR`` permission to perform most of the actions in this article.
-
-- You should replace <kbd>f!</kbd> with the current prefix you have set. More information on how to change the prefix by **[clicking here](https://wiki.filobot.xyz/en/modules/prefix)**.
 
 # Module exceptions
 
 This module has exceptions, which means that it won't work if some of the requirements mentioned below are met:
 
-- If Filo doesn't have ``VIEW_CHANNEL``, ``SEND_MESSAGES``, ``EMBED_LINKS``, ``USE_EXTERNAL_EMOJIS`` and ``MANAGE_MESSAGES`` permissions. **^1^**
+- If Filo doesn't have ``VIEW_CHANNEL``, ``SEND_MESSAGES``, ``EMBED_LINKS`` and ``MANAGE_MESSAGES`` permissions. **^1^**
 
 - If the user has the ``ADMINISTRATOR`` permission. **^2^**
 
 - If the user has the ``MANAGE_GUILD`` permission. **^2^**
 
-- If the user has the ``MANAGE_MESSAGES`` permission. **^2^**
-
-- If the user has the ``BAN_MEMBERS`` permission. **^2^**
-
-- If the user has the ``KICK_MEMBERS`` permission. **^2^**
+- If the user has the ``EVADE_SANCTIONS`` permission. **^2^**
 
 - If the position of the Filo's roles are lower than the user roles. **^2^**
 
@@ -58,9 +50,9 @@ This module has exceptions, which means that it won't work if some of the requir
 
 ## **Step 1**: Enable the module
 
-To enable the module you must execute the following command: <kbd>f!config anti-external-links enable</kbd>.
+To enable the module you must execute the following command: <kbd>/anti-external-links enable</kbd>.
 
-**Example**: <kbd>f!config anti-external-links enable</kbd>.
+**Example**: <kbd>/anti-external-links enable</kbd>.
 
 > This module can be supplemented with the **[Auto Moderation](https://wiki.filobot.xyz/en/modules/auto-moderation)** module.
 {.is-success}
@@ -69,9 +61,9 @@ To enable the module you must execute the following command: <kbd>f!config anti-
 
 ## **Step 1**: Disable the module
 
-To disable the module you must execute the following command: <kbd>f!config anti-external-links disable</kbd>.
+To disable the module you must execute the following command: <kbd>/anti-external-links disable</kbd>.
 
-**Example**: <kbd>f!config anti-external-links disable</kbd>.
+**Example**: <kbd>/anti-external-links disable</kbd>.
 
 # Steps to add a URL to the allowed list
 
@@ -79,7 +71,7 @@ To disable the module you must execute the following command: <kbd>f!config anti
 
 ### **Step 1**: Add a subdomain to the allowed list
 
-To add a subdomain to the allowed list you must execute the following command: <kbd>f!config anti-external-links allow url add \<URL></kbd>.
+To add a subdomain to the allowed list you must execute the following command: <kbd>/anti-external-links link ``action:Add`` ``link:<URL>``</kbd>.
 
 > Don't include ``<>`` when you're running the command.
 {.is-warning}
@@ -87,7 +79,7 @@ To add a subdomain to the allowed list you must execute the following command: <
 > It is mandatory that the URL has the **HTTPS** protocol enabled, otherwise it cannot be added to the allowed list.
 {.is-danger}
 
-**Example**: <kbd>f!config anti-external-links allow url add https://wiki.filobot.xyz</kbd>.
+**Example**: <kbd>/anti-external-links link ``action:Add`` ``link:https://wiki.filobot.xyz``</kbd>.
 
 > You can allow all subdomains of a domain by replacing the subdomain with an asterisk.
 > **Example**: https://*.filobot.xyz.
@@ -101,7 +93,7 @@ To add a subdomain to the allowed list you must execute the following command: <
 
 ### **Step 1**: Add a domain to the allowed list
 
-To add a domain to the allowed list you must execute the following command: <kbd>f!config anti-external-links allow url add \<URL></kbd>.
+To add a domain to the allowed list you must execute the following command: <kbd>/anti-external-links link ``action:Add`` ``link:<URL>``</kbd>.
 
 > Don't include ``<>`` when you're running the command.
 {.is-warning}
@@ -109,7 +101,7 @@ To add a domain to the allowed list you must execute the following command: <kbd
 > It is mandatory that the URL has the **HTTPS** protocol enabled, otherwise it cannot be added to the allowed list.
 {.is-danger}
 
-**Example**: <kbd>f!config anti-external-links allow url add https://filobot.xyz</kbd>.
+**Example**: <kbd>/anti-external-links link ``action:Add`` ``link:https://filobot.xyz``</kbd>.
 
 > You can allow all links from a domain and its subdomains by replacing the subdomain and the path with an asterisk as described in this article.
 > **Example**: https://*.filobot.xyz/*.
@@ -119,7 +111,7 @@ To add a domain to the allowed list you must execute the following command: <kbd
 
 ### **Step 1**: Add a path to the allowed list
 
-To add a path to the allowed list you must execute the following command: <kbd>f!config anti-external-links allow url add \<URL></kbd>.
+To add a path to the allowed list you must execute the following command: <kbd>/anti-external-links link ``action:Add`` ``link:<URL>``</kbd>.
 
 > Don't include ``<>`` when you're running the command.
 {.is-warning}
@@ -127,7 +119,7 @@ To add a path to the allowed list you must execute the following command: <kbd>f
 > It is mandatory that the URL has the **HTTPS** protocol enabled, otherwise it cannot be added to the allowed list.
 {.is-danger}
 
-**Example**: <kbd>f!config anti-external-links allow url add https://wiki.filobot.xyz/en/home</kbd>.
+**Example**: <kbd>/anti-external-links link ``action:Add`` ``link:https://wiki.filobot.xyz/en/home``</kbd>.
 
 > You can allow all paths of a domain by replacing the path with an asterisk.
 > **Example**: https://filobot.xyz/*.
@@ -141,7 +133,7 @@ To add a path to the allowed list you must execute the following command: <kbd>f
 
 ### **Step 1**: Remove a URL from the allowed list
 
-To remove a url from the allowed list you must execute the following command: <kbd>f!config anti-external-links allow url remove \<URL></kbd>.
+To remove a url from the allowed list you must execute the following command: <kbd>/anti-external-links link ``action:Remove`` ``link:<URL>``</kbd>.
 
 > Don't include ``<>`` when you're running the command.
 {.is-warning}
@@ -149,74 +141,85 @@ To remove a url from the allowed list you must execute the following command: <k
 > It is mandatory that the URL has the **HTTPS** protocol enabled, otherwise it cannot be added to the allowed list.
 {.is-danger}
 
-**Example**: <kbd>f!config anti-external-links allow url remove https://filobot.xyz</kbd>.
+**Example**: <kbd>/anti-external-links link ``action:Remove`` ``link:https://filobot.xyz``</kbd>.
+
+# Steps to set a sanction
+
+## **Step 1**: Set a sanction
+
+To set a sanction you must execute the following command: <kbd>/anti-external-links action ``action:<Action>``</kbd>.
+
+> Don't include ``<>`` when you're running the command.
+{.is-warning}
+
+> You can see a full list of actions that Filo supports by **[clicking here](https://wiki.filobot.xyz/en/modules/actions-list)**.
+{.is-info}
+
+**Example**: <kbd>/anti-external-links action ``action:Temporarily mute the user`` ``time:1h``</kbd>.
 
 # Steps to add a channel to the allowed list
 
 ## **Step 1**: Add a channel to the allowed list
 
-To add a channel to the allowed list you must execute the following command: <kbd>f!config anti-external-links allow channel add \<#Channel/Channel ID></kbd>.
+To add a channel to the allowed list you must execute the following command: <kbd>/anti-external-links channel ``action:Add`` ``channel:<#Channel/Channel ID>``</kbd>.
 
 > Don't include ``<>`` when you're running the command.
 {.is-warning}
 
-**Example**: <kbd>f!config anti-external-links allow channel add #spam-allowed</kbd>.
+**Example**: <kbd>/anti-external-links channel ``action:Add`` ``channel:#spam-allowed``</kbd>.
 
-> If you add a channel to the allowed list, a warn won't be granted to those users who spam on those channels.
+> If you add a channel to the allow list, this module will not work on that channel.
 {.is-warning}
 
 # Steps to remove a channel to the allowed list
 
 ## **Step 1**: Remove a channel to the allowed list
 
-To remove a channel to the allowed list you must execute the following command: <kbd>f!config anti-external-links allow channel remove \<#Channel/Channel ID></kbd>.
+To remove a channel to the allowed list you must execute the following command: <kbd>/anti-external-links channel ``action:Remove`` ``channel:<#Channel/Channel ID>``</kbd>.
 
 > Don't include ``<>`` when you're running the command.
 {.is-warning}
 
-**Example**: <kbd>f!config anti-external-links allow channel remove #general</kbd>.
+**Example**: <kbd>/anti-external-links channel ``action:Remove`` ``channel:#general``</kbd>.
 
-> If you remove a channel to the allowed list, a warn will be granted to those users who spam on those channels.
+> If you remove a channel from the allowed list, this module will work on that channel.
 {.is-warning}
 
-# Steps to add a channel to the allowed list
+# Steps to add a role to the allowed list
 
 ## **Step 1**: Add a role to the allowed list
 
-To add a role to the allowed list you must execute the following command: <kbd>f!config anti-external-links allow role add \<@Role/Role ID></kbd>.
+To add a role to the allowed list you must execute the following command: <kbd>/anti-external-links role ``action:Add`` ``role:<@Role/Role ID>``</kbd>.
 
 > Don't include ``<>`` when you're running the command.
 {.is-warning}
 
-**Example**: <kbd>f!config anti-external-links allow role add @Moderators</kbd>.
+**Example**: <kbd>/anti-external-links role ``action:Add`` ``role:@Moderators``</kbd>.
 
-> If you add a role to the allowed list, users who have that role assigned won't be warned if they spam.
+> If you add a role to the allowed list, anyone who has this role will be exempt from the operation of this module.
 {.is-warning}
 
 # Steps to remove a role to the allowed list
 
 ## **Step 1**: Remove a role to the allowed list
 
-To remove a role to the allowed list you must execute the following command: <kbd>f!config anti-external-links allow role remove \<@Role/Role ID></kbd>.
+To remove a role to the allowed list you must execute the following command: <kbd>/anti-external-links role ``action:Remove`` ``role:<@Role/Role ID>``</kbd>.
 
 > Don't include ``<>`` when you're running the command.
 {.is-warning}
 
-**Example**: <kbd>f!config anti-external-links allow role remove @Moderators</kbd>.
+**Example**: <kbd>/anti-external-links role ``action:Remove`` ``role:@Moderators``</kbd>.
 
-> If you remove a role to the allowed list, users who have that role assigned will be warned if they spam.
+> If you remove a role from the allowed list, anyone who has this role will no longer be exempt from the operation of this module.
 {.is-warning}
 
 # Steps to reset module settings
 
 ## **Step 1**: Reset the module settings
 
-To reset the module settings you must execute the following command: <kbd>f!config anti-external-links reset \<Allow/Action></kbd>.
+To reset the module settings you must execute the following command: <kbd>/anti-external-links reset</kbd>.
 
-> Don't include ``<>`` when you're running the command.
-{.is-warning}
-
-**Example**: <kbd>f!config anti-external-links reset</kbd>.
+**Example**: <kbd>/anti-external-links reset</kbd>.
 
 > You'll be forced to confirm the action you are about to take. Once you have confirmed the action, you won't be able to recover the previous data.
 {.is-danger}
