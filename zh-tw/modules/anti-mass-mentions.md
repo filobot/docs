@@ -2,8 +2,8 @@
 title: Anti Mass Mentions
 description:
 published: true
-date: Fri Nov 12 2021 17:03:46 GMT+0000 (Coordinated Universal Time)
-dateCreated: Fri Nov 12 2021 17:03:46 GMT+0000 (Coordinated Universal Time)
+date: Fri Nov 12 2021 17:04:53 GMT+0000 (Coordinated Universal Time)
+dateCreated: Fri Nov 12 2021 17:04:53 GMT+0000 (Coordinated Universal Time)
 tags:
 editor: markdown
 ---
@@ -22,8 +22,6 @@ This module will sanction those users who mention too many users in the same mes
 - Filo 需要以下進階權限: ``VIEW_CHANNEL``, ``SEND_MESSAGES``, ``EMBED_LINKS`` 和 ``MANAGE_MESSAGES``.
 
 - 在執行本主題的指令前，你需要此項權限： ``ADMINISTRATOR``.
-
-- 你需要取代<kbd>f!</kbd> 成你設定的 prefix 。如果你需要更換它的教學，請 **[點擊這裡](https://wiki.filobot.xyz/zh-tw/modules/prefix)**.
 
 # 常見錯誤
 

@@ -2,8 +2,8 @@
 title: Anti Menciones Masivas
 description:
 published: true
-date: Fri Nov 12 2021 17:03:46 GMT+0000 (Coordinated Universal Time)
-dateCreated: Fri Nov 12 2021 17:03:46 GMT+0000 (Coordinated Universal Time)
+date: Fri Nov 12 2021 17:04:53 GMT+0000 (Coordinated Universal Time)
+dateCreated: Fri Nov 12 2021 17:04:53 GMT+0000 (Coordinated Universal Time)
 tags:
 editor: markdown
 ---
@@ -22,8 +22,6 @@ Antes de continuar con este artículo, debes tener en cuenta una serie de elemen
 - Filo requiere los siguientes permisos avanzados: ``VIEW_CHANNEL``, ``SEND_MESSAGES``, ``EMBED_LINKS`` y ``MANAGE_MESSAGES``.
 
 - Necesitas el permiso ``ADMINISTRATOR`` para realizar la mayoría de las acciones de este artículo.
-
-- Debes reemplazar <kbd>f!</kbd> con el prefijo actual que hayas establecido. Más información sobre cómo cambiar el prefijo haciendo **[clic aquí](https://wiki.filobot.xyz/es/modules/prefix)**.
 
 # Excepciones del módulo
 

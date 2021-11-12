@@ -2,8 +2,8 @@
 title: Anti Mass Mentions
 description:
 published: true
-date: Fri Nov 12 2021 17:03:46 GMT+0000 (Coordinated Universal Time)
-dateCreated: Fri Nov 12 2021 17:03:46 GMT+0000 (Coordinated Universal Time)
+date: Fri Nov 12 2021 17:04:53 GMT+0000 (Coordinated Universal Time)
+dateCreated: Fri Nov 12 2021 17:04:53 GMT+0000 (Coordinated Universal Time)
 tags:
 editor: markdown
 ---
@@ -22,8 +22,6 @@ Before proceeding with this article, you must take into account a series of elem
 - Filo requires the following advanced permissions: ``VIEW_CHANNEL``, ``SEND_MESSAGES``, ``EMBED_LINKS`` and ``MANAGE_MESSAGES``.
 
 - You need ``ADMINISTRATOR`` permission to perform most of the actions in this article.
-
-- You should replace <kbd>f!</kbd> with the current prefix you have set. More information on how to change the prefix by **[clicking here](https://wiki.filobot.xyz/en/modules/prefix)**.
 
 # Module exceptions
 
