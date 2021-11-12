@@ -2,8 +2,8 @@
 title: Anti External Links
 description:
 published: true
-date: Fri Nov 12 2021 17:31:37 GMT+0000 (Coordinated Universal Time)
-dateCreated: Fri Nov 12 2021 17:31:37 GMT+0000 (Coordinated Universal Time)
+date: Fri Nov 12 2021 17:35:10 GMT+0000 (Coordinated Universal Time)
+dateCreated: Fri Nov 12 2021 17:35:10 GMT+0000 (Coordinated Universal Time)
 tags:
 editor: markdown
 ---
@@ -142,6 +142,38 @@ To remove a url from the allowed list you must execute the following command: <k
 {.is-danger}
 
 **Example**: <kbd>/anti-external-links link ``action:Remove`` ``link:https://filobot.xyz``</kbd>.
+
+# Steps to enable bypassing of Filo links
+
+## **Step 1**: Enable bypassing of Filo links
+
+To enable bypassing of filo links you must execute the following command: <kbd>/anti-external-links filo ``action:Enable``</kbd>.
+
+**Example**: <kbd>/anti-external-links filo ``action:Enable``</kbd>.
+
+# Steps to disable bypassing of Filo links
+
+## **Step 1**: Disable bypassing of Filo links
+
+To disable bypassing of filo links you must execute the following command: <kbd>/anti-external-links filo ``action:Disable``</kbd>.
+
+**Example**: <kbd>/anti-external-links filo ``action:Disable``</kbd>.
+
+# Steps to enable bypassing of Discord links
+
+## **Step 1**: Enable bypassing of Discord links
+
+To enable bypassing of discord links you must execute the following command: <kbd>/anti-external-links discord ``action:Enable``</kbd>.
+
+**Example**: <kbd>/anti-external-links discord ``action:Enable``</kbd>.
+
+# Steps to disable bypassing of Discord links
+
+## **Step 1**: Disable bypassing of Discord links
+
+To disable bypassing of discord links you must execute the following command: <kbd>/anti-external-links discord ``action:Disable``</kbd>.
+
+**Example**: <kbd>/anti-external-links discord ``action:Disable``</kbd>.
 
 # Steps to set a sanction
 

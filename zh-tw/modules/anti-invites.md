@@ -2,8 +2,8 @@
 title: Anti Invites
 description:
 published: true
-date: Fri Nov 12 2021 16:51:34 GMT+0000 (Coordinated Universal Time)
-dateCreated: Fri Nov 12 2021 16:51:34 GMT+0000 (Coordinated Universal Time)
+date: Fri Nov 12 2021 17:33:41 GMT+0000 (Coordinated Universal Time)
+dateCreated: Fri Nov 12 2021 17:33:41 GMT+0000 (Coordinated Universal Time)
 tags:
 editor: markdown
 ---
@@ -62,20 +62,6 @@ This module will sanction users who spam invitations from servers other than you
 
 **範例**: <kbd>/anti-invites disable</kbd>.
 
-# Steps to set a sanction
-
-## **步驟 1**: Set a sanction
-
-如果要 set a sanction ，您必須執行以下指令：<kbd>/anti-invites action ``action:<動作>``</kbd>.
-
-> 當您在打指令時，請勿包含 ``<>``.
-{.is-warning}
-
-> 你可以點擊 **[這個連結](https://wiki.filobot.xyz/zh-tw/modules/actions-list)** 來查看 Filo 支援的處罰.
-{.is-info}
-
-**範例**: <kbd>/anti-invites action ``action:Temporarily mute the user`` ``time:1h``</kbd>.
-
 # Steps to enable Filo server bypass
 
 ## **步驟 1**: Enable Filo server bypass
@@ -107,6 +93,20 @@ This module will sanction users who spam invitations from servers other than you
 如果要 disable discord official servers bypass ，您必須執行以下指令：<kbd>/anti-invites discord ``action:Disable``</kbd>.
 
 **範例**: <kbd>/anti-invites discord ``action:Disable``</kbd>.
+
+# Steps to set a sanction
+
+## **步驟 1**: Set a sanction
+
+如果要 set a sanction ，您必須執行以下指令：<kbd>/anti-invites action ``action:<動作>``</kbd>.
+
+> 當您在打指令時，請勿包含 ``<>``.
+{.is-warning}
+
+> 你可以點擊 **[這個連結](https://wiki.filobot.xyz/zh-tw/modules/actions-list)** 來查看 Filo 支援的處罰.
+{.is-info}
+
+**範例**: <kbd>/anti-invites action ``action:Temporarily mute the user`` ``time:1h``</kbd>.
 
 # 新增例外伺服器名單的步驟
 

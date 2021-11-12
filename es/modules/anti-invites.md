@@ -2,8 +2,8 @@
 title: Anti Invitaciones
 description:
 published: true
-date: Fri Nov 12 2021 16:51:34 GMT+0000 (Coordinated Universal Time)
-dateCreated: Fri Nov 12 2021 16:51:34 GMT+0000 (Coordinated Universal Time)
+date: Fri Nov 12 2021 17:33:41 GMT+0000 (Coordinated Universal Time)
+dateCreated: Fri Nov 12 2021 17:33:41 GMT+0000 (Coordinated Universal Time)
 tags:
 editor: markdown
 ---
@@ -62,20 +62,6 @@ Para deshabilitar el módulo debes ejecutar el siguiente comando: <kbd>/anti-inv
 
 **Ejemplo**: <kbd>/anti-invites disable</kbd>.
 
-# Pasos para establecer una sanción
-
-## **Paso 1**: Establecer una sanción
-
-Para establecer una sanción debes ejecutar el siguiente comando: <kbd>/anti-invites action ``action:<Acción>``</kbd>.
-
-> No incluyas ``<>`` cuando estés ejecutando el comando.
-{.is-warning}
-
-> Puede ver una lista completa de las acciones que admite Filo haciendo **[clic aquí](https://wiki.filobot.xyz/es/modules/actions-list)**.
-{.is-info}
-
-**Ejemplo**: <kbd>/anti-invites action ``action:Temporarily mute the user`` ``time:1h``</kbd>.
-
 # Pasos para habilitar el ignorar el servidor de Filo
 
 ## **Paso 1**: Ignorar el servidor de Filo
@@ -107,6 +93,20 @@ Para ignorar los servidores oficiales de discord debes ejecutar el siguiente com
 Para no ignorar los servidores oficiales de discord debes ejecutar el siguiente comando: <kbd>/anti-invites discord ``action:Disable``</kbd>.
 
 **Ejemplo**: <kbd>/anti-invites discord ``action:Disable``</kbd>.
+
+# Pasos para establecer una sanción
+
+## **Paso 1**: Establecer una sanción
+
+Para establecer una sanción debes ejecutar el siguiente comando: <kbd>/anti-invites action ``action:<Acción>``</kbd>.
+
+> No incluyas ``<>`` cuando estés ejecutando el comando.
+{.is-warning}
+
+> Puede ver una lista completa de las acciones que admite Filo haciendo **[clic aquí](https://wiki.filobot.xyz/es/modules/actions-list)**.
+{.is-info}
+
+**Ejemplo**: <kbd>/anti-invites action ``action:Temporarily mute the user`` ``time:1h``</kbd>.
 
 # Pasos para añadir un servidor a la lista de permitidos
 

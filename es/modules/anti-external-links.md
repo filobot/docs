@@ -2,8 +2,8 @@
 title: Anti Enlaces Externos
 description:
 published: true
-date: Fri Nov 12 2021 17:31:37 GMT+0000 (Coordinated Universal Time)
-dateCreated: Fri Nov 12 2021 17:31:37 GMT+0000 (Coordinated Universal Time)
+date: Fri Nov 12 2021 17:35:10 GMT+0000 (Coordinated Universal Time)
+dateCreated: Fri Nov 12 2021 17:35:10 GMT+0000 (Coordinated Universal Time)
 tags:
 editor: markdown
 ---
@@ -142,6 +142,38 @@ Para eliminar una url de la lista de permitidas debes ejecutar el siguiente coma
 {.is-danger}
 
 **Ejemplo**: <kbd>/anti-external-links link ``action:Remove`` ``link:https://filobot.xyz``</kbd>.
+
+# Pasos para activar el ignorar los enlaces de Filo
+
+## **Paso 1**: Activar el ignorar los enlaces de Filo
+
+Para activar el ignorar los enlaces de filo debes ejecutar el siguiente comando: <kbd>/anti-external-links filo ``action:Enable``</kbd>.
+
+**Ejemplo**: <kbd>/anti-external-links filo ``action:Enable``</kbd>.
+
+# Pasos para desactivar el ignorar los enlaces de Filo
+
+## **Paso 1**: Desactivar el ignorar los enlaces de Filo
+
+Para desactivar el ignorar los enlaces de filo debes ejecutar el siguiente comando: <kbd>/anti-external-links filo ``action:Disable``</kbd>.
+
+**Ejemplo**: <kbd>/anti-external-links filo ``action:Disable``</kbd>.
+
+# Pasos para activar el ignorar los enlaces de Discord
+
+## **Paso 1**: Pasos para activar el ignorar los enlaces de Discord
+
+Para pasos para activar el ignorar los enlaces de discord debes ejecutar el siguiente comando: <kbd>/anti-external-links discord ``action:Enable``</kbd>.
+
+**Ejemplo**: <kbd>/anti-external-links discord ``action:Enable``</kbd>.
+
+# Pasos para desactivar el ignorar los enlaces de Discord
+
+## **Paso 1**: Desactivar el ignorar los enlaces de Discord
+
+Para desactivar el ignorar los enlaces de discord debes ejecutar el siguiente comando: <kbd>/anti-external-links discord ``action:Disable``</kbd>.
+
+**Ejemplo**: <kbd>/anti-external-links discord ``action:Disable``</kbd>.
 
 # Pasos para establecer una sanción
 

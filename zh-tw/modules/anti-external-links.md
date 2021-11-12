@@ -2,8 +2,8 @@
 title: Anti External Links
 description:
 published: true
-date: Fri Nov 12 2021 17:31:37 GMT+0000 (Coordinated Universal Time)
-dateCreated: Fri Nov 12 2021 17:31:37 GMT+0000 (Coordinated Universal Time)
+date: Fri Nov 12 2021 17:35:10 GMT+0000 (Coordinated Universal Time)
+dateCreated: Fri Nov 12 2021 17:35:10 GMT+0000 (Coordinated Universal Time)
 tags:
 editor: markdown
 ---
@@ -142,6 +142,38 @@ This module will sanction those users who send some type of link in their messag
 {.is-danger}
 
 **範例**: <kbd>/anti-external-links link ``action:Remove`` ``link:https://filobot.xyz``</kbd>.
+
+# Steps to enable bypassing of Filo links
+
+## **步驟 1**: Enable bypassing of Filo links
+
+如果要 enable bypassing of filo links ，您必須執行以下指令：<kbd>/anti-external-links filo ``action:Enable``</kbd>.
+
+**範例**: <kbd>/anti-external-links filo ``action:Enable``</kbd>.
+
+# Steps to disable bypassing of Filo links
+
+## **步驟 1**: Disable bypassing of Filo links
+
+如果要 disable bypassing of filo links ，您必須執行以下指令：<kbd>/anti-external-links filo ``action:Disable``</kbd>.
+
+**範例**: <kbd>/anti-external-links filo ``action:Disable``</kbd>.
+
+# Steps to enable bypassing of Discord links
+
+## **步驟 1**: Enable bypassing of Discord links
+
+如果要 enable bypassing of discord links ，您必須執行以下指令：<kbd>/anti-external-links discord ``action:Enable``</kbd>.
+
+**範例**: <kbd>/anti-external-links discord ``action:Enable``</kbd>.
+
+# Steps to disable bypassing of Discord links
+
+## **步驟 1**: Disable bypassing of Discord links
+
+如果要 disable bypassing of discord links ，您必須執行以下指令：<kbd>/anti-external-links discord ``action:Disable``</kbd>.
+
+**範例**: <kbd>/anti-external-links discord ``action:Disable``</kbd>.
 
 # Steps to set a sanction
 

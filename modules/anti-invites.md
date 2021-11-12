@@ -2,8 +2,8 @@
 title: Anti Invites
 description:
 published: true
-date: Fri Nov 12 2021 16:51:34 GMT+0000 (Coordinated Universal Time)
-dateCreated: Fri Nov 12 2021 16:51:34 GMT+0000 (Coordinated Universal Time)
+date: Fri Nov 12 2021 17:33:41 GMT+0000 (Coordinated Universal Time)
+dateCreated: Fri Nov 12 2021 17:33:41 GMT+0000 (Coordinated Universal Time)
 tags:
 editor: markdown
 ---
@@ -62,20 +62,6 @@ To disable the module you must execute the following command: <kbd>/anti-invites
 
 **Example**: <kbd>/anti-invites disable</kbd>.
 
-# Steps to set a sanction
-
-## **Step 1**: Set a sanction
-
-To set a sanction you must execute the following command: <kbd>/anti-invites action ``action:<Action>``</kbd>.
-
-> Don't include ``<>`` when you're running the command.
-{.is-warning}
-
-> You can see a full list of actions that Filo supports by **[clicking here](https://wiki.filobot.xyz/en/modules/actions-list)**.
-{.is-info}
-
-**Example**: <kbd>/anti-invites action ``action:Temporarily mute the user`` ``time:1h``</kbd>.
-
 # Steps to enable Filo server bypass
 
 ## **Step 1**: Enable Filo server bypass
@@ -107,6 +93,20 @@ To enable discord official servers bypass you must execute the following command
 To disable discord official servers bypass you must execute the following command: <kbd>/anti-invites discord ``action:Disable``</kbd>.
 
 **Example**: <kbd>/anti-invites discord ``action:Disable``</kbd>.
+
+# Steps to set a sanction
+
+## **Step 1**: Set a sanction
+
+To set a sanction you must execute the following command: <kbd>/anti-invites action ``action:<Action>``</kbd>.
+
+> Don't include ``<>`` when you're running the command.
+{.is-warning}
+
+> You can see a full list of actions that Filo supports by **[clicking here](https://wiki.filobot.xyz/en/modules/actions-list)**.
+{.is-info}
+
+**Example**: <kbd>/anti-invites action ``action:Temporarily mute the user`` ``time:1h``</kbd>.
 
 # Steps to add a server to the allowed list
 
