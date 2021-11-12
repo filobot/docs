@@ -10,7 +10,7 @@ editor: markdown
 
 # About the module
 
-This module will allow you to automatically sanction those users who repeatedly have incorrect behavior.
+This module will allow you to automatically sanction a user when they reach a previously established level of moderation.
 
 > We recommend using this module if you manage a community.
 {.is-success}

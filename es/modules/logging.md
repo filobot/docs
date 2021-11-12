@@ -10,7 +10,7 @@ editor: markdown
 
 # Acerca del módulo
 
-Este módulo te permitirá enviar todos los registros del servidor a un canal específico.
+Este módulo te permitirá recibir los registros de auditoría a través de mensajes en un canal específico.
 
 > Recomendamos usar este módulo si administras una comunidad.
 {.is-success}

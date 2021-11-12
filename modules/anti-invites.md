@@ -10,7 +10,7 @@ editor: markdown
 
 # About the module
 
-This module will allow you to delete and warn users who send invites outside your server or the allowed servers.
+This module will allow you to prevent users from spamming invites from servers other than yours.
 
 > We recommend using this module if you manage a community.
 {.is-success}

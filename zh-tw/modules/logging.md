@@ -10,7 +10,7 @@ editor: markdown
 
 # 關於本模組
 
-本模組可以讓您把所有伺服器的紀錄傳送到指定頻道.
+This module will allow you to receive the audit records through messages on a specific channel.
 
 > 我們強烈建議你使用本模組來管理社群.
 {.is-success}

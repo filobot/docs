@@ -10,7 +10,7 @@ editor: markdown
 
 # About the module
 
-This module will allow you to set or reset the Filo's language; this will affect all current and future commands, modules and systems.
+This module will allow you to change the language of Filo and its modules to whatever is currently actively maintained.
 
 # Getting Started
 

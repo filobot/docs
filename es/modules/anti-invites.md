@@ -10,7 +10,7 @@ editor: markdown
 
 # Acerca del módulo
 
-Este módulo te permitirá eliminar y advertir a los usuarios que envían invitaciones ajenas a su servidor o de los servidores permitidos.
+Este módulo te permitirá evitar que los usuarios hagan spam de invitaciones de servidores ajeno al de usted.
 
 > Recomendamos usar este módulo si administras una comunidad.
 {.is-success}

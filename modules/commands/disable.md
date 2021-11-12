@@ -10,7 +10,7 @@ editor: markdown
 
 # About the module
 
-This module will allow you to disable the Filo commands that you don't want to be used on your server.
+This module will allow you to disable Filo commands for all members of the server (including you).
 
 # Getting Started
 

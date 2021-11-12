@@ -10,7 +10,7 @@ editor: markdown
 
 # About the module
 
-This module will allow you to send all the server logs to a specific channel.
+This module will allow you to receive the audit records through messages on a specific channel.
 
 > We recommend using this module if you manage a community.
 {.is-success}

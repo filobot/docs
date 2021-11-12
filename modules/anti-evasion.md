@@ -10,7 +10,7 @@ editor: markdown
 
 # About the module
 
-This module allows you to automatically ban those users who were sanctioned in your server and tried to evade the sanction.
+This module will sanction those users who have an active sanction (mute) and have left the server.
 
 > We recommend using this module if you manage a community.
 {.is-success}

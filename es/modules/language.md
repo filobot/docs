@@ -10,7 +10,7 @@ editor: markdown
 
 # Acerca del módulo
 
-Este módulo te permitirá configurar o estabke el idioma de Filo; esto afectará a todos los comandos, módulos y sistemas actuales y futuros.
+Este módulo te permitirá cambiar el idioma de Filo y de sus módulos a cualquiera que esté actualmente mantenido de forma activa.
 
 # Empezando
 

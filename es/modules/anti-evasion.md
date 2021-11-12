@@ -10,7 +10,7 @@ editor: markdown
 
 # Acerca del módulo
 
-Este módulo te permitirá banear automáticamente a aquellos usuarios que fueron sancionados en tu servidor e intentaron evadir la sanción.
+Este módulo sancionará a aquellos usuarios que tengan una sanción activa (mute) y hayan abandonado el servidor.
 
 > Recomendamos usar este módulo si administras una comunidad.
 {.is-success}

@@ -10,7 +10,7 @@ editor: markdown
 
 # Acerca del módulo
 
-Este módulo le permitirá deshabilitar los comandos de Filo que no desea que se usen en su servidor.
+Este módulo te permitirá desactivar los comandos de Filo para todos los miembros del servidor (incluido tú).
 
 # Empezando
 

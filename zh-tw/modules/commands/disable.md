@@ -10,7 +10,7 @@ editor: markdown
 
 # 關於本模組
 
-本模組將允許您停用您不會用到或不想使用的指令.
+This module will allow you to disable Filo commands for all members of the server (including you).
 
 # Getting Started
 

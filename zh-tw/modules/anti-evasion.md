@@ -10,7 +10,7 @@ editor: markdown
 
 # 關於本模組
 
-本模組會把想要繞過處罰機制的人抓出來，並恢復他們的處罰.
+This module will sanction those users who have an active sanction (mute) and have left the server.
 
 > 我們強烈建議你使用本模組來管理社群.
 {.is-success}

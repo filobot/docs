@@ -10,7 +10,7 @@ editor: markdown
 
 # 關於本模組
 
-本模組允許您舉報其他使用者並將他們送往舉報頻道.
+This module will allow users to report the bad behavior of other users of the server.
 
 > 我們強烈建議你使用本模組來管理社群.
 {.is-success}

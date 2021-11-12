@@ -10,7 +10,7 @@ editor: markdown
 
 # 關於本模組
 
-本模組可以自動刪除其他伺服器的邀請和警告連結發送者.
+This module will allow you to prevent users from spamming invites from servers other than yours.
 
 > 我們強烈建議你使用本模組來管理社群.
 {.is-success}

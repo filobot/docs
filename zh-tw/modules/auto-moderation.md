@@ -10,7 +10,7 @@ editor: markdown
 
 # 關於本模組
 
-本模組可以讓你把有前科的人抓出來，並訂製他們的處罰.
+This module will allow you to automatically sanction a user when they reach a previously established level of moderation.
 
 > 我們強烈建議你使用本模組來管理社群.
 {.is-success}

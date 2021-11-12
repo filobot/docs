@@ -10,7 +10,7 @@ editor: markdown
 
 # About the module
 
-This module will allow you to report to other members and send them to a report channel.
+This module will allow users to report the bad behavior of other users of the server.
 
 > We recommend using this module if you manage a community.
 {.is-success}

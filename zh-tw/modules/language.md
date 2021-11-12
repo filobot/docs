@@ -10,7 +10,7 @@ editor: markdown
 
 # 關於本模組
 
-本模組允許您更改或重置 Filo 的語言。注意！這將影響所有的指令、模組和系統.
+This module will allow you to change the language of Filo and its modules to whatever is currently actively maintained.
 
 # Getting Started
 

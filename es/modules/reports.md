@@ -10,7 +10,7 @@ editor: markdown
 
 # Acerca del módulo
 
-Este módulo te permitirá reportar a otros miembros y enviarlos a un canal de reportes.
+Este módulo permitirá que los usuarios puedan informar del mal comportamiento de otros usuarios del servidor.
 
 > Recomendamos usar este módulo si administras una comunidad.
 {.is-success}
