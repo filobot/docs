@@ -2,8 +2,8 @@
 title: Anti Bad Words
 description:
 published: true
-date: Fri Nov 12 2021 17:22:27 GMT+0000 (Coordinated Universal Time)
-dateCreated: Fri Nov 12 2021 17:22:27 GMT+0000 (Coordinated Universal Time)
+date: Fri Nov 12 2021 17:23:29 GMT+0000 (Coordinated Universal Time)
+dateCreated: Fri Nov 12 2021 17:23:29 GMT+0000 (Coordinated Universal Time)
 tags:
 editor: markdown
 ---
@@ -92,7 +92,7 @@ This module will sanction those users who send messages with bad words.
 
 **範例**: <kbd>/anti-bad-words aggresive-filter ``action:Enable``</kbd>.
 
-> .
+> Enabling the aggressive filter can cause a higher number of false positives.
 {.is-warning}
 
 # Steps to disable the aggressive filter
