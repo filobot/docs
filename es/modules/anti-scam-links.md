@@ -2,8 +2,8 @@
 title: Anti Enlaces Estafadores
 description:
 published: true
-date: Sun Nov 14 2021 15:05:55 GMT+0000 (Coordinated Universal Time)
-dateCreated: Sun Nov 14 2021 15:05:55 GMT+0000 (Coordinated Universal Time)
+date: Sun Nov 14 2021 15:12:24 GMT+0000 (Coordinated Universal Time)
+dateCreated: Sun Nov 14 2021 15:12:24 GMT+0000 (Coordinated Universal Time)
 tags:
 editor: markdown
 ---
@@ -64,7 +64,7 @@ Para deshabilitar el módulo debes ejecutar el siguiente comando: <kbd>/anti-sca
 
 # Pasos para activar el filtro agresivo
 
-## **Paso 1**: # Activar el filtro agresivo
+## **Paso 1**:  Activar el filtro agresivo
 
 Para activar el filtro agresivo debes ejecutar el siguiente comando: <kbd>/anti-scam-links aggresive-filter ``action:Enable``</kbd>.
 
@@ -75,7 +75,7 @@ Para activar el filtro agresivo debes ejecutar el siguiente comando: <kbd>/anti-
 
 # Pasos para desactivar el filtro agresivo
 
-## **Paso 1**: # Desactivar el filtro agresivo
+## **Paso 1**:  Desactivar el filtro agresivo
 
 Para desactivar el filtro agresivo debes ejecutar el siguiente comando: <kbd>/anti-scam-links aggresive-filter ``action:Disable``</kbd>.
 

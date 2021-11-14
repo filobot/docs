@@ -2,8 +2,8 @@
 title: Anti Scam Links
 description:
 published: true
-date: Sun Nov 14 2021 15:05:55 GMT+0000 (Coordinated Universal Time)
-dateCreated: Sun Nov 14 2021 15:05:55 GMT+0000 (Coordinated Universal Time)
+date: Sun Nov 14 2021 15:12:24 GMT+0000 (Coordinated Universal Time)
+dateCreated: Sun Nov 14 2021 15:12:24 GMT+0000 (Coordinated Universal Time)
 tags:
 editor: markdown
 ---
@@ -64,7 +64,7 @@ To disable the module you must execute the following command: <kbd>/anti-scam-li
 
 # Steps to enable the aggressive filter
 
-## **Step 1**: # Enable the aggressive filter
+## **Step 1**:  Enable the aggressive filter
 
 To enable the aggressive filter you must execute the following command: <kbd>/anti-scam-links aggresive-filter ``action:Enable``</kbd>.
 
@@ -75,7 +75,7 @@ To enable the aggressive filter you must execute the following command: <kbd>/an
 
 # Steps to disable the aggressive filter
 
-## **Step 1**: # Disable the aggressive filter
+## **Step 1**:  Disable the aggressive filter
 
 To disable the aggressive filter you must execute the following command: <kbd>/anti-scam-links aggresive-filter ``action:Disable``</kbd>.
 

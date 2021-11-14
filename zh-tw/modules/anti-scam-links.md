@@ -2,8 +2,8 @@
 title: Anti Scam Links
 description:
 published: true
-date: Sun Nov 14 2021 15:05:55 GMT+0000 (Coordinated Universal Time)
-dateCreated: Sun Nov 14 2021 15:05:55 GMT+0000 (Coordinated Universal Time)
+date: Sun Nov 14 2021 15:12:24 GMT+0000 (Coordinated Universal Time)
+dateCreated: Sun Nov 14 2021 15:12:24 GMT+0000 (Coordinated Universal Time)
 tags:
 editor: markdown
 ---
@@ -64,7 +64,7 @@ This module will sanction those users who send scam links in their messages.
 
 # Steps to enable the aggressive filter
 
-## **步驟 1**: # Enable the aggressive filter
+## **步驟 1**:  Enable the aggressive filter
 
 如果要 enable the aggressive filter ，您必須執行以下指令：<kbd>/anti-scam-links aggresive-filter ``action:Enable``</kbd>.
 
@@ -75,7 +75,7 @@ This module will sanction those users who send scam links in their messages.
 
 # Steps to disable the aggressive filter
 
-## **步驟 1**: # Disable the aggressive filter
+## **步驟 1**:  Disable the aggressive filter
 
 如果要 disable the aggressive filter ，您必須執行以下指令：<kbd>/anti-scam-links aggresive-filter ``action:Disable``</kbd>.
 

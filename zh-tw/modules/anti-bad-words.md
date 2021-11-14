@@ -2,8 +2,8 @@
 title: Anti Bad Words
 description:
 published: true
-date: Fri Nov 12 2021 17:23:29 GMT+0000 (Coordinated Universal Time)
-dateCreated: Fri Nov 12 2021 17:23:29 GMT+0000 (Coordinated Universal Time)
+date: Sun Nov 14 2021 15:12:33 GMT+0000 (Coordinated Universal Time)
+dateCreated: Sun Nov 14 2021 15:12:33 GMT+0000 (Coordinated Universal Time)
 tags:
 editor: markdown
 ---
@@ -86,7 +86,7 @@ This module will sanction those users who send messages with bad words.
 
 # Steps to enable the aggressive filter
 
-## **步驟 1**: # Enable the aggressive filter
+## **步驟 1**:  Enable the aggressive filter
 
 如果要 enable the aggressive filter ，您必須執行以下指令：<kbd>/anti-bad-words aggresive-filter ``action:Enable``</kbd>.
 
@@ -97,7 +97,7 @@ This module will sanction those users who send messages with bad words.
 
 # Steps to disable the aggressive filter
 
-## **步驟 1**: # Disable the aggressive filter
+## **步驟 1**:  Disable the aggressive filter
 
 如果要 disable the aggressive filter ，您必須執行以下指令：<kbd>/anti-bad-words aggresive-filter ``action:Disable``</kbd>.
 

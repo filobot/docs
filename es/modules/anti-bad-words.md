@@ -2,8 +2,8 @@
 title: Anti Malas Palabras
 description:
 published: true
-date: Fri Nov 12 2021 17:23:29 GMT+0000 (Coordinated Universal Time)
-dateCreated: Fri Nov 12 2021 17:23:29 GMT+0000 (Coordinated Universal Time)
+date: Sun Nov 14 2021 15:12:33 GMT+0000 (Coordinated Universal Time)
+dateCreated: Sun Nov 14 2021 15:12:33 GMT+0000 (Coordinated Universal Time)
 tags:
 editor: markdown
 ---
@@ -86,7 +86,7 @@ Para desbanear una mala palabra debes ejecutar el siguiente comando: <kbd>/anti-
 
 # Pasos para activar el filtro agresivo
 
-## **Paso 1**: # Activar el filtro agresivo
+## **Paso 1**:  Activar el filtro agresivo
 
 Para activar el filtro agresivo debes ejecutar el siguiente comando: <kbd>/anti-bad-words aggresive-filter ``action:Enable``</kbd>.
 
@@ -97,7 +97,7 @@ Para activar el filtro agresivo debes ejecutar el siguiente comando: <kbd>/anti-
 
 # Pasos para desactivar el filtro agresivo
 
-## **Paso 1**: # Desactivar el filtro agresivo
+## **Paso 1**:  Desactivar el filtro agresivo
 
 Para desactivar el filtro agresivo debes ejecutar el siguiente comando: <kbd>/anti-bad-words aggresive-filter ``action:Disable``</kbd>.
 
