@@ -2,8 +2,8 @@
 title: Invite Filo
 description:
 published: true
-date: Tue Nov 09 2021 15:44:40 GMT+0000 (Coordinated Universal Time)
-dateCreated: Tue Nov 09 2021 15:44:40 GMT+0000 (Coordinated Universal Time)
+date: Sun Nov 14 2021 11:52:20 GMT+0000 (Coordinated Universal Time)
+dateCreated: Sun Nov 14 2021 11:52:20 GMT+0000 (Coordinated Universal Time)
 tags:
 editor: markdown
 ---
@@ -12,9 +12,6 @@ editor: markdown
 
 > 你必須是伺服器 **擁有者** 或是擁有這些權限： `MANAGE_GUILD` 或 `ADMINISTRATOR` 才能將 Filo 邀請至伺服器.
 {.is-warning}
-
-> .
-{.is-danger}
 
 ## **步驟 1**: 打開瀏覽器中的邀請連結
 

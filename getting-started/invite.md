@@ -2,8 +2,8 @@
 title: Invite Filo
 description:
 published: true
-date: Tue Nov 09 2021 15:44:40 GMT+0000 (Coordinated Universal Time)
-dateCreated: Tue Nov 09 2021 15:44:40 GMT+0000 (Coordinated Universal Time)
+date: Sun Nov 14 2021 11:52:20 GMT+0000 (Coordinated Universal Time)
+dateCreated: Sun Nov 14 2021 11:52:20 GMT+0000 (Coordinated Universal Time)
 tags:
 editor: markdown
 ---
@@ -12,9 +12,6 @@ Below you'll find a guided explanation of how to invite Filo and the permissions
 
 > You must be the **owner** of the server you want to add Filo to or have one of these permissions: `MANAGE_GUILD` or `ADMINISTRATOR`.
 {.is-warning}
-
-> .
-{.is-danger}
 
 ## **Step 1**: Open the Filo invite in the browser
 

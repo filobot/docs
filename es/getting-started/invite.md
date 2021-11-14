@@ -2,8 +2,8 @@
 title: Invitar a Filo
 description:
 published: true
-date: Tue Nov 09 2021 15:44:40 GMT+0000 (Coordinated Universal Time)
-dateCreated: Tue Nov 09 2021 15:44:40 GMT+0000 (Coordinated Universal Time)
+date: Sun Nov 14 2021 11:52:20 GMT+0000 (Coordinated Universal Time)
+dateCreated: Sun Nov 14 2021 11:52:20 GMT+0000 (Coordinated Universal Time)
 tags:
 editor: markdown
 ---
@@ -12,9 +12,6 @@ A continuación, encontrará una explicación guiada de cómo invitar a Filo y l
 
 > Debe ser el **propietario** del servidor al que desea agregar Filo o tener uno de estos permisos: `MANAGE_GUILD` o `ADMINISTRATOR`.
 {.is-warning}
-
-> .
-{.is-danger}
 
 ## **Paso 1**: Abra la invitación de Filo en el navegador
 
