@@ -2,8 +2,8 @@
 title: Anti Enlaces Estafadores
 description:
 published: true
-date: Sun Nov 14 2021 15:12:24 GMT+0000 (Coordinated Universal Time)
-dateCreated: Sun Nov 14 2021 15:12:24 GMT+0000 (Coordinated Universal Time)
+date: Sun Nov 14 2021 15:13:10 GMT+0000 (Coordinated Universal Time)
+dateCreated: Sun Nov 14 2021 15:13:10 GMT+0000 (Coordinated Universal Time)
 tags:
 editor: markdown
 ---
@@ -71,7 +71,7 @@ Para activar el filtro agresivo debes ejecutar el siguiente comando: <kbd>/anti-
 **Ejemplo**: <kbd>/anti-scam-links aggresive-filter ``action:Enable``</kbd>.
 
 > Activar el filtro agresivo puede provocar un mayor número de falsos positivos.
-{.is-warning}
+{.is-danger}
 
 # Pasos para desactivar el filtro agresivo
 

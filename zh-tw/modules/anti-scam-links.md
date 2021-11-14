@@ -2,8 +2,8 @@
 title: Anti Scam Links
 description:
 published: true
-date: Sun Nov 14 2021 15:12:24 GMT+0000 (Coordinated Universal Time)
-dateCreated: Sun Nov 14 2021 15:12:24 GMT+0000 (Coordinated Universal Time)
+date: Sun Nov 14 2021 15:13:10 GMT+0000 (Coordinated Universal Time)
+dateCreated: Sun Nov 14 2021 15:13:10 GMT+0000 (Coordinated Universal Time)
 tags:
 editor: markdown
 ---
@@ -71,7 +71,7 @@ This module will sanction those users who send scam links in their messages.
 **範例**: <kbd>/anti-scam-links aggresive-filter ``action:Enable``</kbd>.
 
 > Enabling the aggressive filter can cause a higher number of false positives.
-{.is-warning}
+{.is-danger}
 
 # Steps to disable the aggressive filter
 

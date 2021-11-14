@@ -2,8 +2,8 @@
 title: Anti Malas Palabras
 description:
 published: true
-date: Sun Nov 14 2021 15:12:33 GMT+0000 (Coordinated Universal Time)
-dateCreated: Sun Nov 14 2021 15:12:33 GMT+0000 (Coordinated Universal Time)
+date: Sun Nov 14 2021 15:13:05 GMT+0000 (Coordinated Universal Time)
+dateCreated: Sun Nov 14 2021 15:13:05 GMT+0000 (Coordinated Universal Time)
 tags:
 editor: markdown
 ---
@@ -93,7 +93,7 @@ Para activar el filtro agresivo debes ejecutar el siguiente comando: <kbd>/anti-
 **Ejemplo**: <kbd>/anti-bad-words aggresive-filter ``action:Enable``</kbd>.
 
 > Activar el filtro agresivo puede ocasionar una mayor cantidad de falsos positivos.
-{.is-warning}
+{.is-danger}
 
 # Pasos para desactivar el filtro agresivo
 
