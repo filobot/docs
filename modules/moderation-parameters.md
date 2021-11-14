@@ -2,15 +2,15 @@
 title: Moderation Parameters
 description:
 published: true
-date: Sun Nov 14 2021 11:53:45 GMT+0000 (Coordinated Universal Time)
-dateCreated: Sun Nov 14 2021 11:53:45 GMT+0000 (Coordinated Universal Time)
+date: Sun Nov 14 2021 12:05:03 GMT+0000 (Coordinated Universal Time)
+dateCreated: Sun Nov 14 2021 12:05:03 GMT+0000 (Coordinated Universal Time)
 tags:
 editor: markdown
 ---
 
 # About the module
 
-.
+This module will allow you to manage some Filo moderation parameters.
 
 # Summary
 
