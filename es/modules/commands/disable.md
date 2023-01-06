@@ -12,6 +12,9 @@ editor: markdown
 
 Este módulo te permitirá desactivar los comandos de Filo para todos los miembros del servidor (incluido tú).
 
+> The documentation for this module is out of date. See an updated version by **[clicking here](https://wiki-canary.filobot.xyz/modules/commands)**.
+> {.is-warning}
+
 # Empezando
 
 Antes de continuar con este artículo, debes tener en cuenta una serie de elementos que pueden influir cuando vayas a realizar alguna acción descrita en esta página:
