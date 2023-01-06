@@ -12,6 +12,9 @@ editor: markdown
 
 Este módulo te permitirá cambiar el idioma de Filo y de sus módulos a cualquiera que esté actualmente mantenido de forma activa.
 
+> The documentation for this module is out of date. See an updated version by **[clicking here](https://wiki-canary.filobot.xyz/modules/commands)**.
+> {.is-warning}
+
 # Empezando
 
 Antes de continuar con este artículo, debes tener en cuenta una serie de elementos que pueden influir cuando vayas a realizar alguna acción descrita en esta página:
