@@ -12,6 +12,9 @@ editor: markdown
 
 This module will allow you to change the language of Filo and its modules to whatever is currently actively maintained.
 
+> The documentation for this module is out of date. See an updated version by **[clicking here](https://wiki-canary.filobot.xyz/modules/commands)**.
+> {.is-warning}
+
 # Getting Started
 
 在繼續之前，您必須考慮一系列可能影響您執行的任何操作因素:
